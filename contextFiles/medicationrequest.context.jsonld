@@ -1,0 +1,182 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:MedicationRequest.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MedicationRequest.status"
+    },
+    "statusReason": {
+      "@id": "fhir:MedicationRequest.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "intent": {
+      "@id": "fhir:MedicationRequest.intent"
+    },
+    "category": {
+      "@id": "fhir:MedicationRequest.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:MedicationRequest.priority"
+    },
+    "doNotPerform": {
+      "@id": "fhir:MedicationRequest.doNotPerform",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedBoolean": {
+      "@id": "fhir:MedicationRequest.reportedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedReference": {
+      "@id": "fhir:MedicationRequest.reportedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "medicationCodeableConcept": {
+      "@id": "fhir:MedicationRequest.medicationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "medicationReference": {
+      "@id": "fhir:MedicationRequest.medicationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:MedicationRequest.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:MedicationRequest.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "supportingInformation": {
+      "@id": "fhir:MedicationRequest.supportingInformation",
+      "@context": "reference.context.jsonld"
+    },
+    "authoredOn": {
+      "@id": "fhir:MedicationRequest.authoredOn",
+      "@context": "datetime.context.jsonld"
+    },
+    "requester": {
+      "@id": "fhir:MedicationRequest.requester",
+      "@context": "reference.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:MedicationRequest.performer",
+      "@context": "reference.context.jsonld"
+    },
+    "performerType": {
+      "@id": "fhir:MedicationRequest.performerType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "recorder": {
+      "@id": "fhir:MedicationRequest.recorder",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:MedicationRequest.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:MedicationRequest.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:MedicationRequest.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:MedicationRequest.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:MedicationRequest.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "groupIdentifier": {
+      "@id": "fhir:MedicationRequest.groupIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "courseOfTherapyType": {
+      "@id": "fhir:MedicationRequest.courseOfTherapyType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "insurance": {
+      "@id": "fhir:MedicationRequest.insurance",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:MedicationRequest.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "dosageInstruction": {
+      "@id": "fhir:MedicationRequest.dosageInstruction",
+      "@context": "dosage.context.jsonld"
+    },
+    "dispenseRequest": {
+      "@id": "fhir:MedicationRequest.dispenseRequest",
+      "@context": "medicationrequest.dispenserequest.context.jsonld"
+    },
+    "substitution": {
+      "@id": "fhir:MedicationRequest.substitution",
+      "@context": "medicationrequest.substitution.context.jsonld"
+    },
+    "priorPrescription": {
+      "@id": "fhir:MedicationRequest.priorPrescription",
+      "@context": "reference.context.jsonld"
+    },
+    "detectedIssue": {
+      "@id": "fhir:MedicationRequest.detectedIssue",
+      "@context": "reference.context.jsonld"
+    },
+    "eventHistory": {
+      "@id": "fhir:MedicationRequest.eventHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

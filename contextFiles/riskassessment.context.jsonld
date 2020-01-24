@@ -1,0 +1,120 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:RiskAssessment.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:RiskAssessment.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "parent": {
+      "@id": "fhir:RiskAssessment.parent",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:RiskAssessment.status"
+    },
+    "method": {
+      "@id": "fhir:RiskAssessment.method",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:RiskAssessment.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:RiskAssessment.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:RiskAssessment.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:RiskAssessment.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurrencePeriod": {
+      "@id": "fhir:RiskAssessment.occurrencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "condition": {
+      "@id": "fhir:RiskAssessment.condition",
+      "@context": "reference.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:RiskAssessment.performer",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:RiskAssessment.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:RiskAssessment.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "basis": {
+      "@id": "fhir:RiskAssessment.basis",
+      "@context": "reference.context.jsonld"
+    },
+    "prediction": {
+      "@id": "fhir:RiskAssessment.prediction",
+      "@context": "riskassessment.prediction.context.jsonld"
+    },
+    "mitigation": {
+      "@id": "fhir:RiskAssessment.mitigation",
+      "@context": "string.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:RiskAssessment.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

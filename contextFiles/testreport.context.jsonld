@@ -1,0 +1,95 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:TestReport.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:TestReport.name",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:TestReport.status"
+    },
+    "testScript": {
+      "@id": "fhir:TestReport.testScript",
+      "@context": "reference.context.jsonld"
+    },
+    "result": {
+      "@id": "fhir:TestReport.result"
+    },
+    "score": {
+      "@id": "fhir:TestReport.score",
+      "@context": "decimal.context.jsonld"
+    },
+    "tester": {
+      "@id": "fhir:TestReport.tester",
+      "@context": "string.context.jsonld"
+    },
+    "issued": {
+      "@id": "fhir:TestReport.issued",
+      "@context": "datetime.context.jsonld"
+    },
+    "participant": {
+      "@id": "fhir:TestReport.participant",
+      "@context": "testreport.participant.context.jsonld"
+    },
+    "setup": {
+      "@id": "fhir:TestReport.setup",
+      "@context": "testreport.setup.context.jsonld"
+    },
+    "test": {
+      "@id": "fhir:TestReport.test",
+      "@context": "testreport.test.context.jsonld"
+    },
+    "teardown": {
+      "@id": "fhir:TestReport.teardown",
+      "@context": "testreport.teardown.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

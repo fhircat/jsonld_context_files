@@ -1,0 +1,145 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:SearchParameter.url",
+      "@context": "uri.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:SearchParameter.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:SearchParameter.name",
+      "@context": "string.context.jsonld"
+    },
+    "derivedFrom": {
+      "@id": "fhir:SearchParameter.derivedFrom",
+      "@context": "canonical.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:SearchParameter.status"
+    },
+    "experimental": {
+      "@id": "fhir:SearchParameter.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:SearchParameter.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:SearchParameter.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:SearchParameter.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:SearchParameter.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:SearchParameter.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:SearchParameter.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:SearchParameter.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:SearchParameter.code"
+    },
+    "base": {
+      "@id": "fhir:SearchParameter.base"
+    },
+    "type": {
+      "@id": "fhir:SearchParameter.type"
+    },
+    "expression": {
+      "@id": "fhir:SearchParameter.expression",
+      "@context": "string.context.jsonld"
+    },
+    "xpath": {
+      "@id": "fhir:SearchParameter.xpath",
+      "@context": "string.context.jsonld"
+    },
+    "xpathUsage": {
+      "@id": "fhir:SearchParameter.xpathUsage"
+    },
+    "target": {
+      "@id": "fhir:SearchParameter.target"
+    },
+    "multipleOr": {
+      "@id": "fhir:SearchParameter.multipleOr",
+      "@context": "boolean.context.jsonld"
+    },
+    "multipleAnd": {
+      "@id": "fhir:SearchParameter.multipleAnd",
+      "@context": "boolean.context.jsonld"
+    },
+    "comparator": {
+      "@id": "fhir:SearchParameter.comparator"
+    },
+    "modifier": {
+      "@id": "fhir:SearchParameter.modifier"
+    },
+    "chain": {
+      "@id": "fhir:SearchParameter.chain",
+      "@context": "string.context.jsonld"
+    },
+    "component": {
+      "@id": "fhir:SearchParameter.component",
+      "@context": "searchparameter.component.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

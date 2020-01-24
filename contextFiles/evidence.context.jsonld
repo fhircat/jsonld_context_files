@@ -1,0 +1,160 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:Evidence.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Evidence.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:Evidence.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:Evidence.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:Evidence.title",
+      "@context": "string.context.jsonld"
+    },
+    "shortTitle": {
+      "@id": "fhir:Evidence.shortTitle",
+      "@context": "string.context.jsonld"
+    },
+    "subtitle": {
+      "@id": "fhir:Evidence.subtitle",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Evidence.status"
+    },
+    "date": {
+      "@id": "fhir:Evidence.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:Evidence.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:Evidence.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Evidence.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Evidence.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:Evidence.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:Evidence.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:Evidence.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:Evidence.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:Evidence.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:Evidence.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "topic": {
+      "@id": "fhir:Evidence.topic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:Evidence.author",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "editor": {
+      "@id": "fhir:Evidence.editor",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "reviewer": {
+      "@id": "fhir:Evidence.reviewer",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "endorser": {
+      "@id": "fhir:Evidence.endorser",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:Evidence.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "exposureBackground": {
+      "@id": "fhir:Evidence.exposureBackground",
+      "@context": "reference.context.jsonld"
+    },
+    "exposureVariant": {
+      "@id": "fhir:Evidence.exposureVariant",
+      "@context": "reference.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:Evidence.outcome",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

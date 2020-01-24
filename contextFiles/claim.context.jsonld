@@ -1,0 +1,155 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Claim.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Claim.status"
+    },
+    "type": {
+      "@id": "fhir:Claim.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subType": {
+      "@id": "fhir:Claim.subType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "use": {
+      "@id": "fhir:Claim.use"
+    },
+    "patient": {
+      "@id": "fhir:Claim.patient",
+      "@context": "reference.context.jsonld"
+    },
+    "billablePeriod": {
+      "@id": "fhir:Claim.billablePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "created": {
+      "@id": "fhir:Claim.created",
+      "@context": "datetime.context.jsonld"
+    },
+    "enterer": {
+      "@id": "fhir:Claim.enterer",
+      "@context": "reference.context.jsonld"
+    },
+    "insurer": {
+      "@id": "fhir:Claim.insurer",
+      "@context": "reference.context.jsonld"
+    },
+    "provider": {
+      "@id": "fhir:Claim.provider",
+      "@context": "reference.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:Claim.priority",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "fundsReserve": {
+      "@id": "fhir:Claim.fundsReserve",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "related": {
+      "@id": "fhir:Claim.related",
+      "@context": "claim.related.context.jsonld"
+    },
+    "prescription": {
+      "@id": "fhir:Claim.prescription",
+      "@context": "reference.context.jsonld"
+    },
+    "originalPrescription": {
+      "@id": "fhir:Claim.originalPrescription",
+      "@context": "reference.context.jsonld"
+    },
+    "payee": {
+      "@id": "fhir:Claim.payee",
+      "@context": "claim.payee.context.jsonld"
+    },
+    "referral": {
+      "@id": "fhir:Claim.referral",
+      "@context": "reference.context.jsonld"
+    },
+    "facility": {
+      "@id": "fhir:Claim.facility",
+      "@context": "reference.context.jsonld"
+    },
+    "careTeam": {
+      "@id": "fhir:Claim.careTeam",
+      "@context": "claim.careteam.context.jsonld"
+    },
+    "supportingInfo": {
+      "@id": "fhir:Claim.supportingInfo",
+      "@context": "claim.supportinginfo.context.jsonld"
+    },
+    "diagnosis": {
+      "@id": "fhir:Claim.diagnosis",
+      "@context": "claim.diagnosis.context.jsonld"
+    },
+    "procedure": {
+      "@id": "fhir:Claim.procedure",
+      "@context": "claim.procedure.context.jsonld"
+    },
+    "insurance": {
+      "@id": "fhir:Claim.insurance",
+      "@context": "claim.insurance.context.jsonld"
+    },
+    "accident": {
+      "@id": "fhir:Claim.accident",
+      "@context": "claim.accident.context.jsonld"
+    },
+    "item": {
+      "@id": "fhir:Claim.item",
+      "@context": "claim.item.context.jsonld"
+    },
+    "total": {
+      "@id": "fhir:Claim.total",
+      "@context": "money.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

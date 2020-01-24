@@ -1,0 +1,142 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:TerminologyCapabilities.url",
+      "@context": "uri.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:TerminologyCapabilities.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:TerminologyCapabilities.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:TerminologyCapabilities.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:TerminologyCapabilities.status"
+    },
+    "experimental": {
+      "@id": "fhir:TerminologyCapabilities.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:TerminologyCapabilities.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:TerminologyCapabilities.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:TerminologyCapabilities.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:TerminologyCapabilities.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:TerminologyCapabilities.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:TerminologyCapabilities.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:TerminologyCapabilities.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:TerminologyCapabilities.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "kind": {
+      "@id": "fhir:TerminologyCapabilities.kind"
+    },
+    "software": {
+      "@id": "fhir:TerminologyCapabilities.software",
+      "@context": "terminologycapabilities.software.context.jsonld"
+    },
+    "implementation": {
+      "@id": "fhir:TerminologyCapabilities.implementation",
+      "@context": "terminologycapabilities.implementation.context.jsonld"
+    },
+    "lockedDate": {
+      "@id": "fhir:TerminologyCapabilities.lockedDate",
+      "@context": "boolean.context.jsonld"
+    },
+    "codeSystem": {
+      "@id": "fhir:TerminologyCapabilities.codeSystem",
+      "@context": "terminologycapabilities.codesystem.context.jsonld"
+    },
+    "expansion": {
+      "@id": "fhir:TerminologyCapabilities.expansion",
+      "@context": "terminologycapabilities.expansion.context.jsonld"
+    },
+    "codeSearch": {
+      "@id": "fhir:TerminologyCapabilities.codeSearch"
+    },
+    "validateCode": {
+      "@id": "fhir:TerminologyCapabilities.validateCode",
+      "@context": "terminologycapabilities.validatecode.context.jsonld"
+    },
+    "translation": {
+      "@id": "fhir:TerminologyCapabilities.translation",
+      "@context": "terminologycapabilities.translation.context.jsonld"
+    },
+    "closure": {
+      "@id": "fhir:TerminologyCapabilities.closure",
+      "@context": "terminologycapabilities.closure.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:cdsHooksEndpoint": {
+      "@id": "fhir:DomainResource.extension:cdsHooksEndpoint",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "requestIdentifier": {
+      "@id": "fhir:GuidanceResponse.requestIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:GuidanceResponse.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "module": {
+      "@id": "fhir:GuidanceResponse.module",
+      "@context": "uri.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:GuidanceResponse.status"
+    },
+    "subject": {
+      "@id": "fhir:GuidanceResponse.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:GuidanceResponse.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:GuidanceResponse.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:GuidanceResponse.performer",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:GuidanceResponse.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:GuidanceResponse.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:GuidanceResponse.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "evaluationMessage": {
+      "@id": "fhir:GuidanceResponse.evaluationMessage",
+      "@context": "reference.context.jsonld"
+    },
+    "outputParameters": {
+      "@id": "fhir:GuidanceResponse.outputParameters",
+      "@context": "reference.context.jsonld"
+    },
+    "result": {
+      "@id": "fhir:GuidanceResponse.result",
+      "@context": "reference.context.jsonld"
+    },
+    "dataRequirement": {
+      "@id": "fhir:GuidanceResponse.dataRequirement",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Appointment.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Appointment.status"
+    },
+    "cancelationReason": {
+      "@id": "fhir:Appointment.cancelationReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "serviceCategory": {
+      "@id": "fhir:Appointment.serviceCategory",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "serviceType": {
+      "@id": "fhir:Appointment.serviceType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "specialty": {
+      "@id": "fhir:Appointment.specialty",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "appointmentType": {
+      "@id": "fhir:Appointment.appointmentType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:Appointment.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Appointment.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:Appointment.priority",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Appointment.description",
+      "@context": "string.context.jsonld"
+    },
+    "supportingInformation": {
+      "@id": "fhir:Appointment.supportingInformation",
+      "@context": "reference.context.jsonld"
+    },
+    "start": {
+      "@id": "fhir:Appointment.start",
+      "@context": "instant.context.jsonld"
+    },
+    "end": {
+      "@id": "fhir:Appointment.end",
+      "@context": "instant.context.jsonld"
+    },
+    "minutesDuration": {
+      "@id": "fhir:Appointment.minutesDuration",
+      "@context": "positiveint.context.jsonld"
+    },
+    "slot": {
+      "@id": "fhir:Appointment.slot",
+      "@context": "reference.context.jsonld"
+    },
+    "created": {
+      "@id": "fhir:Appointment.created",
+      "@context": "datetime.context.jsonld"
+    },
+    "comment": {
+      "@id": "fhir:Appointment.comment",
+      "@context": "string.context.jsonld"
+    },
+    "patientInstruction": {
+      "@id": "fhir:Appointment.patientInstruction",
+      "@context": "string.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Appointment.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "participant": {
+      "@id": "fhir:Appointment.participant",
+      "@context": "appointment.participant.context.jsonld"
+    },
+    "requestedPeriod": {
+      "@id": "fhir:Appointment.requestedPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

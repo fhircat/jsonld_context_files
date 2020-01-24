@@ -1,0 +1,116 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Coverage.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Coverage.status"
+    },
+    "type": {
+      "@id": "fhir:Coverage.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "policyHolder": {
+      "@id": "fhir:Coverage.policyHolder",
+      "@context": "reference.context.jsonld"
+    },
+    "subscriber": {
+      "@id": "fhir:Coverage.subscriber",
+      "@context": "reference.context.jsonld"
+    },
+    "subscriberId": {
+      "@id": "fhir:Coverage.subscriberId",
+      "@context": "string.context.jsonld"
+    },
+    "beneficiary": {
+      "@id": "fhir:Coverage.beneficiary",
+      "@context": "reference.context.jsonld"
+    },
+    "dependent": {
+      "@id": "fhir:Coverage.dependent",
+      "@context": "string.context.jsonld"
+    },
+    "relationship": {
+      "@id": "fhir:Coverage.relationship",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:Coverage.period",
+      "@context": "period.context.jsonld"
+    },
+    "payor": {
+      "@id": "fhir:Coverage.payor",
+      "@context": "reference.context.jsonld"
+    },
+    "class": {
+      "@id": "fhir:Coverage.class",
+      "@context": "coverage.class.context.jsonld"
+    },
+    "order": {
+      "@id": "fhir:Coverage.order",
+      "@context": "positiveint.context.jsonld"
+    },
+    "network": {
+      "@id": "fhir:Coverage.network",
+      "@context": "string.context.jsonld"
+    },
+    "costToBeneficiary": {
+      "@id": "fhir:Coverage.costToBeneficiary",
+      "@context": "coverage.costtobeneficiary.context.jsonld"
+    },
+    "subrogation": {
+      "@id": "fhir:Coverage.subrogation",
+      "@context": "boolean.context.jsonld"
+    },
+    "contract": {
+      "@id": "fhir:Coverage.contract",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

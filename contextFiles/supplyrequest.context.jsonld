@@ -1,0 +1,119 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:SupplyRequest.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:SupplyRequest.status"
+    },
+    "category": {
+      "@id": "fhir:SupplyRequest.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:SupplyRequest.priority"
+    },
+    "itemCodeableConcept": {
+      "@id": "fhir:SupplyRequest.itemCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "itemReference": {
+      "@id": "fhir:SupplyRequest.itemReference",
+      "@context": "reference.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:SupplyRequest.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "parameter": {
+      "@id": "fhir:SupplyRequest.parameter",
+      "@context": "supplyrequest.parameter.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:SupplyRequest.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurrencePeriod": {
+      "@id": "fhir:SupplyRequest.occurrencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "occurrenceTiming": {
+      "@id": "fhir:SupplyRequest.occurrenceTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "authoredOn": {
+      "@id": "fhir:SupplyRequest.authoredOn",
+      "@context": "datetime.context.jsonld"
+    },
+    "requester": {
+      "@id": "fhir:SupplyRequest.requester",
+      "@context": "reference.context.jsonld"
+    },
+    "supplier": {
+      "@id": "fhir:SupplyRequest.supplier",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:SupplyRequest.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:SupplyRequest.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "deliverFrom": {
+      "@id": "fhir:SupplyRequest.deliverFrom",
+      "@context": "reference.context.jsonld"
+    },
+    "deliverTo": {
+      "@id": "fhir:SupplyRequest.deliverTo",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Task.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:Task.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:Task.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Task.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "groupIdentifier": {
+      "@id": "fhir:Task.groupIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Task.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Task.status"
+    },
+    "statusReason": {
+      "@id": "fhir:Task.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "businessStatus": {
+      "@id": "fhir:Task.businessStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "intent": {
+      "@id": "fhir:Task.intent"
+    },
+    "priority": {
+      "@id": "fhir:Task.priority"
+    },
+    "code": {
+      "@id": "fhir:Task.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Task.description",
+      "@context": "string.context.jsonld"
+    },
+    "focus": {
+      "@id": "fhir:Task.focus",
+      "@context": "reference.context.jsonld"
+    },
+    "for": {
+      "@id": "fhir:Task.for",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:Task.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "executionPeriod": {
+      "@id": "fhir:Task.executionPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "authoredOn": {
+      "@id": "fhir:Task.authoredOn",
+      "@context": "datetime.context.jsonld"
+    },
+    "lastModified": {
+      "@id": "fhir:Task.lastModified",
+      "@context": "datetime.context.jsonld"
+    },
+    "requester": {
+      "@id": "fhir:Task.requester",
+      "@context": "reference.context.jsonld"
+    },
+    "performerType": {
+      "@id": "fhir:Task.performerType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "owner": {
+      "@id": "fhir:Task.owner",
+      "@context": "reference.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:Task.location",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:Task.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Task.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "insurance": {
+      "@id": "fhir:Task.insurance",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Task.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "relevantHistory": {
+      "@id": "fhir:Task.relevantHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "restriction": {
+      "@id": "fhir:Task.restriction",
+      "@context": "task.restriction.context.jsonld"
+    },
+    "input": {
+      "@id": "fhir:Task.input",
+      "@context": "task.input.context.jsonld"
+    },
+    "output": {
+      "@id": "fhir:Task.output",
+      "@context": "task.output.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

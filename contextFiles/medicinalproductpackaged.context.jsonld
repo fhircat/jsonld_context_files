@@ -1,0 +1,85 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:MedicinalProductPackaged.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:MedicinalProductPackaged.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:MedicinalProductPackaged.description",
+      "@context": "string.context.jsonld"
+    },
+    "legalStatusOfSupply": {
+      "@id": "fhir:MedicinalProductPackaged.legalStatusOfSupply",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "marketingStatus": {
+      "@id": "fhir:MedicinalProductPackaged.marketingStatus",
+      "@context": "marketingstatus.context.jsonld"
+    },
+    "marketingAuthorization": {
+      "@id": "fhir:MedicinalProductPackaged.marketingAuthorization",
+      "@context": "reference.context.jsonld"
+    },
+    "manufacturer": {
+      "@id": "fhir:MedicinalProductPackaged.manufacturer",
+      "@context": "reference.context.jsonld"
+    },
+    "batchIdentifier": {
+      "@id": "fhir:MedicinalProductPackaged.batchIdentifier",
+      "@context": "medicinalproductpackaged.batchidentifier.context.jsonld"
+    },
+    "packageItem": {
+      "@id": "fhir:MedicinalProductPackaged.packageItem",
+      "@context": "medicinalproductpackaged.packageitem.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

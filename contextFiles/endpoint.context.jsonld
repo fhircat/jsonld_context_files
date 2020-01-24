@@ -1,0 +1,91 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Endpoint.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Endpoint.status"
+    },
+    "connectionType": {
+      "@id": "fhir:Endpoint.connectionType",
+      "@context": "coding.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:Endpoint.name",
+      "@context": "string.context.jsonld"
+    },
+    "managingOrganization": {
+      "@id": "fhir:Endpoint.managingOrganization",
+      "@context": "reference.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:Endpoint.contact",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:Endpoint.period",
+      "@context": "period.context.jsonld"
+    },
+    "payloadType": {
+      "@id": "fhir:Endpoint.payloadType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "payloadMimeType": {
+      "@id": "fhir:Endpoint.payloadMimeType"
+    },
+    "address": {
+      "@id": "fhir:Endpoint.address",
+      "@context": "url.context.jsonld"
+    },
+    "header": {
+      "@id": "fhir:Endpoint.header",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

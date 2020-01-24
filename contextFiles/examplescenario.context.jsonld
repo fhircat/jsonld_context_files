@@ -1,0 +1,116 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:ExampleScenario.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ExampleScenario.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:ExampleScenario.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:ExampleScenario.name",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ExampleScenario.status"
+    },
+    "experimental": {
+      "@id": "fhir:ExampleScenario.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:ExampleScenario.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:ExampleScenario.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:ExampleScenario.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:ExampleScenario.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:ExampleScenario.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:ExampleScenario.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:ExampleScenario.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "actor": {
+      "@id": "fhir:ExampleScenario.actor",
+      "@context": "examplescenario.actor.context.jsonld"
+    },
+    "instance": {
+      "@id": "fhir:ExampleScenario.instance",
+      "@context": "examplescenario.instance.context.jsonld"
+    },
+    "process": {
+      "@id": "fhir:ExampleScenario.process",
+      "@context": "examplescenario.process.context.jsonld"
+    },
+    "workflow": {
+      "@id": "fhir:ExampleScenario.workflow",
+      "@context": "canonical.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

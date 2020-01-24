@@ -1,0 +1,152 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Device.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "definition": {
+      "@id": "fhir:Device.definition",
+      "@context": "reference.context.jsonld"
+    },
+    "udiCarrier": {
+      "@id": "fhir:Device.udiCarrier",
+      "@context": "device.udicarrier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Device.status"
+    },
+    "statusReason": {
+      "@id": "fhir:Device.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "distinctIdentifier": {
+      "@id": "fhir:Device.distinctIdentifier",
+      "@context": "string.context.jsonld"
+    },
+    "manufacturer": {
+      "@id": "fhir:Device.manufacturer",
+      "@context": "string.context.jsonld"
+    },
+    "manufactureDate": {
+      "@id": "fhir:Device.manufactureDate",
+      "@context": "datetime.context.jsonld"
+    },
+    "expirationDate": {
+      "@id": "fhir:Device.expirationDate",
+      "@context": "datetime.context.jsonld"
+    },
+    "lotNumber": {
+      "@id": "fhir:Device.lotNumber",
+      "@context": "string.context.jsonld"
+    },
+    "serialNumber": {
+      "@id": "fhir:Device.serialNumber",
+      "@context": "string.context.jsonld"
+    },
+    "deviceName": {
+      "@id": "fhir:Device.deviceName",
+      "@context": "device.devicename.context.jsonld"
+    },
+    "modelNumber": {
+      "@id": "fhir:Device.modelNumber",
+      "@context": "string.context.jsonld"
+    },
+    "partNumber": {
+      "@id": "fhir:Device.partNumber",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Device.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "specialization": {
+      "@id": "fhir:Device.specialization",
+      "@context": "device.specialization.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:Device.version",
+      "@context": "device.version.context.jsonld"
+    },
+    "property": {
+      "@id": "fhir:Device.property",
+      "@context": "device.property.context.jsonld"
+    },
+    "patient": {
+      "@id": "fhir:Device.patient",
+      "@context": "reference.context.jsonld"
+    },
+    "owner": {
+      "@id": "fhir:Device.owner",
+      "@context": "reference.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:Device.contact",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:Device.location",
+      "@context": "reference.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:Device.url",
+      "@context": "uri.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Device.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "safety": {
+      "@id": "fhir:Device.safety",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "parent": {
+      "@id": "fhir:Device.parent",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:AppointmentResponse.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "appointment": {
+      "@id": "fhir:AppointmentResponse.appointment",
+      "@context": "reference.context.jsonld"
+    },
+    "start": {
+      "@id": "fhir:AppointmentResponse.start",
+      "@context": "instant.context.jsonld"
+    },
+    "end": {
+      "@id": "fhir:AppointmentResponse.end",
+      "@context": "instant.context.jsonld"
+    },
+    "participantType": {
+      "@id": "fhir:AppointmentResponse.participantType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "actor": {
+      "@id": "fhir:AppointmentResponse.actor",
+      "@context": "reference.context.jsonld"
+    },
+    "participantStatus": {
+      "@id": "fhir:AppointmentResponse.participantStatus"
+    },
+    "comment": {
+      "@id": "fhir:AppointmentResponse.comment",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
