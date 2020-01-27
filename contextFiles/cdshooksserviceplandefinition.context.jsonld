@@ -1,0 +1,176 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:cdsHooksEndpoint": {
+      "@id": "fhir:DomainResource.extension:cdsHooksEndpoint",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:PlanDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:PlanDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:PlanDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:PlanDefinition.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:PlanDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "subtitle": {
+      "@id": "fhir:PlanDefinition.subtitle",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:PlanDefinition.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:PlanDefinition.status"
+    },
+    "experimental": {
+      "@id": "fhir:PlanDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:PlanDefinition.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:PlanDefinition.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:PlanDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:PlanDefinition.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:PlanDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:PlanDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:PlanDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:PlanDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:PlanDefinition.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "usage": {
+      "@id": "fhir:PlanDefinition.usage",
+      "@context": "string.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:PlanDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:PlanDefinition.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:PlanDefinition.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:PlanDefinition.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "topic": {
+      "@id": "fhir:PlanDefinition.topic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:PlanDefinition.author",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "editor": {
+      "@id": "fhir:PlanDefinition.editor",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "reviewer": {
+      "@id": "fhir:PlanDefinition.reviewer",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "endorser": {
+      "@id": "fhir:PlanDefinition.endorser",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:PlanDefinition.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "library": {
+      "@id": "fhir:PlanDefinition.library",
+      "@context": "canonical.context.jsonld"
+    },
+    "goal": {
+      "@id": "fhir:PlanDefinition.goal",
+      "@context": "plandefinition.goal.context.jsonld"
+    },
+    "action": {
+      "@id": "fhir:PlanDefinition.action",
+      "@context": "plandefinition.action.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

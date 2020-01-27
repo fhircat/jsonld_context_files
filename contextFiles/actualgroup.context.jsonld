@@ -1,0 +1,84 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Group.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "active": {
+      "@id": "fhir:Group.active",
+      "@context": "boolean.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Group.type"
+    },
+    "actual": {
+      "@id": "fhir:Group.actual",
+      "@context": "boolean.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Group.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:Group.name",
+      "@context": "string.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:Group.quantity",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "managingEntity": {
+      "@id": "fhir:Group.managingEntity",
+      "@context": "reference.context.jsonld"
+    },
+    "characteristic": {
+      "@id": "fhir:Group.characteristic",
+      "@context": "group.characteristic.context.jsonld"
+    },
+    "member": {
+      "@id": "fhir:Group.member",
+      "@context": "group.member.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
