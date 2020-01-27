@@ -5,21 +5,132 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:DomainResource.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Media.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Media.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Media.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Media.status"
+    },
+    "type": {
+      "@id": "fhir:Media.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "modality": {
+      "@id": "fhir:Media.modality",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "view": {
+      "@id": "fhir:Media.view",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Media.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:Media.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "createdDateTime": {
+      "@id": "fhir:Media.createdDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "createdPeriod": {
+      "@id": "fhir:Media.createdPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "issued": {
+      "@id": "fhir:Media.issued",
+      "@context": "instant.context.jsonld"
+    },
+    "operator": {
+      "@id": "fhir:Media.operator",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:Media.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "bodySite": {
+      "@id": "fhir:Media.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "deviceName": {
+      "@id": "fhir:Media.deviceName",
       "@context": "string.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
+    "device": {
+      "@id": "fhir:Media.device",
+      "@context": "reference.context.jsonld"
+    },
+    "height": {
+      "@id": "fhir:Media.height",
+      "@context": "positiveint.context.jsonld"
+    },
+    "width": {
+      "@id": "fhir:Media.width",
+      "@context": "positiveint.context.jsonld"
+    },
+    "frames": {
+      "@id": "fhir:Media.frames",
+      "@context": "positiveint.context.jsonld"
+    },
+    "duration": {
+      "@id": "fhir:Media.duration",
+      "@context": "decimal.context.jsonld"
+    },
+    "content": {
+      "@id": "fhir:Media.content",
       "@context": "attachment.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Media.note",
+      "@context": "annotation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

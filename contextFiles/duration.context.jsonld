@@ -13,13 +13,25 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
+    "value": {
+      "@id": "fhir:Quantity.value",
+      "@context": "decimal.context.jsonld"
+    },
+    "comparator": {
+      "@id": "fhir:Quantity.comparator",
+      "@context": "code.context.jsonld"
+    },
+    "unit": {
+      "@id": "fhir:Quantity.unit",
       "@context": "string.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
-      "@context": "duration.context.jsonld"
+    "system": {
+      "@id": "fhir:Quantity.system",
+      "@context": "uri.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Quantity.code",
+      "@context": "code.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

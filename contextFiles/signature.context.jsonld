@@ -13,13 +13,31 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
-      "@context": "string.context.jsonld"
+    "type": {
+      "@id": "fhir:Signature.type",
+      "@context": "coding.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
-      "@context": "signature.context.jsonld"
+    "when": {
+      "@id": "fhir:Signature.when",
+      "@context": "instant.context.jsonld"
+    },
+    "who": {
+      "@id": "fhir:Signature.who",
+      "@context": "reference.context.jsonld"
+    },
+    "onBehalfOf": {
+      "@id": "fhir:Signature.onBehalfOf",
+      "@context": "reference.context.jsonld"
+    },
+    "targetFormat": {
+      "@id": "fhir:Signature.targetFormat"
+    },
+    "sigFormat": {
+      "@id": "fhir:Signature.sigFormat"
+    },
+    "data": {
+      "@id": "fhir:Signature.data",
+      "@context": "base64binary.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

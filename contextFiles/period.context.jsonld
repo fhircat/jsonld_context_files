@@ -13,13 +13,13 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
-      "@context": "string.context.jsonld"
+    "start": {
+      "@id": "fhir:Period.start",
+      "@context": "datetime.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
-      "@context": "period.context.jsonld"
+    "end": {
+      "@id": "fhir:Period.end",
+      "@context": "datetime.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

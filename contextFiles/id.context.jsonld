@@ -14,7 +14,7 @@
       "@context": "extension.context.jsonld"
     },
     "value": {
-      "@id": "fhir:string.value",
+      "@id": "fhir:value",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "index": {

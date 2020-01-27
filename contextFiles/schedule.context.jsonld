@@ -5,21 +5,73 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:DomainResource.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
-      "@context": "string.context.jsonld"
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
-      "@context": "timing.context.jsonld"
+    "identifier": {
+      "@id": "fhir:Schedule.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "active": {
+      "@id": "fhir:Schedule.active",
+      "@context": "boolean.context.jsonld"
+    },
+    "serviceCategory": {
+      "@id": "fhir:Schedule.serviceCategory",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "serviceType": {
+      "@id": "fhir:Schedule.serviceType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "specialty": {
+      "@id": "fhir:Schedule.specialty",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "actor": {
+      "@id": "fhir:Schedule.actor",
+      "@context": "reference.context.jsonld"
+    },
+    "planningHorizon": {
+      "@id": "fhir:Schedule.planningHorizon",
+      "@context": "period.context.jsonld"
+    },
+    "comment": {
+      "@id": "fhir:Schedule.comment",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",
