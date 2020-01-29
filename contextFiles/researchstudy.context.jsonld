@@ -5,21 +5,136 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:DomainResource.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ResearchStudy.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:ResearchStudy.title",
       "@context": "string.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
+    "protocol": {
+      "@id": "fhir:ResearchStudy.protocol",
       "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:ResearchStudy.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ResearchStudy.status"
+    },
+    "primaryPurposeType": {
+      "@id": "fhir:ResearchStudy.primaryPurposeType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "phase": {
+      "@id": "fhir:ResearchStudy.phase",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:ResearchStudy.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "focus": {
+      "@id": "fhir:ResearchStudy.focus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "condition": {
+      "@id": "fhir:ResearchStudy.condition",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:ResearchStudy.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:ResearchStudy.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "keyword": {
+      "@id": "fhir:ResearchStudy.keyword",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:ResearchStudy.location",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:ResearchStudy.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "enrollment": {
+      "@id": "fhir:ResearchStudy.enrollment",
+      "@context": "reference.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:ResearchStudy.period",
+      "@context": "period.context.jsonld"
+    },
+    "sponsor": {
+      "@id": "fhir:ResearchStudy.sponsor",
+      "@context": "reference.context.jsonld"
+    },
+    "principalInvestigator": {
+      "@id": "fhir:ResearchStudy.principalInvestigator",
+      "@context": "reference.context.jsonld"
+    },
+    "site": {
+      "@id": "fhir:ResearchStudy.site",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonStopped": {
+      "@id": "fhir:ResearchStudy.reasonStopped",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:ResearchStudy.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "arm": {
+      "@id": "fhir:ResearchStudy.arm",
+      "@context": "researchstudy.arm.context.jsonld"
+    },
+    "objective": {
+      "@id": "fhir:ResearchStudy.objective",
+      "@context": "researchstudy.objective.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

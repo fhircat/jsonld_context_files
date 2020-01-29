@@ -13,13 +13,24 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:Extension.url",
+    "description": {
+      "@id": "fhir:Expression.description",
       "@context": "string.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:Extension.value",
-      "@context": "expression.context.jsonld"
+    "name": {
+      "@id": "fhir:Expression.name",
+      "@context": "id.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Expression.language"
+    },
+    "expression": {
+      "@id": "fhir:Expression.expression",
+      "@context": "string.context.jsonld"
+    },
+    "reference": {
+      "@id": "fhir:Expression.reference",
+      "@context": "uri.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",
