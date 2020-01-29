@@ -13,9 +13,13 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
+    "url": {
+      "@id": "fhir:Extension.url",
+      "@context": "string.context.jsonld"
+    },
     "value": {
-      "@id": "fhir:value",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
+      "@id": "fhir:Extension.value",
+      "@context": "markdown.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

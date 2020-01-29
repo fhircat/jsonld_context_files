@@ -1,0 +1,121 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "sequence": {
+      "@id": "fhir:ExplanationOfBenefit.item.sequence",
+      "@context": "positiveint.context.jsonld"
+    },
+    "careTeamSequence": {
+      "@id": "fhir:ExplanationOfBenefit.item.careTeamSequence",
+      "@context": "positiveint.context.jsonld"
+    },
+    "diagnosisSequence": {
+      "@id": "fhir:ExplanationOfBenefit.item.diagnosisSequence",
+      "@context": "positiveint.context.jsonld"
+    },
+    "procedureSequence": {
+      "@id": "fhir:ExplanationOfBenefit.item.procedureSequence",
+      "@context": "positiveint.context.jsonld"
+    },
+    "informationSequence": {
+      "@id": "fhir:ExplanationOfBenefit.item.informationSequence",
+      "@context": "positiveint.context.jsonld"
+    },
+    "revenue": {
+      "@id": "fhir:ExplanationOfBenefit.item.revenue",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:ExplanationOfBenefit.item.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "productOrService": {
+      "@id": "fhir:ExplanationOfBenefit.item.productOrService",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "modifier": {
+      "@id": "fhir:ExplanationOfBenefit.item.modifier",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "programCode": {
+      "@id": "fhir:ExplanationOfBenefit.item.programCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "servicedDate": {
+      "@id": "fhir:ExplanationOfBenefit.item.servicedDate",
+      "@context": "date.context.jsonld"
+    },
+    "servicedPeriod": {
+      "@id": "fhir:ExplanationOfBenefit.item.servicedPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "locationCodeableConcept": {
+      "@id": "fhir:ExplanationOfBenefit.item.locationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "locationAddress": {
+      "@id": "fhir:ExplanationOfBenefit.item.locationAddress",
+      "@context": "address.context.jsonld"
+    },
+    "locationReference": {
+      "@id": "fhir:ExplanationOfBenefit.item.locationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:ExplanationOfBenefit.item.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "unitPrice": {
+      "@id": "fhir:ExplanationOfBenefit.item.unitPrice",
+      "@context": "money.context.jsonld"
+    },
+    "factor": {
+      "@id": "fhir:ExplanationOfBenefit.item.factor",
+      "@context": "decimal.context.jsonld"
+    },
+    "net": {
+      "@id": "fhir:ExplanationOfBenefit.item.net",
+      "@context": "money.context.jsonld"
+    },
+    "udi": {
+      "@id": "fhir:ExplanationOfBenefit.item.udi",
+      "@context": "reference.context.jsonld"
+    },
+    "bodySite": {
+      "@id": "fhir:ExplanationOfBenefit.item.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subSite": {
+      "@id": "fhir:ExplanationOfBenefit.item.subSite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:ExplanationOfBenefit.item.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "noteNumber": {
+      "@id": "fhir:ExplanationOfBenefit.item.noteNumber",
+      "@context": "positiveint.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

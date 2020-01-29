@@ -1,0 +1,59 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "chromosome": {
+      "@id": "fhir:MolecularSequence.referenceSeq.chromosome",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "genomeBuild": {
+      "@id": "fhir:MolecularSequence.referenceSeq.genomeBuild",
+      "@context": "string.context.jsonld"
+    },
+    "orientation": {
+      "@id": "fhir:MolecularSequence.referenceSeq.orientation"
+    },
+    "referenceSeqId": {
+      "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqId",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "referenceSeqPointer": {
+      "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqPointer",
+      "@context": "reference.context.jsonld"
+    },
+    "referenceSeqString": {
+      "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqString",
+      "@context": "string.context.jsonld"
+    },
+    "strand": {
+      "@id": "fhir:MolecularSequence.referenceSeq.strand"
+    },
+    "windowStart": {
+      "@id": "fhir:MolecularSequence.referenceSeq.windowStart",
+      "@context": "integer.context.jsonld"
+    },
+    "windowEnd": {
+      "@id": "fhir:MolecularSequence.referenceSeq.windowEnd",
+      "@context": "integer.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

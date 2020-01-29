@@ -5,168 +5,21 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "resourceType": {
-      "@id": "rdf:type",
-      "@type": "@id"
-    },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:Element.id",
       "@context": "string.context.jsonld"
     },
-    "meta": {
-      "@id": "fhir:Resource.meta",
-      "@context": "meta.context.jsonld"
-    },
-    "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
-      "@context": "uri.context.jsonld"
-    },
-    "language": {
-      "@id": "fhir:Resource.language",
-      "@context": "code.context.jsonld"
-    },
-    "text": {
-      "@id": "fhir:DomainResource.text",
-      "@context": "narrative.context.jsonld"
-    },
-    "contained": {
-      "@id": "fhir:DomainResource.contained",
-      "@context": "resource.context.jsonld"
-    },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
-      "@context": "extension.context.jsonld"
-    },
-    "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:Library.url",
-      "@context": "uri.context.jsonld"
-    },
-    "identifier": {
-      "@id": "fhir:Library.identifier",
-      "@context": "identifier.context.jsonld"
-    },
-    "version": {
-      "@id": "fhir:Library.version",
+      "@id": "fhir:Extension.url",
       "@context": "string.context.jsonld"
     },
-    "name": {
-      "@id": "fhir:Library.name",
-      "@context": "string.context.jsonld"
-    },
-    "title": {
-      "@id": "fhir:Library.title",
-      "@context": "string.context.jsonld"
-    },
-    "subtitle": {
-      "@id": "fhir:Library.subtitle",
-      "@context": "string.context.jsonld"
-    },
-    "status": {
-      "@id": "fhir:Library.status"
-    },
-    "experimental": {
-      "@id": "fhir:Library.experimental",
-      "@context": "boolean.context.jsonld"
-    },
-    "type": {
-      "@id": "fhir:Library.type",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "subjectCodeableConcept": {
-      "@id": "fhir:Library.subjectCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "subjectReference": {
-      "@id": "fhir:Library.subjectReference",
-      "@context": "reference.context.jsonld"
-    },
-    "date": {
-      "@id": "fhir:Library.date",
-      "@context": "datetime.context.jsonld"
-    },
-    "publisher": {
-      "@id": "fhir:Library.publisher",
-      "@context": "string.context.jsonld"
-    },
-    "contact": {
-      "@id": "fhir:Library.contact",
-      "@context": "contactdetail.context.jsonld"
-    },
-    "description": {
-      "@id": "fhir:Library.description",
-      "@context": "markdown.context.jsonld"
-    },
-    "useContext": {
-      "@id": "fhir:Library.useContext",
-      "@context": "usagecontext.context.jsonld"
-    },
-    "jurisdiction": {
-      "@id": "fhir:Library.jurisdiction",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "purpose": {
-      "@id": "fhir:Library.purpose",
-      "@context": "markdown.context.jsonld"
-    },
-    "usage": {
-      "@id": "fhir:Library.usage",
-      "@context": "string.context.jsonld"
-    },
-    "copyright": {
-      "@id": "fhir:Library.copyright",
-      "@context": "markdown.context.jsonld"
-    },
-    "approvalDate": {
-      "@id": "fhir:Library.approvalDate",
-      "@context": "date.context.jsonld"
-    },
-    "lastReviewDate": {
-      "@id": "fhir:Library.lastReviewDate",
-      "@context": "date.context.jsonld"
-    },
-    "effectivePeriod": {
-      "@id": "fhir:Library.effectivePeriod",
-      "@context": "period.context.jsonld"
-    },
-    "topic": {
-      "@id": "fhir:Library.topic",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "author": {
-      "@id": "fhir:Library.author",
-      "@context": "contactdetail.context.jsonld"
-    },
-    "editor": {
-      "@id": "fhir:Library.editor",
-      "@context": "contactdetail.context.jsonld"
-    },
-    "reviewer": {
-      "@id": "fhir:Library.reviewer",
-      "@context": "contactdetail.context.jsonld"
-    },
-    "endorser": {
-      "@id": "fhir:Library.endorser",
-      "@context": "contactdetail.context.jsonld"
-    },
-    "relatedArtifact": {
-      "@id": "fhir:Library.relatedArtifact",
-      "@context": "relatedartifact.context.jsonld"
-    },
-    "parameter": {
-      "@id": "fhir:Library.parameter",
-      "@context": "parameterdefinition.context.jsonld"
-    },
-    "dataRequirement": {
-      "@id": "fhir:Library.dataRequirement",
-      "@context": "datarequirement.context.jsonld"
-    },
-    "content": {
-      "@id": "fhir:Library.content",
-      "@context": "attachment.context.jsonld"
+    "value": {
+      "@id": "fhir:Extension.value",
+      "@context": "canonical.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

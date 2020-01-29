@@ -1,0 +1,77 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "productOrService": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.productOrService",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "modifier": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.modifier",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "provider": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.provider",
+      "@context": "reference.context.jsonld"
+    },
+    "excluded": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.excluded",
+      "@context": "boolean.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.name",
+      "@context": "string.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.description",
+      "@context": "string.context.jsonld"
+    },
+    "network": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.network",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "unit": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.unit",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "term": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.term",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "authorizationRequired": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationRequired",
+      "@context": "boolean.context.jsonld"
+    },
+    "authorizationSupporting": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationSupporting",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "authorizationUrl": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationUrl",
+      "@context": "uri.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

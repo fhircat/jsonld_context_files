@@ -1,0 +1,77 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "vaccineCode": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.vaccineCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "targetDisease": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.targetDisease",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "contraindicatedVaccineCode": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.contraindicatedVaccineCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "forecastStatus": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.forecastStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "forecastReason": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.forecastReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.description",
+      "@context": "string.context.jsonld"
+    },
+    "series": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.series",
+      "@context": "string.context.jsonld"
+    },
+    "doseNumberPositiveInt": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumberPositiveInt",
+      "@context": "positiveint.context.jsonld"
+    },
+    "doseNumberString": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumberString",
+      "@context": "string.context.jsonld"
+    },
+    "seriesDosesPositiveInt": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDosesPositiveInt",
+      "@context": "positiveint.context.jsonld"
+    },
+    "seriesDosesString": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDosesString",
+      "@context": "string.context.jsonld"
+    },
+    "supportingImmunization": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.supportingImmunization",
+      "@context": "reference.context.jsonld"
+    },
+    "supportingPatientInformation": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.supportingPatientInformation",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

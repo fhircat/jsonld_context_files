@@ -1,0 +1,80 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:MolecularSequence.quality.type"
+    },
+    "standardSequence": {
+      "@id": "fhir:MolecularSequence.quality.standardSequence",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "start": {
+      "@id": "fhir:MolecularSequence.quality.start",
+      "@context": "integer.context.jsonld"
+    },
+    "end": {
+      "@id": "fhir:MolecularSequence.quality.end",
+      "@context": "integer.context.jsonld"
+    },
+    "score": {
+      "@id": "fhir:MolecularSequence.quality.score",
+      "@context": "quantity.context.jsonld"
+    },
+    "method": {
+      "@id": "fhir:MolecularSequence.quality.method",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "truthTP": {
+      "@id": "fhir:MolecularSequence.quality.truthTP",
+      "@context": "decimal.context.jsonld"
+    },
+    "queryTP": {
+      "@id": "fhir:MolecularSequence.quality.queryTP",
+      "@context": "decimal.context.jsonld"
+    },
+    "truthFN": {
+      "@id": "fhir:MolecularSequence.quality.truthFN",
+      "@context": "decimal.context.jsonld"
+    },
+    "queryFP": {
+      "@id": "fhir:MolecularSequence.quality.queryFP",
+      "@context": "decimal.context.jsonld"
+    },
+    "gtFP": {
+      "@id": "fhir:MolecularSequence.quality.gtFP",
+      "@context": "decimal.context.jsonld"
+    },
+    "precision": {
+      "@id": "fhir:MolecularSequence.quality.precision",
+      "@context": "decimal.context.jsonld"
+    },
+    "recall": {
+      "@id": "fhir:MolecularSequence.quality.recall",
+      "@context": "decimal.context.jsonld"
+    },
+    "fScore": {
+      "@id": "fhir:MolecularSequence.quality.fScore",
+      "@context": "decimal.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

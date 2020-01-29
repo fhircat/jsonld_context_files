@@ -1,0 +1,48 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "isDerived": {
+      "@id": "fhir:SpecimenDefinition.typeTested.isDerived",
+      "@context": "boolean.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:SpecimenDefinition.typeTested.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "preference": {
+      "@id": "fhir:SpecimenDefinition.typeTested.preference"
+    },
+    "requirement": {
+      "@id": "fhir:SpecimenDefinition.typeTested.requirement",
+      "@context": "string.context.jsonld"
+    },
+    "retentionTime": {
+      "@id": "fhir:SpecimenDefinition.typeTested.retentionTime",
+      "@context": "duration.context.jsonld"
+    },
+    "rejectionCriterion": {
+      "@id": "fhir:SpecimenDefinition.typeTested.rejectionCriterion",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

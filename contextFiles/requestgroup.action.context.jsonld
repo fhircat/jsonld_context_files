@@ -1,0 +1,103 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "prefix": {
+      "@id": "fhir:RequestGroup.action.prefix",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:RequestGroup.action.title",
+      "@context": "string.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:RequestGroup.action.description",
+      "@context": "string.context.jsonld"
+    },
+    "textEquivalent": {
+      "@id": "fhir:RequestGroup.action.textEquivalent",
+      "@context": "string.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:RequestGroup.action.priority"
+    },
+    "code": {
+      "@id": "fhir:RequestGroup.action.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "documentation": {
+      "@id": "fhir:RequestGroup.action.documentation",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "timingDateTime": {
+      "@id": "fhir:RequestGroup.action.timingDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "timingAge": {
+      "@id": "fhir:RequestGroup.action.timingAge",
+      "@context": "age.context.jsonld"
+    },
+    "timingPeriod": {
+      "@id": "fhir:RequestGroup.action.timingPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "timingDuration": {
+      "@id": "fhir:RequestGroup.action.timingDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "timingRange": {
+      "@id": "fhir:RequestGroup.action.timingRange",
+      "@context": "range.context.jsonld"
+    },
+    "timingTiming": {
+      "@id": "fhir:RequestGroup.action.timingTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "participant": {
+      "@id": "fhir:RequestGroup.action.participant",
+      "@context": "reference.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:RequestGroup.action.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "groupingBehavior": {
+      "@id": "fhir:RequestGroup.action.groupingBehavior"
+    },
+    "selectionBehavior": {
+      "@id": "fhir:RequestGroup.action.selectionBehavior"
+    },
+    "requiredBehavior": {
+      "@id": "fhir:RequestGroup.action.requiredBehavior"
+    },
+    "precheckBehavior": {
+      "@id": "fhir:RequestGroup.action.precheckBehavior"
+    },
+    "cardinalityBehavior": {
+      "@id": "fhir:RequestGroup.action.cardinalityBehavior"
+    },
+    "resource": {
+      "@id": "fhir:RequestGroup.action.resource",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

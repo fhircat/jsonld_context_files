@@ -5,107 +5,21 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "resourceType": {
-      "@id": "rdf:type",
-      "@type": "@id"
-    },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:Element.id",
       "@context": "string.context.jsonld"
-    },
-    "meta": {
-      "@id": "fhir:Resource.meta",
-      "@context": "meta.context.jsonld"
-    },
-    "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
-      "@context": "uri.context.jsonld"
-    },
-    "language": {
-      "@id": "fhir:Resource.language",
-      "@context": "code.context.jsonld"
-    },
-    "text": {
-      "@id": "fhir:DomainResource.text",
-      "@context": "narrative.context.jsonld"
-    },
-    "contained": {
-      "@id": "fhir:DomainResource.contained",
-      "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "extension.context.jsonld"
-    },
-    "identifier": {
-      "@id": "fhir:Location.identifier",
-      "@context": "identifier.context.jsonld"
-    },
-    "status": {
-      "@id": "fhir:Location.status"
-    },
-    "operationalStatus": {
-      "@id": "fhir:Location.operationalStatus",
-      "@context": "coding.context.jsonld"
-    },
-    "name": {
-      "@id": "fhir:Location.name",
+    "url": {
+      "@id": "fhir:Extension.url",
       "@context": "string.context.jsonld"
     },
-    "alias": {
-      "@id": "fhir:Location.alias",
-      "@context": "string.context.jsonld"
-    },
-    "description": {
-      "@id": "fhir:Location.description",
-      "@context": "string.context.jsonld"
-    },
-    "mode": {
-      "@id": "fhir:Location.mode"
-    },
-    "type": {
-      "@id": "fhir:Location.type",
+    "value": {
+      "@id": "fhir:Extension.value",
       "@context": "codeableconcept.context.jsonld"
-    },
-    "telecom": {
-      "@id": "fhir:Location.telecom",
-      "@context": "contactpoint.context.jsonld"
-    },
-    "address": {
-      "@id": "fhir:Location.address",
-      "@context": "address.context.jsonld"
-    },
-    "physicalType": {
-      "@id": "fhir:Location.physicalType",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "position": {
-      "@id": "fhir:Location.position",
-      "@context": "location.position.context.jsonld"
-    },
-    "managingOrganization": {
-      "@id": "fhir:Location.managingOrganization",
-      "@context": "reference.context.jsonld"
-    },
-    "partOf": {
-      "@id": "fhir:Location.partOf",
-      "@context": "reference.context.jsonld"
-    },
-    "hoursOfOperation": {
-      "@id": "fhir:Location.hoursOfOperation",
-      "@context": "location.hoursofoperation.context.jsonld"
-    },
-    "availabilityExceptions": {
-      "@id": "fhir:Location.availabilityExceptions",
-      "@context": "string.context.jsonld"
-    },
-    "endpoint": {
-      "@id": "fhir:Location.endpoint",
-      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

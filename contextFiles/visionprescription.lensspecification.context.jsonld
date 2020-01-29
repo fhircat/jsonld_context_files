@@ -1,0 +1,76 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "product": {
+      "@id": "fhir:VisionPrescription.lensSpecification.product",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "eye": {
+      "@id": "fhir:VisionPrescription.lensSpecification.eye"
+    },
+    "sphere": {
+      "@id": "fhir:VisionPrescription.lensSpecification.sphere",
+      "@context": "decimal.context.jsonld"
+    },
+    "cylinder": {
+      "@id": "fhir:VisionPrescription.lensSpecification.cylinder",
+      "@context": "decimal.context.jsonld"
+    },
+    "axis": {
+      "@id": "fhir:VisionPrescription.lensSpecification.axis",
+      "@context": "integer.context.jsonld"
+    },
+    "add": {
+      "@id": "fhir:VisionPrescription.lensSpecification.add",
+      "@context": "decimal.context.jsonld"
+    },
+    "power": {
+      "@id": "fhir:VisionPrescription.lensSpecification.power",
+      "@context": "decimal.context.jsonld"
+    },
+    "backCurve": {
+      "@id": "fhir:VisionPrescription.lensSpecification.backCurve",
+      "@context": "decimal.context.jsonld"
+    },
+    "diameter": {
+      "@id": "fhir:VisionPrescription.lensSpecification.diameter",
+      "@context": "decimal.context.jsonld"
+    },
+    "duration": {
+      "@id": "fhir:VisionPrescription.lensSpecification.duration",
+      "@context": "quantity.context.jsonld"
+    },
+    "color": {
+      "@id": "fhir:VisionPrescription.lensSpecification.color",
+      "@context": "string.context.jsonld"
+    },
+    "brand": {
+      "@id": "fhir:VisionPrescription.lensSpecification.brand",
+      "@context": "string.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:VisionPrescription.lensSpecification.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

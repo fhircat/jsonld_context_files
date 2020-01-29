@@ -13,32 +13,13 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "type": {
-      "@id": "fhir:RelatedArtifact.type"
-    },
-    "label": {
-      "@id": "fhir:RelatedArtifact.label",
-      "@context": "string.context.jsonld"
-    },
-    "display": {
-      "@id": "fhir:RelatedArtifact.display",
-      "@context": "string.context.jsonld"
-    },
-    "citation": {
-      "@id": "fhir:RelatedArtifact.citation",
-      "@context": "markdown.context.jsonld"
-    },
     "url": {
-      "@id": "fhir:RelatedArtifact.url",
-      "@context": "url.context.jsonld"
+      "@id": "fhir:Extension.url",
+      "@context": "string.context.jsonld"
     },
-    "document": {
-      "@id": "fhir:RelatedArtifact.document",
-      "@context": "attachment.context.jsonld"
-    },
-    "resource": {
-      "@id": "fhir:RelatedArtifact.resource",
-      "@context": "canonical.context.jsonld"
+    "value": {
+      "@id": "fhir:Extension.value",
+      "@context": "relatedartifact.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

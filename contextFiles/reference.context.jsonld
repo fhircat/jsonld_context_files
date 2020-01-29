@@ -13,21 +13,13 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "reference": {
-      "@id": "fhir:Reference.reference",
+    "url": {
+      "@id": "fhir:Extension.url",
       "@context": "string.context.jsonld"
     },
-    "type": {
-      "@id": "fhir:Reference.type",
+    "value": {
+      "@id": "fhir:Extension.value",
       "@context": "uri.context.jsonld"
-    },
-    "identifier": {
-      "@id": "fhir:Reference.identifier",
-      "@context": "identifier.context.jsonld"
-    },
-    "display": {
-      "@id": "fhir:Reference.display",
-      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

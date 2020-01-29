@@ -5,80 +5,21 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "resourceType": {
-      "@id": "rdf:type",
-      "@type": "@id"
-    },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:Element.id",
       "@context": "string.context.jsonld"
-    },
-    "meta": {
-      "@id": "fhir:Resource.meta",
-      "@context": "meta.context.jsonld"
-    },
-    "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
-      "@context": "uri.context.jsonld"
-    },
-    "language": {
-      "@id": "fhir:Resource.language",
-      "@context": "code.context.jsonld"
-    },
-    "text": {
-      "@id": "fhir:DomainResource.text",
-      "@context": "narrative.context.jsonld"
-    },
-    "contained": {
-      "@id": "fhir:DomainResource.contained",
-      "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "extension.context.jsonld"
-    },
-    "identifier": {
-      "@id": "fhir:Group.identifier",
-      "@context": "identifier.context.jsonld"
-    },
-    "active": {
-      "@id": "fhir:Group.active",
-      "@context": "boolean.context.jsonld"
-    },
-    "type": {
-      "@id": "fhir:Group.type"
-    },
-    "actual": {
-      "@id": "fhir:Group.actual",
-      "@context": "boolean.context.jsonld"
-    },
-    "code": {
-      "@id": "fhir:Group.code",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "name": {
-      "@id": "fhir:Group.name",
+    "url": {
+      "@id": "fhir:Extension.url",
       "@context": "string.context.jsonld"
     },
-    "quantity": {
-      "@id": "fhir:Group.quantity",
-      "@context": "unsignedint.context.jsonld"
-    },
-    "managingEntity": {
-      "@id": "fhir:Group.managingEntity",
-      "@context": "reference.context.jsonld"
-    },
-    "characteristic": {
-      "@id": "fhir:Group.characteristic",
-      "@context": "group.characteristic.context.jsonld"
-    },
-    "member": {
-      "@id": "fhir:Group.member",
-      "@context": "group.member.context.jsonld"
+    "value": {
+      "@id": "fhir:Extension.value",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

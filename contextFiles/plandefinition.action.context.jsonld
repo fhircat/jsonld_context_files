@@ -1,0 +1,135 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "prefix": {
+      "@id": "fhir:PlanDefinition.action.prefix",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:PlanDefinition.action.title",
+      "@context": "string.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:PlanDefinition.action.description",
+      "@context": "string.context.jsonld"
+    },
+    "textEquivalent": {
+      "@id": "fhir:PlanDefinition.action.textEquivalent",
+      "@context": "string.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:PlanDefinition.action.priority"
+    },
+    "code": {
+      "@id": "fhir:PlanDefinition.action.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reason": {
+      "@id": "fhir:PlanDefinition.action.reason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "documentation": {
+      "@id": "fhir:PlanDefinition.action.documentation",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "goalId": {
+      "@id": "fhir:PlanDefinition.action.goalId",
+      "@context": "id.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:PlanDefinition.action.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:PlanDefinition.action.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "trigger": {
+      "@id": "fhir:PlanDefinition.action.trigger",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "input": {
+      "@id": "fhir:PlanDefinition.action.input",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "output": {
+      "@id": "fhir:PlanDefinition.action.output",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "timingDateTime": {
+      "@id": "fhir:PlanDefinition.action.timingDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "timingAge": {
+      "@id": "fhir:PlanDefinition.action.timingAge",
+      "@context": "age.context.jsonld"
+    },
+    "timingPeriod": {
+      "@id": "fhir:PlanDefinition.action.timingPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "timingDuration": {
+      "@id": "fhir:PlanDefinition.action.timingDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "timingRange": {
+      "@id": "fhir:PlanDefinition.action.timingRange",
+      "@context": "range.context.jsonld"
+    },
+    "timingTiming": {
+      "@id": "fhir:PlanDefinition.action.timingTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:PlanDefinition.action.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "groupingBehavior": {
+      "@id": "fhir:PlanDefinition.action.groupingBehavior"
+    },
+    "selectionBehavior": {
+      "@id": "fhir:PlanDefinition.action.selectionBehavior"
+    },
+    "requiredBehavior": {
+      "@id": "fhir:PlanDefinition.action.requiredBehavior"
+    },
+    "precheckBehavior": {
+      "@id": "fhir:PlanDefinition.action.precheckBehavior"
+    },
+    "cardinalityBehavior": {
+      "@id": "fhir:PlanDefinition.action.cardinalityBehavior"
+    },
+    "definitionCanonical": {
+      "@id": "fhir:PlanDefinition.action.definitionCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "definitionUri": {
+      "@id": "fhir:PlanDefinition.action.definitionUri",
+      "@context": "uri.context.jsonld"
+    },
+    "transform": {
+      "@id": "fhir:PlanDefinition.action.transform",
+      "@context": "canonical.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -13,28 +13,13 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "use": {
-      "@id": "fhir:Identifier.use"
-    },
-    "type": {
-      "@id": "fhir:Identifier.type",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "system": {
-      "@id": "fhir:Identifier.system",
-      "@context": "uri.context.jsonld"
-    },
-    "value": {
-      "@id": "fhir:Identifier.value",
+    "url": {
+      "@id": "fhir:Extension.url",
       "@context": "string.context.jsonld"
     },
-    "period": {
-      "@id": "fhir:Identifier.period",
-      "@context": "period.context.jsonld"
-    },
-    "assigner": {
-      "@id": "fhir:Identifier.assigner",
-      "@context": "reference.context.jsonld"
+    "value": {
+      "@id": "fhir:Extension.value",
+      "@context": "identifier.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

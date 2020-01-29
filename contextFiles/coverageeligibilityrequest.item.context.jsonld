@@ -1,0 +1,61 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "supportingInfoSequence": {
+      "@id": "fhir:CoverageEligibilityRequest.item.supportingInfoSequence",
+      "@context": "positiveint.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:CoverageEligibilityRequest.item.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "productOrService": {
+      "@id": "fhir:CoverageEligibilityRequest.item.productOrService",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "modifier": {
+      "@id": "fhir:CoverageEligibilityRequest.item.modifier",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "provider": {
+      "@id": "fhir:CoverageEligibilityRequest.item.provider",
+      "@context": "reference.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:CoverageEligibilityRequest.item.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "unitPrice": {
+      "@id": "fhir:CoverageEligibilityRequest.item.unitPrice",
+      "@context": "money.context.jsonld"
+    },
+    "facility": {
+      "@id": "fhir:CoverageEligibilityRequest.item.facility",
+      "@context": "reference.context.jsonld"
+    },
+    "detail": {
+      "@id": "fhir:CoverageEligibilityRequest.item.detail",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
