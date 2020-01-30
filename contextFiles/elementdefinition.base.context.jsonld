@@ -13,21 +13,17 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "extension.context.jsonld"
+    "path": {
+      "@id": "fhir:ElementDefinition.base.path",
+      "@context": "string.context.jsonld"
     },
-    "event": {
-      "@id": "fhir:Timing.event",
-      "@context": "datetime.context.jsonld"
+    "min": {
+      "@id": "fhir:ElementDefinition.base.min",
+      "@context": "unsignedint.context.jsonld"
     },
-    "repeat": {
-      "@id": "fhir:Timing.repeat",
-      "@context": "timing.repeat.context.jsonld"
-    },
-    "code": {
-      "@id": "fhir:Timing.code",
-      "@context": "codeableconcept.context.jsonld"
+    "max": {
+      "@id": "fhir:ElementDefinition.base.max",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -1,0 +1,225 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "label": {
+      "@id": "fhir:ElementDefinition.example.label",
+      "@context": "string.context.jsonld"
+    },
+    "valueBase64Binary": {
+      "@id": "fhir:ElementDefinition.example.valueBase64Binary",
+      "@context": "base64binary.context.jsonld"
+    },
+    "valueBoolean": {
+      "@id": "fhir:ElementDefinition.example.valueBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "valueCanonical": {
+      "@id": "fhir:ElementDefinition.example.valueCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "valueCode": {
+      "@id": "fhir:ElementDefinition.example.valueCode",
+      "@context": "code.context.jsonld"
+    },
+    "valueDate": {
+      "@id": "fhir:ElementDefinition.example.valueDate",
+      "@context": "date.context.jsonld"
+    },
+    "valueDateTime": {
+      "@id": "fhir:ElementDefinition.example.valueDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "valueDecimal": {
+      "@id": "fhir:ElementDefinition.example.valueDecimal",
+      "@context": "decimal.context.jsonld"
+    },
+    "valueId": {
+      "@id": "fhir:ElementDefinition.example.valueId",
+      "@context": "id.context.jsonld"
+    },
+    "valueInstant": {
+      "@id": "fhir:ElementDefinition.example.valueInstant",
+      "@context": "instant.context.jsonld"
+    },
+    "valueInteger": {
+      "@id": "fhir:ElementDefinition.example.valueInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "valueMarkdown": {
+      "@id": "fhir:ElementDefinition.example.valueMarkdown",
+      "@context": "markdown.context.jsonld"
+    },
+    "valueOid": {
+      "@id": "fhir:ElementDefinition.example.valueOid",
+      "@context": "oid.context.jsonld"
+    },
+    "valuePositiveInt": {
+      "@id": "fhir:ElementDefinition.example.valuePositiveInt",
+      "@context": "positiveint.context.jsonld"
+    },
+    "valueString": {
+      "@id": "fhir:ElementDefinition.example.valueString",
+      "@context": "string.context.jsonld"
+    },
+    "valueTime": {
+      "@id": "fhir:ElementDefinition.example.valueTime",
+      "@context": "time.context.jsonld"
+    },
+    "valueUnsignedInt": {
+      "@id": "fhir:ElementDefinition.example.valueUnsignedInt",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "valueUri": {
+      "@id": "fhir:ElementDefinition.example.valueUri",
+      "@context": "uri.context.jsonld"
+    },
+    "valueUrl": {
+      "@id": "fhir:ElementDefinition.example.valueUrl",
+      "@context": "url.context.jsonld"
+    },
+    "valueUuid": {
+      "@id": "fhir:ElementDefinition.example.valueUuid",
+      "@context": "uuid.context.jsonld"
+    },
+    "valueAddress": {
+      "@id": "fhir:ElementDefinition.example.valueAddress",
+      "@context": "address.context.jsonld"
+    },
+    "valueAge": {
+      "@id": "fhir:ElementDefinition.example.valueAge",
+      "@context": "age.context.jsonld"
+    },
+    "valueAnnotation": {
+      "@id": "fhir:ElementDefinition.example.valueAnnotation",
+      "@context": "annotation.context.jsonld"
+    },
+    "valueAttachment": {
+      "@id": "fhir:ElementDefinition.example.valueAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "valueCodeableConcept": {
+      "@id": "fhir:ElementDefinition.example.valueCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "valueCoding": {
+      "@id": "fhir:ElementDefinition.example.valueCoding",
+      "@context": "coding.context.jsonld"
+    },
+    "valueContactPoint": {
+      "@id": "fhir:ElementDefinition.example.valueContactPoint",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "valueCount": {
+      "@id": "fhir:ElementDefinition.example.valueCount",
+      "@context": "count.context.jsonld"
+    },
+    "valueDistance": {
+      "@id": "fhir:ElementDefinition.example.valueDistance",
+      "@context": "distance.context.jsonld"
+    },
+    "valueDuration": {
+      "@id": "fhir:ElementDefinition.example.valueDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "valueHumanName": {
+      "@id": "fhir:ElementDefinition.example.valueHumanName",
+      "@context": "humanname.context.jsonld"
+    },
+    "valueIdentifier": {
+      "@id": "fhir:ElementDefinition.example.valueIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "valueMoney": {
+      "@id": "fhir:ElementDefinition.example.valueMoney",
+      "@context": "money.context.jsonld"
+    },
+    "valuePeriod": {
+      "@id": "fhir:ElementDefinition.example.valuePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "valueQuantity": {
+      "@id": "fhir:ElementDefinition.example.valueQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "valueRange": {
+      "@id": "fhir:ElementDefinition.example.valueRange",
+      "@context": "range.context.jsonld"
+    },
+    "valueRatio": {
+      "@id": "fhir:ElementDefinition.example.valueRatio",
+      "@context": "ratio.context.jsonld"
+    },
+    "valueReference": {
+      "@id": "fhir:ElementDefinition.example.valueReference",
+      "@context": "reference.context.jsonld"
+    },
+    "valueSampledData": {
+      "@id": "fhir:ElementDefinition.example.valueSampledData",
+      "@context": "sampleddata.context.jsonld"
+    },
+    "valueSignature": {
+      "@id": "fhir:ElementDefinition.example.valueSignature",
+      "@context": "signature.context.jsonld"
+    },
+    "valueTiming": {
+      "@id": "fhir:ElementDefinition.example.valueTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "valueContactDetail": {
+      "@id": "fhir:ElementDefinition.example.valueContactDetail",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "valueContributor": {
+      "@id": "fhir:ElementDefinition.example.valueContributor",
+      "@context": "contributor.context.jsonld"
+    },
+    "valueDataRequirement": {
+      "@id": "fhir:ElementDefinition.example.valueDataRequirement",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "valueExpression": {
+      "@id": "fhir:ElementDefinition.example.valueExpression",
+      "@context": "expression.context.jsonld"
+    },
+    "valueParameterDefinition": {
+      "@id": "fhir:ElementDefinition.example.valueParameterDefinition",
+      "@context": "parameterdefinition.context.jsonld"
+    },
+    "valueRelatedArtifact": {
+      "@id": "fhir:ElementDefinition.example.valueRelatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "valueTriggerDefinition": {
+      "@id": "fhir:ElementDefinition.example.valueTriggerDefinition",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "valueUsageContext": {
+      "@id": "fhir:ElementDefinition.example.valueUsageContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "valueDosage": {
+      "@id": "fhir:ElementDefinition.example.valueDosage",
+      "@context": "dosage.context.jsonld"
+    },
+    "valueMeta": {
+      "@id": "fhir:ElementDefinition.example.valueMeta",
+      "@context": "meta.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -50,7 +50,7 @@
     },
     "slicing": {
       "@id": "fhir:ElementDefinition.slicing",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.slicing.context.jsonld"
     },
     "short": {
       "@id": "fhir:ElementDefinition.short",
@@ -82,7 +82,7 @@
     },
     "base": {
       "@id": "fhir:ElementDefinition.base",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.base.context.jsonld"
     },
     "contentReference": {
       "@id": "fhir:ElementDefinition.contentReference",
@@ -90,7 +90,7 @@
     },
     "type": {
       "@id": "fhir:ElementDefinition.type",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.type.context.jsonld"
     },
     "defaultValueBase64Binary": {
       "@id": "fhir:ElementDefinition.defaultValueBase64Binary",
@@ -702,7 +702,7 @@
     },
     "example": {
       "@id": "fhir:ElementDefinition.example",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.example.context.jsonld"
     },
     "minValueDate": {
       "@id": "fhir:ElementDefinition.minValueDate",
@@ -786,7 +786,7 @@
     },
     "constraint": {
       "@id": "fhir:ElementDefinition.constraint",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.constraint.context.jsonld"
     },
     "mustSupport": {
       "@id": "fhir:ElementDefinition.mustSupport",
@@ -806,11 +806,11 @@
     },
     "binding": {
       "@id": "fhir:ElementDefinition.binding",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.binding.context.jsonld"
     },
     "mapping": {
       "@id": "fhir:ElementDefinition.mapping",
-      "@context": "element.context.jsonld"
+      "@context": "elementdefinition.mapping.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

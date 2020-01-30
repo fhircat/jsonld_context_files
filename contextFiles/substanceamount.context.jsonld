@@ -39,7 +39,7 @@
     },
     "referenceRange": {
       "@id": "fhir:SubstanceAmount.referenceRange",
-      "@context": "element.context.jsonld"
+      "@context": "substanceamount.referencerange.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

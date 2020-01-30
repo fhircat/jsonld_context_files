@@ -59,7 +59,7 @@
     },
     "doseAndRate": {
       "@id": "fhir:Dosage.doseAndRate",
-      "@context": "element.context.jsonld"
+      "@context": "dosage.doseandrate.context.jsonld"
     },
     "maxDosePerPeriod": {
       "@id": "fhir:Dosage.maxDosePerPeriod",

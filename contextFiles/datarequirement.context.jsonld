@@ -34,11 +34,11 @@
     },
     "codeFilter": {
       "@id": "fhir:DataRequirement.codeFilter",
-      "@context": "element.context.jsonld"
+      "@context": "datarequirement.codefilter.context.jsonld"
     },
     "dateFilter": {
       "@id": "fhir:DataRequirement.dateFilter",
-      "@context": "element.context.jsonld"
+      "@context": "datarequirement.datefilter.context.jsonld"
     },
     "limit": {
       "@id": "fhir:DataRequirement.limit",
@@ -46,7 +46,7 @@
     },
     "sort": {
       "@id": "fhir:DataRequirement.sort",
-      "@context": "element.context.jsonld"
+      "@context": "datarequirement.sort.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

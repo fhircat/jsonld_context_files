@@ -13,21 +13,25 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
-    "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "extension.context.jsonld"
+    "path": {
+      "@id": "fhir:DataRequirement.dateFilter.path",
+      "@context": "string.context.jsonld"
     },
-    "event": {
-      "@id": "fhir:Timing.event",
+    "searchParam": {
+      "@id": "fhir:DataRequirement.dateFilter.searchParam",
+      "@context": "string.context.jsonld"
+    },
+    "valueDateTime": {
+      "@id": "fhir:DataRequirement.dateFilter.valueDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "repeat": {
-      "@id": "fhir:Timing.repeat",
-      "@context": "timing.repeat.context.jsonld"
+    "valuePeriod": {
+      "@id": "fhir:DataRequirement.dateFilter.valuePeriod",
+      "@context": "period.context.jsonld"
     },
-    "code": {
-      "@id": "fhir:Timing.code",
-      "@context": "codeableconcept.context.jsonld"
+    "valueDuration": {
+      "@id": "fhir:DataRequirement.dateFilter.valueDuration",
+      "@context": "duration.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

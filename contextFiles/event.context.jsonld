@@ -74,7 +74,7 @@
     },
     "performer": {
       "@id": "fhir:Event.performer",
-      "@context": "element.context.jsonld"
+      "@context": "event.performer.context.jsonld"
     },
     "location": {
       "@id": "fhir:Event.location",
