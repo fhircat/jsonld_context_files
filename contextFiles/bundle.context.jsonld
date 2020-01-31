@@ -26,7 +26,8 @@
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Bundle.type"
+      "@id": "fhir:Bundle.type",
+      "@context": "string.context.jsonld"
     },
     "timestamp": {
       "@id": "fhir:Bundle.timestamp",

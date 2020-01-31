@@ -18,10 +18,12 @@
       "@context": "extension.context.jsonld"
     },
     "property": {
-      "@id": "fhir:ValueSet.compose.include.filter.property"
+      "@id": "fhir:ValueSet.compose.include.filter.property",
+      "@context": "string.context.jsonld"
     },
     "op": {
-      "@id": "fhir:ValueSet.compose.include.filter.op"
+      "@id": "fhir:ValueSet.compose.include.filter.op",
+      "@context": "string.context.jsonld"
     },
     "value": {
       "@id": "fhir:ValueSet.compose.include.filter.value",

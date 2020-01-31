@@ -50,7 +50,8 @@
       "@context": "boolean.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Group.type"
+      "@id": "fhir:Group.type",
+      "@context": "string.context.jsonld"
     },
     "actual": {
       "@id": "fhir:Group.actual",

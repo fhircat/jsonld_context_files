@@ -62,7 +62,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CodeSystem.status"
+      "@id": "fhir:CodeSystem.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:CodeSystem.experimental",
@@ -109,7 +110,8 @@
       "@context": "canonical.context.jsonld"
     },
     "hierarchyMeaning": {
-      "@id": "fhir:CodeSystem.hierarchyMeaning"
+      "@id": "fhir:CodeSystem.hierarchyMeaning",
+      "@context": "string.context.jsonld"
     },
     "compositional": {
       "@id": "fhir:CodeSystem.compositional",
@@ -120,7 +122,8 @@
       "@context": "boolean.context.jsonld"
     },
     "content": {
-      "@id": "fhir:CodeSystem.content"
+      "@id": "fhir:CodeSystem.content",
+      "@context": "string.context.jsonld"
     },
     "supplements": {
       "@id": "fhir:CodeSystem.supplements",

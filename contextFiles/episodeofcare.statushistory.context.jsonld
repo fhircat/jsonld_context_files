@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "status": {
-      "@id": "fhir:EpisodeOfCare.statusHistory.status"
+      "@id": "fhir:EpisodeOfCare.statusHistory.status",
+      "@context": "string.context.jsonld"
     },
     "period": {
       "@id": "fhir:EpisodeOfCare.statusHistory.period",

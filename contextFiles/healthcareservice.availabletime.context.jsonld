@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "daysOfWeek": {
-      "@id": "fhir:HealthcareService.availableTime.daysOfWeek"
+      "@id": "fhir:HealthcareService.availableTime.daysOfWeek",
+      "@context": "string.context.jsonld"
     },
     "allDay": {
       "@id": "fhir:HealthcareService.availableTime.allDay",

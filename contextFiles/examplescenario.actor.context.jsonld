@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ExampleScenario.actor.type"
+      "@id": "fhir:ExampleScenario.actor.type",
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ExampleScenario.actor.name",

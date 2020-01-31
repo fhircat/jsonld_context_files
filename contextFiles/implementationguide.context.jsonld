@@ -58,7 +58,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ImplementationGuide.status"
+      "@id": "fhir:ImplementationGuide.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ImplementationGuide.experimental",
@@ -97,10 +98,12 @@
       "@context": "id.context.jsonld"
     },
     "license": {
-      "@id": "fhir:ImplementationGuide.license"
+      "@id": "fhir:ImplementationGuide.license",
+      "@context": "string.context.jsonld"
     },
     "fhirVersion": {
-      "@id": "fhir:ImplementationGuide.fhirVersion"
+      "@id": "fhir:ImplementationGuide.fhirVersion",
+      "@context": "string.context.jsonld"
     },
     "dependsOn": {
       "@id": "fhir:ImplementationGuide.dependsOn",

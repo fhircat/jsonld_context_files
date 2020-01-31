@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ClaimResponse.status"
+      "@id": "fhir:ClaimResponse.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:ClaimResponse.type",
@@ -57,7 +58,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "use": {
-      "@id": "fhir:ClaimResponse.use"
+      "@id": "fhir:ClaimResponse.use",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:ClaimResponse.patient",
@@ -80,7 +82,8 @@
       "@context": "reference.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:ClaimResponse.outcome"
+      "@id": "fhir:ClaimResponse.outcome",
+      "@context": "string.context.jsonld"
     },
     "disposition": {
       "@id": "fhir:ClaimResponse.disposition",

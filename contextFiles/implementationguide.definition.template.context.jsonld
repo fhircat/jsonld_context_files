@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ImplementationGuide.definition.template.code"
+      "@id": "fhir:ImplementationGuide.definition.template.code",
+      "@context": "string.context.jsonld"
     },
     "source": {
       "@id": "fhir:ImplementationGuide.definition.template.source",

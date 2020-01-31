@@ -58,7 +58,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ResearchStudy.status"
+      "@id": "fhir:ResearchStudy.status",
+      "@context": "string.context.jsonld"
     },
     "primaryPurposeType": {
       "@id": "fhir:ResearchStudy.primaryPurposeType",

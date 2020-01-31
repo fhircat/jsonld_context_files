@@ -54,7 +54,8 @@
       "@context": "contactpoint.context.jsonld"
     },
     "gender": {
-      "@id": "fhir:Person.gender"
+      "@id": "fhir:Person.gender",
+      "@context": "string.context.jsonld"
     },
     "birthDate": {
       "@id": "fhir:Person.birthDate",

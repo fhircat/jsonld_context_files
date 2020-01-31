@@ -46,10 +46,12 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CoverageEligibilityResponse.status"
+      "@id": "fhir:CoverageEligibilityResponse.status",
+      "@context": "string.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:CoverageEligibilityResponse.purpose"
+      "@id": "fhir:CoverageEligibilityResponse.purpose",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:CoverageEligibilityResponse.patient",
@@ -76,7 +78,8 @@
       "@context": "reference.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:CoverageEligibilityResponse.outcome"
+      "@id": "fhir:CoverageEligibilityResponse.outcome",
+      "@context": "string.context.jsonld"
     },
     "disposition": {
       "@id": "fhir:CoverageEligibilityResponse.disposition",

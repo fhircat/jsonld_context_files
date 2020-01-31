@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:InsurancePlan.status"
+      "@id": "fhir:InsurancePlan.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:InsurancePlan.type",

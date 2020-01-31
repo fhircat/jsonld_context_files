@@ -58,10 +58,12 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:OperationDefinition.status"
+      "@id": "fhir:OperationDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:OperationDefinition.kind"
+      "@id": "fhir:OperationDefinition.kind",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:OperationDefinition.experimental",
@@ -100,7 +102,8 @@
       "@context": "boolean.context.jsonld"
     },
     "code": {
-      "@id": "fhir:OperationDefinition.code"
+      "@id": "fhir:OperationDefinition.code",
+      "@context": "string.context.jsonld"
     },
     "comment": {
       "@id": "fhir:OperationDefinition.comment",
@@ -111,7 +114,8 @@
       "@context": "canonical.context.jsonld"
     },
     "resource": {
-      "@id": "fhir:OperationDefinition.resource"
+      "@id": "fhir:OperationDefinition.resource",
+      "@context": "string.context.jsonld"
     },
     "system": {
       "@id": "fhir:OperationDefinition.system",

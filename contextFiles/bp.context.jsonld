@@ -50,7 +50,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Observation.status"
+      "@id": "fhir:Observation.status",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:Observation.category",

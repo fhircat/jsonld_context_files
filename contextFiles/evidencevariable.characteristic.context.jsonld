@@ -74,7 +74,8 @@
       "@context": "duration.context.jsonld"
     },
     "groupMeasure": {
-      "@id": "fhir:EvidenceVariable.characteristic.groupMeasure"
+      "@id": "fhir:EvidenceVariable.characteristic.groupMeasure",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

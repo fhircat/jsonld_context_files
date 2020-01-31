@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "lifecycleStatus": {
-      "@id": "fhir:Goal.lifecycleStatus"
+      "@id": "fhir:Goal.lifecycleStatus",
+      "@context": "string.context.jsonld"
     },
     "achievementStatus": {
       "@id": "fhir:Goal.achievementStatus",

@@ -18,7 +18,8 @@
       "@context": "decimal.context.jsonld"
     },
     "comparator": {
-      "@id": "fhir:Quantity.comparator"
+      "@id": "fhir:Quantity.comparator",
+      "@context": "string.context.jsonld"
     },
     "unit": {
       "@id": "fhir:Quantity.unit",
@@ -29,7 +30,8 @@
       "@context": "uri.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Quantity.code"
+      "@id": "fhir:Quantity.code",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

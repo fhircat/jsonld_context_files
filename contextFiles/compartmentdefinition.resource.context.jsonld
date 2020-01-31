@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CompartmentDefinition.resource.code"
+      "@id": "fhir:CompartmentDefinition.resource.code",
+      "@context": "string.context.jsonld"
     },
     "param": {
       "@id": "fhir:CompartmentDefinition.resource.param",

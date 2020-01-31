@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ValueSet.compose.include.concept.code"
+      "@id": "fhir:ValueSet.compose.include.concept.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:ValueSet.compose.include.concept.display",

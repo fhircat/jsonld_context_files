@@ -50,7 +50,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Medication.status"
+      "@id": "fhir:Medication.status",
+      "@context": "string.context.jsonld"
     },
     "manufacturer": {
       "@id": "fhir:Medication.manufacturer",

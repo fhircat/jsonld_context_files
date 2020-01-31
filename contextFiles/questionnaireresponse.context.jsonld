@@ -58,7 +58,8 @@
       "@context": "canonical.context.jsonld"
     },
     "status": {
-      "@id": "fhir:QuestionnaireResponse.status"
+      "@id": "fhir:QuestionnaireResponse.status",
+      "@context": "string.context.jsonld"
     },
     "subject": {
       "@id": "fhir:QuestionnaireResponse.subject",

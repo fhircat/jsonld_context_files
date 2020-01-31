@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:NamingSystem.uniqueId.type"
+      "@id": "fhir:NamingSystem.uniqueId.type",
+      "@context": "string.context.jsonld"
     },
     "value": {
       "@id": "fhir:NamingSystem.uniqueId.value",

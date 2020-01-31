@@ -26,7 +26,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "preference": {
-      "@id": "fhir:SpecimenDefinition.typeTested.preference"
+      "@id": "fhir:SpecimenDefinition.typeTested.preference",
+      "@context": "string.context.jsonld"
     },
     "requirement": {
       "@id": "fhir:SpecimenDefinition.typeTested.requirement",

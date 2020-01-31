@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:MessageDefinition.focus.code"
+      "@id": "fhir:MessageDefinition.focus.code",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:MessageDefinition.focus.profile",

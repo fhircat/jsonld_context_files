@@ -34,7 +34,8 @@
       "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:RequestGroup.action.priority"
+      "@id": "fhir:RequestGroup.action.priority",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:RequestGroup.action.code",
@@ -77,19 +78,24 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "groupingBehavior": {
-      "@id": "fhir:RequestGroup.action.groupingBehavior"
+      "@id": "fhir:RequestGroup.action.groupingBehavior",
+      "@context": "string.context.jsonld"
     },
     "selectionBehavior": {
-      "@id": "fhir:RequestGroup.action.selectionBehavior"
+      "@id": "fhir:RequestGroup.action.selectionBehavior",
+      "@context": "string.context.jsonld"
     },
     "requiredBehavior": {
-      "@id": "fhir:RequestGroup.action.requiredBehavior"
+      "@id": "fhir:RequestGroup.action.requiredBehavior",
+      "@context": "string.context.jsonld"
     },
     "precheckBehavior": {
-      "@id": "fhir:RequestGroup.action.precheckBehavior"
+      "@id": "fhir:RequestGroup.action.precheckBehavior",
+      "@context": "string.context.jsonld"
     },
     "cardinalityBehavior": {
-      "@id": "fhir:RequestGroup.action.cardinalityBehavior"
+      "@id": "fhir:RequestGroup.action.cardinalityBehavior",
+      "@context": "string.context.jsonld"
     },
     "resource": {
       "@id": "fhir:RequestGroup.action.resource",

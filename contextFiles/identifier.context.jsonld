@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "use": {
-      "@id": "fhir:Identifier.use"
+      "@id": "fhir:Identifier.use",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Identifier.type",

@@ -18,7 +18,8 @@
       "@context": "decimal.context.jsonld"
     },
     "currency": {
-      "@id": "fhir:Money.currency"
+      "@id": "fhir:Money.currency",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

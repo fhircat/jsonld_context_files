@@ -22,7 +22,8 @@
       "@context": "id.context.jsonld"
     },
     "code": {
-      "@id": "fhir:MessageHeader.response.code"
+      "@id": "fhir:MessageHeader.response.code",
+      "@context": "string.context.jsonld"
     },
     "details": {
       "@id": "fhir:MessageHeader.response.details",

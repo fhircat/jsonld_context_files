@@ -34,7 +34,8 @@
       "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:PlanDefinition.action.priority"
+      "@id": "fhir:PlanDefinition.action.priority",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:PlanDefinition.action.code",
@@ -101,19 +102,24 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "groupingBehavior": {
-      "@id": "fhir:PlanDefinition.action.groupingBehavior"
+      "@id": "fhir:PlanDefinition.action.groupingBehavior",
+      "@context": "string.context.jsonld"
     },
     "selectionBehavior": {
-      "@id": "fhir:PlanDefinition.action.selectionBehavior"
+      "@id": "fhir:PlanDefinition.action.selectionBehavior",
+      "@context": "string.context.jsonld"
     },
     "requiredBehavior": {
-      "@id": "fhir:PlanDefinition.action.requiredBehavior"
+      "@id": "fhir:PlanDefinition.action.requiredBehavior",
+      "@context": "string.context.jsonld"
     },
     "precheckBehavior": {
-      "@id": "fhir:PlanDefinition.action.precheckBehavior"
+      "@id": "fhir:PlanDefinition.action.precheckBehavior",
+      "@context": "string.context.jsonld"
     },
     "cardinalityBehavior": {
-      "@id": "fhir:PlanDefinition.action.cardinalityBehavior"
+      "@id": "fhir:PlanDefinition.action.cardinalityBehavior",
+      "@context": "string.context.jsonld"
     },
     "definitionCanonical": {
       "@id": "fhir:PlanDefinition.action.definitionCanonical",

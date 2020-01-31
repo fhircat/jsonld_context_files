@@ -62,7 +62,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:GuidanceResponse.status"
+      "@id": "fhir:GuidanceResponse.status",
+      "@context": "string.context.jsonld"
     },
     "subject": {
       "@id": "fhir:GuidanceResponse.subject",

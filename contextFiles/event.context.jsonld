@@ -30,7 +30,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Event.status"
+      "@id": "fhir:Event.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:Event.statusReason",

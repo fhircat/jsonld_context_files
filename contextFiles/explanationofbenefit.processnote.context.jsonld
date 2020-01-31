@@ -22,7 +22,8 @@
       "@context": "positiveint.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ExplanationOfBenefit.processNote.type"
+      "@id": "fhir:ExplanationOfBenefit.processNote.type",
+      "@context": "string.context.jsonld"
     },
     "text": {
       "@id": "fhir:ExplanationOfBenefit.processNote.text",

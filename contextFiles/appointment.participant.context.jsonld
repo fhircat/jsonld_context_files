@@ -26,10 +26,12 @@
       "@context": "reference.context.jsonld"
     },
     "required": {
-      "@id": "fhir:Appointment.participant.required"
+      "@id": "fhir:Appointment.participant.required",
+      "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Appointment.participant.status"
+      "@id": "fhir:Appointment.participant.status",
+      "@context": "string.context.jsonld"
     },
     "period": {
       "@id": "fhir:Appointment.participant.period",

@@ -62,7 +62,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:TestScript.status"
+      "@id": "fhir:TestScript.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:TestScript.experimental",

@@ -70,7 +70,8 @@
       "@context": "duration.context.jsonld"
     },
     "studyEffectiveGroupMeasure": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveGroupMeasure"
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveGroupMeasure",
+      "@context": "string.context.jsonld"
     },
     "participantEffectiveDescription": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDescription",
@@ -97,7 +98,8 @@
       "@context": "duration.context.jsonld"
     },
     "participantEffectiveGroupMeasure": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveGroupMeasure"
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveGroupMeasure",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

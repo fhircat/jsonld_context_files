@@ -26,7 +26,8 @@
       "@context": "string.context.jsonld"
     },
     "orientation": {
-      "@id": "fhir:MolecularSequence.referenceSeq.orientation"
+      "@id": "fhir:MolecularSequence.referenceSeq.orientation",
+      "@context": "string.context.jsonld"
     },
     "referenceSeqId": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqId",
@@ -41,7 +42,8 @@
       "@context": "string.context.jsonld"
     },
     "strand": {
-      "@id": "fhir:MolecularSequence.referenceSeq.strand"
+      "@id": "fhir:MolecularSequence.referenceSeq.strand",
+      "@context": "string.context.jsonld"
     },
     "windowStart": {
       "@id": "fhir:MolecularSequence.referenceSeq.windowStart",

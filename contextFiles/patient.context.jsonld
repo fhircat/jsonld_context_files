@@ -59,7 +59,8 @@
       "@context": "contactpoint.context.jsonld"
     },
     "gender": {
-      "@id": "fhir:Patient.gender"
+      "@id": "fhir:Patient.gender",
+      "@context": "string.context.jsonld"
     },
     "birthDate": {
       "@id": "fhir:Patient.birthDate",

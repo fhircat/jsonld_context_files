@@ -38,7 +38,8 @@
       "@context": "narrative.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:Composition.section.mode"
+      "@id": "fhir:Composition.section.mode",
+      "@context": "string.context.jsonld"
     },
     "orderedBy": {
       "@id": "fhir:Composition.section.orderedBy",

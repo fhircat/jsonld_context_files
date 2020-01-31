@@ -54,7 +54,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CompartmentDefinition.status"
+      "@id": "fhir:CompartmentDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:CompartmentDefinition.experimental",
@@ -85,7 +86,8 @@
       "@context": "markdown.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CompartmentDefinition.code"
+      "@id": "fhir:CompartmentDefinition.code",
+      "@context": "string.context.jsonld"
     },
     "search": {
       "@id": "fhir:CompartmentDefinition.search",

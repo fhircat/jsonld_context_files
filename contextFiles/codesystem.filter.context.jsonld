@@ -18,14 +18,16 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CodeSystem.filter.code"
+      "@id": "fhir:CodeSystem.filter.code",
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:CodeSystem.filter.description",
       "@context": "string.context.jsonld"
     },
     "operator": {
-      "@id": "fhir:CodeSystem.filter.operator"
+      "@id": "fhir:CodeSystem.filter.operator",
+      "@context": "string.context.jsonld"
     },
     "value": {
       "@id": "fhir:CodeSystem.filter.value",

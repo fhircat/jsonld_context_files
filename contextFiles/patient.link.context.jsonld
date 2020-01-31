@@ -22,7 +22,8 @@
       "@context": "reference.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Patient.link.type"
+      "@id": "fhir:Patient.link.type",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

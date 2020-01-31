@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Consent.status"
+      "@id": "fhir:Consent.status",
+      "@context": "string.context.jsonld"
     },
     "scope": {
       "@id": "fhir:Consent.scope",

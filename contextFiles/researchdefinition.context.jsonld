@@ -70,7 +70,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ResearchDefinition.status"
+      "@id": "fhir:ResearchDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ResearchDefinition.experimental",

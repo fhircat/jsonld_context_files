@@ -46,10 +46,12 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MeasureReport.status"
+      "@id": "fhir:MeasureReport.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MeasureReport.type"
+      "@id": "fhir:MeasureReport.type",
+      "@context": "string.context.jsonld"
     },
     "measure": {
       "@id": "fhir:MeasureReport.measure",

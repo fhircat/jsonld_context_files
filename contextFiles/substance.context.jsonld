@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Substance.status"
+      "@id": "fhir:Substance.status",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:Substance.category",

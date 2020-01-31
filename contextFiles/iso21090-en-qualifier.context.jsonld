@@ -18,7 +18,8 @@
       "@context": "string.context.jsonld"
     },
     "value": {
-      "@id": "fhir:Extension.value"
+      "@id": "fhir:Extension.value",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

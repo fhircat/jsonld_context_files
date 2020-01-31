@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ImagingStudy.status"
+      "@id": "fhir:ImagingStudy.status",
+      "@context": "string.context.jsonld"
     },
     "modality": {
       "@id": "fhir:ImagingStudy.modality",

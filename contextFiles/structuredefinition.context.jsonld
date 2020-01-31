@@ -62,7 +62,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:StructureDefinition.status"
+      "@id": "fhir:StructureDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:StructureDefinition.experimental",
@@ -105,14 +106,16 @@
       "@context": "coding.context.jsonld"
     },
     "fhirVersion": {
-      "@id": "fhir:StructureDefinition.fhirVersion"
+      "@id": "fhir:StructureDefinition.fhirVersion",
+      "@context": "string.context.jsonld"
     },
     "mapping": {
       "@id": "fhir:StructureDefinition.mapping",
       "@context": "structuredefinition.mapping.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:StructureDefinition.kind"
+      "@id": "fhir:StructureDefinition.kind",
+      "@context": "string.context.jsonld"
     },
     "abstract": {
       "@id": "fhir:StructureDefinition.abstract",
@@ -135,7 +138,8 @@
       "@context": "canonical.context.jsonld"
     },
     "derivation": {
-      "@id": "fhir:StructureDefinition.derivation"
+      "@id": "fhir:StructureDefinition.derivation",
+      "@context": "string.context.jsonld"
     },
     "snapshot": {
       "@id": "fhir:StructureDefinition.snapshot",

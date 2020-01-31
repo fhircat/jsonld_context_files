@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "language": {
-      "@id": "fhir:ValueSet.compose.include.concept.designation.language"
+      "@id": "fhir:ValueSet.compose.include.concept.designation.language",
+      "@context": "string.context.jsonld"
     },
     "use": {
       "@id": "fhir:ValueSet.compose.include.concept.designation.use",

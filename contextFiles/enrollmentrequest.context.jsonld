@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:EnrollmentRequest.status"
+      "@id": "fhir:EnrollmentRequest.status",
+      "@context": "string.context.jsonld"
     },
     "created": {
       "@id": "fhir:EnrollmentRequest.created",

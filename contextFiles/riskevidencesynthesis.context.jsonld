@@ -62,7 +62,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:RiskEvidenceSynthesis.status"
+      "@id": "fhir:RiskEvidenceSynthesis.status",
+      "@context": "string.context.jsonld"
     },
     "date": {
       "@id": "fhir:RiskEvidenceSynthesis.date",

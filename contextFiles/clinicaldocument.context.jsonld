@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Composition.status"
+      "@id": "fhir:Composition.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Composition.type",
@@ -77,7 +78,8 @@
       "@context": "string.context.jsonld"
     },
     "confidentiality": {
-      "@id": "fhir:Composition.confidentiality"
+      "@id": "fhir:Composition.confidentiality",
+      "@context": "string.context.jsonld"
     },
     "attester": {
       "@id": "fhir:Composition.attester",

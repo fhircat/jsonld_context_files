@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:PaymentReconciliation.status"
+      "@id": "fhir:PaymentReconciliation.status",
+      "@context": "string.context.jsonld"
     },
     "period": {
       "@id": "fhir:PaymentReconciliation.period",
@@ -69,7 +70,8 @@
       "@context": "reference.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:PaymentReconciliation.outcome"
+      "@id": "fhir:PaymentReconciliation.outcome",
+      "@context": "string.context.jsonld"
     },
     "disposition": {
       "@id": "fhir:PaymentReconciliation.disposition",

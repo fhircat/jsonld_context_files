@@ -58,7 +58,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:TerminologyCapabilities.status"
+      "@id": "fhir:TerminologyCapabilities.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:TerminologyCapabilities.experimental",
@@ -97,7 +98,8 @@
       "@context": "markdown.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:TerminologyCapabilities.kind"
+      "@id": "fhir:TerminologyCapabilities.kind",
+      "@context": "string.context.jsonld"
     },
     "software": {
       "@id": "fhir:TerminologyCapabilities.software",
@@ -120,7 +122,8 @@
       "@context": "terminologycapabilities.expansion.context.jsonld"
     },
     "codeSearch": {
-      "@id": "fhir:TerminologyCapabilities.codeSearch"
+      "@id": "fhir:TerminologyCapabilities.codeSearch",
+      "@context": "string.context.jsonld"
     },
     "validateCode": {
       "@id": "fhir:TerminologyCapabilities.validateCode",

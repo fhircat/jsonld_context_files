@@ -54,7 +54,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:RiskAssessment.status"
+      "@id": "fhir:RiskAssessment.status",
+      "@context": "string.context.jsonld"
     },
     "method": {
       "@id": "fhir:RiskAssessment.method",

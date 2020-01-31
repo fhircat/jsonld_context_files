@@ -54,7 +54,8 @@
       "@context": "identifier.context.jsonld"
     },
     "permittedDataType": {
-      "@id": "fhir:ObservationDefinition.permittedDataType"
+      "@id": "fhir:ObservationDefinition.permittedDataType",
+      "@context": "string.context.jsonld"
     },
     "multipleResultsAllowed": {
       "@id": "fhir:ObservationDefinition.multipleResultsAllowed",

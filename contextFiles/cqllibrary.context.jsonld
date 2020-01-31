@@ -62,7 +62,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Library.status"
+      "@id": "fhir:Library.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:Library.experimental",

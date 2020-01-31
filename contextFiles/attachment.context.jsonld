@@ -14,10 +14,12 @@
       "@context": "extension.context.jsonld"
     },
     "contentType": {
-      "@id": "fhir:Attachment.contentType"
+      "@id": "fhir:Attachment.contentType",
+      "@context": "string.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Attachment.language"
+      "@id": "fhir:Attachment.language",
+      "@context": "string.context.jsonld"
     },
     "data": {
       "@id": "fhir:Attachment.data",

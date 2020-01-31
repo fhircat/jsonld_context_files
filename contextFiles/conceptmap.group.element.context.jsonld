@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ConceptMap.group.element.code"
+      "@id": "fhir:ConceptMap.group.element.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:ConceptMap.group.element.display",

@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:StructureDefinition.context.type"
+      "@id": "fhir:StructureDefinition.context.type",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:StructureDefinition.context.expression",

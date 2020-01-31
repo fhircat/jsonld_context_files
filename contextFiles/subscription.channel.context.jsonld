@@ -18,14 +18,16 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Subscription.channel.type"
+      "@id": "fhir:Subscription.channel.type",
+      "@context": "string.context.jsonld"
     },
     "endpoint": {
       "@id": "fhir:Subscription.channel.endpoint",
       "@context": "url.context.jsonld"
     },
     "payload": {
-      "@id": "fhir:Subscription.channel.payload"
+      "@id": "fhir:Subscription.channel.payload",
+      "@context": "string.context.jsonld"
     },
     "header": {
       "@id": "fhir:Subscription.channel.header",

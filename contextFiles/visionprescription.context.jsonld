@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:VisionPrescription.status"
+      "@id": "fhir:VisionPrescription.status",
+      "@context": "string.context.jsonld"
     },
     "created": {
       "@id": "fhir:VisionPrescription.created",

@@ -58,7 +58,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ValueSet.status"
+      "@id": "fhir:ValueSet.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ValueSet.experimental",

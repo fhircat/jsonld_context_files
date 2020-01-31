@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Coverage.status"
+      "@id": "fhir:Coverage.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Coverage.type",

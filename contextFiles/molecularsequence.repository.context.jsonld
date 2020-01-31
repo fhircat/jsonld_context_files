@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MolecularSequence.repository.type"
+      "@id": "fhir:MolecularSequence.repository.type",
+      "@context": "string.context.jsonld"
     },
     "url": {
       "@id": "fhir:MolecularSequence.repository.url",

@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:DataRequirement.type"
+      "@id": "fhir:DataRequirement.type",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:DataRequirement.profile",

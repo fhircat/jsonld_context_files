@@ -46,21 +46,24 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MedicationRequest.status"
+      "@id": "fhir:MedicationRequest.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:MedicationRequest.statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:MedicationRequest.intent"
+      "@id": "fhir:MedicationRequest.intent",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:MedicationRequest.category",
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:MedicationRequest.priority"
+      "@id": "fhir:MedicationRequest.priority",
+      "@context": "string.context.jsonld"
     },
     "doNotPerform": {
       "@id": "fhir:MedicationRequest.doNotPerform",

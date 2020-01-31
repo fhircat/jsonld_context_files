@@ -22,7 +22,8 @@
       "@context": "decimal.context.jsonld"
     },
     "base": {
-      "@id": "fhir:VisionPrescription.lensSpecification.prism.base"
+      "@id": "fhir:VisionPrescription.lensSpecification.prism.base",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

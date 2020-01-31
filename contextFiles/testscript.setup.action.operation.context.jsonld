@@ -22,7 +22,8 @@
       "@context": "coding.context.jsonld"
     },
     "resource": {
-      "@id": "fhir:TestScript.setup.action.operation.resource"
+      "@id": "fhir:TestScript.setup.action.operation.resource",
+      "@context": "string.context.jsonld"
     },
     "label": {
       "@id": "fhir:TestScript.setup.action.operation.label",
@@ -33,10 +34,12 @@
       "@context": "string.context.jsonld"
     },
     "accept": {
-      "@id": "fhir:TestScript.setup.action.operation.accept"
+      "@id": "fhir:TestScript.setup.action.operation.accept",
+      "@context": "string.context.jsonld"
     },
     "contentType": {
-      "@id": "fhir:TestScript.setup.action.operation.contentType"
+      "@id": "fhir:TestScript.setup.action.operation.contentType",
+      "@context": "string.context.jsonld"
     },
     "destination": {
       "@id": "fhir:TestScript.setup.action.operation.destination",
@@ -47,7 +50,8 @@
       "@context": "boolean.context.jsonld"
     },
     "method": {
-      "@id": "fhir:TestScript.setup.action.operation.method"
+      "@id": "fhir:TestScript.setup.action.operation.method",
+      "@context": "string.context.jsonld"
     },
     "origin": {
       "@id": "fhir:TestScript.setup.action.operation.origin",

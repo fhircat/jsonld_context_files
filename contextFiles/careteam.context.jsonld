@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CareTeam.status"
+      "@id": "fhir:CareTeam.status",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:CareTeam.category",

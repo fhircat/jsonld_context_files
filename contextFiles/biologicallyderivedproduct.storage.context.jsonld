@@ -26,7 +26,8 @@
       "@context": "decimal.context.jsonld"
     },
     "scale": {
-      "@id": "fhir:BiologicallyDerivedProduct.storage.scale"
+      "@id": "fhir:BiologicallyDerivedProduct.storage.scale",
+      "@context": "string.context.jsonld"
     },
     "duration": {
       "@id": "fhir:BiologicallyDerivedProduct.storage.duration",

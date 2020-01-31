@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MolecularSequence.quality.type"
+      "@id": "fhir:MolecularSequence.quality.type",
+      "@context": "string.context.jsonld"
     },
     "standardSequence": {
       "@id": "fhir:MolecularSequence.quality.standardSequence",

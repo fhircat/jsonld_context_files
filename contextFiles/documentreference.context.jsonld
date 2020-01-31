@@ -50,10 +50,12 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:DocumentReference.status"
+      "@id": "fhir:DocumentReference.status",
+      "@context": "string.context.jsonld"
     },
     "docStatus": {
-      "@id": "fhir:DocumentReference.docStatus"
+      "@id": "fhir:DocumentReference.docStatus",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:DocumentReference.type",

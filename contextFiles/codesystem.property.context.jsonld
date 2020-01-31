@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CodeSystem.property.code"
+      "@id": "fhir:CodeSystem.property.code",
+      "@context": "string.context.jsonld"
     },
     "uri": {
       "@id": "fhir:CodeSystem.property.uri",
@@ -29,7 +30,8 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:CodeSystem.property.type"
+      "@id": "fhir:CodeSystem.property.type",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

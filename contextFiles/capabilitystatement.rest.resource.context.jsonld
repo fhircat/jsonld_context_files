@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:CapabilityStatement.rest.resource.type"
+      "@id": "fhir:CapabilityStatement.rest.resource.type",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:CapabilityStatement.rest.resource.profile",
@@ -33,7 +34,8 @@
       "@context": "markdown.context.jsonld"
     },
     "versioning": {
-      "@id": "fhir:CapabilityStatement.rest.resource.versioning"
+      "@id": "fhir:CapabilityStatement.rest.resource.versioning",
+      "@context": "string.context.jsonld"
     },
     "readHistory": {
       "@id": "fhir:CapabilityStatement.rest.resource.readHistory",
@@ -48,17 +50,20 @@
       "@context": "boolean.context.jsonld"
     },
     "conditionalRead": {
-      "@id": "fhir:CapabilityStatement.rest.resource.conditionalRead"
+      "@id": "fhir:CapabilityStatement.rest.resource.conditionalRead",
+      "@context": "string.context.jsonld"
     },
     "conditionalUpdate": {
       "@id": "fhir:CapabilityStatement.rest.resource.conditionalUpdate",
       "@context": "boolean.context.jsonld"
     },
     "conditionalDelete": {
-      "@id": "fhir:CapabilityStatement.rest.resource.conditionalDelete"
+      "@id": "fhir:CapabilityStatement.rest.resource.conditionalDelete",
+      "@context": "string.context.jsonld"
     },
     "referencePolicy": {
-      "@id": "fhir:CapabilityStatement.rest.resource.referencePolicy"
+      "@id": "fhir:CapabilityStatement.rest.resource.referencePolicy",
+      "@context": "string.context.jsonld"
     },
     "searchInclude": {
       "@id": "fhir:CapabilityStatement.rest.resource.searchInclude",

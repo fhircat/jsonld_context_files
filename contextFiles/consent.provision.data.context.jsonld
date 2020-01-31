@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "meaning": {
-      "@id": "fhir:Consent.provision.data.meaning"
+      "@id": "fhir:Consent.provision.data.meaning",
+      "@context": "string.context.jsonld"
     },
     "reference": {
       "@id": "fhir:Consent.provision.data.reference",

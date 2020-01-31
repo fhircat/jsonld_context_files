@@ -30,10 +30,12 @@
       "@context": "reference.context.jsonld"
     },
     "targetFormat": {
-      "@id": "fhir:Signature.targetFormat"
+      "@id": "fhir:Signature.targetFormat",
+      "@context": "string.context.jsonld"
     },
     "sigFormat": {
-      "@id": "fhir:Signature.sigFormat"
+      "@id": "fhir:Signature.sigFormat",
+      "@context": "string.context.jsonld"
     },
     "data": {
       "@id": "fhir:Signature.data",

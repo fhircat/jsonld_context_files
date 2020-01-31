@@ -18,14 +18,16 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ConceptMap.group.element.target.code"
+      "@id": "fhir:ConceptMap.group.element.target.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:ConceptMap.group.element.target.display",
       "@context": "string.context.jsonld"
     },
     "equivalence": {
-      "@id": "fhir:ConceptMap.group.element.target.equivalence"
+      "@id": "fhir:ConceptMap.group.element.target.equivalence",
+      "@context": "string.context.jsonld"
     },
     "comment": {
       "@id": "fhir:ConceptMap.group.element.target.comment",

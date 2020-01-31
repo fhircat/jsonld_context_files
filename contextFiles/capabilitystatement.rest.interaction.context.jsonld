@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CapabilityStatement.rest.interaction.code"
+      "@id": "fhir:CapabilityStatement.rest.interaction.code",
+      "@context": "string.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:CapabilityStatement.rest.interaction.documentation",

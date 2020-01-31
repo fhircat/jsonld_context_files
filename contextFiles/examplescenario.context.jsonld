@@ -58,7 +58,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ExampleScenario.status"
+      "@id": "fhir:ExampleScenario.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ExampleScenario.experimental",

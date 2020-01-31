@@ -70,7 +70,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ResearchElementDefinition.status"
+      "@id": "fhir:ResearchElementDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ResearchElementDefinition.experimental",
@@ -165,10 +166,12 @@
       "@context": "canonical.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ResearchElementDefinition.type"
+      "@id": "fhir:ResearchElementDefinition.type",
+      "@context": "string.context.jsonld"
     },
     "variableType": {
-      "@id": "fhir:ResearchElementDefinition.variableType"
+      "@id": "fhir:ResearchElementDefinition.variableType",
+      "@context": "string.context.jsonld"
     },
     "characteristic": {
       "@id": "fhir:ResearchElementDefinition.characteristic",

@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "category": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.category"
+      "@id": "fhir:ObservationDefinition.qualifiedInterval.category",
+      "@context": "string.context.jsonld"
     },
     "range": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.range",
@@ -33,7 +34,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "gender": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.gender"
+      "@id": "fhir:ObservationDefinition.qualifiedInterval.gender",
+      "@context": "string.context.jsonld"
     },
     "age": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.age",

@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Claim.status"
+      "@id": "fhir:Claim.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Claim.type",
@@ -57,7 +58,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "use": {
-      "@id": "fhir:Claim.use"
+      "@id": "fhir:Claim.use",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:Claim.patient",

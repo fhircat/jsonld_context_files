@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Appointment.status"
+      "@id": "fhir:Appointment.status",
+      "@context": "string.context.jsonld"
     },
     "cancelationReason": {
       "@id": "fhir:Appointment.cancelationReason",

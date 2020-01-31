@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Flag.status"
+      "@id": "fhir:Flag.status",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:Flag.category",

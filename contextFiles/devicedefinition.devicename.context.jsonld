@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:DeviceDefinition.deviceName.type"
+      "@id": "fhir:DeviceDefinition.deviceName.type",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

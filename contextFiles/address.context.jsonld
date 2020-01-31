@@ -14,10 +14,12 @@
       "@context": "extension.context.jsonld"
     },
     "use": {
-      "@id": "fhir:Address.use"
+      "@id": "fhir:Address.use",
+      "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Address.type"
+      "@id": "fhir:Address.type",
+      "@context": "string.context.jsonld"
     },
     "text": {
       "@id": "fhir:Address.text",

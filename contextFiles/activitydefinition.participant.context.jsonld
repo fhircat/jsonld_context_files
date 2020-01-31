@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ActivityDefinition.participant.type"
+      "@id": "fhir:ActivityDefinition.participant.type",
+      "@context": "string.context.jsonld"
     },
     "role": {
       "@id": "fhir:ActivityDefinition.participant.role",

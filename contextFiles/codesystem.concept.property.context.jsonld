@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CodeSystem.concept.property.code"
+      "@id": "fhir:CodeSystem.concept.property.code",
+      "@context": "string.context.jsonld"
     },
     "valueCode": {
       "@id": "fhir:CodeSystem.concept.property.valueCode",

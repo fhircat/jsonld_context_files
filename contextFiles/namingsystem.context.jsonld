@@ -46,10 +46,12 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:NamingSystem.status"
+      "@id": "fhir:NamingSystem.status",
+      "@context": "string.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:NamingSystem.kind"
+      "@id": "fhir:NamingSystem.kind",
+      "@context": "string.context.jsonld"
     },
     "date": {
       "@id": "fhir:NamingSystem.date",

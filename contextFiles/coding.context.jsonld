@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Coding.code"
+      "@id": "fhir:Coding.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:Coding.display",

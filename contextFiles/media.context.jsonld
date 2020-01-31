@@ -54,7 +54,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Media.status"
+      "@id": "fhir:Media.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Media.type",

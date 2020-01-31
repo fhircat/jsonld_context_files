@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:TriggerDefinition.type"
+      "@id": "fhir:TriggerDefinition.type",
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:TriggerDefinition.name",

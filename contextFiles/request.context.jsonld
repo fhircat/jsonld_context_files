@@ -30,17 +30,20 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Request.status"
+      "@id": "fhir:Request.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:Request.statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:Request.intent"
+      "@id": "fhir:Request.intent",
+      "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:Request.priority"
+      "@id": "fhir:Request.priority",
+      "@context": "string.context.jsonld"
     },
     "doNotPerform": {
       "@id": "fhir:Request.doNotPerform",

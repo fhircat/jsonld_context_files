@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "representation": {
-      "@id": "fhir:ElementDefinition.representation"
+      "@id": "fhir:ElementDefinition.representation",
+      "@context": "string.context.jsonld"
     },
     "sliceName": {
       "@id": "fhir:ElementDefinition.sliceName",

@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Account.status"
+      "@id": "fhir:Account.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Account.type",

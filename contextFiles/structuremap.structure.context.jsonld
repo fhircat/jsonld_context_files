@@ -22,7 +22,8 @@
       "@context": "canonical.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:StructureMap.structure.mode"
+      "@id": "fhir:StructureMap.structure.mode",
+      "@context": "string.context.jsonld"
     },
     "alias": {
       "@id": "fhir:StructureMap.structure.alias",

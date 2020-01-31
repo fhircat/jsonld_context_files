@@ -66,7 +66,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ActivityDefinition.status"
+      "@id": "fhir:ActivityDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ActivityDefinition.experimental",
@@ -157,7 +158,8 @@
       "@context": "canonical.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:ActivityDefinition.kind"
+      "@id": "fhir:ActivityDefinition.kind",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:ActivityDefinition.profile",
@@ -168,10 +170,12 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:ActivityDefinition.intent"
+      "@id": "fhir:ActivityDefinition.intent",
+      "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:ActivityDefinition.priority"
+      "@id": "fhir:ActivityDefinition.priority",
+      "@context": "string.context.jsonld"
     },
     "doNotPerform": {
       "@id": "fhir:ActivityDefinition.doNotPerform",

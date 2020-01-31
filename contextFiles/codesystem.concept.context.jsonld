@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CodeSystem.concept.code"
+      "@id": "fhir:CodeSystem.concept.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:CodeSystem.concept.display",

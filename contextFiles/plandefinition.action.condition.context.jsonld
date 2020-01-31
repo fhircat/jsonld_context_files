@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:PlanDefinition.action.condition.kind"
+      "@id": "fhir:PlanDefinition.action.condition.kind",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:PlanDefinition.action.condition.expression",

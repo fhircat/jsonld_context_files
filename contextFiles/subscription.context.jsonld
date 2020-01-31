@@ -42,7 +42,8 @@
       "@context": "extension.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Subscription.status"
+      "@id": "fhir:Subscription.status",
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:Subscription.contact",

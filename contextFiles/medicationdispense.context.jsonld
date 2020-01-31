@@ -50,7 +50,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MedicationDispense.status"
+      "@id": "fhir:MedicationDispense.status",
+      "@context": "string.context.jsonld"
     },
     "statusReasonCodeableConcept": {
       "@id": "fhir:MedicationDispense.statusReasonCodeableConcept",

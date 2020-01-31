@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "actuality": {
-      "@id": "fhir:AdverseEvent.actuality"
+      "@id": "fhir:AdverseEvent.actuality",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:AdverseEvent.category",

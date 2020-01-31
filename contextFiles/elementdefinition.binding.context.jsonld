@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "strength": {
-      "@id": "fhir:ElementDefinition.binding.strength"
+      "@id": "fhir:ElementDefinition.binding.strength",
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:ElementDefinition.binding.description",

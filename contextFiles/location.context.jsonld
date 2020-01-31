@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Location.status"
+      "@id": "fhir:Location.status",
+      "@context": "string.context.jsonld"
     },
     "operationalStatus": {
       "@id": "fhir:Location.operationalStatus",
@@ -65,7 +66,8 @@
       "@context": "string.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:Location.mode"
+      "@id": "fhir:Location.mode",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Location.type",

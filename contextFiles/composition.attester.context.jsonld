@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:Composition.attester.mode"
+      "@id": "fhir:Composition.attester.mode",
+      "@context": "string.context.jsonld"
     },
     "time": {
       "@id": "fhir:Composition.attester.time",

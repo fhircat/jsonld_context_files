@@ -22,7 +22,8 @@
       "@context": "boolean.context.jsonld"
     },
     "rules": {
-      "@id": "fhir:ElementDefinition.slicing.rules"
+      "@id": "fhir:ElementDefinition.slicing.rules",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -54,7 +54,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MedicationStatement.status"
+      "@id": "fhir:MedicationStatement.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:MedicationStatement.statusReason",

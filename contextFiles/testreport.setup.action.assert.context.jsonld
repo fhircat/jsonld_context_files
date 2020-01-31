@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "result": {
-      "@id": "fhir:TestReport.setup.action.assert.result"
+      "@id": "fhir:TestReport.setup.action.assert.result",
+      "@context": "string.context.jsonld"
     },
     "message": {
       "@id": "fhir:TestReport.setup.action.assert.message",

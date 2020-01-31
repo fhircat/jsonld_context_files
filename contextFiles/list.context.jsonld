@@ -46,10 +46,12 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:List.status"
+      "@id": "fhir:List.status",
+      "@context": "string.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:List.mode"
+      "@id": "fhir:List.mode",
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:List.title",

@@ -46,14 +46,16 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:EnrollmentResponse.status"
+      "@id": "fhir:EnrollmentResponse.status",
+      "@context": "string.context.jsonld"
     },
     "request": {
       "@id": "fhir:EnrollmentResponse.request",
       "@context": "reference.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:EnrollmentResponse.outcome"
+      "@id": "fhir:EnrollmentResponse.outcome",
+      "@context": "string.context.jsonld"
     },
     "disposition": {
       "@id": "fhir:EnrollmentResponse.disposition",

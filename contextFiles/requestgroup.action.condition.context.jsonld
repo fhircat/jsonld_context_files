@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:RequestGroup.action.condition.kind"
+      "@id": "fhir:RequestGroup.action.condition.kind",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:RequestGroup.action.condition.expression",

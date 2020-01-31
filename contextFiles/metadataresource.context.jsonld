@@ -58,7 +58,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MetadataResource.status"
+      "@id": "fhir:MetadataResource.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:MetadataResource.experimental",

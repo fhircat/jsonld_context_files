@@ -46,14 +46,16 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CoverageEligibilityRequest.status"
+      "@id": "fhir:CoverageEligibilityRequest.status",
+      "@context": "string.context.jsonld"
     },
     "priority": {
       "@id": "fhir:CoverageEligibilityRequest.priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:CoverageEligibilityRequest.purpose"
+      "@id": "fhir:CoverageEligibilityRequest.purpose",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:CoverageEligibilityRequest.patient",

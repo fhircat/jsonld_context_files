@@ -22,7 +22,8 @@
       "@context": "id.context.jsonld"
     },
     "relationship": {
-      "@id": "fhir:RequestGroup.action.relatedAction.relationship"
+      "@id": "fhir:RequestGroup.action.relatedAction.relationship",
+      "@context": "string.context.jsonld"
     },
     "offsetDuration": {
       "@id": "fhir:RequestGroup.action.relatedAction.offsetDuration",

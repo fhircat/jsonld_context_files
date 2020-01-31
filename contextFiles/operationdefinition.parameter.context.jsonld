@@ -18,10 +18,12 @@
       "@context": "extension.context.jsonld"
     },
     "name": {
-      "@id": "fhir:OperationDefinition.parameter.name"
+      "@id": "fhir:OperationDefinition.parameter.name",
+      "@context": "string.context.jsonld"
     },
     "use": {
-      "@id": "fhir:OperationDefinition.parameter.use"
+      "@id": "fhir:OperationDefinition.parameter.use",
+      "@context": "string.context.jsonld"
     },
     "min": {
       "@id": "fhir:OperationDefinition.parameter.min",
@@ -36,14 +38,16 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:OperationDefinition.parameter.type"
+      "@id": "fhir:OperationDefinition.parameter.type",
+      "@context": "string.context.jsonld"
     },
     "targetProfile": {
       "@id": "fhir:OperationDefinition.parameter.targetProfile",
       "@context": "canonical.context.jsonld"
     },
     "searchType": {
-      "@id": "fhir:OperationDefinition.parameter.searchType"
+      "@id": "fhir:OperationDefinition.parameter.searchType",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

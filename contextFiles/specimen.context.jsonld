@@ -50,7 +50,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Specimen.status"
+      "@id": "fhir:Specimen.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Specimen.type",

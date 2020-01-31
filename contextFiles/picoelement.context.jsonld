@@ -66,7 +66,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:EvidenceVariable.status"
+      "@id": "fhir:EvidenceVariable.status",
+      "@context": "string.context.jsonld"
     },
     "date": {
       "@id": "fhir:EvidenceVariable.date",
@@ -137,7 +138,8 @@
       "@context": "relatedartifact.context.jsonld"
     },
     "type": {
-      "@id": "fhir:EvidenceVariable.type"
+      "@id": "fhir:EvidenceVariable.type",
+      "@context": "string.context.jsonld"
     },
     "characteristic": {
       "@id": "fhir:EvidenceVariable.characteristic",

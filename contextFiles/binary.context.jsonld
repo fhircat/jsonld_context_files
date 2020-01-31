@@ -22,7 +22,8 @@
       "@context": "code.context.jsonld"
     },
     "contentType": {
-      "@id": "fhir:Binary.contentType"
+      "@id": "fhir:Binary.contentType",
+      "@context": "string.context.jsonld"
     },
     "securityContext": {
       "@id": "fhir:Binary.securityContext",

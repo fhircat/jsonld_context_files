@@ -18,10 +18,12 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:DeviceMetric.calibration.type"
+      "@id": "fhir:DeviceMetric.calibration.type",
+      "@context": "string.context.jsonld"
     },
     "state": {
-      "@id": "fhir:DeviceMetric.calibration.state"
+      "@id": "fhir:DeviceMetric.calibration.state",
+      "@context": "string.context.jsonld"
     },
     "time": {
       "@id": "fhir:DeviceMetric.calibration.time",

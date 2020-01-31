@@ -66,14 +66,16 @@
       "@context": "canonical.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Questionnaire.status"
+      "@id": "fhir:Questionnaire.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:Questionnaire.experimental",
       "@context": "boolean.context.jsonld"
     },
     "subjectType": {
-      "@id": "fhir:Questionnaire.subjectType"
+      "@id": "fhir:Questionnaire.subjectType",
+      "@context": "string.context.jsonld"
     },
     "date": {
       "@id": "fhir:Questionnaire.date",

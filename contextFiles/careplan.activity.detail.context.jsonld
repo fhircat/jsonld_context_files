@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:CarePlan.activity.detail.kind"
+      "@id": "fhir:CarePlan.activity.detail.kind",
+      "@context": "string.context.jsonld"
     },
     "instantiatesCanonical": {
       "@id": "fhir:CarePlan.activity.detail.instantiatesCanonical",
@@ -45,7 +46,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CarePlan.activity.detail.status"
+      "@id": "fhir:CarePlan.activity.detail.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:CarePlan.activity.detail.statusReason",

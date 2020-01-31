@@ -46,14 +46,16 @@
       "@context": "identifier.context.jsonld"
     },
     "productCategory": {
-      "@id": "fhir:BiologicallyDerivedProduct.productCategory"
+      "@id": "fhir:BiologicallyDerivedProduct.productCategory",
+      "@context": "string.context.jsonld"
     },
     "productCode": {
       "@id": "fhir:BiologicallyDerivedProduct.productCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:BiologicallyDerivedProduct.status"
+      "@id": "fhir:BiologicallyDerivedProduct.status",
+      "@context": "string.context.jsonld"
     },
     "request": {
       "@id": "fhir:BiologicallyDerivedProduct.request",

@@ -22,7 +22,8 @@
       "@context": "id.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Expression.language"
+      "@id": "fhir:Expression.language",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:Expression.expression",

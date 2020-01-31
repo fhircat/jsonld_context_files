@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Invoice.lineItem.priceComponent.type"
+      "@id": "fhir:Invoice.lineItem.priceComponent.type",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:Invoice.lineItem.priceComponent.code",

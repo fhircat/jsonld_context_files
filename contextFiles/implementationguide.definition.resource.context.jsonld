@@ -22,7 +22,8 @@
       "@context": "reference.context.jsonld"
     },
     "fhirVersion": {
-      "@id": "fhir:ImplementationGuide.definition.resource.fhirVersion"
+      "@id": "fhir:ImplementationGuide.definition.resource.fhirVersion",
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ImplementationGuide.definition.resource.name",

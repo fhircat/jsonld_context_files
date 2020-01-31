@@ -46,14 +46,16 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:SupplyRequest.status"
+      "@id": "fhir:SupplyRequest.status",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:SupplyRequest.category",
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:SupplyRequest.priority"
+      "@id": "fhir:SupplyRequest.priority",
+      "@context": "string.context.jsonld"
     },
     "itemCodeableConcept": {
       "@id": "fhir:SupplyRequest.itemCodeableConcept",

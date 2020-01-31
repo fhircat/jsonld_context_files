@@ -58,10 +58,12 @@
       "@context": "uri.context.jsonld"
     },
     "status": {
-      "@id": "fhir:NutritionOrder.status"
+      "@id": "fhir:NutritionOrder.status",
+      "@context": "string.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:NutritionOrder.intent"
+      "@id": "fhir:NutritionOrder.intent",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:NutritionOrder.patient",

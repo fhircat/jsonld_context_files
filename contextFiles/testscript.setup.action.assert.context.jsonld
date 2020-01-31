@@ -26,7 +26,8 @@
       "@context": "string.context.jsonld"
     },
     "direction": {
-      "@id": "fhir:TestScript.setup.action.assert.direction"
+      "@id": "fhir:TestScript.setup.action.assert.direction",
+      "@context": "string.context.jsonld"
     },
     "compareToSourceId": {
       "@id": "fhir:TestScript.setup.action.assert.compareToSourceId",
@@ -41,7 +42,8 @@
       "@context": "string.context.jsonld"
     },
     "contentType": {
-      "@id": "fhir:TestScript.setup.action.assert.contentType"
+      "@id": "fhir:TestScript.setup.action.assert.contentType",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:TestScript.setup.action.assert.expression",
@@ -60,24 +62,28 @@
       "@context": "boolean.context.jsonld"
     },
     "operator": {
-      "@id": "fhir:TestScript.setup.action.assert.operator"
+      "@id": "fhir:TestScript.setup.action.assert.operator",
+      "@context": "string.context.jsonld"
     },
     "path": {
       "@id": "fhir:TestScript.setup.action.assert.path",
       "@context": "string.context.jsonld"
     },
     "requestMethod": {
-      "@id": "fhir:TestScript.setup.action.assert.requestMethod"
+      "@id": "fhir:TestScript.setup.action.assert.requestMethod",
+      "@context": "string.context.jsonld"
     },
     "requestURL": {
       "@id": "fhir:TestScript.setup.action.assert.requestURL",
       "@context": "string.context.jsonld"
     },
     "resource": {
-      "@id": "fhir:TestScript.setup.action.assert.resource"
+      "@id": "fhir:TestScript.setup.action.assert.resource",
+      "@context": "string.context.jsonld"
     },
     "response": {
-      "@id": "fhir:TestScript.setup.action.assert.response"
+      "@id": "fhir:TestScript.setup.action.assert.response",
+      "@context": "string.context.jsonld"
     },
     "responseCode": {
       "@id": "fhir:TestScript.setup.action.assert.responseCode",

@@ -54,7 +54,8 @@
       "@context": "canonical.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ChargeItem.status"
+      "@id": "fhir:ChargeItem.status",
+      "@context": "string.context.jsonld"
     },
     "partOf": {
       "@id": "fhir:ChargeItem.partOf",

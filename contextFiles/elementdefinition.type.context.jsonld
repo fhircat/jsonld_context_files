@@ -26,10 +26,12 @@
       "@context": "canonical.context.jsonld"
     },
     "aggregation": {
-      "@id": "fhir:ElementDefinition.type.aggregation"
+      "@id": "fhir:ElementDefinition.type.aggregation",
+      "@context": "string.context.jsonld"
     },
     "versioning": {
-      "@id": "fhir:ElementDefinition.type.versioning"
+      "@id": "fhir:ElementDefinition.type.versioning",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

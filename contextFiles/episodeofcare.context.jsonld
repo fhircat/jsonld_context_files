@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:EpisodeOfCare.status"
+      "@id": "fhir:EpisodeOfCare.status",
+      "@context": "string.context.jsonld"
     },
     "statusHistory": {
       "@id": "fhir:EpisodeOfCare.statusHistory",

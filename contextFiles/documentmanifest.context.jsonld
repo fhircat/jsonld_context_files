@@ -50,7 +50,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:DocumentManifest.status"
+      "@id": "fhir:DocumentManifest.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:DocumentManifest.type",

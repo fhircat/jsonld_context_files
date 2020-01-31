@@ -22,7 +22,8 @@
       "@context": "id.context.jsonld"
     },
     "relationship": {
-      "@id": "fhir:PlanDefinition.action.relatedAction.relationship"
+      "@id": "fhir:PlanDefinition.action.relatedAction.relationship",
+      "@context": "string.context.jsonld"
     },
     "offsetDuration": {
       "@id": "fhir:PlanDefinition.action.relatedAction.offsetDuration",

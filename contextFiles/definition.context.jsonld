@@ -38,7 +38,8 @@
       "@context": "canonical.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Definition.status"
+      "@id": "fhir:Definition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:Definition.experimental",

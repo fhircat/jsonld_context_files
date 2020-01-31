@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "severity": {
-      "@id": "fhir:ElementDefinition.constraint.severity"
+      "@id": "fhir:ElementDefinition.constraint.severity",
+      "@context": "string.context.jsonld"
     },
     "human": {
       "@id": "fhir:ElementDefinition.constraint.human",

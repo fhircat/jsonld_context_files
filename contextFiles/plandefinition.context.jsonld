@@ -70,7 +70,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:PlanDefinition.status"
+      "@id": "fhir:PlanDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:PlanDefinition.experimental",

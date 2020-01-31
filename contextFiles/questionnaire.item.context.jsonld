@@ -38,10 +38,12 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Questionnaire.item.type"
+      "@id": "fhir:Questionnaire.item.type",
+      "@context": "string.context.jsonld"
     },
     "enableBehavior": {
-      "@id": "fhir:Questionnaire.item.enableBehavior"
+      "@id": "fhir:Questionnaire.item.enableBehavior",
+      "@context": "string.context.jsonld"
     },
     "required": {
       "@id": "fhir:Questionnaire.item.required",

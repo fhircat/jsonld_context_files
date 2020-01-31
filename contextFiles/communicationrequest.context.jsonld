@@ -58,7 +58,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CommunicationRequest.status"
+      "@id": "fhir:CommunicationRequest.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:CommunicationRequest.statusReason",
@@ -69,7 +70,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:CommunicationRequest.priority"
+      "@id": "fhir:CommunicationRequest.priority",
+      "@context": "string.context.jsonld"
     },
     "doNotPerform": {
       "@id": "fhir:CommunicationRequest.doNotPerform",

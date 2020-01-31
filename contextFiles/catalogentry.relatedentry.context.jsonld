@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "relationtype": {
-      "@id": "fhir:CatalogEntry.relatedEntry.relationtype"
+      "@id": "fhir:CatalogEntry.relatedEntry.relationtype",
+      "@context": "string.context.jsonld"
     },
     "item": {
       "@id": "fhir:CatalogEntry.relatedEntry.item",

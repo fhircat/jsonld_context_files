@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "name": {
-      "@id": "fhir:TerminologyCapabilities.expansion.parameter.name"
+      "@id": "fhir:TerminologyCapabilities.expansion.parameter.name",
+      "@context": "string.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:TerminologyCapabilities.expansion.parameter.documentation",

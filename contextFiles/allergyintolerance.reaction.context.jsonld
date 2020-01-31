@@ -34,7 +34,8 @@
       "@context": "datetime.context.jsonld"
     },
     "severity": {
-      "@id": "fhir:AllergyIntolerance.reaction.severity"
+      "@id": "fhir:AllergyIntolerance.reaction.severity",
+      "@context": "string.context.jsonld"
     },
     "exposureRoute": {
       "@id": "fhir:AllergyIntolerance.reaction.exposureRoute",

@@ -238,7 +238,8 @@
       "@context": "string.context.jsonld"
     },
     "listMode": {
-      "@id": "fhir:StructureMap.group.rule.source.listMode"
+      "@id": "fhir:StructureMap.group.rule.source.listMode",
+      "@context": "string.context.jsonld"
     },
     "variable": {
       "@id": "fhir:StructureMap.group.rule.source.variable",

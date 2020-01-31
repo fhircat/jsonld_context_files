@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "daysOfWeek": {
-      "@id": "fhir:PractitionerRole.availableTime.daysOfWeek"
+      "@id": "fhir:PractitionerRole.availableTime.daysOfWeek",
+      "@context": "string.context.jsonld"
     },
     "allDay": {
       "@id": "fhir:PractitionerRole.availableTime.allDay",

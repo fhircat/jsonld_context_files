@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:RelatedArtifact.type"
+      "@id": "fhir:RelatedArtifact.type",
+      "@context": "string.context.jsonld"
     },
     "label": {
       "@id": "fhir:RelatedArtifact.label",

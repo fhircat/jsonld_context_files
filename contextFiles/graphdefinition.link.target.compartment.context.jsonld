@@ -18,13 +18,16 @@
       "@context": "extension.context.jsonld"
     },
     "use": {
-      "@id": "fhir:GraphDefinition.link.target.compartment.use"
+      "@id": "fhir:GraphDefinition.link.target.compartment.use",
+      "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:GraphDefinition.link.target.compartment.code"
+      "@id": "fhir:GraphDefinition.link.target.compartment.code",
+      "@context": "string.context.jsonld"
     },
     "rule": {
-      "@id": "fhir:GraphDefinition.link.target.compartment.rule"
+      "@id": "fhir:GraphDefinition.link.target.compartment.rule",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:GraphDefinition.link.target.compartment.expression",

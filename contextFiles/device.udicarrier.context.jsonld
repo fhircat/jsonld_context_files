@@ -38,7 +38,8 @@
       "@context": "string.context.jsonld"
     },
     "entryType": {
-      "@id": "fhir:Device.udiCarrier.entryType"
+      "@id": "fhir:Device.udiCarrier.entryType",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

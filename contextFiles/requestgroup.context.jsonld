@@ -66,13 +66,16 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:RequestGroup.status"
+      "@id": "fhir:RequestGroup.status",
+      "@context": "string.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:RequestGroup.intent"
+      "@id": "fhir:RequestGroup.intent",
+      "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:RequestGroup.priority"
+      "@id": "fhir:RequestGroup.priority",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:RequestGroup.code",

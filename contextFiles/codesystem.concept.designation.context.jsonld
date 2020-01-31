@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "language": {
-      "@id": "fhir:CodeSystem.concept.designation.language"
+      "@id": "fhir:CodeSystem.concept.designation.language",
+      "@context": "string.context.jsonld"
     },
     "use": {
       "@id": "fhir:CodeSystem.concept.designation.use",

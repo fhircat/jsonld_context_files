@@ -18,10 +18,12 @@
       "@context": "extension.context.jsonld"
     },
     "severity": {
-      "@id": "fhir:OperationOutcome.issue.severity"
+      "@id": "fhir:OperationOutcome.issue.severity",
+      "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:OperationOutcome.issue.code"
+      "@id": "fhir:OperationOutcome.issue.code",
+      "@context": "string.context.jsonld"
     },
     "details": {
       "@id": "fhir:OperationOutcome.issue.details",

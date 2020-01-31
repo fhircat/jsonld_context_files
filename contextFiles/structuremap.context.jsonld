@@ -62,7 +62,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:StructureMap.status"
+      "@id": "fhir:StructureMap.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:StructureMap.experimental",

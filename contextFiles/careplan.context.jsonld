@@ -66,10 +66,12 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CarePlan.status"
+      "@id": "fhir:CarePlan.status",
+      "@context": "string.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:CarePlan.intent"
+      "@id": "fhir:CarePlan.intent",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:CarePlan.category",

@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Endpoint.status"
+      "@id": "fhir:Endpoint.status",
+      "@context": "string.context.jsonld"
     },
     "connectionType": {
       "@id": "fhir:Endpoint.connectionType",
@@ -73,7 +74,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "payloadMimeType": {
-      "@id": "fhir:Endpoint.payloadMimeType"
+      "@id": "fhir:Endpoint.payloadMimeType",
+      "@context": "string.context.jsonld"
     },
     "address": {
       "@id": "fhir:Endpoint.address",

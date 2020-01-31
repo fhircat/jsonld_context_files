@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "role": {
-      "@id": "fhir:Provenance.entity.role"
+      "@id": "fhir:Provenance.entity.role",
+      "@context": "string.context.jsonld"
     },
     "what": {
       "@id": "fhir:Provenance.entity.what",

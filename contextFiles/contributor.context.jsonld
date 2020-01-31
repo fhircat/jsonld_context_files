@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Contributor.type"
+      "@id": "fhir:Contributor.type",
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:Contributor.name",

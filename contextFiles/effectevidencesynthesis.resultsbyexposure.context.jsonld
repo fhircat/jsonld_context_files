@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "exposureState": {
-      "@id": "fhir:EffectEvidenceSynthesis.resultsByExposure.exposureState"
+      "@id": "fhir:EffectEvidenceSynthesis.resultsByExposure.exposureState",
+      "@context": "string.context.jsonld"
     },
     "variantState": {
       "@id": "fhir:EffectEvidenceSynthesis.resultsByExposure.variantState",

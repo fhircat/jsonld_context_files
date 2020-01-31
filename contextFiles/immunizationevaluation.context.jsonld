@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ImmunizationEvaluation.status"
+      "@id": "fhir:ImmunizationEvaluation.status",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:ImmunizationEvaluation.patient",

@@ -42,7 +42,8 @@
       "@context": "decimal.context.jsonld"
     },
     "durationUnit": {
-      "@id": "fhir:Timing.repeat.durationUnit"
+      "@id": "fhir:Timing.repeat.durationUnit",
+      "@context": "string.context.jsonld"
     },
     "frequency": {
       "@id": "fhir:Timing.repeat.frequency",
@@ -61,17 +62,20 @@
       "@context": "decimal.context.jsonld"
     },
     "periodUnit": {
-      "@id": "fhir:Timing.repeat.periodUnit"
+      "@id": "fhir:Timing.repeat.periodUnit",
+      "@context": "string.context.jsonld"
     },
     "dayOfWeek": {
-      "@id": "fhir:Timing.repeat.dayOfWeek"
+      "@id": "fhir:Timing.repeat.dayOfWeek",
+      "@context": "string.context.jsonld"
     },
     "timeOfDay": {
       "@id": "fhir:Timing.repeat.timeOfDay",
       "@context": "time.context.jsonld"
     },
     "when": {
-      "@id": "fhir:Timing.repeat.when"
+      "@id": "fhir:Timing.repeat.when",
+      "@context": "string.context.jsonld"
     },
     "offset": {
       "@id": "fhir:Timing.repeat.offset",

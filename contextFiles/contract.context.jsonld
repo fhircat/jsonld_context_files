@@ -54,7 +54,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Contract.status"
+      "@id": "fhir:Contract.status",
+      "@context": "string.context.jsonld"
     },
     "legalState": {
       "@id": "fhir:Contract.legalState",

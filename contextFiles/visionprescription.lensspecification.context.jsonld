@@ -22,7 +22,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "eye": {
-      "@id": "fhir:VisionPrescription.lensSpecification.eye"
+      "@id": "fhir:VisionPrescription.lensSpecification.eye",
+      "@context": "string.context.jsonld"
     },
     "sphere": {
       "@id": "fhir:VisionPrescription.lensSpecification.sphere",

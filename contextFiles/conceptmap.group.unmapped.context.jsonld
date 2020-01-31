@@ -18,10 +18,12 @@
       "@context": "extension.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:ConceptMap.group.unmapped.mode"
+      "@id": "fhir:ConceptMap.group.unmapped.mode",
+      "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ConceptMap.group.unmapped.code"
+      "@id": "fhir:ConceptMap.group.unmapped.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:ConceptMap.group.unmapped.display",

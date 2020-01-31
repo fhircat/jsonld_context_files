@@ -54,7 +54,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:GraphDefinition.status"
+      "@id": "fhir:GraphDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:GraphDefinition.experimental",
@@ -89,7 +90,8 @@
       "@context": "markdown.context.jsonld"
     },
     "start": {
-      "@id": "fhir:GraphDefinition.start"
+      "@id": "fhir:GraphDefinition.start",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:GraphDefinition.profile",

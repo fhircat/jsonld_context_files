@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MolecularSequence.type"
+      "@id": "fhir:MolecularSequence.type",
+      "@context": "string.context.jsonld"
     },
     "coordinateSystem": {
       "@id": "fhir:MolecularSequence.coordinateSystem",

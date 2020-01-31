@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Invoice.status"
+      "@id": "fhir:Invoice.status",
+      "@context": "string.context.jsonld"
     },
     "cancelledReason": {
       "@id": "fhir:Invoice.cancelledReason",

@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "operator": {
-      "@id": "fhir:Questionnaire.item.enableWhen.operator"
+      "@id": "fhir:Questionnaire.item.enableWhen.operator",
+      "@context": "string.context.jsonld"
     },
     "answerBoolean": {
       "@id": "fhir:Questionnaire.item.enableWhen.answerBoolean",

@@ -62,7 +62,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Procedure.status"
+      "@id": "fhir:Procedure.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:Procedure.statusReason",

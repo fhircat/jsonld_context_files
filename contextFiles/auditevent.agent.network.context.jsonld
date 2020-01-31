@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:AuditEvent.agent.network.type"
+      "@id": "fhir:AuditEvent.agent.network.type",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

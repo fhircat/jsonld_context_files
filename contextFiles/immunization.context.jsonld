@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Immunization.status"
+      "@id": "fhir:Immunization.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:Immunization.statusReason",

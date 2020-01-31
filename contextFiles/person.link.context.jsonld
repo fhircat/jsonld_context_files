@@ -22,7 +22,8 @@
       "@context": "reference.context.jsonld"
     },
     "assurance": {
-      "@id": "fhir:Person.link.assurance"
+      "@id": "fhir:Person.link.assurance",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

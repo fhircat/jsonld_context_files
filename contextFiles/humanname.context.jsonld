@@ -14,7 +14,8 @@
       "@context": "extension.context.jsonld"
     },
     "use": {
-      "@id": "fhir:HumanName.use"
+      "@id": "fhir:HumanName.use",
+      "@context": "string.context.jsonld"
     },
     "text": {
       "@id": "fhir:HumanName.text",

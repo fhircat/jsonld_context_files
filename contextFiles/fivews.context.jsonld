@@ -14,7 +14,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:FiveWs.status"
+      "@id": "fhir:FiveWs.status",
+      "@context": "string.context.jsonld"
     },
     "class": {
       "@id": "fhir:FiveWs.class",

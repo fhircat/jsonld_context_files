@@ -22,7 +22,8 @@
       "@context": "string.context.jsonld"
     },
     "resourceType": {
-      "@id": "fhir:ExampleScenario.instance.resourceType"
+      "@id": "fhir:ExampleScenario.instance.resourceType",
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ExampleScenario.instance.name",

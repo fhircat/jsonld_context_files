@@ -34,7 +34,8 @@
       "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ValueSet.expansion.contains.code"
+      "@id": "fhir:ValueSet.expansion.contains.code",
+      "@context": "string.context.jsonld"
     },
     "display": {
       "@id": "fhir:ValueSet.expansion.contains.display",

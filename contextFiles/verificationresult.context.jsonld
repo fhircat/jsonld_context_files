@@ -54,7 +54,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:VerificationResult.status"
+      "@id": "fhir:VerificationResult.status",
+      "@context": "string.context.jsonld"
     },
     "statusDate": {
       "@id": "fhir:VerificationResult.statusDate",

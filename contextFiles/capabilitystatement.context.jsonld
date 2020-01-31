@@ -58,7 +58,8 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CapabilityStatement.status"
+      "@id": "fhir:CapabilityStatement.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:CapabilityStatement.experimental",
@@ -97,7 +98,8 @@
       "@context": "markdown.context.jsonld"
     },
     "kind": {
-      "@id": "fhir:CapabilityStatement.kind"
+      "@id": "fhir:CapabilityStatement.kind",
+      "@context": "string.context.jsonld"
     },
     "instantiates": {
       "@id": "fhir:CapabilityStatement.instantiates",
@@ -116,13 +118,16 @@
       "@context": "capabilitystatement.implementation.context.jsonld"
     },
     "fhirVersion": {
-      "@id": "fhir:CapabilityStatement.fhirVersion"
+      "@id": "fhir:CapabilityStatement.fhirVersion",
+      "@context": "string.context.jsonld"
     },
     "format": {
-      "@id": "fhir:CapabilityStatement.format"
+      "@id": "fhir:CapabilityStatement.format",
+      "@context": "string.context.jsonld"
     },
     "patchFormat": {
-      "@id": "fhir:CapabilityStatement.patchFormat"
+      "@id": "fhir:CapabilityStatement.patchFormat",
+      "@context": "string.context.jsonld"
     },
     "implementationGuide": {
       "@id": "fhir:CapabilityStatement.implementationGuide",

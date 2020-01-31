@@ -50,7 +50,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:DiagnosticReport.status"
+      "@id": "fhir:DiagnosticReport.status",
+      "@context": "string.context.jsonld"
     },
     "category": {
       "@id": "fhir:DiagnosticReport.category",

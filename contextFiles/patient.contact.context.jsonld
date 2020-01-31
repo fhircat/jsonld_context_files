@@ -34,7 +34,8 @@
       "@context": "address.context.jsonld"
     },
     "gender": {
-      "@id": "fhir:Patient.contact.gender"
+      "@id": "fhir:Patient.contact.gender",
+      "@context": "string.context.jsonld"
     },
     "organization": {
       "@id": "fhir:Patient.contact.organization",

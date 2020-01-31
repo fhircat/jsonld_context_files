@@ -66,7 +66,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:CatalogEntry.status"
+      "@id": "fhir:CatalogEntry.status",
+      "@context": "string.context.jsonld"
     },
     "validityPeriod": {
       "@id": "fhir:CatalogEntry.validityPeriod",

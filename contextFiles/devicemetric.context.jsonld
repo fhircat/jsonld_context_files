@@ -62,13 +62,16 @@
       "@context": "reference.context.jsonld"
     },
     "operationalStatus": {
-      "@id": "fhir:DeviceMetric.operationalStatus"
+      "@id": "fhir:DeviceMetric.operationalStatus",
+      "@context": "string.context.jsonld"
     },
     "color": {
-      "@id": "fhir:DeviceMetric.color"
+      "@id": "fhir:DeviceMetric.color",
+      "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:DeviceMetric.category"
+      "@id": "fhir:DeviceMetric.category",
+      "@context": "string.context.jsonld"
     },
     "measurementPeriod": {
       "@id": "fhir:DeviceMetric.measurementPeriod",

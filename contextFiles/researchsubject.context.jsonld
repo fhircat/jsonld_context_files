@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ResearchSubject.status"
+      "@id": "fhir:ResearchSubject.status",
+      "@context": "string.context.jsonld"
     },
     "period": {
       "@id": "fhir:ResearchSubject.period",

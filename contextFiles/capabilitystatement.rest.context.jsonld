@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:CapabilityStatement.rest.mode"
+      "@id": "fhir:CapabilityStatement.rest.mode",
+      "@context": "string.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:CapabilityStatement.rest.documentation",

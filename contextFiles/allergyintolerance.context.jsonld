@@ -54,13 +54,16 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "type": {
-      "@id": "fhir:AllergyIntolerance.type"
+      "@id": "fhir:AllergyIntolerance.type",
+      "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:AllergyIntolerance.category"
+      "@id": "fhir:AllergyIntolerance.category",
+      "@context": "string.context.jsonld"
     },
     "criticality": {
-      "@id": "fhir:AllergyIntolerance.criticality"
+      "@id": "fhir:AllergyIntolerance.criticality",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:AllergyIntolerance.code",

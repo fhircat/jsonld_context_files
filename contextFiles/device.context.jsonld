@@ -54,7 +54,8 @@
       "@context": "device.udicarrier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Device.status"
+      "@id": "fhir:Device.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:Device.statusReason",

@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ImplementationGuide.global.type"
+      "@id": "fhir:ImplementationGuide.global.type",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:ImplementationGuide.global.profile",

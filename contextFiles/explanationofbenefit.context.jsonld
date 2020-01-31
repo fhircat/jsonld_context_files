@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ExplanationOfBenefit.status"
+      "@id": "fhir:ExplanationOfBenefit.status",
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:ExplanationOfBenefit.type",
@@ -57,7 +58,8 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "use": {
-      "@id": "fhir:ExplanationOfBenefit.use"
+      "@id": "fhir:ExplanationOfBenefit.use",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:ExplanationOfBenefit.patient",
@@ -128,7 +130,8 @@
       "@context": "reference.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:ExplanationOfBenefit.outcome"
+      "@id": "fhir:ExplanationOfBenefit.outcome",
+      "@context": "string.context.jsonld"
     },
     "disposition": {
       "@id": "fhir:ExplanationOfBenefit.disposition",

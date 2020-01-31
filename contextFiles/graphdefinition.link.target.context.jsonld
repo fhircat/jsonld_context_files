@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:GraphDefinition.link.target.type"
+      "@id": "fhir:GraphDefinition.link.target.type",
+      "@context": "string.context.jsonld"
     },
     "params": {
       "@id": "fhir:GraphDefinition.link.target.params",

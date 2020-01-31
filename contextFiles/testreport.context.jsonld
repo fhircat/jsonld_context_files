@@ -50,14 +50,16 @@
       "@context": "string.context.jsonld"
     },
     "status": {
-      "@id": "fhir:TestReport.status"
+      "@id": "fhir:TestReport.status",
+      "@context": "string.context.jsonld"
     },
     "testScript": {
       "@id": "fhir:TestReport.testScript",
       "@context": "reference.context.jsonld"
     },
     "result": {
-      "@id": "fhir:TestReport.result"
+      "@id": "fhir:TestReport.result",
+      "@context": "string.context.jsonld"
     },
     "score": {
       "@id": "fhir:TestReport.score",

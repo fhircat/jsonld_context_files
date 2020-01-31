@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "strength": {
-      "@id": "fhir:OperationDefinition.parameter.binding.strength"
+      "@id": "fhir:OperationDefinition.parameter.binding.strength",
+      "@context": "string.context.jsonld"
     },
     "valueSet": {
       "@id": "fhir:OperationDefinition.parameter.binding.valueSet",

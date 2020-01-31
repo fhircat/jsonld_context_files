@@ -18,7 +18,8 @@
       "@context": "string.context.jsonld"
     },
     "direction": {
-      "@id": "fhir:DataRequirement.sort.direction"
+      "@id": "fhir:DataRequirement.sort.direction",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

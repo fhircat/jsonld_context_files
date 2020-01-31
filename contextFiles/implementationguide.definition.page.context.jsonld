@@ -30,7 +30,8 @@
       "@context": "string.context.jsonld"
     },
     "generation": {
-      "@id": "fhir:ImplementationGuide.definition.page.generation"
+      "@id": "fhir:ImplementationGuide.definition.page.generation",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

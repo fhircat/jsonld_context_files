@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:PaymentNotice.status"
+      "@id": "fhir:PaymentNotice.status",
+      "@context": "string.context.jsonld"
     },
     "request": {
       "@id": "fhir:PaymentNotice.request",

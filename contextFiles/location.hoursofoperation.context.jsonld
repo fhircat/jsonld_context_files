@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "daysOfWeek": {
-      "@id": "fhir:Location.hoursOfOperation.daysOfWeek"
+      "@id": "fhir:Location.hoursOfOperation.daysOfWeek",
+      "@context": "string.context.jsonld"
     },
     "allDay": {
       "@id": "fhir:Location.hoursOfOperation.allDay",

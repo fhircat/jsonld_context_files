@@ -54,7 +54,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:SupplyDelivery.status"
+      "@id": "fhir:SupplyDelivery.status",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:SupplyDelivery.patient",

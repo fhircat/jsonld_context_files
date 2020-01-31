@@ -62,7 +62,8 @@
       "@context": "uri.context.jsonld"
     },
     "status": {
-      "@id": "fhir:FamilyMemberHistory.status"
+      "@id": "fhir:FamilyMemberHistory.status",
+      "@context": "string.context.jsonld"
     },
     "dataAbsentReason": {
       "@id": "fhir:FamilyMemberHistory.dataAbsentReason",

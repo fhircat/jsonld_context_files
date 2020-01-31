@@ -50,7 +50,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:DeviceUseStatement.status"
+      "@id": "fhir:DeviceUseStatement.status",
+      "@context": "string.context.jsonld"
     },
     "subject": {
       "@id": "fhir:DeviceUseStatement.subject",

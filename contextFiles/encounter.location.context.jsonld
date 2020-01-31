@@ -22,7 +22,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Encounter.location.status"
+      "@id": "fhir:Encounter.location.status",
+      "@context": "string.context.jsonld"
     },
     "physicalType": {
       "@id": "fhir:Encounter.location.physicalType",

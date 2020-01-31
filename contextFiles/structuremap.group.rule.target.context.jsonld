@@ -22,7 +22,8 @@
       "@context": "id.context.jsonld"
     },
     "contextType": {
-      "@id": "fhir:StructureMap.group.rule.target.contextType"
+      "@id": "fhir:StructureMap.group.rule.target.contextType",
+      "@context": "string.context.jsonld"
     },
     "element": {
       "@id": "fhir:StructureMap.group.rule.target.element",
@@ -33,14 +34,16 @@
       "@context": "id.context.jsonld"
     },
     "listMode": {
-      "@id": "fhir:StructureMap.group.rule.target.listMode"
+      "@id": "fhir:StructureMap.group.rule.target.listMode",
+      "@context": "string.context.jsonld"
     },
     "listRuleId": {
       "@id": "fhir:StructureMap.group.rule.target.listRuleId",
       "@context": "id.context.jsonld"
     },
     "transform": {
-      "@id": "fhir:StructureMap.group.rule.target.transform"
+      "@id": "fhir:StructureMap.group.rule.target.transform",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

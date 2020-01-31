@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Consent.provision.type"
+      "@id": "fhir:Consent.provision.type",
+      "@context": "string.context.jsonld"
     },
     "period": {
       "@id": "fhir:Consent.provision.period",

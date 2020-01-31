@@ -30,10 +30,12 @@
       "@context": "boolean.context.jsonld"
     },
     "language": {
-      "@id": "fhir:TerminologyCapabilities.codeSystem.version.language"
+      "@id": "fhir:TerminologyCapabilities.codeSystem.version.language",
+      "@context": "string.context.jsonld"
     },
     "property": {
-      "@id": "fhir:TerminologyCapabilities.codeSystem.version.property"
+      "@id": "fhir:TerminologyCapabilities.codeSystem.version.property",
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

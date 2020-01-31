@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:TestReport.participant.type"
+      "@id": "fhir:TestReport.participant.type",
+      "@context": "string.context.jsonld"
     },
     "uri": {
       "@id": "fhir:TestReport.participant.uri",

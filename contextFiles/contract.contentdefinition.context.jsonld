@@ -34,7 +34,8 @@
       "@context": "datetime.context.jsonld"
     },
     "publicationStatus": {
-      "@id": "fhir:Contract.contentDefinition.publicationStatus"
+      "@id": "fhir:Contract.contentDefinition.publicationStatus",
+      "@context": "string.context.jsonld"
     },
     "copyright": {
       "@id": "fhir:Contract.contentDefinition.copyright",

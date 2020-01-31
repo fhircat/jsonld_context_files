@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:CapabilityStatement.messaging.supportedMessage.mode"
+      "@id": "fhir:CapabilityStatement.messaging.supportedMessage.mode",
+      "@context": "string.context.jsonld"
     },
     "definition": {
       "@id": "fhir:CapabilityStatement.messaging.supportedMessage.definition",

@@ -62,7 +62,8 @@
       "@context": "address.context.jsonld"
     },
     "gender": {
-      "@id": "fhir:Practitioner.gender"
+      "@id": "fhir:Practitioner.gender",
+      "@context": "string.context.jsonld"
     },
     "birthDate": {
       "@id": "fhir:Practitioner.birthDate",

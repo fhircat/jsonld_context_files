@@ -18,7 +18,8 @@
       "@context": "id.context.jsonld"
     },
     "language": {
-      "@id": "fhir:ElementDefinition.mapping.language"
+      "@id": "fhir:ElementDefinition.mapping.language",
+      "@context": "string.context.jsonld"
     },
     "map": {
       "@id": "fhir:ElementDefinition.mapping.map",

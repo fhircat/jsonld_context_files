@@ -14,10 +14,12 @@
       "@context": "extension.context.jsonld"
     },
     "name": {
-      "@id": "fhir:ParameterDefinition.name"
+      "@id": "fhir:ParameterDefinition.name",
+      "@context": "string.context.jsonld"
     },
     "use": {
-      "@id": "fhir:ParameterDefinition.use"
+      "@id": "fhir:ParameterDefinition.use",
+      "@context": "string.context.jsonld"
     },
     "min": {
       "@id": "fhir:ParameterDefinition.min",
@@ -32,7 +34,8 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ParameterDefinition.type"
+      "@id": "fhir:ParameterDefinition.type",
+      "@context": "string.context.jsonld"
     },
     "profile": {
       "@id": "fhir:ParameterDefinition.profile",

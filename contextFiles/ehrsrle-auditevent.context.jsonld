@@ -46,7 +46,8 @@
       "@context": "coding.context.jsonld"
     },
     "action": {
-      "@id": "fhir:AuditEvent.action"
+      "@id": "fhir:AuditEvent.action",
+      "@context": "string.context.jsonld"
     },
     "period": {
       "@id": "fhir:AuditEvent.period",
@@ -57,7 +58,8 @@
       "@context": "instant.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:AuditEvent.outcome"
+      "@id": "fhir:AuditEvent.outcome",
+      "@context": "string.context.jsonld"
     },
     "outcomeDesc": {
       "@id": "fhir:AuditEvent.outcomeDesc",

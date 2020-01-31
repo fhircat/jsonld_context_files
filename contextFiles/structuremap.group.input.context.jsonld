@@ -26,7 +26,8 @@
       "@context": "string.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:StructureMap.group.input.mode"
+      "@id": "fhir:StructureMap.group.input.mode",
+      "@context": "string.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:StructureMap.group.input.documentation",

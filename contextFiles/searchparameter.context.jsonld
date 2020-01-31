@@ -58,7 +58,8 @@
       "@context": "canonical.context.jsonld"
     },
     "status": {
-      "@id": "fhir:SearchParameter.status"
+      "@id": "fhir:SearchParameter.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:SearchParameter.experimental",
@@ -93,13 +94,16 @@
       "@context": "markdown.context.jsonld"
     },
     "code": {
-      "@id": "fhir:SearchParameter.code"
+      "@id": "fhir:SearchParameter.code",
+      "@context": "string.context.jsonld"
     },
     "base": {
-      "@id": "fhir:SearchParameter.base"
+      "@id": "fhir:SearchParameter.base",
+      "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:SearchParameter.type"
+      "@id": "fhir:SearchParameter.type",
+      "@context": "string.context.jsonld"
     },
     "expression": {
       "@id": "fhir:SearchParameter.expression",
@@ -110,10 +114,12 @@
       "@context": "string.context.jsonld"
     },
     "xpathUsage": {
-      "@id": "fhir:SearchParameter.xpathUsage"
+      "@id": "fhir:SearchParameter.xpathUsage",
+      "@context": "string.context.jsonld"
     },
     "target": {
-      "@id": "fhir:SearchParameter.target"
+      "@id": "fhir:SearchParameter.target",
+      "@context": "string.context.jsonld"
     },
     "multipleOr": {
       "@id": "fhir:SearchParameter.multipleOr",
@@ -124,10 +130,12 @@
       "@context": "boolean.context.jsonld"
     },
     "comparator": {
-      "@id": "fhir:SearchParameter.comparator"
+      "@id": "fhir:SearchParameter.comparator",
+      "@context": "string.context.jsonld"
     },
     "modifier": {
-      "@id": "fhir:SearchParameter.modifier"
+      "@id": "fhir:SearchParameter.modifier",
+      "@context": "string.context.jsonld"
     },
     "chain": {
       "@id": "fhir:SearchParameter.chain",

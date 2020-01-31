@@ -18,7 +18,8 @@
       "@context": "extension.context.jsonld"
     },
     "mode": {
-      "@id": "fhir:Bundle.entry.search.mode"
+      "@id": "fhir:Bundle.entry.search.mode",
+      "@context": "string.context.jsonld"
     },
     "score": {
       "@id": "fhir:Bundle.entry.search.score",

@@ -70,7 +70,8 @@
       "@context": "canonical.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ChargeItemDefinition.status"
+      "@id": "fhir:ChargeItemDefinition.status",
+      "@context": "string.context.jsonld"
     },
     "experimental": {
       "@id": "fhir:ChargeItemDefinition.experimental",

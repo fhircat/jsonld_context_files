@@ -66,7 +66,8 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:Task.status"
+      "@id": "fhir:Task.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:Task.statusReason",
@@ -77,10 +78,12 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:Task.intent"
+      "@id": "fhir:Task.intent",
+      "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:Task.priority"
+      "@id": "fhir:Task.priority",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:Task.code",

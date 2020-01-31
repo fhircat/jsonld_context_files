@@ -26,7 +26,8 @@
       "@context": "canonical.context.jsonld"
     },
     "type": {
-      "@id": "fhir:CapabilityStatement.rest.resource.searchParam.type"
+      "@id": "fhir:CapabilityStatement.rest.resource.searchParam.type",
+      "@context": "string.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:CapabilityStatement.rest.resource.searchParam.documentation",

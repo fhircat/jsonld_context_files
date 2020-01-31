@@ -46,7 +46,8 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:ClinicalImpression.status"
+      "@id": "fhir:ClinicalImpression.status",
+      "@context": "string.context.jsonld"
     },
     "statusReason": {
       "@id": "fhir:ClinicalImpression.statusReason",

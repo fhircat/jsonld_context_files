@@ -66,13 +66,16 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:DeviceRequest.status"
+      "@id": "fhir:DeviceRequest.status",
+      "@context": "string.context.jsonld"
     },
     "intent": {
-      "@id": "fhir:DeviceRequest.intent"
+      "@id": "fhir:DeviceRequest.intent",
+      "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:DeviceRequest.priority"
+      "@id": "fhir:DeviceRequest.priority",
+      "@context": "string.context.jsonld"
     },
     "codeReference": {
       "@id": "fhir:DeviceRequest.codeReference",

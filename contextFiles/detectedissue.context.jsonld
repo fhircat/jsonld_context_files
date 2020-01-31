@@ -46,14 +46,16 @@
       "@context": "identifier.context.jsonld"
     },
     "status": {
-      "@id": "fhir:DetectedIssue.status"
+      "@id": "fhir:DetectedIssue.status",
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:DetectedIssue.code",
       "@context": "codeableconcept.context.jsonld"
     },
     "severity": {
-      "@id": "fhir:DetectedIssue.severity"
+      "@id": "fhir:DetectedIssue.severity",
+      "@context": "string.context.jsonld"
     },
     "patient": {
       "@id": "fhir:DetectedIssue.patient",
