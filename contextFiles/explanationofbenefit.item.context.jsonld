@@ -113,6 +113,14 @@
       "@id": "fhir:ExplanationOfBenefit.item.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "adjudication": {
+      "@id": "fhir:ExplanationOfBenefit.item.adjudication",
+      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
+    },
+    "detail": {
+      "@id": "fhir:ExplanationOfBenefit.item.detail",
+      "@context": "explanationofbenefit.item.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -61,6 +61,10 @@
       "@id": "fhir:Claim.item.detail.udi",
       "@context": "reference.context.jsonld"
     },
+    "subDetail": {
+      "@id": "fhir:Claim.item.detail.subDetail",
+      "@context": "claim.item.detail.subdetail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

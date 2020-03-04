@@ -49,6 +49,10 @@
       "@id": "fhir:AuditEvent.entity.query",
       "@context": "base64binary.context.jsonld"
     },
+    "detail": {
+      "@id": "fhir:AuditEvent.entity.detail",
+      "@context": "auditevent.entity.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

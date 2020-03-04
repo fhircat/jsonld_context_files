@@ -29,6 +29,10 @@
       "@id": "fhir:Invoice.lineItem.chargeItemCodeableConcept",
       "@context": "codeableconcept.context.jsonld"
     },
+    "priceComponent": {
+      "@id": "fhir:Invoice.lineItem.priceComponent",
+      "@context": "invoice.lineitem.pricecomponent.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

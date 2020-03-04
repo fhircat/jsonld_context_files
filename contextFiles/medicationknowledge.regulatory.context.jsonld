@@ -21,6 +21,18 @@
       "@id": "fhir:MedicationKnowledge.regulatory.regulatoryAuthority",
       "@context": "reference.context.jsonld"
     },
+    "substitution": {
+      "@id": "fhir:MedicationKnowledge.regulatory.substitution",
+      "@context": "medicationknowledge.regulatory.substitution.context.jsonld"
+    },
+    "schedule": {
+      "@id": "fhir:MedicationKnowledge.regulatory.schedule",
+      "@context": "medicationknowledge.regulatory.schedule.context.jsonld"
+    },
+    "maxDispense": {
+      "@id": "fhir:MedicationKnowledge.regulatory.maxDispense",
+      "@context": "medicationknowledge.regulatory.maxdispense.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

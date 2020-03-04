@@ -33,6 +33,14 @@
       "@id": "fhir:ValueSet.expansion.offset",
       "@context": "integer.context.jsonld"
     },
+    "parameter": {
+      "@id": "fhir:ValueSet.expansion.parameter",
+      "@context": "valueset.expansion.parameter.context.jsonld"
+    },
+    "contains": {
+      "@id": "fhir:ValueSet.expansion.contains",
+      "@context": "valueset.expansion.contains.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

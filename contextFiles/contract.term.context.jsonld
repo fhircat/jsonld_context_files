@@ -49,6 +49,22 @@
       "@id": "fhir:Contract.term.text",
       "@context": "string.context.jsonld"
     },
+    "securityLabel": {
+      "@id": "fhir:Contract.term.securityLabel",
+      "@context": "contract.term.securitylabel.context.jsonld"
+    },
+    "offer": {
+      "@id": "fhir:Contract.term.offer",
+      "@context": "contract.term.offer.context.jsonld"
+    },
+    "asset": {
+      "@id": "fhir:Contract.term.asset",
+      "@context": "contract.term.asset.context.jsonld"
+    },
+    "action": {
+      "@id": "fhir:Contract.term.action",
+      "@context": "contract.term.action.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

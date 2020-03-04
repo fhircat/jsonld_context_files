@@ -25,6 +25,10 @@
       "@id": "fhir:Consent.provision.period",
       "@context": "period.context.jsonld"
     },
+    "actor": {
+      "@id": "fhir:Consent.provision.actor",
+      "@context": "consent.provision.actor.context.jsonld"
+    },
     "action": {
       "@id": "fhir:Consent.provision.action",
       "@context": "codeableconcept.context.jsonld"
@@ -48,6 +52,10 @@
     "dataPeriod": {
       "@id": "fhir:Consent.provision.dataPeriod",
       "@context": "period.context.jsonld"
+    },
+    "data": {
+      "@id": "fhir:Consent.provision.data",
+      "@context": "consent.provision.data.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

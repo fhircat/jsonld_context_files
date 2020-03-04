@@ -37,6 +37,10 @@
       "@id": "fhir:VisionPrescription.lensSpecification.axis",
       "@context": "integer.context.jsonld"
     },
+    "prism": {
+      "@id": "fhir:VisionPrescription.lensSpecification.prism",
+      "@context": "visionprescription.lensspecification.prism.context.jsonld"
+    },
     "add": {
       "@id": "fhir:VisionPrescription.lensSpecification.add",
       "@context": "decimal.context.jsonld"

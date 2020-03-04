@@ -21,6 +21,10 @@
       "@id": "fhir:SubstancePolymer.monomerSet.ratioType",
       "@context": "codeableconcept.context.jsonld"
     },
+    "startingMaterial": {
+      "@id": "fhir:SubstancePolymer.monomerSet.startingMaterial",
+      "@context": "substancepolymer.monomerset.startingmaterial.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

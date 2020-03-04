@@ -49,6 +49,10 @@
       "@id": "fhir:CoverageEligibilityRequest.item.facility",
       "@context": "reference.context.jsonld"
     },
+    "diagnosis": {
+      "@id": "fhir:CoverageEligibilityRequest.item.diagnosis",
+      "@context": "coverageeligibilityrequest.item.diagnosis.context.jsonld"
+    },
     "detail": {
       "@id": "fhir:CoverageEligibilityRequest.item.detail",
       "@context": "reference.context.jsonld"

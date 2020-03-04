@@ -21,6 +21,14 @@
       "@id": "fhir:ImplementationGuide.manifest.rendering",
       "@context": "url.context.jsonld"
     },
+    "resource": {
+      "@id": "fhir:ImplementationGuide.manifest.resource",
+      "@context": "implementationguide.manifest.resource.context.jsonld"
+    },
+    "page": {
+      "@id": "fhir:ImplementationGuide.manifest.page",
+      "@context": "implementationguide.manifest.page.context.jsonld"
+    },
     "image": {
       "@id": "fhir:ImplementationGuide.manifest.image",
       "@context": "string.context.jsonld"

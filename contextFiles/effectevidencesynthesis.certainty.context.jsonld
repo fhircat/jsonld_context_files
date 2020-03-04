@@ -25,6 +25,10 @@
       "@id": "fhir:EffectEvidenceSynthesis.certainty.note",
       "@context": "annotation.context.jsonld"
     },
+    "certaintySubcomponent": {
+      "@id": "fhir:EffectEvidenceSynthesis.certainty.certaintySubcomponent",
+      "@context": "effectevidencesynthesis.certainty.certaintysubcomponent.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -21,6 +21,10 @@
       "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.code",
       "@context": "codeableconcept.context.jsonld"
     },
+    "withdrawalPeriod": {
+      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies.withdrawalPeriod",
+      "@context": "medicinalproductpharmaceutical.routeofadministration.targetspecies.withdrawalperiod.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

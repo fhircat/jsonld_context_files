@@ -25,6 +25,14 @@
       "@id": "fhir:ClaimResponse.item.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "adjudication": {
+      "@id": "fhir:ClaimResponse.item.adjudication",
+      "@context": "claimresponse.item.adjudication.context.jsonld"
+    },
+    "detail": {
+      "@id": "fhir:ClaimResponse.item.detail",
+      "@context": "claimresponse.item.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

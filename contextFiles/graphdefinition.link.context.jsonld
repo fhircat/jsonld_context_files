@@ -37,6 +37,10 @@
       "@id": "fhir:GraphDefinition.link.description",
       "@context": "string.context.jsonld"
     },
+    "target": {
+      "@id": "fhir:GraphDefinition.link.target",
+      "@context": "graphdefinition.link.target.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

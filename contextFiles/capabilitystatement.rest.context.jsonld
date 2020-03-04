@@ -25,6 +25,18 @@
       "@id": "fhir:CapabilityStatement.rest.documentation",
       "@context": "markdown.context.jsonld"
     },
+    "security": {
+      "@id": "fhir:CapabilityStatement.rest.security",
+      "@context": "capabilitystatement.rest.security.context.jsonld"
+    },
+    "resource": {
+      "@id": "fhir:CapabilityStatement.rest.resource",
+      "@context": "capabilitystatement.rest.resource.context.jsonld"
+    },
+    "interaction": {
+      "@id": "fhir:CapabilityStatement.rest.interaction",
+      "@context": "capabilitystatement.rest.interaction.context.jsonld"
+    },
     "compartment": {
       "@id": "fhir:CapabilityStatement.rest.compartment",
       "@context": "canonical.context.jsonld"

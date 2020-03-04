@@ -33,6 +33,10 @@
       "@id": "fhir:ExampleScenario.process.postConditions",
       "@context": "markdown.context.jsonld"
     },
+    "step": {
+      "@id": "fhir:ExampleScenario.process.step",
+      "@context": "examplescenario.process.step.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

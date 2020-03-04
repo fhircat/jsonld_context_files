@@ -21,6 +21,14 @@
       "@id": "fhir:ExampleScenario.process.step.pause",
       "@context": "boolean.context.jsonld"
     },
+    "operation": {
+      "@id": "fhir:ExampleScenario.process.step.operation",
+      "@context": "examplescenario.process.step.operation.context.jsonld"
+    },
+    "alternative": {
+      "@id": "fhir:ExampleScenario.process.step.alternative",
+      "@context": "examplescenario.process.step.alternative.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

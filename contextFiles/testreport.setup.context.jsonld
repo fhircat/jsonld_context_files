@@ -17,6 +17,10 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "action": {
+      "@id": "fhir:TestReport.setup.action",
+      "@context": "testreport.setup.action.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -21,6 +21,14 @@
       "@id": "fhir:MeasureReport.group.stratifier.stratum.value",
       "@context": "codeableconcept.context.jsonld"
     },
+    "component": {
+      "@id": "fhir:MeasureReport.group.stratifier.stratum.component",
+      "@context": "measurereport.group.stratifier.stratum.component.context.jsonld"
+    },
+    "population": {
+      "@id": "fhir:MeasureReport.group.stratifier.stratum.population",
+      "@context": "measurereport.group.stratifier.stratum.population.context.jsonld"
+    },
     "measureScore": {
       "@id": "fhir:MeasureReport.group.stratifier.stratum.measureScore",
       "@context": "quantity.context.jsonld"

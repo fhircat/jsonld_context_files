@@ -17,6 +17,10 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "dosage": {
+      "@id": "fhir:MedicationKnowledge.administrationGuidelines.dosage",
+      "@context": "medicationknowledge.administrationguidelines.dosage.context.jsonld"
+    },
     "indicationCodeableConcept": {
       "@id": "fhir:MedicationKnowledge.administrationGuidelines.indicationCodeableConcept",
       "@context": "codeableconcept.context.jsonld"
@@ -24,6 +28,10 @@
     "indicationReference": {
       "@id": "fhir:MedicationKnowledge.administrationGuidelines.indicationReference",
       "@context": "reference.context.jsonld"
+    },
+    "patientCharacteristics": {
+      "@id": "fhir:MedicationKnowledge.administrationGuidelines.patientCharacteristics",
+      "@context": "medicationknowledge.administrationguidelines.patientcharacteristics.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

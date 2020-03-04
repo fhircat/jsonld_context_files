@@ -29,6 +29,10 @@
       "@id": "fhir:CoverageEligibilityResponse.insurance.benefitPeriod",
       "@context": "period.context.jsonld"
     },
+    "item": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item",
+      "@context": "coverageeligibilityresponse.insurance.item.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

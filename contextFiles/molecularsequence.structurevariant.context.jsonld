@@ -29,6 +29,14 @@
       "@id": "fhir:MolecularSequence.structureVariant.length",
       "@context": "integer.context.jsonld"
     },
+    "outer": {
+      "@id": "fhir:MolecularSequence.structureVariant.outer",
+      "@context": "molecularsequence.structurevariant.outer.context.jsonld"
+    },
+    "inner": {
+      "@id": "fhir:MolecularSequence.structureVariant.inner",
+      "@context": "molecularsequence.structurevariant.inner.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

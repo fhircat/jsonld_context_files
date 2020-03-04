@@ -25,6 +25,10 @@
       "@id": "fhir:InsurancePlan.coverage.benefit.requirement",
       "@context": "string.context.jsonld"
     },
+    "limit": {
+      "@id": "fhir:InsurancePlan.coverage.benefit.limit",
+      "@context": "insuranceplan.coverage.benefit.limit.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

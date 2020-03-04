@@ -17,6 +17,10 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "initialFill": {
+      "@id": "fhir:MedicationRequest.dispenseRequest.initialFill",
+      "@context": "medicationrequest.dispenserequest.initialfill.context.jsonld"
+    },
     "dispenseInterval": {
       "@id": "fhir:MedicationRequest.dispenseRequest.dispenseInterval",
       "@context": "duration.context.jsonld"

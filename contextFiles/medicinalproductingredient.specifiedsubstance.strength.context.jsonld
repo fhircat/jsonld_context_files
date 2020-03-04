@@ -41,6 +41,10 @@
       "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.country",
       "@context": "codeableconcept.context.jsonld"
     },
+    "referenceStrength": {
+      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.referenceStrength",
+      "@context": "medicinalproductingredient.specifiedsubstance.strength.referencestrength.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

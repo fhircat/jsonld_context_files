@@ -25,6 +25,18 @@
       "@id": "fhir:Bundle.entry.resource",
       "@context": "resource.context.jsonld"
     },
+    "search": {
+      "@id": "fhir:Bundle.entry.search",
+      "@context": "bundle.entry.search.context.jsonld"
+    },
+    "request": {
+      "@id": "fhir:Bundle.entry.request",
+      "@context": "bundle.entry.request.context.jsonld"
+    },
+    "response": {
+      "@id": "fhir:Bundle.entry.response",
+      "@context": "bundle.entry.response.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

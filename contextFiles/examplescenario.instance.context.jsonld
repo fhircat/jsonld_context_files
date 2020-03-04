@@ -33,6 +33,14 @@
       "@id": "fhir:ExampleScenario.instance.description",
       "@context": "markdown.context.jsonld"
     },
+    "version": {
+      "@id": "fhir:ExampleScenario.instance.version",
+      "@context": "examplescenario.instance.version.context.jsonld"
+    },
+    "containedInstance": {
+      "@id": "fhir:ExampleScenario.instance.containedInstance",
+      "@context": "examplescenario.instance.containedinstance.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

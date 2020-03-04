@@ -25,6 +25,10 @@
       "@id": "fhir:ConceptMap.group.element.display",
       "@context": "string.context.jsonld"
     },
+    "target": {
+      "@id": "fhir:ConceptMap.group.element.target",
+      "@context": "conceptmap.group.element.target.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

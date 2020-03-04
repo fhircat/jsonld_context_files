@@ -61,6 +61,10 @@
       "@id": "fhir:TestScript.setup.action.operation.params",
       "@context": "string.context.jsonld"
     },
+    "requestHeader": {
+      "@id": "fhir:TestScript.setup.action.operation.requestHeader",
+      "@context": "testscript.setup.action.operation.requestheader.context.jsonld"
+    },
     "requestId": {
       "@id": "fhir:TestScript.setup.action.operation.requestId",
       "@context": "id.context.jsonld"

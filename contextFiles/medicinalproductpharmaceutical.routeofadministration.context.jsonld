@@ -41,6 +41,10 @@
       "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.maxTreatmentPeriod",
       "@context": "duration.context.jsonld"
     },
+    "targetSpecies": {
+      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.targetSpecies",
+      "@context": "medicinalproductpharmaceutical.routeofadministration.targetspecies.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

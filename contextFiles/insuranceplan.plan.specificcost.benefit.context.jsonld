@@ -21,6 +21,10 @@
       "@id": "fhir:InsurancePlan.plan.specificCost.benefit.type",
       "@context": "codeableconcept.context.jsonld"
     },
+    "cost": {
+      "@id": "fhir:InsurancePlan.plan.specificCost.benefit.cost",
+      "@context": "insuranceplan.plan.specificcost.benefit.cost.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

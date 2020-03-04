@@ -57,6 +57,14 @@
       "@id": "fhir:ImagingStudy.series.started",
       "@context": "datetime.context.jsonld"
     },
+    "performer": {
+      "@id": "fhir:ImagingStudy.series.performer",
+      "@context": "imagingstudy.series.performer.context.jsonld"
+    },
+    "instance": {
+      "@id": "fhir:ImagingStudy.series.instance",
+      "@context": "imagingstudy.series.instance.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -29,6 +29,10 @@
       "@id": "fhir:SpecimenDefinition.typeTested.preference",
       "@context": "string.context.jsonld"
     },
+    "container": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container",
+      "@context": "specimendefinition.typetested.container.context.jsonld"
+    },
     "requirement": {
       "@id": "fhir:SpecimenDefinition.typeTested.requirement",
       "@context": "string.context.jsonld"
@@ -40,6 +44,10 @@
     "rejectionCriterion": {
       "@id": "fhir:SpecimenDefinition.typeTested.rejectionCriterion",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "handling": {
+      "@id": "fhir:SpecimenDefinition.typeTested.handling",
+      "@context": "specimendefinition.typetested.handling.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -45,6 +45,14 @@
       "@id": "fhir:RequestGroup.action.documentation",
       "@context": "relatedartifact.context.jsonld"
     },
+    "condition": {
+      "@id": "fhir:RequestGroup.action.condition",
+      "@context": "requestgroup.action.condition.context.jsonld"
+    },
+    "relatedAction": {
+      "@id": "fhir:RequestGroup.action.relatedAction",
+      "@context": "requestgroup.action.relatedaction.context.jsonld"
+    },
     "timingDateTime": {
       "@id": "fhir:RequestGroup.action.timingDateTime",
       "@context": "datetime.context.jsonld"

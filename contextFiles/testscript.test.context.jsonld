@@ -25,6 +25,10 @@
       "@id": "fhir:TestScript.test.description",
       "@context": "string.context.jsonld"
     },
+    "action": {
+      "@id": "fhir:TestScript.test.action",
+      "@context": "testscript.test.action.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

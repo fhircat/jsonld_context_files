@@ -53,6 +53,10 @@
       "@id": "fhir:AuditEvent.agent.media",
       "@context": "coding.context.jsonld"
     },
+    "network": {
+      "@id": "fhir:AuditEvent.agent.network",
+      "@context": "auditevent.agent.network.context.jsonld"
+    },
     "purposeOfUse": {
       "@id": "fhir:AuditEvent.agent.purposeOfUse",
       "@context": "codeableconcept.context.jsonld"

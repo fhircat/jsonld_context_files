@@ -45,6 +45,10 @@
       "@id": "fhir:SpecimenDefinition.typeTested.container.minimumVolumeString",
       "@context": "string.context.jsonld"
     },
+    "additive": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.additive",
+      "@context": "specimendefinition.typetested.container.additive.context.jsonld"
+    },
     "preparation": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.preparation",
       "@context": "string.context.jsonld"

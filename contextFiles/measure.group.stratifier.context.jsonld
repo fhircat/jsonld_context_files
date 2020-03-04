@@ -29,6 +29,10 @@
       "@id": "fhir:Measure.group.stratifier.criteria",
       "@context": "expression.context.jsonld"
     },
+    "component": {
+      "@id": "fhir:Measure.group.stratifier.component",
+      "@context": "measure.group.stratifier.component.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

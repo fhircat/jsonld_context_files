@@ -93,6 +93,10 @@
       "@id": "fhir:ClaimResponse.addItem.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "detail": {
+      "@id": "fhir:ClaimResponse.addItem.detail",
+      "@context": "claimresponse.additem.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

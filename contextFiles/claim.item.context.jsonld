@@ -109,6 +109,10 @@
       "@id": "fhir:Claim.item.encounter",
       "@context": "reference.context.jsonld"
     },
+    "detail": {
+      "@id": "fhir:Claim.item.detail",
+      "@context": "claim.item.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

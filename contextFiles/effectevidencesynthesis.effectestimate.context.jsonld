@@ -37,6 +37,10 @@
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.unitOfMeasure",
       "@context": "codeableconcept.context.jsonld"
     },
+    "precisionEstimate": {
+      "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.precisionEstimate",
+      "@context": "effectevidencesynthesis.effectestimate.precisionestimate.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

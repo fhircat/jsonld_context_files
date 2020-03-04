@@ -29,6 +29,14 @@
       "@id": "fhir:SubstancePolymer.repeat.repeatUnit.amount",
       "@context": "substanceamount.context.jsonld"
     },
+    "degreeOfPolymerisation": {
+      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation",
+      "@context": "substancepolymer.repeat.repeatunit.degreeofpolymerisation.context.jsonld"
+    },
+    "structuralRepresentation": {
+      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.structuralRepresentation",
+      "@context": "substancepolymer.repeat.repeatunit.structuralrepresentation.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

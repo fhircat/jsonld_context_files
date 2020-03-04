@@ -33,6 +33,14 @@
       "@id": "fhir:ConceptMap.group.targetVersion",
       "@context": "string.context.jsonld"
     },
+    "element": {
+      "@id": "fhir:ConceptMap.group.element",
+      "@context": "conceptmap.group.element.context.jsonld"
+    },
+    "unmapped": {
+      "@id": "fhir:ConceptMap.group.unmapped",
+      "@context": "conceptmap.group.unmapped.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -41,6 +41,10 @@
       "@id": "fhir:NutritionOrder.enteralFormula.routeofAdministration",
       "@context": "codeableconcept.context.jsonld"
     },
+    "administration": {
+      "@id": "fhir:NutritionOrder.enteralFormula.administration",
+      "@context": "nutritionorder.enteralformula.administration.context.jsonld"
+    },
     "maxVolumeToDeliver": {
       "@id": "fhir:NutritionOrder.enteralFormula.maxVolumeToDeliver",
       "@context": "quantity.context.jsonld"

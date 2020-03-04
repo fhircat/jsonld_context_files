@@ -33,6 +33,10 @@
       "@id": "fhir:TerminologyCapabilities.codeSystem.version.language",
       "@context": "string.context.jsonld"
     },
+    "filter": {
+      "@id": "fhir:TerminologyCapabilities.codeSystem.version.filter",
+      "@context": "terminologycapabilities.codesystem.version.filter.context.jsonld"
+    },
     "property": {
       "@id": "fhir:TerminologyCapabilities.codeSystem.version.property",
       "@context": "string.context.jsonld"

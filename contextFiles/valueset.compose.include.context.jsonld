@@ -25,6 +25,14 @@
       "@id": "fhir:ValueSet.compose.include.version",
       "@context": "string.context.jsonld"
     },
+    "concept": {
+      "@id": "fhir:ValueSet.compose.include.concept",
+      "@context": "valueset.compose.include.concept.context.jsonld"
+    },
+    "filter": {
+      "@id": "fhir:ValueSet.compose.include.filter",
+      "@context": "valueset.compose.include.filter.context.jsonld"
+    },
     "valueSet": {
       "@id": "fhir:ValueSet.compose.include.valueSet",
       "@context": "canonical.context.jsonld"

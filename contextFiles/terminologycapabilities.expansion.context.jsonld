@@ -29,6 +29,10 @@
       "@id": "fhir:TerminologyCapabilities.expansion.incomplete",
       "@context": "boolean.context.jsonld"
     },
+    "parameter": {
+      "@id": "fhir:TerminologyCapabilities.expansion.parameter",
+      "@context": "terminologycapabilities.expansion.parameter.context.jsonld"
+    },
     "textFilter": {
       "@id": "fhir:TerminologyCapabilities.expansion.textFilter",
       "@context": "markdown.context.jsonld"

@@ -45,6 +45,10 @@
       "@id": "fhir:ClaimResponse.addItem.detail.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "subDetail": {
+      "@id": "fhir:ClaimResponse.addItem.detail.subDetail",
+      "@context": "claimresponse.additem.detail.subdetail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

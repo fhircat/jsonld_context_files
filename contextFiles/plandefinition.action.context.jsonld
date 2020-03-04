@@ -65,6 +65,10 @@
       "@id": "fhir:PlanDefinition.action.trigger",
       "@context": "triggerdefinition.context.jsonld"
     },
+    "condition": {
+      "@id": "fhir:PlanDefinition.action.condition",
+      "@context": "plandefinition.action.condition.context.jsonld"
+    },
     "input": {
       "@id": "fhir:PlanDefinition.action.input",
       "@context": "datarequirement.context.jsonld"
@@ -72,6 +76,10 @@
     "output": {
       "@id": "fhir:PlanDefinition.action.output",
       "@context": "datarequirement.context.jsonld"
+    },
+    "relatedAction": {
+      "@id": "fhir:PlanDefinition.action.relatedAction",
+      "@context": "plandefinition.action.relatedaction.context.jsonld"
     },
     "timingDateTime": {
       "@id": "fhir:PlanDefinition.action.timingDateTime",
@@ -96,6 +104,10 @@
     "timingTiming": {
       "@id": "fhir:PlanDefinition.action.timingTiming",
       "@context": "timing.context.jsonld"
+    },
+    "participant": {
+      "@id": "fhir:PlanDefinition.action.participant",
+      "@context": "plandefinition.action.participant.context.jsonld"
     },
     "type": {
       "@id": "fhir:PlanDefinition.action.type",
@@ -132,6 +144,10 @@
     "transform": {
       "@id": "fhir:PlanDefinition.action.transform",
       "@context": "canonical.context.jsonld"
+    },
+    "dynamicValue": {
+      "@id": "fhir:PlanDefinition.action.dynamicValue",
+      "@context": "plandefinition.action.dynamicvalue.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

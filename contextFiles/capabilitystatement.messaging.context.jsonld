@@ -17,6 +17,10 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "endpoint": {
+      "@id": "fhir:CapabilityStatement.messaging.endpoint",
+      "@context": "capabilitystatement.messaging.endpoint.context.jsonld"
+    },
     "reliableCache": {
       "@id": "fhir:CapabilityStatement.messaging.reliableCache",
       "@context": "unsignedint.context.jsonld"
@@ -24,6 +28,10 @@
     "documentation": {
       "@id": "fhir:CapabilityStatement.messaging.documentation",
       "@context": "markdown.context.jsonld"
+    },
+    "supportedMessage": {
+      "@id": "fhir:CapabilityStatement.messaging.supportedMessage",
+      "@context": "capabilitystatement.messaging.supportedmessage.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

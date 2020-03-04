@@ -57,6 +57,10 @@
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.term",
       "@context": "codeableconcept.context.jsonld"
     },
+    "benefit": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit",
+      "@context": "coverageeligibilityresponse.insurance.item.benefit.context.jsonld"
+    },
     "authorizationRequired": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationRequired",
       "@context": "boolean.context.jsonld"

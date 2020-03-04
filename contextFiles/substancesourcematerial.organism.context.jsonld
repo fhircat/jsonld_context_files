@@ -37,6 +37,18 @@
       "@id": "fhir:SubstanceSourceMaterial.organism.intraspecificDescription",
       "@context": "string.context.jsonld"
     },
+    "author": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.author",
+      "@context": "substancesourcematerial.organism.author.context.jsonld"
+    },
+    "hybrid": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.hybrid",
+      "@context": "substancesourcematerial.organism.hybrid.context.jsonld"
+    },
+    "organismGeneral": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral",
+      "@context": "substancesourcematerial.organism.organismgeneral.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

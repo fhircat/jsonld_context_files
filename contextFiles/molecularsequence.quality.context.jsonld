@@ -73,6 +73,10 @@
       "@id": "fhir:MolecularSequence.quality.fScore",
       "@context": "decimal.context.jsonld"
     },
+    "roc": {
+      "@id": "fhir:MolecularSequence.quality.roc",
+      "@context": "molecularsequence.quality.roc.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

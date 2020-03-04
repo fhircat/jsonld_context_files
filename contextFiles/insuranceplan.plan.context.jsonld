@@ -33,6 +33,14 @@
       "@id": "fhir:InsurancePlan.plan.network",
       "@context": "reference.context.jsonld"
     },
+    "generalCost": {
+      "@id": "fhir:InsurancePlan.plan.generalCost",
+      "@context": "insuranceplan.plan.generalcost.context.jsonld"
+    },
+    "specificCost": {
+      "@id": "fhir:InsurancePlan.plan.specificCost",
+      "@context": "insuranceplan.plan.specificcost.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

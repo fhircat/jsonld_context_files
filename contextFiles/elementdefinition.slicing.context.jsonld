@@ -13,6 +13,10 @@
       "@id": "fhir:Element.extension",
       "@context": "extension.context.jsonld"
     },
+    "discriminator": {
+      "@id": "fhir:ElementDefinition.slicing.discriminator",
+      "@context": "elementdefinition.slicing.discriminator.context.jsonld"
+    },
     "description": {
       "@id": "fhir:ElementDefinition.slicing.description",
       "@context": "string.context.jsonld"

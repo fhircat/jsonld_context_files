@@ -21,6 +21,10 @@
       "@id": "fhir:MeasureReport.group.stratifier.code",
       "@context": "codeableconcept.context.jsonld"
     },
+    "stratum": {
+      "@id": "fhir:MeasureReport.group.stratifier.stratum",
+      "@context": "measurereport.group.stratifier.stratum.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

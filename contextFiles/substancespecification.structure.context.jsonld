@@ -33,9 +33,17 @@
       "@id": "fhir:SubstanceSpecification.structure.molecularFormulaByMoiety",
       "@context": "string.context.jsonld"
     },
+    "isotope": {
+      "@id": "fhir:SubstanceSpecification.structure.isotope",
+      "@context": "substancespecification.structure.isotope.context.jsonld"
+    },
     "source": {
       "@id": "fhir:SubstanceSpecification.structure.source",
       "@context": "reference.context.jsonld"
+    },
+    "representation": {
+      "@id": "fhir:SubstanceSpecification.structure.representation",
+      "@context": "substancespecification.structure.representation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

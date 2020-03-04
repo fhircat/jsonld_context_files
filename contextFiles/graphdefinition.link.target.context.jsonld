@@ -29,6 +29,10 @@
       "@id": "fhir:GraphDefinition.link.target.profile",
       "@context": "canonical.context.jsonld"
     },
+    "compartment": {
+      "@id": "fhir:GraphDefinition.link.target.compartment",
+      "@context": "graphdefinition.link.target.compartment.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

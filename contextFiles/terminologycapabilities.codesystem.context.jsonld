@@ -21,6 +21,10 @@
       "@id": "fhir:TerminologyCapabilities.codeSystem.uri",
       "@context": "canonical.context.jsonld"
     },
+    "version": {
+      "@id": "fhir:TerminologyCapabilities.codeSystem.version",
+      "@context": "terminologycapabilities.codesystem.version.context.jsonld"
+    },
     "subsumption": {
       "@id": "fhir:TerminologyCapabilities.codeSystem.subsumption",
       "@context": "boolean.context.jsonld"

@@ -37,6 +37,10 @@
       "@id": "fhir:ImmunizationRecommendation.recommendation.forecastReason",
       "@context": "codeableconcept.context.jsonld"
     },
+    "dateCriterion": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.dateCriterion",
+      "@context": "immunizationrecommendation.recommendation.datecriterion.context.jsonld"
+    },
     "description": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.description",
       "@context": "string.context.jsonld"

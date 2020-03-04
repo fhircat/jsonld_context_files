@@ -41,6 +41,10 @@
       "@id": "fhir:PlanDefinition.goal.documentation",
       "@context": "relatedartifact.context.jsonld"
     },
+    "target": {
+      "@id": "fhir:PlanDefinition.goal.target",
+      "@context": "plandefinition.goal.target.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -37,6 +37,10 @@
       "@id": "fhir:Contract.term.asset.relationship",
       "@context": "coding.context.jsonld"
     },
+    "context": {
+      "@id": "fhir:Contract.term.asset.context",
+      "@context": "contract.term.asset.context.context.jsonld"
+    },
     "condition": {
       "@id": "fhir:Contract.term.asset.condition",
       "@context": "string.context.jsonld"
@@ -64,6 +68,10 @@
     "securityLabelNumber": {
       "@id": "fhir:Contract.term.asset.securityLabelNumber",
       "@context": "unsignedint.context.jsonld"
+    },
+    "valuedItem": {
+      "@id": "fhir:Contract.term.asset.valuedItem",
+      "@context": "contract.term.asset.valueditem.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

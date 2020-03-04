@@ -33,6 +33,10 @@
       "@id": "fhir:CapabilityStatement.rest.resource.documentation",
       "@context": "markdown.context.jsonld"
     },
+    "interaction": {
+      "@id": "fhir:CapabilityStatement.rest.resource.interaction",
+      "@context": "capabilitystatement.rest.resource.interaction.context.jsonld"
+    },
     "versioning": {
       "@id": "fhir:CapabilityStatement.rest.resource.versioning",
       "@context": "string.context.jsonld"
@@ -72,6 +76,14 @@
     "searchRevInclude": {
       "@id": "fhir:CapabilityStatement.rest.resource.searchRevInclude",
       "@context": "string.context.jsonld"
+    },
+    "searchParam": {
+      "@id": "fhir:CapabilityStatement.rest.resource.searchParam",
+      "@context": "capabilitystatement.rest.resource.searchparam.context.jsonld"
+    },
+    "operation": {
+      "@id": "fhir:CapabilityStatement.rest.resource.operation",
+      "@context": "capabilitystatement.rest.resource.operation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

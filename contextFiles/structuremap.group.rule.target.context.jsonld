@@ -45,6 +45,10 @@
       "@id": "fhir:StructureMap.group.rule.target.transform",
       "@context": "string.context.jsonld"
     },
+    "parameter": {
+      "@id": "fhir:StructureMap.group.rule.target.parameter",
+      "@context": "structuremap.group.rule.target.parameter.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

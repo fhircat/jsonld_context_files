@@ -21,6 +21,10 @@
       "@id": "fhir:AdverseEvent.suspectEntity.instance",
       "@context": "reference.context.jsonld"
     },
+    "causality": {
+      "@id": "fhir:AdverseEvent.suspectEntity.causality",
+      "@context": "adverseevent.suspectentity.causality.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

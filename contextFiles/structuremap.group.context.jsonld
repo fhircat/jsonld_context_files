@@ -33,6 +33,14 @@
       "@id": "fhir:StructureMap.group.documentation",
       "@context": "string.context.jsonld"
     },
+    "input": {
+      "@id": "fhir:StructureMap.group.input",
+      "@context": "structuremap.group.input.context.jsonld"
+    },
+    "rule": {
+      "@id": "fhir:StructureMap.group.rule",
+      "@context": "structuremap.group.rule.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

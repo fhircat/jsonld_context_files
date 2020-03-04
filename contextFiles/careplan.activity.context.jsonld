@@ -33,6 +33,10 @@
       "@id": "fhir:CarePlan.activity.reference",
       "@context": "reference.context.jsonld"
     },
+    "detail": {
+      "@id": "fhir:CarePlan.activity.detail",
+      "@context": "careplan.activity.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

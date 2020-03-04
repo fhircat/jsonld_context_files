@@ -33,6 +33,10 @@
       "@id": "fhir:ConceptMap.group.element.target.comment",
       "@context": "string.context.jsonld"
     },
+    "dependsOn": {
+      "@id": "fhir:ConceptMap.group.element.target.dependsOn",
+      "@context": "conceptmap.group.element.target.dependson.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

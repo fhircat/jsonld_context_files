@@ -21,6 +21,14 @@
       "@id": "fhir:MedicinalProduct.name.productName",
       "@context": "string.context.jsonld"
     },
+    "namePart": {
+      "@id": "fhir:MedicinalProduct.name.namePart",
+      "@context": "medicinalproduct.name.namepart.context.jsonld"
+    },
+    "countryLanguage": {
+      "@id": "fhir:MedicinalProduct.name.countryLanguage",
+      "@context": "medicinalproduct.name.countrylanguage.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

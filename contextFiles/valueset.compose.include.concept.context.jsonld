@@ -25,6 +25,10 @@
       "@id": "fhir:ValueSet.compose.include.concept.display",
       "@context": "string.context.jsonld"
     },
+    "designation": {
+      "@id": "fhir:ValueSet.compose.include.concept.designation",
+      "@context": "valueset.compose.include.concept.designation.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

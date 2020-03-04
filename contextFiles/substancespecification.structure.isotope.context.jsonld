@@ -33,6 +33,10 @@
       "@id": "fhir:SubstanceSpecification.structure.isotope.halfLife",
       "@context": "quantity.context.jsonld"
     },
+    "molecularWeight": {
+      "@id": "fhir:SubstanceSpecification.structure.isotope.molecularWeight",
+      "@context": "substancespecification.structure.isotope.molecularweight.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

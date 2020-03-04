@@ -25,6 +25,14 @@
       "@id": "fhir:NutritionOrder.oralDiet.schedule",
       "@context": "timing.context.jsonld"
     },
+    "nutrient": {
+      "@id": "fhir:NutritionOrder.oralDiet.nutrient",
+      "@context": "nutritionorder.oraldiet.nutrient.context.jsonld"
+    },
+    "texture": {
+      "@id": "fhir:NutritionOrder.oralDiet.texture",
+      "@context": "nutritionorder.oraldiet.texture.context.jsonld"
+    },
     "fluidConsistencyType": {
       "@id": "fhir:NutritionOrder.oralDiet.fluidConsistencyType",
       "@context": "codeableconcept.context.jsonld"

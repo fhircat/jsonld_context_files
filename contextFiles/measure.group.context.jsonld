@@ -25,6 +25,14 @@
       "@id": "fhir:Measure.group.description",
       "@context": "string.context.jsonld"
     },
+    "population": {
+      "@id": "fhir:Measure.group.population",
+      "@context": "measure.group.population.context.jsonld"
+    },
+    "stratifier": {
+      "@id": "fhir:Measure.group.stratifier",
+      "@context": "measure.group.stratifier.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

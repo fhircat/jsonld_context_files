@@ -29,6 +29,10 @@
       "@id": "fhir:Coverage.costToBeneficiary.valueMoney",
       "@context": "money.context.jsonld"
     },
+    "exception": {
+      "@id": "fhir:Coverage.costToBeneficiary.exception",
+      "@context": "coverage.costtobeneficiary.exception.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

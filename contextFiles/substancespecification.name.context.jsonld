@@ -45,6 +45,10 @@
       "@id": "fhir:SubstanceSpecification.name.jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
+    "official": {
+      "@id": "fhir:SubstanceSpecification.name.official",
+      "@context": "substancespecification.name.official.context.jsonld"
+    },
     "source": {
       "@id": "fhir:SubstanceSpecification.name.source",
       "@context": "reference.context.jsonld"

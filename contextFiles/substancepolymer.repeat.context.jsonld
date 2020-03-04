@@ -29,6 +29,10 @@
       "@id": "fhir:SubstancePolymer.repeat.repeatUnitAmountType",
       "@context": "codeableconcept.context.jsonld"
     },
+    "repeatUnit": {
+      "@id": "fhir:SubstancePolymer.repeat.repeatUnit",
+      "@context": "substancepolymer.repeat.repeatunit.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

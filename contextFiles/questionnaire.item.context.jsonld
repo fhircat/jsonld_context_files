@@ -41,6 +41,10 @@
       "@id": "fhir:Questionnaire.item.type",
       "@context": "string.context.jsonld"
     },
+    "enableWhen": {
+      "@id": "fhir:Questionnaire.item.enableWhen",
+      "@context": "questionnaire.item.enablewhen.context.jsonld"
+    },
     "enableBehavior": {
       "@id": "fhir:Questionnaire.item.enableBehavior",
       "@context": "string.context.jsonld"
@@ -64,6 +68,14 @@
     "answerValueSet": {
       "@id": "fhir:Questionnaire.item.answerValueSet",
       "@context": "canonical.context.jsonld"
+    },
+    "answerOption": {
+      "@id": "fhir:Questionnaire.item.answerOption",
+      "@context": "questionnaire.item.answeroption.context.jsonld"
+    },
+    "initial": {
+      "@id": "fhir:Questionnaire.item.initial",
+      "@context": "questionnaire.item.initial.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

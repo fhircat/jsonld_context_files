@@ -21,6 +21,10 @@
       "@id": "fhir:Contract.term.offer.identifier",
       "@context": "identifier.context.jsonld"
     },
+    "party": {
+      "@id": "fhir:Contract.term.offer.party",
+      "@context": "contract.term.offer.party.context.jsonld"
+    },
     "topic": {
       "@id": "fhir:Contract.term.offer.topic",
       "@context": "reference.context.jsonld"
@@ -36,6 +40,10 @@
     "decisionMode": {
       "@id": "fhir:Contract.term.offer.decisionMode",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "answer": {
+      "@id": "fhir:Contract.term.offer.answer",
+      "@context": "contract.term.offer.answer.context.jsonld"
     },
     "text": {
       "@id": "fhir:Contract.term.offer.text",

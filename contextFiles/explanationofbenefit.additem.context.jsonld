@@ -93,6 +93,10 @@
       "@id": "fhir:ExplanationOfBenefit.addItem.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "detail": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.detail",
+      "@context": "explanationofbenefit.additem.detail.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

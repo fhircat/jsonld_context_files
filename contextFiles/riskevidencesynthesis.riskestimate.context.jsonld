@@ -41,6 +41,10 @@
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.numeratorCount",
       "@context": "integer.context.jsonld"
     },
+    "precisionEstimate": {
+      "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.precisionEstimate",
+      "@context": "riskevidencesynthesis.riskestimate.precisionestimate.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

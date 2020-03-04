@@ -25,6 +25,10 @@
       "@id": "fhir:Contract.term.action.type",
       "@context": "codeableconcept.context.jsonld"
     },
+    "subject": {
+      "@id": "fhir:Contract.term.action.subject",
+      "@context": "contract.term.action.subject.context.jsonld"
+    },
     "intent": {
       "@id": "fhir:Contract.term.action.intent",
       "@context": "codeableconcept.context.jsonld"

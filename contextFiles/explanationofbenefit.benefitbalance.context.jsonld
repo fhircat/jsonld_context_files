@@ -45,6 +45,10 @@
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.term",
       "@context": "codeableconcept.context.jsonld"
     },
+    "financial": {
+      "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial",
+      "@context": "explanationofbenefit.benefitbalance.financial.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -41,6 +41,14 @@
       "@id": "fhir:SubstanceNucleicAcid.subunit.threePrime",
       "@context": "codeableconcept.context.jsonld"
     },
+    "linkage": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.linkage",
+      "@context": "substancenucleicacid.subunit.linkage.context.jsonld"
+    },
+    "sugar": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.sugar",
+      "@context": "substancenucleicacid.subunit.sugar.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

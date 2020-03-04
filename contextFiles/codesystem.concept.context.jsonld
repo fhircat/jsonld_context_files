@@ -29,6 +29,14 @@
       "@id": "fhir:CodeSystem.concept.definition",
       "@context": "string.context.jsonld"
     },
+    "designation": {
+      "@id": "fhir:CodeSystem.concept.designation",
+      "@context": "codesystem.concept.designation.context.jsonld"
+    },
+    "property": {
+      "@id": "fhir:CodeSystem.concept.property",
+      "@context": "codesystem.concept.property.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

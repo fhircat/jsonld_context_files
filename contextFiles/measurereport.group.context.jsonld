@@ -21,9 +21,17 @@
       "@id": "fhir:MeasureReport.group.code",
       "@context": "codeableconcept.context.jsonld"
     },
+    "population": {
+      "@id": "fhir:MeasureReport.group.population",
+      "@context": "measurereport.group.population.context.jsonld"
+    },
     "measureScore": {
       "@id": "fhir:MeasureReport.group.measureScore",
       "@context": "quantity.context.jsonld"
+    },
+    "stratifier": {
+      "@id": "fhir:MeasureReport.group.stratifier",
+      "@context": "measurereport.group.stratifier.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",
