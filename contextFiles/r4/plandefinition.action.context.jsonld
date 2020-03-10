@@ -1,0 +1,157 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "prefix": {
+      "@id": "fhir:PlanDefinition.action.prefix",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:PlanDefinition.action.title",
+      "@context": "string.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:PlanDefinition.action.description",
+      "@context": "string.context.jsonld"
+    },
+    "textEquivalent": {
+      "@id": "fhir:PlanDefinition.action.textEquivalent",
+      "@context": "string.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:PlanDefinition.action.priority",
+      "@context": "string.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:PlanDefinition.action.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reason": {
+      "@id": "fhir:PlanDefinition.action.reason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "documentation": {
+      "@id": "fhir:PlanDefinition.action.documentation",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "goalId": {
+      "@id": "fhir:PlanDefinition.action.goalId",
+      "@context": "id.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:PlanDefinition.action.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:PlanDefinition.action.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "trigger": {
+      "@id": "fhir:PlanDefinition.action.trigger",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "condition": {
+      "@id": "fhir:PlanDefinition.action.condition",
+      "@context": "plandefinition.action.condition.context.jsonld"
+    },
+    "input": {
+      "@id": "fhir:PlanDefinition.action.input",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "output": {
+      "@id": "fhir:PlanDefinition.action.output",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "relatedAction": {
+      "@id": "fhir:PlanDefinition.action.relatedAction",
+      "@context": "plandefinition.action.relatedaction.context.jsonld"
+    },
+    "timingDateTime": {
+      "@id": "fhir:PlanDefinition.action.timingDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "timingAge": {
+      "@id": "fhir:PlanDefinition.action.timingAge",
+      "@context": "age.context.jsonld"
+    },
+    "timingPeriod": {
+      "@id": "fhir:PlanDefinition.action.timingPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "timingDuration": {
+      "@id": "fhir:PlanDefinition.action.timingDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "timingRange": {
+      "@id": "fhir:PlanDefinition.action.timingRange",
+      "@context": "range.context.jsonld"
+    },
+    "timingTiming": {
+      "@id": "fhir:PlanDefinition.action.timingTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "participant": {
+      "@id": "fhir:PlanDefinition.action.participant",
+      "@context": "plandefinition.action.participant.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:PlanDefinition.action.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "groupingBehavior": {
+      "@id": "fhir:PlanDefinition.action.groupingBehavior",
+      "@context": "string.context.jsonld"
+    },
+    "selectionBehavior": {
+      "@id": "fhir:PlanDefinition.action.selectionBehavior",
+      "@context": "string.context.jsonld"
+    },
+    "requiredBehavior": {
+      "@id": "fhir:PlanDefinition.action.requiredBehavior",
+      "@context": "string.context.jsonld"
+    },
+    "precheckBehavior": {
+      "@id": "fhir:PlanDefinition.action.precheckBehavior",
+      "@context": "string.context.jsonld"
+    },
+    "cardinalityBehavior": {
+      "@id": "fhir:PlanDefinition.action.cardinalityBehavior",
+      "@context": "string.context.jsonld"
+    },
+    "definitionCanonical": {
+      "@id": "fhir:PlanDefinition.action.definitionCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "definitionUri": {
+      "@id": "fhir:PlanDefinition.action.definitionUri",
+      "@context": "uri.context.jsonld"
+    },
+    "transform": {
+      "@id": "fhir:PlanDefinition.action.transform",
+      "@context": "canonical.context.jsonld"
+    },
+    "dynamicValue": {
+      "@id": "fhir:PlanDefinition.action.dynamicValue",
+      "@context": "plandefinition.action.dynamicvalue.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

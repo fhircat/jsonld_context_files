@@ -1,0 +1,85 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:EvidenceVariable.characteristic.description",
+      "@context": "string.context.jsonld"
+    },
+    "definitionReference": {
+      "@id": "fhir:EvidenceVariable.characteristic.definitionReference",
+      "@context": "reference.context.jsonld"
+    },
+    "definitionCanonical": {
+      "@id": "fhir:EvidenceVariable.characteristic.definitionCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "definitionCodeableConcept": {
+      "@id": "fhir:EvidenceVariable.characteristic.definitionCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "definitionExpression": {
+      "@id": "fhir:EvidenceVariable.characteristic.definitionExpression",
+      "@context": "expression.context.jsonld"
+    },
+    "definitionDataRequirement": {
+      "@id": "fhir:EvidenceVariable.characteristic.definitionDataRequirement",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "definitionTriggerDefinition": {
+      "@id": "fhir:EvidenceVariable.characteristic.definitionTriggerDefinition",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "usageContext": {
+      "@id": "fhir:EvidenceVariable.characteristic.usageContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "exclude": {
+      "@id": "fhir:EvidenceVariable.characteristic.exclude",
+      "@context": "boolean.context.jsonld"
+    },
+    "participantEffectiveDateTime": {
+      "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "participantEffectivePeriod": {
+      "@id": "fhir:EvidenceVariable.characteristic.participantEffectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "participantEffectiveDuration": {
+      "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "participantEffectiveTiming": {
+      "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "timeFromStart": {
+      "@id": "fhir:EvidenceVariable.characteristic.timeFromStart",
+      "@context": "duration.context.jsonld"
+    },
+    "groupMeasure": {
+      "@id": "fhir:EvidenceVariable.characteristic.groupMeasure",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

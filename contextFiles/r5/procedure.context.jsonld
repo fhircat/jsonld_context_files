@@ -1,0 +1,181 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Procedure.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:Procedure.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:Procedure.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Procedure.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Procedure.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Procedure.status",
+      "@context": "string.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:Procedure.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:Procedure.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Procedure.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Procedure.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:Procedure.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:Procedure.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurrencePeriod": {
+      "@id": "fhir:Procedure.occurrencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "occurrenceString": {
+      "@id": "fhir:Procedure.occurrenceString",
+      "@context": "string.context.jsonld"
+    },
+    "occurrenceAge": {
+      "@id": "fhir:Procedure.occurrenceAge",
+      "@context": "age.context.jsonld"
+    },
+    "occurrenceRange": {
+      "@id": "fhir:Procedure.occurrenceRange",
+      "@context": "range.context.jsonld"
+    },
+    "occurrenceTiming": {
+      "@id": "fhir:Procedure.occurrenceTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "recorded": {
+      "@id": "fhir:Procedure.recorded",
+      "@context": "datetime.context.jsonld"
+    },
+    "recorder": {
+      "@id": "fhir:Procedure.recorder",
+      "@context": "reference.context.jsonld"
+    },
+    "reportedBoolean": {
+      "@id": "fhir:Procedure.reportedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedReference": {
+      "@id": "fhir:Procedure.reportedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:Procedure.performer",
+      "@context": "procedure.performer.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:Procedure.location",
+      "@context": "reference.context.jsonld"
+    },
+    "reason": {
+      "@id": "fhir:Procedure.reason",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "bodySite": {
+      "@id": "fhir:Procedure.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:Procedure.outcome",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "report": {
+      "@id": "fhir:Procedure.report",
+      "@context": "reference.context.jsonld"
+    },
+    "complication": {
+      "@id": "fhir:Procedure.complication",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "complicationDetail": {
+      "@id": "fhir:Procedure.complicationDetail",
+      "@context": "reference.context.jsonld"
+    },
+    "followUp": {
+      "@id": "fhir:Procedure.followUp",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Procedure.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "focalDevice": {
+      "@id": "fhir:Procedure.focalDevice",
+      "@context": "procedure.focaldevice.context.jsonld"
+    },
+    "used": {
+      "@id": "fhir:Procedure.used",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

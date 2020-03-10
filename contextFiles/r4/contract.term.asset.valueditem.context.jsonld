@@ -1,0 +1,85 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "entityCodeableConcept": {
+      "@id": "fhir:Contract.term.asset.valuedItem.entityCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "entityReference": {
+      "@id": "fhir:Contract.term.asset.valuedItem.entityReference",
+      "@context": "reference.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Contract.term.asset.valuedItem.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "effectiveTime": {
+      "@id": "fhir:Contract.term.asset.valuedItem.effectiveTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:Contract.term.asset.valuedItem.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "unitPrice": {
+      "@id": "fhir:Contract.term.asset.valuedItem.unitPrice",
+      "@context": "money.context.jsonld"
+    },
+    "factor": {
+      "@id": "fhir:Contract.term.asset.valuedItem.factor",
+      "@context": "decimal.context.jsonld"
+    },
+    "points": {
+      "@id": "fhir:Contract.term.asset.valuedItem.points",
+      "@context": "decimal.context.jsonld"
+    },
+    "net": {
+      "@id": "fhir:Contract.term.asset.valuedItem.net",
+      "@context": "money.context.jsonld"
+    },
+    "payment": {
+      "@id": "fhir:Contract.term.asset.valuedItem.payment",
+      "@context": "string.context.jsonld"
+    },
+    "paymentDate": {
+      "@id": "fhir:Contract.term.asset.valuedItem.paymentDate",
+      "@context": "datetime.context.jsonld"
+    },
+    "responsible": {
+      "@id": "fhir:Contract.term.asset.valuedItem.responsible",
+      "@context": "reference.context.jsonld"
+    },
+    "recipient": {
+      "@id": "fhir:Contract.term.asset.valuedItem.recipient",
+      "@context": "reference.context.jsonld"
+    },
+    "linkId": {
+      "@id": "fhir:Contract.term.asset.valuedItem.linkId",
+      "@context": "string.context.jsonld"
+    },
+    "securityLabelNumber": {
+      "@id": "fhir:Contract.term.asset.valuedItem.securityLabelNumber",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

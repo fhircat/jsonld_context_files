@@ -1,0 +1,97 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:PaymentNotice.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:PaymentNotice.status",
+      "@context": "string.context.jsonld"
+    },
+    "request": {
+      "@id": "fhir:PaymentNotice.request",
+      "@context": "reference.context.jsonld"
+    },
+    "response": {
+      "@id": "fhir:PaymentNotice.response",
+      "@context": "reference.context.jsonld"
+    },
+    "created": {
+      "@id": "fhir:PaymentNotice.created",
+      "@context": "datetime.context.jsonld"
+    },
+    "provider": {
+      "@id": "fhir:PaymentNotice.provider",
+      "@context": "reference.context.jsonld"
+    },
+    "payment": {
+      "@id": "fhir:PaymentNotice.payment",
+      "@context": "reference.context.jsonld"
+    },
+    "paymentDate": {
+      "@id": "fhir:PaymentNotice.paymentDate",
+      "@context": "date.context.jsonld"
+    },
+    "payee": {
+      "@id": "fhir:PaymentNotice.payee",
+      "@context": "reference.context.jsonld"
+    },
+    "recipient": {
+      "@id": "fhir:PaymentNotice.recipient",
+      "@context": "reference.context.jsonld"
+    },
+    "amount": {
+      "@id": "fhir:PaymentNotice.amount",
+      "@context": "money.context.jsonld"
+    },
+    "paymentStatus": {
+      "@id": "fhir:PaymentNotice.paymentStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

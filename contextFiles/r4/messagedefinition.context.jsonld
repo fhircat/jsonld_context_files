@@ -1,0 +1,149 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:MessageDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:MessageDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:MessageDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:MessageDefinition.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:MessageDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "replaces": {
+      "@id": "fhir:MessageDefinition.replaces",
+      "@context": "canonical.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MessageDefinition.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:MessageDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:MessageDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:MessageDefinition.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:MessageDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:MessageDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:MessageDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:MessageDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:MessageDefinition.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:MessageDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "base": {
+      "@id": "fhir:MessageDefinition.base",
+      "@context": "canonical.context.jsonld"
+    },
+    "parent": {
+      "@id": "fhir:MessageDefinition.parent",
+      "@context": "canonical.context.jsonld"
+    },
+    "eventCoding": {
+      "@id": "fhir:MessageDefinition.eventCoding",
+      "@context": "coding.context.jsonld"
+    },
+    "eventUri": {
+      "@id": "fhir:MessageDefinition.eventUri",
+      "@context": "uri.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:MessageDefinition.category",
+      "@context": "string.context.jsonld"
+    },
+    "focus": {
+      "@id": "fhir:MessageDefinition.focus",
+      "@context": "messagedefinition.focus.context.jsonld"
+    },
+    "responseRequired": {
+      "@id": "fhir:MessageDefinition.responseRequired",
+      "@context": "string.context.jsonld"
+    },
+    "allowedResponse": {
+      "@id": "fhir:MessageDefinition.allowedResponse",
+      "@context": "messagedefinition.allowedresponse.context.jsonld"
+    },
+    "graph": {
+      "@id": "fhir:MessageDefinition.graph",
+      "@context": "canonical.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

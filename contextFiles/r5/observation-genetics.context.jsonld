@@ -1,0 +1,237 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:Gene": {
+      "@id": "fhir:DomainResource.extension:Gene",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:DNARegionName": {
+      "@id": "fhir:DomainResource.extension:DNARegionName",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:CopyNumberEvent": {
+      "@id": "fhir:DomainResource.extension:CopyNumberEvent",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:GenomicSourceClass": {
+      "@id": "fhir:DomainResource.extension:GenomicSourceClass",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:Interpretation": {
+      "@id": "fhir:DomainResource.extension:Interpretation",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:Variant": {
+      "@id": "fhir:DomainResource.extension:Variant",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:AminoAcidChange": {
+      "@id": "fhir:DomainResource.extension:AminoAcidChange",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:Allele": {
+      "@id": "fhir:DomainResource.extension:Allele",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:Ancestry": {
+      "@id": "fhir:DomainResource.extension:Ancestry",
+      "@context": "extension.context.jsonld"
+    },
+    "extension:PhaseSet": {
+      "@id": "fhir:DomainResource.extension:PhaseSet",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Observation.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Observation.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Observation.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Observation.status",
+      "@context": "string.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:Observation.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Observation.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Observation.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "focus": {
+      "@id": "fhir:Observation.focus",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:Observation.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "effectiveDateTime": {
+      "@id": "fhir:Observation.effectiveDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:Observation.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "effectiveTiming": {
+      "@id": "fhir:Observation.effectiveTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "effectiveInstant": {
+      "@id": "fhir:Observation.effectiveInstant",
+      "@context": "instant.context.jsonld"
+    },
+    "issued": {
+      "@id": "fhir:Observation.issued",
+      "@context": "instant.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:Observation.performer",
+      "@context": "reference.context.jsonld"
+    },
+    "valueQuantity": {
+      "@id": "fhir:Observation.valueQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "valueCodeableConcept": {
+      "@id": "fhir:Observation.valueCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "valueString": {
+      "@id": "fhir:Observation.valueString",
+      "@context": "string.context.jsonld"
+    },
+    "valueBoolean": {
+      "@id": "fhir:Observation.valueBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "valueInteger": {
+      "@id": "fhir:Observation.valueInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "valueRange": {
+      "@id": "fhir:Observation.valueRange",
+      "@context": "range.context.jsonld"
+    },
+    "valueRatio": {
+      "@id": "fhir:Observation.valueRatio",
+      "@context": "ratio.context.jsonld"
+    },
+    "valueSampledData": {
+      "@id": "fhir:Observation.valueSampledData",
+      "@context": "sampleddata.context.jsonld"
+    },
+    "valueTime": {
+      "@id": "fhir:Observation.valueTime",
+      "@context": "time.context.jsonld"
+    },
+    "valueDateTime": {
+      "@id": "fhir:Observation.valueDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "valuePeriod": {
+      "@id": "fhir:Observation.valuePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "valueAttachment": {
+      "@id": "fhir:Observation.valueAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "dataAbsentReason": {
+      "@id": "fhir:Observation.dataAbsentReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "interpretation": {
+      "@id": "fhir:Observation.interpretation",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Observation.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "bodySite": {
+      "@id": "fhir:Observation.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "method": {
+      "@id": "fhir:Observation.method",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "specimen": {
+      "@id": "fhir:Observation.specimen",
+      "@context": "reference.context.jsonld"
+    },
+    "device": {
+      "@id": "fhir:Observation.device",
+      "@context": "reference.context.jsonld"
+    },
+    "referenceRange": {
+      "@id": "fhir:Observation.referenceRange",
+      "@context": "observation.referencerange.context.jsonld"
+    },
+    "hasMember": {
+      "@id": "fhir:Observation.hasMember",
+      "@context": "reference.context.jsonld"
+    },
+    "derivedFrom": {
+      "@id": "fhir:Observation.derivedFrom",
+      "@context": "reference.context.jsonld"
+    },
+    "component": {
+      "@id": "fhir:Observation.component",
+      "@context": "observation.component.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

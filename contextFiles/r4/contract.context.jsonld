@@ -1,0 +1,189 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Contract.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:Contract.url",
+      "@context": "uri.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:Contract.version",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Contract.status",
+      "@context": "string.context.jsonld"
+    },
+    "legalState": {
+      "@id": "fhir:Contract.legalState",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:Contract.instantiatesCanonical",
+      "@context": "reference.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:Contract.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "contentDerivative": {
+      "@id": "fhir:Contract.contentDerivative",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "issued": {
+      "@id": "fhir:Contract.issued",
+      "@context": "datetime.context.jsonld"
+    },
+    "applies": {
+      "@id": "fhir:Contract.applies",
+      "@context": "period.context.jsonld"
+    },
+    "expirationType": {
+      "@id": "fhir:Contract.expirationType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Contract.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "authority": {
+      "@id": "fhir:Contract.authority",
+      "@context": "reference.context.jsonld"
+    },
+    "domain": {
+      "@id": "fhir:Contract.domain",
+      "@context": "reference.context.jsonld"
+    },
+    "site": {
+      "@id": "fhir:Contract.site",
+      "@context": "reference.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:Contract.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:Contract.title",
+      "@context": "string.context.jsonld"
+    },
+    "subtitle": {
+      "@id": "fhir:Contract.subtitle",
+      "@context": "string.context.jsonld"
+    },
+    "alias": {
+      "@id": "fhir:Contract.alias",
+      "@context": "string.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:Contract.author",
+      "@context": "reference.context.jsonld"
+    },
+    "scope": {
+      "@id": "fhir:Contract.scope",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "topicCodeableConcept": {
+      "@id": "fhir:Contract.topicCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "topicReference": {
+      "@id": "fhir:Contract.topicReference",
+      "@context": "reference.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Contract.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subType": {
+      "@id": "fhir:Contract.subType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "contentDefinition": {
+      "@id": "fhir:Contract.contentDefinition",
+      "@context": "contract.contentdefinition.context.jsonld"
+    },
+    "term": {
+      "@id": "fhir:Contract.term",
+      "@context": "contract.term.context.jsonld"
+    },
+    "supportingInfo": {
+      "@id": "fhir:Contract.supportingInfo",
+      "@context": "reference.context.jsonld"
+    },
+    "relevantHistory": {
+      "@id": "fhir:Contract.relevantHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "signer": {
+      "@id": "fhir:Contract.signer",
+      "@context": "contract.signer.context.jsonld"
+    },
+    "friendly": {
+      "@id": "fhir:Contract.friendly",
+      "@context": "contract.friendly.context.jsonld"
+    },
+    "legal": {
+      "@id": "fhir:Contract.legal",
+      "@context": "contract.legal.context.jsonld"
+    },
+    "rule": {
+      "@id": "fhir:Contract.rule",
+      "@context": "contract.rule.context.jsonld"
+    },
+    "legallyBindingAttachment": {
+      "@id": "fhir:Contract.legallyBindingAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "legallyBindingReference": {
+      "@id": "fhir:Contract.legallyBindingReference",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

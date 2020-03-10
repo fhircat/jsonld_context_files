@@ -1,0 +1,137 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:MedicationKnowledge.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MedicationKnowledge.status",
+      "@context": "string.context.jsonld"
+    },
+    "manufacturer": {
+      "@id": "fhir:MedicationKnowledge.manufacturer",
+      "@context": "reference.context.jsonld"
+    },
+    "doseForm": {
+      "@id": "fhir:MedicationKnowledge.doseForm",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "amount": {
+      "@id": "fhir:MedicationKnowledge.amount",
+      "@context": "quantity.context.jsonld"
+    },
+    "synonym": {
+      "@id": "fhir:MedicationKnowledge.synonym",
+      "@context": "string.context.jsonld"
+    },
+    "relatedMedicationKnowledge": {
+      "@id": "fhir:MedicationKnowledge.relatedMedicationKnowledge",
+      "@context": "medicationknowledge.relatedmedicationknowledge.context.jsonld"
+    },
+    "associatedMedication": {
+      "@id": "fhir:MedicationKnowledge.associatedMedication",
+      "@context": "reference.context.jsonld"
+    },
+    "productType": {
+      "@id": "fhir:MedicationKnowledge.productType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "monograph": {
+      "@id": "fhir:MedicationKnowledge.monograph",
+      "@context": "medicationknowledge.monograph.context.jsonld"
+    },
+    "ingredient": {
+      "@id": "fhir:MedicationKnowledge.ingredient",
+      "@context": "medicationknowledge.ingredient.context.jsonld"
+    },
+    "preparationInstruction": {
+      "@id": "fhir:MedicationKnowledge.preparationInstruction",
+      "@context": "markdown.context.jsonld"
+    },
+    "intendedRoute": {
+      "@id": "fhir:MedicationKnowledge.intendedRoute",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "cost": {
+      "@id": "fhir:MedicationKnowledge.cost",
+      "@context": "medicationknowledge.cost.context.jsonld"
+    },
+    "monitoringProgram": {
+      "@id": "fhir:MedicationKnowledge.monitoringProgram",
+      "@context": "medicationknowledge.monitoringprogram.context.jsonld"
+    },
+    "administrationGuidelines": {
+      "@id": "fhir:MedicationKnowledge.administrationGuidelines",
+      "@context": "medicationknowledge.administrationguidelines.context.jsonld"
+    },
+    "medicineClassification": {
+      "@id": "fhir:MedicationKnowledge.medicineClassification",
+      "@context": "medicationknowledge.medicineclassification.context.jsonld"
+    },
+    "packaging": {
+      "@id": "fhir:MedicationKnowledge.packaging",
+      "@context": "medicationknowledge.packaging.context.jsonld"
+    },
+    "drugCharacteristic": {
+      "@id": "fhir:MedicationKnowledge.drugCharacteristic",
+      "@context": "medicationknowledge.drugcharacteristic.context.jsonld"
+    },
+    "contraindication": {
+      "@id": "fhir:MedicationKnowledge.contraindication",
+      "@context": "reference.context.jsonld"
+    },
+    "regulatory": {
+      "@id": "fhir:MedicationKnowledge.regulatory",
+      "@context": "medicationknowledge.regulatory.context.jsonld"
+    },
+    "kinetics": {
+      "@id": "fhir:MedicationKnowledge.kinetics",
+      "@context": "medicationknowledge.kinetics.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

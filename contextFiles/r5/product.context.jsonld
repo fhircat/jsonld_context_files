@@ -1,0 +1,37 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "status": {
+      "@id": "fhir:Product.status",
+      "@context": "string.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:Product.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Product.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "manufacturer": {
+      "@id": "fhir:Product.manufacturer",
+      "@context": "reference.context.jsonld"
+    },
+    "instance": {
+      "@id": "fhir:Product.instance",
+      "@context": "product.instance.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Product.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

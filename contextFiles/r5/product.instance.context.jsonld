@@ -1,0 +1,33 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "quantity": {
+      "@id": "fhir:Product.instance.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Product.instance.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "lotNumber": {
+      "@id": "fhir:Product.instance.lotNumber",
+      "@context": "string.context.jsonld"
+    },
+    "expiry": {
+      "@id": "fhir:Product.instance.expiry",
+      "@context": "datetime.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Product.instance.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

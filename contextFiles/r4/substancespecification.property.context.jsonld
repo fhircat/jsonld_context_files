@@ -1,0 +1,53 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:SubstanceSpecification.property.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:SubstanceSpecification.property.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "parameters": {
+      "@id": "fhir:SubstanceSpecification.property.parameters",
+      "@context": "string.context.jsonld"
+    },
+    "definingSubstanceReference": {
+      "@id": "fhir:SubstanceSpecification.property.definingSubstanceReference",
+      "@context": "reference.context.jsonld"
+    },
+    "definingSubstanceCodeableConcept": {
+      "@id": "fhir:SubstanceSpecification.property.definingSubstanceCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "amountQuantity": {
+      "@id": "fhir:SubstanceSpecification.property.amountQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "amountString": {
+      "@id": "fhir:SubstanceSpecification.property.amountString",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

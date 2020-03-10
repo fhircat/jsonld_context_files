@@ -1,0 +1,153 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:StructureDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:StructureDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:StructureDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:StructureDefinition.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:StructureDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:StructureDefinition.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:StructureDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:StructureDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:StructureDefinition.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:StructureDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:StructureDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:StructureDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:StructureDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:StructureDefinition.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:StructureDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "keyword": {
+      "@id": "fhir:StructureDefinition.keyword",
+      "@context": "coding.context.jsonld"
+    },
+    "fhirVersion": {
+      "@id": "fhir:StructureDefinition.fhirVersion",
+      "@context": "string.context.jsonld"
+    },
+    "mapping": {
+      "@id": "fhir:StructureDefinition.mapping",
+      "@context": "structuredefinition.mapping.context.jsonld"
+    },
+    "kind": {
+      "@id": "fhir:StructureDefinition.kind",
+      "@context": "string.context.jsonld"
+    },
+    "abstract": {
+      "@id": "fhir:StructureDefinition.abstract",
+      "@context": "boolean.context.jsonld"
+    },
+    "context": {
+      "@id": "fhir:StructureDefinition.context",
+      "@context": "structuredefinition.context.context.jsonld"
+    },
+    "contextInvariant": {
+      "@id": "fhir:StructureDefinition.contextInvariant",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:StructureDefinition.type",
+      "@context": "uri.context.jsonld"
+    },
+    "baseDefinition": {
+      "@id": "fhir:StructureDefinition.baseDefinition",
+      "@context": "canonical.context.jsonld"
+    },
+    "derivation": {
+      "@id": "fhir:StructureDefinition.derivation",
+      "@context": "string.context.jsonld"
+    },
+    "snapshot": {
+      "@id": "fhir:StructureDefinition.snapshot",
+      "@context": "structuredefinition.snapshot.context.jsonld"
+    },
+    "differential": {
+      "@id": "fhir:StructureDefinition.differential",
+      "@context": "structuredefinition.differential.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

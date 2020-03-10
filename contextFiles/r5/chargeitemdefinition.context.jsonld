@@ -1,0 +1,137 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:ChargeItemDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ChargeItemDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:ChargeItemDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:ChargeItemDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "derivedFromUri": {
+      "@id": "fhir:ChargeItemDefinition.derivedFromUri",
+      "@context": "uri.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:ChargeItemDefinition.partOf",
+      "@context": "canonical.context.jsonld"
+    },
+    "replaces": {
+      "@id": "fhir:ChargeItemDefinition.replaces",
+      "@context": "canonical.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ChargeItemDefinition.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:ChargeItemDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:ChargeItemDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:ChargeItemDefinition.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:ChargeItemDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:ChargeItemDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:ChargeItemDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:ChargeItemDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:ChargeItemDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:ChargeItemDefinition.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:ChargeItemDefinition.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:ChargeItemDefinition.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:ChargeItemDefinition.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "instance": {
+      "@id": "fhir:ChargeItemDefinition.instance",
+      "@context": "reference.context.jsonld"
+    },
+    "applicability": {
+      "@id": "fhir:ChargeItemDefinition.applicability",
+      "@context": "chargeitemdefinition.applicability.context.jsonld"
+    },
+    "propertyGroup": {
+      "@id": "fhir:ChargeItemDefinition.propertyGroup",
+      "@context": "chargeitemdefinition.propertygroup.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

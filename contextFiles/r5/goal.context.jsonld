@@ -1,0 +1,117 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Goal.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "lifecycleStatus": {
+      "@id": "fhir:Goal.lifecycleStatus",
+      "@context": "string.context.jsonld"
+    },
+    "achievementStatus": {
+      "@id": "fhir:Goal.achievementStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:Goal.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "continuous": {
+      "@id": "fhir:Goal.continuous",
+      "@context": "boolean.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:Goal.priority",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Goal.description",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Goal.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "startDate": {
+      "@id": "fhir:Goal.startDate",
+      "@context": "date.context.jsonld"
+    },
+    "startCodeableConcept": {
+      "@id": "fhir:Goal.startCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "target": {
+      "@id": "fhir:Goal.target",
+      "@context": "goal.target.context.jsonld"
+    },
+    "statusDate": {
+      "@id": "fhir:Goal.statusDate",
+      "@context": "date.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:Goal.statusReason",
+      "@context": "string.context.jsonld"
+    },
+    "expressedBy": {
+      "@id": "fhir:Goal.expressedBy",
+      "@context": "reference.context.jsonld"
+    },
+    "addresses": {
+      "@id": "fhir:Goal.addresses",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Goal.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:Goal.outcome",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

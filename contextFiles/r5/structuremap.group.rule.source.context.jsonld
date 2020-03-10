@@ -1,0 +1,269 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "context": {
+      "@id": "fhir:StructureMap.group.rule.source.context",
+      "@context": "id.context.jsonld"
+    },
+    "min": {
+      "@id": "fhir:StructureMap.group.rule.source.min",
+      "@context": "integer.context.jsonld"
+    },
+    "max": {
+      "@id": "fhir:StructureMap.group.rule.source.max",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:StructureMap.group.rule.source.type",
+      "@context": "string.context.jsonld"
+    },
+    "defaultValueBase64Binary": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueBase64Binary",
+      "@context": "base64binary.context.jsonld"
+    },
+    "defaultValueBoolean": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "defaultValueCanonical": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "defaultValueCode": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueCode",
+      "@context": "code.context.jsonld"
+    },
+    "defaultValueDate": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDate",
+      "@context": "date.context.jsonld"
+    },
+    "defaultValueDateTime": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "defaultValueDecimal": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDecimal",
+      "@context": "decimal.context.jsonld"
+    },
+    "defaultValueId": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueId",
+      "@context": "id.context.jsonld"
+    },
+    "defaultValueInstant": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueInstant",
+      "@context": "instant.context.jsonld"
+    },
+    "defaultValueInteger": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "defaultValueInteger64": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueInteger64",
+      "@context": "integer64.context.jsonld"
+    },
+    "defaultValueMarkdown": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueMarkdown",
+      "@context": "markdown.context.jsonld"
+    },
+    "defaultValueOid": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueOid",
+      "@context": "oid.context.jsonld"
+    },
+    "defaultValuePositiveInt": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValuePositiveInt",
+      "@context": "positiveint.context.jsonld"
+    },
+    "defaultValueString": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueString",
+      "@context": "string.context.jsonld"
+    },
+    "defaultValueTime": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueTime",
+      "@context": "time.context.jsonld"
+    },
+    "defaultValueUnsignedInt": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueUnsignedInt",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "defaultValueUri": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueUri",
+      "@context": "uri.context.jsonld"
+    },
+    "defaultValueUrl": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueUrl",
+      "@context": "url.context.jsonld"
+    },
+    "defaultValueUuid": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueUuid",
+      "@context": "uuid.context.jsonld"
+    },
+    "defaultValueAddress": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueAddress",
+      "@context": "address.context.jsonld"
+    },
+    "defaultValueAge": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueAge",
+      "@context": "age.context.jsonld"
+    },
+    "defaultValueAnnotation": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueAnnotation",
+      "@context": "annotation.context.jsonld"
+    },
+    "defaultValueAttachment": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "defaultValueCodeableConcept": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "defaultValueCoding": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueCoding",
+      "@context": "coding.context.jsonld"
+    },
+    "defaultValueContactPoint": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueContactPoint",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "defaultValueCount": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueCount",
+      "@context": "count.context.jsonld"
+    },
+    "defaultValueDistance": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDistance",
+      "@context": "distance.context.jsonld"
+    },
+    "defaultValueDuration": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "defaultValueHumanName": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueHumanName",
+      "@context": "humanname.context.jsonld"
+    },
+    "defaultValueIdentifier": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "defaultValueMoney": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueMoney",
+      "@context": "money.context.jsonld"
+    },
+    "defaultValuePeriod": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValuePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "defaultValueQuantity": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "defaultValueRange": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueRange",
+      "@context": "range.context.jsonld"
+    },
+    "defaultValueRatio": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueRatio",
+      "@context": "ratio.context.jsonld"
+    },
+    "defaultValueReference": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueReference",
+      "@context": "reference.context.jsonld"
+    },
+    "defaultValueSampledData": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueSampledData",
+      "@context": "sampleddata.context.jsonld"
+    },
+    "defaultValueSignature": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueSignature",
+      "@context": "signature.context.jsonld"
+    },
+    "defaultValueTiming": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "defaultValueContactDetail": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueContactDetail",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "defaultValueContributor": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueContributor",
+      "@context": "contributor.context.jsonld"
+    },
+    "defaultValueDataRequirement": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDataRequirement",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "defaultValueExpression": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueExpression",
+      "@context": "expression.context.jsonld"
+    },
+    "defaultValueParameterDefinition": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueParameterDefinition",
+      "@context": "parameterdefinition.context.jsonld"
+    },
+    "defaultValueRelatedArtifact": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueRelatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "defaultValueTriggerDefinition": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueTriggerDefinition",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "defaultValueUsageContext": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueUsageContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "defaultValueDosage": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueDosage",
+      "@context": "dosage.context.jsonld"
+    },
+    "defaultValueMeta": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueMeta",
+      "@context": "meta.context.jsonld"
+    },
+    "element": {
+      "@id": "fhir:StructureMap.group.rule.source.element",
+      "@context": "string.context.jsonld"
+    },
+    "listMode": {
+      "@id": "fhir:StructureMap.group.rule.source.listMode",
+      "@context": "string.context.jsonld"
+    },
+    "variable": {
+      "@id": "fhir:StructureMap.group.rule.source.variable",
+      "@context": "id.context.jsonld"
+    },
+    "condition": {
+      "@id": "fhir:StructureMap.group.rule.source.condition",
+      "@context": "string.context.jsonld"
+    },
+    "check": {
+      "@id": "fhir:StructureMap.group.rule.source.check",
+      "@context": "string.context.jsonld"
+    },
+    "logMessage": {
+      "@id": "fhir:StructureMap.group.rule.source.logMessage",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

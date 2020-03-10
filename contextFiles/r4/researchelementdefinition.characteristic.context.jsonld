@@ -1,0 +1,109 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "definitionCodeableConcept": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.definitionCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "definitionCanonical": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.definitionCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "definitionExpression": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.definitionExpression",
+      "@context": "expression.context.jsonld"
+    },
+    "definitionDataRequirement": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.definitionDataRequirement",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "usageContext": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.usageContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "exclude": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.exclude",
+      "@context": "boolean.context.jsonld"
+    },
+    "unitOfMeasure": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.unitOfMeasure",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "studyEffectiveDescription": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDescription",
+      "@context": "string.context.jsonld"
+    },
+    "studyEffectiveDateTime": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "studyEffectivePeriod": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "studyEffectiveDuration": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "studyEffectiveTiming": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "studyEffectiveTimeFromStart": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTimeFromStart",
+      "@context": "duration.context.jsonld"
+    },
+    "studyEffectiveGroupMeasure": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveGroupMeasure",
+      "@context": "string.context.jsonld"
+    },
+    "participantEffectiveDescription": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDescription",
+      "@context": "string.context.jsonld"
+    },
+    "participantEffectiveDateTime": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "participantEffectivePeriod": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "participantEffectiveDuration": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "participantEffectiveTiming": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "participantEffectiveTimeFromStart": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTimeFromStart",
+      "@context": "duration.context.jsonld"
+    },
+    "participantEffectiveGroupMeasure": {
+      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveGroupMeasure",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

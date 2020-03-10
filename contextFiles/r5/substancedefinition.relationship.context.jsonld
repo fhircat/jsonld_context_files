@@ -1,0 +1,69 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "substanceDefinitionReference": {
+      "@id": "fhir:SubstanceDefinition.relationship.substanceDefinitionReference",
+      "@context": "reference.context.jsonld"
+    },
+    "substanceDefinitionCodeableConcept": {
+      "@id": "fhir:SubstanceDefinition.relationship.substanceDefinitionCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:SubstanceDefinition.relationship.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "isDefining": {
+      "@id": "fhir:SubstanceDefinition.relationship.isDefining",
+      "@context": "boolean.context.jsonld"
+    },
+    "amountQuantity": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "amountRange": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountRange",
+      "@context": "range.context.jsonld"
+    },
+    "amountRatio": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountRatio",
+      "@context": "ratio.context.jsonld"
+    },
+    "amountString": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountString",
+      "@context": "string.context.jsonld"
+    },
+    "amountRatioHighLimit": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountRatioHighLimit",
+      "@context": "ratio.context.jsonld"
+    },
+    "amountType": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "source": {
+      "@id": "fhir:SubstanceDefinition.relationship.source",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

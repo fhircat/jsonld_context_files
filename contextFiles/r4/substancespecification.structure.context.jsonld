@@ -1,0 +1,53 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "stereochemistry": {
+      "@id": "fhir:SubstanceSpecification.structure.stereochemistry",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "opticalActivity": {
+      "@id": "fhir:SubstanceSpecification.structure.opticalActivity",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "molecularFormula": {
+      "@id": "fhir:SubstanceSpecification.structure.molecularFormula",
+      "@context": "string.context.jsonld"
+    },
+    "molecularFormulaByMoiety": {
+      "@id": "fhir:SubstanceSpecification.structure.molecularFormulaByMoiety",
+      "@context": "string.context.jsonld"
+    },
+    "isotope": {
+      "@id": "fhir:SubstanceSpecification.structure.isotope",
+      "@context": "substancespecification.structure.isotope.context.jsonld"
+    },
+    "source": {
+      "@id": "fhir:SubstanceSpecification.structure.source",
+      "@context": "reference.context.jsonld"
+    },
+    "representation": {
+      "@id": "fhir:SubstanceSpecification.structure.representation",
+      "@context": "substancespecification.structure.representation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

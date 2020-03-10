@@ -1,0 +1,105 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:PractitionerRole.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "active": {
+      "@id": "fhir:PractitionerRole.active",
+      "@context": "boolean.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:PractitionerRole.period",
+      "@context": "period.context.jsonld"
+    },
+    "practitioner": {
+      "@id": "fhir:PractitionerRole.practitioner",
+      "@context": "reference.context.jsonld"
+    },
+    "organization": {
+      "@id": "fhir:PractitionerRole.organization",
+      "@context": "reference.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:PractitionerRole.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "specialty": {
+      "@id": "fhir:PractitionerRole.specialty",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:PractitionerRole.location",
+      "@context": "reference.context.jsonld"
+    },
+    "healthcareService": {
+      "@id": "fhir:PractitionerRole.healthcareService",
+      "@context": "reference.context.jsonld"
+    },
+    "telecom": {
+      "@id": "fhir:PractitionerRole.telecom",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "availableTime": {
+      "@id": "fhir:PractitionerRole.availableTime",
+      "@context": "practitionerrole.availabletime.context.jsonld"
+    },
+    "notAvailable": {
+      "@id": "fhir:PractitionerRole.notAvailable",
+      "@context": "practitionerrole.notavailable.context.jsonld"
+    },
+    "availabilityExceptions": {
+      "@id": "fhir:PractitionerRole.availabilityExceptions",
+      "@context": "string.context.jsonld"
+    },
+    "endpoint": {
+      "@id": "fhir:PractitionerRole.endpoint",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "identifier": {
+      "@id": "fhir:Event.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:Event.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:Event.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Event.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Event.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "researchStudy": {
+      "@id": "fhir:Event.researchStudy",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Event.status",
+      "@context": "string.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:Event.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Event.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Event.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:Event.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:Event.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurrencePeriod": {
+      "@id": "fhir:Event.occurrencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "occurrenceTiming": {
+      "@id": "fhir:Event.occurrenceTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "recorded": {
+      "@id": "fhir:Event.recorded",
+      "@context": "datetime.context.jsonld"
+    },
+    "reportedBoolean": {
+      "@id": "fhir:Event.reportedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedReference": {
+      "@id": "fhir:Event.reportedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:Event.performer",
+      "@context": "event.performer.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:Event.location",
+      "@context": "reference.context.jsonld"
+    },
+    "reason": {
+      "@id": "fhir:Event.reason",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Event.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

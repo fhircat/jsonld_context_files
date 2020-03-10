@@ -1,0 +1,57 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:ValueSet.expansion.contains.property.code",
+      "@context": "string.context.jsonld"
+    },
+    "valueCode": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueCode",
+      "@context": "code.context.jsonld"
+    },
+    "valueCoding": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueCoding",
+      "@context": "coding.context.jsonld"
+    },
+    "valueString": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueString",
+      "@context": "string.context.jsonld"
+    },
+    "valueInteger": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "valueBoolean": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "valueDateTime": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "valueDecimal": {
+      "@id": "fhir:ValueSet.expansion.contains.property.valueDecimal",
+      "@context": "decimal.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

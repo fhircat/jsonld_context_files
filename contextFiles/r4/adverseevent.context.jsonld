@@ -1,0 +1,129 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:AdverseEvent.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "actuality": {
+      "@id": "fhir:AdverseEvent.actuality",
+      "@context": "string.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:AdverseEvent.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "event": {
+      "@id": "fhir:AdverseEvent.event",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:AdverseEvent.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:AdverseEvent.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:AdverseEvent.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "detected": {
+      "@id": "fhir:AdverseEvent.detected",
+      "@context": "datetime.context.jsonld"
+    },
+    "recordedDate": {
+      "@id": "fhir:AdverseEvent.recordedDate",
+      "@context": "datetime.context.jsonld"
+    },
+    "resultingCondition": {
+      "@id": "fhir:AdverseEvent.resultingCondition",
+      "@context": "reference.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:AdverseEvent.location",
+      "@context": "reference.context.jsonld"
+    },
+    "seriousness": {
+      "@id": "fhir:AdverseEvent.seriousness",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "severity": {
+      "@id": "fhir:AdverseEvent.severity",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:AdverseEvent.outcome",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "recorder": {
+      "@id": "fhir:AdverseEvent.recorder",
+      "@context": "reference.context.jsonld"
+    },
+    "contributor": {
+      "@id": "fhir:AdverseEvent.contributor",
+      "@context": "reference.context.jsonld"
+    },
+    "suspectEntity": {
+      "@id": "fhir:AdverseEvent.suspectEntity",
+      "@context": "adverseevent.suspectentity.context.jsonld"
+    },
+    "subjectMedicalHistory": {
+      "@id": "fhir:AdverseEvent.subjectMedicalHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "referenceDocument": {
+      "@id": "fhir:AdverseEvent.referenceDocument",
+      "@context": "reference.context.jsonld"
+    },
+    "study": {
+      "@id": "fhir:AdverseEvent.study",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:SubstanceSpecification.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:SubstanceSpecification.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:SubstanceSpecification.status",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "domain": {
+      "@id": "fhir:SubstanceSpecification.domain",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:SubstanceSpecification.description",
+      "@context": "string.context.jsonld"
+    },
+    "source": {
+      "@id": "fhir:SubstanceSpecification.source",
+      "@context": "reference.context.jsonld"
+    },
+    "comment": {
+      "@id": "fhir:SubstanceSpecification.comment",
+      "@context": "string.context.jsonld"
+    },
+    "moiety": {
+      "@id": "fhir:SubstanceSpecification.moiety",
+      "@context": "substancespecification.moiety.context.jsonld"
+    },
+    "property": {
+      "@id": "fhir:SubstanceSpecification.property",
+      "@context": "substancespecification.property.context.jsonld"
+    },
+    "referenceInformation": {
+      "@id": "fhir:SubstanceSpecification.referenceInformation",
+      "@context": "reference.context.jsonld"
+    },
+    "structure": {
+      "@id": "fhir:SubstanceSpecification.structure",
+      "@context": "substancespecification.structure.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:SubstanceSpecification.code",
+      "@context": "substancespecification.code.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:SubstanceSpecification.name",
+      "@context": "substancespecification.name.context.jsonld"
+    },
+    "relationship": {
+      "@id": "fhir:SubstanceSpecification.relationship",
+      "@context": "substancespecification.relationship.context.jsonld"
+    },
+    "nucleicAcid": {
+      "@id": "fhir:SubstanceSpecification.nucleicAcid",
+      "@context": "reference.context.jsonld"
+    },
+    "polymer": {
+      "@id": "fhir:SubstanceSpecification.polymer",
+      "@context": "reference.context.jsonld"
+    },
+    "protein": {
+      "@id": "fhir:SubstanceSpecification.protein",
+      "@context": "reference.context.jsonld"
+    },
+    "sourceMaterial": {
+      "@id": "fhir:SubstanceSpecification.sourceMaterial",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

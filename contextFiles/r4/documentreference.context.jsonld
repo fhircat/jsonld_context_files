@@ -1,0 +1,113 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "masterIdentifier": {
+      "@id": "fhir:DocumentReference.masterIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:DocumentReference.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:DocumentReference.status",
+      "@context": "string.context.jsonld"
+    },
+    "docStatus": {
+      "@id": "fhir:DocumentReference.docStatus",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:DocumentReference.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:DocumentReference.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:DocumentReference.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:DocumentReference.date",
+      "@context": "instant.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:DocumentReference.author",
+      "@context": "reference.context.jsonld"
+    },
+    "authenticator": {
+      "@id": "fhir:DocumentReference.authenticator",
+      "@context": "reference.context.jsonld"
+    },
+    "custodian": {
+      "@id": "fhir:DocumentReference.custodian",
+      "@context": "reference.context.jsonld"
+    },
+    "relatesTo": {
+      "@id": "fhir:DocumentReference.relatesTo",
+      "@context": "documentreference.relatesto.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:DocumentReference.description",
+      "@context": "string.context.jsonld"
+    },
+    "securityLabel": {
+      "@id": "fhir:DocumentReference.securityLabel",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "content": {
+      "@id": "fhir:DocumentReference.content",
+      "@context": "documentreference.content.context.jsonld"
+    },
+    "context": {
+      "@id": "fhir:DocumentReference.context",
+      "@context": "documentreference.context.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "identifier": {
+      "@id": "fhir:Request.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:Request.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:Request.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Request.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "replaces": {
+      "@id": "fhir:Request.replaces",
+      "@context": "reference.context.jsonld"
+    },
+    "groupIdentifier": {
+      "@id": "fhir:Request.groupIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Request.status",
+      "@context": "string.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:Request.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "intent": {
+      "@id": "fhir:Request.intent",
+      "@context": "string.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:Request.priority",
+      "@context": "string.context.jsonld"
+    },
+    "doNotPerform": {
+      "@id": "fhir:Request.doNotPerform",
+      "@context": "boolean.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:Request.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Request.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:Request.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:Request.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurrencePeriod": {
+      "@id": "fhir:Request.occurrencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "occurrenceTiming": {
+      "@id": "fhir:Request.occurrenceTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "authoredOn": {
+      "@id": "fhir:Request.authoredOn",
+      "@context": "datetime.context.jsonld"
+    },
+    "requester": {
+      "@id": "fhir:Request.requester",
+      "@context": "reference.context.jsonld"
+    },
+    "reportedBoolean": {
+      "@id": "fhir:Request.reportedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedReference": {
+      "@id": "fhir:Request.reportedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "performerType": {
+      "@id": "fhir:Request.performerType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:Request.performer",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:Request.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Request.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "insurance": {
+      "@id": "fhir:Request.insurance",
+      "@context": "reference.context.jsonld"
+    },
+    "supportingInfo": {
+      "@id": "fhir:Request.supportingInfo",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Request.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "relevantHistory": {
+      "@id": "fhir:Request.relevantHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

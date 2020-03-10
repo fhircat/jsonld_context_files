@@ -1,0 +1,37 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "reference": {
+      "@id": "fhir:Reference.reference",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Reference.type",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Reference.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "display": {
+      "@id": "fhir:Reference.display",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ServiceRequest.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:ServiceRequest.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:ServiceRequest.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:ServiceRequest.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "replaces": {
+      "@id": "fhir:ServiceRequest.replaces",
+      "@context": "reference.context.jsonld"
+    },
+    "requisition": {
+      "@id": "fhir:ServiceRequest.requisition",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ServiceRequest.status",
+      "@context": "string.context.jsonld"
+    },
+    "intent": {
+      "@id": "fhir:ServiceRequest.intent",
+      "@context": "string.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:ServiceRequest.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:ServiceRequest.priority",
+      "@context": "string.context.jsonld"
+    },
+    "doNotPerform": {
+      "@id": "fhir:ServiceRequest.doNotPerform",
+      "@context": "boolean.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:ServiceRequest.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "orderDetail": {
+      "@id": "fhir:ServiceRequest.orderDetail",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "quantityQuantity": {
+      "@id": "fhir:ServiceRequest.quantityQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "quantityRatio": {
+      "@id": "fhir:ServiceRequest.quantityRatio",
+      "@context": "ratio.context.jsonld"
+    },
+    "quantityRange": {
+      "@id": "fhir:ServiceRequest.quantityRange",
+      "@context": "range.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:ServiceRequest.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:ServiceRequest.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "occurrenceDateTime": {
+      "@id": "fhir:ServiceRequest.occurrenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurrencePeriod": {
+      "@id": "fhir:ServiceRequest.occurrencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "occurrenceTiming": {
+      "@id": "fhir:ServiceRequest.occurrenceTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "asNeededBoolean": {
+      "@id": "fhir:ServiceRequest.asNeededBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "asNeededCodeableConcept": {
+      "@id": "fhir:ServiceRequest.asNeededCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "authoredOn": {
+      "@id": "fhir:ServiceRequest.authoredOn",
+      "@context": "datetime.context.jsonld"
+    },
+    "requester": {
+      "@id": "fhir:ServiceRequest.requester",
+      "@context": "reference.context.jsonld"
+    },
+    "performerType": {
+      "@id": "fhir:ServiceRequest.performerType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:ServiceRequest.performer",
+      "@context": "reference.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:ServiceRequest.location",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "reason": {
+      "@id": "fhir:ServiceRequest.reason",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "insurance": {
+      "@id": "fhir:ServiceRequest.insurance",
+      "@context": "reference.context.jsonld"
+    },
+    "supportingInfo": {
+      "@id": "fhir:ServiceRequest.supportingInfo",
+      "@context": "reference.context.jsonld"
+    },
+    "specimen": {
+      "@id": "fhir:ServiceRequest.specimen",
+      "@context": "reference.context.jsonld"
+    },
+    "bodySite": {
+      "@id": "fhir:ServiceRequest.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:ServiceRequest.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "patientInstruction": {
+      "@id": "fhir:ServiceRequest.patientInstruction",
+      "@context": "string.context.jsonld"
+    },
+    "relevantHistory": {
+      "@id": "fhir:ServiceRequest.relevantHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

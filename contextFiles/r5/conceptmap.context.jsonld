@@ -1,0 +1,125 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:ConceptMap.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ConceptMap.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:ConceptMap.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:ConceptMap.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:ConceptMap.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ConceptMap.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:ConceptMap.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:ConceptMap.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:ConceptMap.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:ConceptMap.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:ConceptMap.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:ConceptMap.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:ConceptMap.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:ConceptMap.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:ConceptMap.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "sourceUri": {
+      "@id": "fhir:ConceptMap.sourceUri",
+      "@context": "uri.context.jsonld"
+    },
+    "sourceCanonical": {
+      "@id": "fhir:ConceptMap.sourceCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "targetUri": {
+      "@id": "fhir:ConceptMap.targetUri",
+      "@context": "uri.context.jsonld"
+    },
+    "targetCanonical": {
+      "@id": "fhir:ConceptMap.targetCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "group": {
+      "@id": "fhir:ConceptMap.group",
+      "@context": "conceptmap.group.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:Extension.url",
+      "@context": "string.context.jsonld"
+    },
+    "valueDate": {
+      "@id": "fhir:Extension.valueDate",
+      "@context": "date.context.jsonld"
+    },
+    "valueDateTime": {
+      "@id": "fhir:Extension.valueDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "valueTime": {
+      "@id": "fhir:Extension.valueTime",
+      "@context": "time.context.jsonld"
+    },
+    "valueInstant": {
+      "@id": "fhir:Extension.valueInstant",
+      "@context": "instant.context.jsonld"
+    },
+    "valueDecimal": {
+      "@id": "fhir:Extension.valueDecimal",
+      "@context": "decimal.context.jsonld"
+    },
+    "valueInteger": {
+      "@id": "fhir:Extension.valueInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "minValueDate": {
+      "@id": "fhir:ElementDefinition.minValueDate",
+      "@context": "date.context.jsonld"
+    },
+    "minValueDateTime": {
+      "@id": "fhir:ElementDefinition.minValueDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "minValueInstant": {
+      "@id": "fhir:ElementDefinition.minValueInstant",
+      "@context": "instant.context.jsonld"
+    },
+    "minValueTime": {
+      "@id": "fhir:ElementDefinition.minValueTime",
+      "@context": "time.context.jsonld"
+    },
+    "minValueDecimal": {
+      "@id": "fhir:ElementDefinition.minValueDecimal",
+      "@context": "decimal.context.jsonld"
+    },
+    "minValueInteger": {
+      "@id": "fhir:ElementDefinition.minValueInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "minValueInteger64": {
+      "@id": "fhir:ElementDefinition.minValueInteger64",
+      "@context": "integer64.context.jsonld"
+    },
+    "minValuePositiveInt": {
+      "@id": "fhir:ElementDefinition.minValuePositiveInt",
+      "@context": "positiveint.context.jsonld"
+    },
+    "minValueUnsignedInt": {
+      "@id": "fhir:ElementDefinition.minValueUnsignedInt",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "minValueQuantity": {
+      "@id": "fhir:ElementDefinition.minValueQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

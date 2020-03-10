@@ -1,0 +1,61 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:PackagedProductDefinition.package.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:PackagedProductDefinition.package.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:PackagedProductDefinition.package.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "material": {
+      "@id": "fhir:PackagedProductDefinition.package.material",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "alternateMaterial": {
+      "@id": "fhir:PackagedProductDefinition.package.alternateMaterial",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "shelfLifeStorage": {
+      "@id": "fhir:PackagedProductDefinition.package.shelfLifeStorage",
+      "@context": "productshelflife.context.jsonld"
+    },
+    "manufacturer": {
+      "@id": "fhir:PackagedProductDefinition.package.manufacturer",
+      "@context": "reference.context.jsonld"
+    },
+    "characteristic": {
+      "@id": "fhir:PackagedProductDefinition.package.characteristic",
+      "@context": "packagedproductdefinition.package.characteristic.context.jsonld"
+    },
+    "containedItem": {
+      "@id": "fhir:PackagedProductDefinition.package.containedItem",
+      "@context": "packagedproductdefinition.package.containeditem.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

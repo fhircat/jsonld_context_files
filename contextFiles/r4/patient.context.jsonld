@@ -1,0 +1,121 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Patient.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "active": {
+      "@id": "fhir:Patient.active",
+      "@context": "boolean.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:Patient.name",
+      "@context": "humanname.context.jsonld"
+    },
+    "telecom": {
+      "@id": "fhir:Patient.telecom",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "gender": {
+      "@id": "fhir:Patient.gender",
+      "@context": "string.context.jsonld"
+    },
+    "birthDate": {
+      "@id": "fhir:Patient.birthDate",
+      "@context": "date.context.jsonld"
+    },
+    "deceasedBoolean": {
+      "@id": "fhir:Patient.deceasedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "deceasedDateTime": {
+      "@id": "fhir:Patient.deceasedDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "address": {
+      "@id": "fhir:Patient.address",
+      "@context": "address.context.jsonld"
+    },
+    "maritalStatus": {
+      "@id": "fhir:Patient.maritalStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "multipleBirthBoolean": {
+      "@id": "fhir:Patient.multipleBirthBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "multipleBirthInteger": {
+      "@id": "fhir:Patient.multipleBirthInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "photo": {
+      "@id": "fhir:Patient.photo",
+      "@context": "attachment.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:Patient.contact",
+      "@context": "patient.contact.context.jsonld"
+    },
+    "communication": {
+      "@id": "fhir:Patient.communication",
+      "@context": "patient.communication.context.jsonld"
+    },
+    "generalPractitioner": {
+      "@id": "fhir:Patient.generalPractitioner",
+      "@context": "reference.context.jsonld"
+    },
+    "managingOrganization": {
+      "@id": "fhir:Patient.managingOrganization",
+      "@context": "reference.context.jsonld"
+    },
+    "link": {
+      "@id": "fhir:Patient.link",
+      "@context": "patient.link.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "hierarchical": {
+      "@id": "fhir:TerminologyCapabilities.expansion.hierarchical",
+      "@context": "boolean.context.jsonld"
+    },
+    "paging": {
+      "@id": "fhir:TerminologyCapabilities.expansion.paging",
+      "@context": "boolean.context.jsonld"
+    },
+    "incomplete": {
+      "@id": "fhir:TerminologyCapabilities.expansion.incomplete",
+      "@context": "boolean.context.jsonld"
+    },
+    "parameter": {
+      "@id": "fhir:TerminologyCapabilities.expansion.parameter",
+      "@context": "terminologycapabilities.expansion.parameter.context.jsonld"
+    },
+    "textFilter": {
+      "@id": "fhir:TerminologyCapabilities.expansion.textFilter",
+      "@context": "markdown.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Specimen.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "accessionIdentifier": {
+      "@id": "fhir:Specimen.accessionIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Specimen.status",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Specimen.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Specimen.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "receivedTime": {
+      "@id": "fhir:Specimen.receivedTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "parent": {
+      "@id": "fhir:Specimen.parent",
+      "@context": "reference.context.jsonld"
+    },
+    "request": {
+      "@id": "fhir:Specimen.request",
+      "@context": "reference.context.jsonld"
+    },
+    "collection": {
+      "@id": "fhir:Specimen.collection",
+      "@context": "specimen.collection.context.jsonld"
+    },
+    "processing": {
+      "@id": "fhir:Specimen.processing",
+      "@context": "specimen.processing.context.jsonld"
+    },
+    "container": {
+      "@id": "fhir:Specimen.container",
+      "@context": "specimen.container.context.jsonld"
+    },
+    "condition": {
+      "@id": "fhir:Specimen.condition",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Specimen.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "boundsDuration": {
+      "@id": "fhir:Timing.repeat.boundsDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "boundsRange": {
+      "@id": "fhir:Timing.repeat.boundsRange",
+      "@context": "range.context.jsonld"
+    },
+    "boundsPeriod": {
+      "@id": "fhir:Timing.repeat.boundsPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "count": {
+      "@id": "fhir:Timing.repeat.count",
+      "@context": "positiveint.context.jsonld"
+    },
+    "countMax": {
+      "@id": "fhir:Timing.repeat.countMax",
+      "@context": "positiveint.context.jsonld"
+    },
+    "duration": {
+      "@id": "fhir:Timing.repeat.duration",
+      "@context": "decimal.context.jsonld"
+    },
+    "durationMax": {
+      "@id": "fhir:Timing.repeat.durationMax",
+      "@context": "decimal.context.jsonld"
+    },
+    "durationUnit": {
+      "@id": "fhir:Timing.repeat.durationUnit",
+      "@context": "string.context.jsonld"
+    },
+    "frequency": {
+      "@id": "fhir:Timing.repeat.frequency",
+      "@context": "positiveint.context.jsonld"
+    },
+    "frequencyMax": {
+      "@id": "fhir:Timing.repeat.frequencyMax",
+      "@context": "positiveint.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:Timing.repeat.period",
+      "@context": "decimal.context.jsonld"
+    },
+    "periodMax": {
+      "@id": "fhir:Timing.repeat.periodMax",
+      "@context": "decimal.context.jsonld"
+    },
+    "periodUnit": {
+      "@id": "fhir:Timing.repeat.periodUnit",
+      "@context": "string.context.jsonld"
+    },
+    "dayOfWeek": {
+      "@id": "fhir:Timing.repeat.dayOfWeek",
+      "@context": "string.context.jsonld"
+    },
+    "timeOfDay": {
+      "@id": "fhir:Timing.repeat.timeOfDay",
+      "@context": "time.context.jsonld"
+    },
+    "when": {
+      "@id": "fhir:Timing.repeat.when",
+      "@context": "string.context.jsonld"
+    },
+    "offset": {
+      "@id": "fhir:Timing.repeat.offset",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

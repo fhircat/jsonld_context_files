@@ -1,0 +1,45 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:MessageHeader.source.name",
+      "@context": "string.context.jsonld"
+    },
+    "software": {
+      "@id": "fhir:MessageHeader.source.software",
+      "@context": "string.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:MessageHeader.source.version",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:MessageHeader.source.contact",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "endpoint": {
+      "@id": "fhir:MessageHeader.source.endpoint",
+      "@context": "url.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

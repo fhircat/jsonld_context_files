@@ -1,0 +1,57 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:DataRequirement.type",
+      "@context": "string.context.jsonld"
+    },
+    "profile": {
+      "@id": "fhir:DataRequirement.profile",
+      "@context": "canonical.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:DataRequirement.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:DataRequirement.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "mustSupport": {
+      "@id": "fhir:DataRequirement.mustSupport",
+      "@context": "string.context.jsonld"
+    },
+    "codeFilter": {
+      "@id": "fhir:DataRequirement.codeFilter",
+      "@context": "datarequirement.codefilter.context.jsonld"
+    },
+    "dateFilter": {
+      "@id": "fhir:DataRequirement.dateFilter",
+      "@context": "datarequirement.datefilter.context.jsonld"
+    },
+    "limit": {
+      "@id": "fhir:DataRequirement.limit",
+      "@context": "positiveint.context.jsonld"
+    },
+    "sort": {
+      "@id": "fhir:DataRequirement.sort",
+      "@context": "datarequirement.sort.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

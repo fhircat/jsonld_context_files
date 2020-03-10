@@ -1,0 +1,109 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "identifier": {
+      "@id": "fhir:FiveWs.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:FiveWs.version",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:FiveWs.status",
+      "@context": "string.context.jsonld"
+    },
+    "class": {
+      "@id": "fhir:FiveWs.class",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "grade": {
+      "@id": "fhir:FiveWs.grade",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "whatCodeableConcept": {
+      "@id": "fhir:FiveWs.whatCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "whatReference": {
+      "@id": "fhir:FiveWs.whatReference",
+      "@context": "reference.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:FiveWs.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "context": {
+      "@id": "fhir:FiveWs.context",
+      "@context": "reference.context.jsonld"
+    },
+    "init": {
+      "@id": "fhir:FiveWs.init",
+      "@context": "datetime.context.jsonld"
+    },
+    "planned": {
+      "@id": "fhir:FiveWs.planned",
+      "@context": "timing.context.jsonld"
+    },
+    "doneDateTime": {
+      "@id": "fhir:FiveWs.doneDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "donePeriod": {
+      "@id": "fhir:FiveWs.donePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "recorded": {
+      "@id": "fhir:FiveWs.recorded",
+      "@context": "instant.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:FiveWs.author",
+      "@context": "reference.context.jsonld"
+    },
+    "source": {
+      "@id": "fhir:FiveWs.source",
+      "@context": "reference.context.jsonld"
+    },
+    "actor": {
+      "@id": "fhir:FiveWs.actor",
+      "@context": "reference.context.jsonld"
+    },
+    "cause": {
+      "@id": "fhir:FiveWs.cause",
+      "@context": "reference.context.jsonld"
+    },
+    "witness": {
+      "@id": "fhir:FiveWs.witness",
+      "@context": "reference.context.jsonld"
+    },
+    "who": {
+      "@id": "fhir:FiveWs.who",
+      "@context": "reference.context.jsonld"
+    },
+    "whereCodeableConcept": {
+      "@id": "fhir:FiveWs.whereCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "whereReference": {
+      "@id": "fhir:FiveWs.whereReference",
+      "@context": "reference.context.jsonld"
+    },
+    "whyCodeableConcept": {
+      "@id": "fhir:FiveWs.whyCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "whyReference": {
+      "@id": "fhir:FiveWs.whyReference",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

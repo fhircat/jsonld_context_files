@@ -1,0 +1,153 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:FamilyMemberHistory.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:FamilyMemberHistory.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:FamilyMemberHistory.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:FamilyMemberHistory.status",
+      "@context": "string.context.jsonld"
+    },
+    "dataAbsentReason": {
+      "@id": "fhir:FamilyMemberHistory.dataAbsentReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "patient": {
+      "@id": "fhir:FamilyMemberHistory.patient",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:FamilyMemberHistory.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:FamilyMemberHistory.name",
+      "@context": "string.context.jsonld"
+    },
+    "relationship": {
+      "@id": "fhir:FamilyMemberHistory.relationship",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "sex": {
+      "@id": "fhir:FamilyMemberHistory.sex",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "bornPeriod": {
+      "@id": "fhir:FamilyMemberHistory.bornPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "bornDate": {
+      "@id": "fhir:FamilyMemberHistory.bornDate",
+      "@context": "date.context.jsonld"
+    },
+    "bornString": {
+      "@id": "fhir:FamilyMemberHistory.bornString",
+      "@context": "string.context.jsonld"
+    },
+    "ageAge": {
+      "@id": "fhir:FamilyMemberHistory.ageAge",
+      "@context": "age.context.jsonld"
+    },
+    "ageRange": {
+      "@id": "fhir:FamilyMemberHistory.ageRange",
+      "@context": "range.context.jsonld"
+    },
+    "ageString": {
+      "@id": "fhir:FamilyMemberHistory.ageString",
+      "@context": "string.context.jsonld"
+    },
+    "estimatedAge": {
+      "@id": "fhir:FamilyMemberHistory.estimatedAge",
+      "@context": "boolean.context.jsonld"
+    },
+    "deceasedBoolean": {
+      "@id": "fhir:FamilyMemberHistory.deceasedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "deceasedAge": {
+      "@id": "fhir:FamilyMemberHistory.deceasedAge",
+      "@context": "age.context.jsonld"
+    },
+    "deceasedRange": {
+      "@id": "fhir:FamilyMemberHistory.deceasedRange",
+      "@context": "range.context.jsonld"
+    },
+    "deceasedDate": {
+      "@id": "fhir:FamilyMemberHistory.deceasedDate",
+      "@context": "date.context.jsonld"
+    },
+    "deceasedString": {
+      "@id": "fhir:FamilyMemberHistory.deceasedString",
+      "@context": "string.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:FamilyMemberHistory.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:FamilyMemberHistory.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:FamilyMemberHistory.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "condition": {
+      "@id": "fhir:FamilyMemberHistory.condition",
+      "@context": "familymemberhistory.condition.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

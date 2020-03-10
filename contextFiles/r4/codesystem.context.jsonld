@@ -1,0 +1,153 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:CodeSystem.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:CodeSystem.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:CodeSystem.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:CodeSystem.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:CodeSystem.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:CodeSystem.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:CodeSystem.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:CodeSystem.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:CodeSystem.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:CodeSystem.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:CodeSystem.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:CodeSystem.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:CodeSystem.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:CodeSystem.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:CodeSystem.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "caseSensitive": {
+      "@id": "fhir:CodeSystem.caseSensitive",
+      "@context": "boolean.context.jsonld"
+    },
+    "valueSet": {
+      "@id": "fhir:CodeSystem.valueSet",
+      "@context": "canonical.context.jsonld"
+    },
+    "hierarchyMeaning": {
+      "@id": "fhir:CodeSystem.hierarchyMeaning",
+      "@context": "string.context.jsonld"
+    },
+    "compositional": {
+      "@id": "fhir:CodeSystem.compositional",
+      "@context": "boolean.context.jsonld"
+    },
+    "versionNeeded": {
+      "@id": "fhir:CodeSystem.versionNeeded",
+      "@context": "boolean.context.jsonld"
+    },
+    "content": {
+      "@id": "fhir:CodeSystem.content",
+      "@context": "string.context.jsonld"
+    },
+    "supplements": {
+      "@id": "fhir:CodeSystem.supplements",
+      "@context": "canonical.context.jsonld"
+    },
+    "count": {
+      "@id": "fhir:CodeSystem.count",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "filter": {
+      "@id": "fhir:CodeSystem.filter",
+      "@context": "codesystem.filter.context.jsonld"
+    },
+    "property": {
+      "@id": "fhir:CodeSystem.property",
+      "@context": "codesystem.property.context.jsonld"
+    },
+    "concept": {
+      "@id": "fhir:CodeSystem.concept",
+      "@context": "codesystem.concept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

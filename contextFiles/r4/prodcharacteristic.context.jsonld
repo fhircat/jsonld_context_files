@@ -1,0 +1,69 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "height": {
+      "@id": "fhir:ProdCharacteristic.height",
+      "@context": "quantity.context.jsonld"
+    },
+    "width": {
+      "@id": "fhir:ProdCharacteristic.width",
+      "@context": "quantity.context.jsonld"
+    },
+    "depth": {
+      "@id": "fhir:ProdCharacteristic.depth",
+      "@context": "quantity.context.jsonld"
+    },
+    "weight": {
+      "@id": "fhir:ProdCharacteristic.weight",
+      "@context": "quantity.context.jsonld"
+    },
+    "nominalVolume": {
+      "@id": "fhir:ProdCharacteristic.nominalVolume",
+      "@context": "quantity.context.jsonld"
+    },
+    "externalDiameter": {
+      "@id": "fhir:ProdCharacteristic.externalDiameter",
+      "@context": "quantity.context.jsonld"
+    },
+    "shape": {
+      "@id": "fhir:ProdCharacteristic.shape",
+      "@context": "string.context.jsonld"
+    },
+    "color": {
+      "@id": "fhir:ProdCharacteristic.color",
+      "@context": "string.context.jsonld"
+    },
+    "imprint": {
+      "@id": "fhir:ProdCharacteristic.imprint",
+      "@context": "string.context.jsonld"
+    },
+    "image": {
+      "@id": "fhir:ProdCharacteristic.image",
+      "@context": "attachment.context.jsonld"
+    },
+    "scoring": {
+      "@id": "fhir:ProdCharacteristic.scoring",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

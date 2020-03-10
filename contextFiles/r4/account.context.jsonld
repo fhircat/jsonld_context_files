@@ -1,0 +1,93 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Account.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Account.status",
+      "@context": "string.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Account.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:Account.name",
+      "@context": "string.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Account.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "servicePeriod": {
+      "@id": "fhir:Account.servicePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "coverage": {
+      "@id": "fhir:Account.coverage",
+      "@context": "account.coverage.context.jsonld"
+    },
+    "owner": {
+      "@id": "fhir:Account.owner",
+      "@context": "reference.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Account.description",
+      "@context": "string.context.jsonld"
+    },
+    "guarantor": {
+      "@id": "fhir:Account.guarantor",
+      "@context": "account.guarantor.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Account.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

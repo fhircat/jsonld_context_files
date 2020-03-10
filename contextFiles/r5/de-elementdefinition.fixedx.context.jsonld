@@ -1,0 +1,217 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "fixedBase64Binary": {
+      "@id": "fhir:ElementDefinition.fixedBase64Binary",
+      "@context": "base64binary.context.jsonld"
+    },
+    "fixedBoolean": {
+      "@id": "fhir:ElementDefinition.fixedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "fixedCanonical": {
+      "@id": "fhir:ElementDefinition.fixedCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "fixedCode": {
+      "@id": "fhir:ElementDefinition.fixedCode",
+      "@context": "code.context.jsonld"
+    },
+    "fixedDate": {
+      "@id": "fhir:ElementDefinition.fixedDate",
+      "@context": "date.context.jsonld"
+    },
+    "fixedDateTime": {
+      "@id": "fhir:ElementDefinition.fixedDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "fixedDecimal": {
+      "@id": "fhir:ElementDefinition.fixedDecimal",
+      "@context": "decimal.context.jsonld"
+    },
+    "fixedId": {
+      "@id": "fhir:ElementDefinition.fixedId",
+      "@context": "id.context.jsonld"
+    },
+    "fixedInstant": {
+      "@id": "fhir:ElementDefinition.fixedInstant",
+      "@context": "instant.context.jsonld"
+    },
+    "fixedInteger": {
+      "@id": "fhir:ElementDefinition.fixedInteger",
+      "@context": "integer.context.jsonld"
+    },
+    "fixedInteger64": {
+      "@id": "fhir:ElementDefinition.fixedInteger64",
+      "@context": "integer64.context.jsonld"
+    },
+    "fixedMarkdown": {
+      "@id": "fhir:ElementDefinition.fixedMarkdown",
+      "@context": "markdown.context.jsonld"
+    },
+    "fixedOid": {
+      "@id": "fhir:ElementDefinition.fixedOid",
+      "@context": "oid.context.jsonld"
+    },
+    "fixedPositiveInt": {
+      "@id": "fhir:ElementDefinition.fixedPositiveInt",
+      "@context": "positiveint.context.jsonld"
+    },
+    "fixedString": {
+      "@id": "fhir:ElementDefinition.fixedString",
+      "@context": "string.context.jsonld"
+    },
+    "fixedTime": {
+      "@id": "fhir:ElementDefinition.fixedTime",
+      "@context": "time.context.jsonld"
+    },
+    "fixedUnsignedInt": {
+      "@id": "fhir:ElementDefinition.fixedUnsignedInt",
+      "@context": "unsignedint.context.jsonld"
+    },
+    "fixedUri": {
+      "@id": "fhir:ElementDefinition.fixedUri",
+      "@context": "uri.context.jsonld"
+    },
+    "fixedUrl": {
+      "@id": "fhir:ElementDefinition.fixedUrl",
+      "@context": "url.context.jsonld"
+    },
+    "fixedUuid": {
+      "@id": "fhir:ElementDefinition.fixedUuid",
+      "@context": "uuid.context.jsonld"
+    },
+    "fixedAddress": {
+      "@id": "fhir:ElementDefinition.fixedAddress",
+      "@context": "address.context.jsonld"
+    },
+    "fixedAge": {
+      "@id": "fhir:ElementDefinition.fixedAge",
+      "@context": "age.context.jsonld"
+    },
+    "fixedAnnotation": {
+      "@id": "fhir:ElementDefinition.fixedAnnotation",
+      "@context": "annotation.context.jsonld"
+    },
+    "fixedAttachment": {
+      "@id": "fhir:ElementDefinition.fixedAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "fixedCodeableConcept": {
+      "@id": "fhir:ElementDefinition.fixedCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "fixedCoding": {
+      "@id": "fhir:ElementDefinition.fixedCoding",
+      "@context": "coding.context.jsonld"
+    },
+    "fixedContactPoint": {
+      "@id": "fhir:ElementDefinition.fixedContactPoint",
+      "@context": "contactpoint.context.jsonld"
+    },
+    "fixedCount": {
+      "@id": "fhir:ElementDefinition.fixedCount",
+      "@context": "count.context.jsonld"
+    },
+    "fixedDistance": {
+      "@id": "fhir:ElementDefinition.fixedDistance",
+      "@context": "distance.context.jsonld"
+    },
+    "fixedDuration": {
+      "@id": "fhir:ElementDefinition.fixedDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "fixedHumanName": {
+      "@id": "fhir:ElementDefinition.fixedHumanName",
+      "@context": "humanname.context.jsonld"
+    },
+    "fixedIdentifier": {
+      "@id": "fhir:ElementDefinition.fixedIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "fixedMoney": {
+      "@id": "fhir:ElementDefinition.fixedMoney",
+      "@context": "money.context.jsonld"
+    },
+    "fixedPeriod": {
+      "@id": "fhir:ElementDefinition.fixedPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "fixedQuantity": {
+      "@id": "fhir:ElementDefinition.fixedQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "fixedRange": {
+      "@id": "fhir:ElementDefinition.fixedRange",
+      "@context": "range.context.jsonld"
+    },
+    "fixedRatio": {
+      "@id": "fhir:ElementDefinition.fixedRatio",
+      "@context": "ratio.context.jsonld"
+    },
+    "fixedReference": {
+      "@id": "fhir:ElementDefinition.fixedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "fixedSampledData": {
+      "@id": "fhir:ElementDefinition.fixedSampledData",
+      "@context": "sampleddata.context.jsonld"
+    },
+    "fixedSignature": {
+      "@id": "fhir:ElementDefinition.fixedSignature",
+      "@context": "signature.context.jsonld"
+    },
+    "fixedTiming": {
+      "@id": "fhir:ElementDefinition.fixedTiming",
+      "@context": "timing.context.jsonld"
+    },
+    "fixedContactDetail": {
+      "@id": "fhir:ElementDefinition.fixedContactDetail",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "fixedContributor": {
+      "@id": "fhir:ElementDefinition.fixedContributor",
+      "@context": "contributor.context.jsonld"
+    },
+    "fixedDataRequirement": {
+      "@id": "fhir:ElementDefinition.fixedDataRequirement",
+      "@context": "datarequirement.context.jsonld"
+    },
+    "fixedExpression": {
+      "@id": "fhir:ElementDefinition.fixedExpression",
+      "@context": "expression.context.jsonld"
+    },
+    "fixedParameterDefinition": {
+      "@id": "fhir:ElementDefinition.fixedParameterDefinition",
+      "@context": "parameterdefinition.context.jsonld"
+    },
+    "fixedRelatedArtifact": {
+      "@id": "fhir:ElementDefinition.fixedRelatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "fixedTriggerDefinition": {
+      "@id": "fhir:ElementDefinition.fixedTriggerDefinition",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "fixedUsageContext": {
+      "@id": "fhir:ElementDefinition.fixedUsageContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "fixedDosage": {
+      "@id": "fhir:ElementDefinition.fixedDosage",
+      "@context": "dosage.context.jsonld"
+    },
+    "fixedMeta": {
+      "@id": "fhir:ElementDefinition.fixedMeta",
+      "@context": "meta.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

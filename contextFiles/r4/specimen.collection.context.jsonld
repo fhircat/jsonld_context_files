@@ -1,0 +1,61 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "collector": {
+      "@id": "fhir:Specimen.collection.collector",
+      "@context": "reference.context.jsonld"
+    },
+    "collectedDateTime": {
+      "@id": "fhir:Specimen.collection.collectedDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "collectedPeriod": {
+      "@id": "fhir:Specimen.collection.collectedPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "duration": {
+      "@id": "fhir:Specimen.collection.duration",
+      "@context": "duration.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:Specimen.collection.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "method": {
+      "@id": "fhir:Specimen.collection.method",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "bodySite": {
+      "@id": "fhir:Specimen.collection.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "fastingStatusCodeableConcept": {
+      "@id": "fhir:Specimen.collection.fastingStatusCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "fastingStatusDuration": {
+      "@id": "fhir:Specimen.collection.fastingStatusDuration",
+      "@context": "duration.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

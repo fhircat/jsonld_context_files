@@ -1,0 +1,53 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "firstDose": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.firstDose",
+      "@context": "quantity.context.jsonld"
+    },
+    "maxSingleDose": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxSingleDose",
+      "@context": "quantity.context.jsonld"
+    },
+    "maxDosePerDay": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxDosePerDay",
+      "@context": "quantity.context.jsonld"
+    },
+    "maxDosePerTreatmentPeriod": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxDosePerTreatmentPeriod",
+      "@context": "ratio.context.jsonld"
+    },
+    "maxTreatmentPeriod": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxTreatmentPeriod",
+      "@context": "duration.context.jsonld"
+    },
+    "targetSpecies": {
+      "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies",
+      "@context": "administrableproductdefinition.routeofadministration.targetspecies.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

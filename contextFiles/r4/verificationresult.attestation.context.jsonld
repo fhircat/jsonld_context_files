@@ -1,0 +1,57 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "who": {
+      "@id": "fhir:VerificationResult.attestation.who",
+      "@context": "reference.context.jsonld"
+    },
+    "onBehalfOf": {
+      "@id": "fhir:VerificationResult.attestation.onBehalfOf",
+      "@context": "reference.context.jsonld"
+    },
+    "communicationMethod": {
+      "@id": "fhir:VerificationResult.attestation.communicationMethod",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:VerificationResult.attestation.date",
+      "@context": "date.context.jsonld"
+    },
+    "sourceIdentityCertificate": {
+      "@id": "fhir:VerificationResult.attestation.sourceIdentityCertificate",
+      "@context": "string.context.jsonld"
+    },
+    "proxyIdentityCertificate": {
+      "@id": "fhir:VerificationResult.attestation.proxyIdentityCertificate",
+      "@context": "string.context.jsonld"
+    },
+    "proxySignature": {
+      "@id": "fhir:VerificationResult.attestation.proxySignature",
+      "@context": "signature.context.jsonld"
+    },
+    "sourceSignature": {
+      "@id": "fhir:VerificationResult.attestation.sourceSignature",
+      "@context": "signature.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

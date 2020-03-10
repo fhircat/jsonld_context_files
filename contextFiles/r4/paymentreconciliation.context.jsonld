@@ -1,0 +1,109 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:PaymentReconciliation.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:PaymentReconciliation.status",
+      "@context": "string.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:PaymentReconciliation.period",
+      "@context": "period.context.jsonld"
+    },
+    "created": {
+      "@id": "fhir:PaymentReconciliation.created",
+      "@context": "datetime.context.jsonld"
+    },
+    "paymentIssuer": {
+      "@id": "fhir:PaymentReconciliation.paymentIssuer",
+      "@context": "reference.context.jsonld"
+    },
+    "request": {
+      "@id": "fhir:PaymentReconciliation.request",
+      "@context": "reference.context.jsonld"
+    },
+    "requestor": {
+      "@id": "fhir:PaymentReconciliation.requestor",
+      "@context": "reference.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:PaymentReconciliation.outcome",
+      "@context": "string.context.jsonld"
+    },
+    "disposition": {
+      "@id": "fhir:PaymentReconciliation.disposition",
+      "@context": "string.context.jsonld"
+    },
+    "paymentDate": {
+      "@id": "fhir:PaymentReconciliation.paymentDate",
+      "@context": "date.context.jsonld"
+    },
+    "paymentAmount": {
+      "@id": "fhir:PaymentReconciliation.paymentAmount",
+      "@context": "money.context.jsonld"
+    },
+    "paymentIdentifier": {
+      "@id": "fhir:PaymentReconciliation.paymentIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "detail": {
+      "@id": "fhir:PaymentReconciliation.detail",
+      "@context": "paymentreconciliation.detail.context.jsonld"
+    },
+    "formCode": {
+      "@id": "fhir:PaymentReconciliation.formCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "processNote": {
+      "@id": "fhir:PaymentReconciliation.processNote",
+      "@context": "paymentreconciliation.processnote.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

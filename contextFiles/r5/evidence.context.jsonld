@@ -1,0 +1,129 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:Evidence.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Evidence.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:Evidence.version",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:Evidence.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Evidence.status",
+      "@context": "string.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:Evidence.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:Evidence.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:Evidence.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:Evidence.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "contributor": {
+      "@id": "fhir:Evidence.contributor",
+      "@context": "contributor.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:Evidence.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Evidence.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "assertion": {
+      "@id": "fhir:Evidence.assertion",
+      "@context": "markdown.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Evidence.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "referentGroup": {
+      "@id": "fhir:Evidence.referentGroup",
+      "@context": "evidence.referentgroup.context.jsonld"
+    },
+    "variableDefinition": {
+      "@id": "fhir:Evidence.variableDefinition",
+      "@context": "evidence.variabledefinition.context.jsonld"
+    },
+    "synthesisType": {
+      "@id": "fhir:Evidence.synthesisType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "studyType": {
+      "@id": "fhir:Evidence.studyType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "statistic": {
+      "@id": "fhir:Evidence.statistic",
+      "@context": "statistic.context.jsonld"
+    },
+    "distribution": {
+      "@id": "fhir:Evidence.distribution",
+      "@context": "ordereddistribution.context.jsonld"
+    },
+    "certainty": {
+      "@id": "fhir:Evidence.certainty",
+      "@context": "evidence.certainty.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:CapabilityStatement.url",
+      "@context": "uri.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:CapabilityStatement.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:CapabilityStatement.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:CapabilityStatement.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:CapabilityStatement.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:CapabilityStatement.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:CapabilityStatement.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:CapabilityStatement.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:CapabilityStatement.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:CapabilityStatement.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:CapabilityStatement.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:CapabilityStatement.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:CapabilityStatement.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:CapabilityStatement.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "kind": {
+      "@id": "fhir:CapabilityStatement.kind",
+      "@context": "string.context.jsonld"
+    },
+    "instantiates": {
+      "@id": "fhir:CapabilityStatement.instantiates",
+      "@context": "canonical.context.jsonld"
+    },
+    "imports": {
+      "@id": "fhir:CapabilityStatement.imports",
+      "@context": "canonical.context.jsonld"
+    },
+    "software": {
+      "@id": "fhir:CapabilityStatement.software",
+      "@context": "capabilitystatement.software.context.jsonld"
+    },
+    "implementation": {
+      "@id": "fhir:CapabilityStatement.implementation",
+      "@context": "capabilitystatement.implementation.context.jsonld"
+    },
+    "fhirVersion": {
+      "@id": "fhir:CapabilityStatement.fhirVersion",
+      "@context": "string.context.jsonld"
+    },
+    "format": {
+      "@id": "fhir:CapabilityStatement.format",
+      "@context": "string.context.jsonld"
+    },
+    "patchFormat": {
+      "@id": "fhir:CapabilityStatement.patchFormat",
+      "@context": "string.context.jsonld"
+    },
+    "implementationGuide": {
+      "@id": "fhir:CapabilityStatement.implementationGuide",
+      "@context": "canonical.context.jsonld"
+    },
+    "rest": {
+      "@id": "fhir:CapabilityStatement.rest",
+      "@context": "capabilitystatement.rest.context.jsonld"
+    },
+    "messaging": {
+      "@id": "fhir:CapabilityStatement.messaging",
+      "@context": "capabilitystatement.messaging.context.jsonld"
+    },
+    "document": {
+      "@id": "fhir:CapabilityStatement.document",
+      "@context": "capabilitystatement.document.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "diseaseSymptomProcedure": {
+      "@id": "fhir:ClinicalUseIssue.contraindication.diseaseSymptomProcedure",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "diseaseStatus": {
+      "@id": "fhir:ClinicalUseIssue.contraindication.diseaseStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "comorbidity": {
+      "@id": "fhir:ClinicalUseIssue.contraindication.comorbidity",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "indication": {
+      "@id": "fhir:ClinicalUseIssue.contraindication.indication",
+      "@context": "reference.context.jsonld"
+    },
+    "otherTherapy": {
+      "@id": "fhir:ClinicalUseIssue.contraindication.otherTherapy",
+      "@context": "clinicaluseissue.contraindication.othertherapy.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

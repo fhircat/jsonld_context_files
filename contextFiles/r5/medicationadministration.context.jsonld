@@ -1,0 +1,141 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:MedicationAdministration.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "instantiatesCanonical": {
+      "@id": "fhir:MedicationAdministration.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:MedicationAdministration.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:MedicationAdministration.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:MedicationAdministration.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MedicationAdministration.status",
+      "@context": "string.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:MedicationAdministration.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:MedicationAdministration.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "medicationCodeableConcept": {
+      "@id": "fhir:MedicationAdministration.medicationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "medicationReference": {
+      "@id": "fhir:MedicationAdministration.medicationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:MedicationAdministration.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:MedicationAdministration.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "supportingInformation": {
+      "@id": "fhir:MedicationAdministration.supportingInformation",
+      "@context": "reference.context.jsonld"
+    },
+    "occurenceDateTime": {
+      "@id": "fhir:MedicationAdministration.occurenceDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "occurencePeriod": {
+      "@id": "fhir:MedicationAdministration.occurencePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "recorded": {
+      "@id": "fhir:MedicationAdministration.recorded",
+      "@context": "datetime.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:MedicationAdministration.performer",
+      "@context": "medicationadministration.performer.context.jsonld"
+    },
+    "reason": {
+      "@id": "fhir:MedicationAdministration.reason",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "request": {
+      "@id": "fhir:MedicationAdministration.request",
+      "@context": "reference.context.jsonld"
+    },
+    "device": {
+      "@id": "fhir:MedicationAdministration.device",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:MedicationAdministration.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "dosage": {
+      "@id": "fhir:MedicationAdministration.dosage",
+      "@context": "medicationadministration.dosage.context.jsonld"
+    },
+    "eventHistory": {
+      "@id": "fhir:MedicationAdministration.eventHistory",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

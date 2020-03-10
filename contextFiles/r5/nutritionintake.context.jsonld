@@ -1,0 +1,117 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:NutritionIntake.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:NutritionIntake.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:NutritionIntake.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:NutritionIntake.status",
+      "@context": "string.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:NutritionIntake.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:NutritionIntake.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "consumedItem": {
+      "@id": "fhir:NutritionIntake.consumedItem",
+      "@context": "nutritionintake.consumeditem.context.jsonld"
+    },
+    "ingredientLabel": {
+      "@id": "fhir:NutritionIntake.ingredientLabel",
+      "@context": "nutritionintake.ingredientlabel.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:NutritionIntake.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "encounter": {
+      "@id": "fhir:NutritionIntake.encounter",
+      "@context": "reference.context.jsonld"
+    },
+    "effectiveDateTime": {
+      "@id": "fhir:NutritionIntake.effectiveDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:NutritionIntake.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "dateAsserted": {
+      "@id": "fhir:NutritionIntake.dateAsserted",
+      "@context": "datetime.context.jsonld"
+    },
+    "informationSource": {
+      "@id": "fhir:NutritionIntake.informationSource",
+      "@context": "reference.context.jsonld"
+    },
+    "derivedFrom": {
+      "@id": "fhir:NutritionIntake.derivedFrom",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:NutritionIntake.reasonCode",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:NutritionIntake.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

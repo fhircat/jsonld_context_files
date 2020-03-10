@@ -1,0 +1,69 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:AuditEvent.agent.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "role": {
+      "@id": "fhir:AuditEvent.agent.role",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "who": {
+      "@id": "fhir:AuditEvent.agent.who",
+      "@context": "reference.context.jsonld"
+    },
+    "altId": {
+      "@id": "fhir:AuditEvent.agent.altId",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:AuditEvent.agent.name",
+      "@context": "string.context.jsonld"
+    },
+    "requestor": {
+      "@id": "fhir:AuditEvent.agent.requestor",
+      "@context": "boolean.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:AuditEvent.agent.location",
+      "@context": "reference.context.jsonld"
+    },
+    "policy": {
+      "@id": "fhir:AuditEvent.agent.policy",
+      "@context": "uri.context.jsonld"
+    },
+    "media": {
+      "@id": "fhir:AuditEvent.agent.media",
+      "@context": "coding.context.jsonld"
+    },
+    "network": {
+      "@id": "fhir:AuditEvent.agent.network",
+      "@context": "auditevent.agent.network.context.jsonld"
+    },
+    "purposeOfUse": {
+      "@id": "fhir:AuditEvent.agent.purposeOfUse",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

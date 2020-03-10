@@ -1,0 +1,57 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "subunit": {
+      "@id": "fhir:SubstanceProtein.subunit.subunit",
+      "@context": "integer.context.jsonld"
+    },
+    "sequence": {
+      "@id": "fhir:SubstanceProtein.subunit.sequence",
+      "@context": "string.context.jsonld"
+    },
+    "length": {
+      "@id": "fhir:SubstanceProtein.subunit.length",
+      "@context": "integer.context.jsonld"
+    },
+    "sequenceAttachment": {
+      "@id": "fhir:SubstanceProtein.subunit.sequenceAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "nTerminalModificationId": {
+      "@id": "fhir:SubstanceProtein.subunit.nTerminalModificationId",
+      "@context": "identifier.context.jsonld"
+    },
+    "nTerminalModification": {
+      "@id": "fhir:SubstanceProtein.subunit.nTerminalModification",
+      "@context": "string.context.jsonld"
+    },
+    "cTerminalModificationId": {
+      "@id": "fhir:SubstanceProtein.subunit.cTerminalModificationId",
+      "@context": "identifier.context.jsonld"
+    },
+    "cTerminalModification": {
+      "@id": "fhir:SubstanceProtein.subunit.cTerminalModification",
+      "@context": "string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

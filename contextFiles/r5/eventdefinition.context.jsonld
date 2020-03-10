@@ -1,0 +1,161 @@
+﻿{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:EventDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:EventDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:EventDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:EventDefinition.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:EventDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "subtitle": {
+      "@id": "fhir:EventDefinition.subtitle",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:EventDefinition.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:EventDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:EventDefinition.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:EventDefinition.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:EventDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:EventDefinition.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:EventDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:EventDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:EventDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:EventDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:EventDefinition.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "usage": {
+      "@id": "fhir:EventDefinition.usage",
+      "@context": "string.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:EventDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:EventDefinition.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:EventDefinition.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:EventDefinition.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "topic": {
+      "@id": "fhir:EventDefinition.topic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:EventDefinition.author",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "editor": {
+      "@id": "fhir:EventDefinition.editor",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "reviewer": {
+      "@id": "fhir:EventDefinition.reviewer",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "endorser": {
+      "@id": "fhir:EventDefinition.endorser",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:EventDefinition.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "trigger": {
+      "@id": "fhir:EventDefinition.trigger",
+      "@context": "triggerdefinition.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
