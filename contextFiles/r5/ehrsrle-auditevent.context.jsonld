@@ -49,10 +49,6 @@
       "@id": "fhir:AuditEvent.action",
       "@context": "string.context.jsonld"
     },
-    "severity": {
-      "@id": "fhir:AuditEvent.severity",
-      "@context": "string.context.jsonld"
-    },
     "period": {
       "@id": "fhir:AuditEvent.period",
       "@context": "period.context.jsonld"

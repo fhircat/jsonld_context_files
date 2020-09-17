@@ -45,17 +45,9 @@
       "@id": "fhir:EvidenceVariable.characteristic.definitionTriggerDefinition",
       "@context": "triggerdefinition.context.jsonld"
     },
-    "method": {
-      "@id": "fhir:EvidenceVariable.characteristic.method",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "device": {
-      "@id": "fhir:EvidenceVariable.characteristic.device",
-      "@context": "reference.context.jsonld"
-    },
-    "booleanSet": {
-      "@id": "fhir:EvidenceVariable.characteristic.booleanSet",
-      "@context": "string.context.jsonld"
+    "usageContext": {
+      "@id": "fhir:EvidenceVariable.characteristic.usageContext",
+      "@context": "usagecontext.context.jsonld"
     },
     "exclude": {
       "@id": "fhir:EvidenceVariable.characteristic.exclude",

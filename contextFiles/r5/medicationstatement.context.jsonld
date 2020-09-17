@@ -1,0 +1,125 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:MedicationStatement.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:MedicationStatement.basedOn",
+      "@context": "reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:MedicationStatement.partOf",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MedicationStatement.status",
+      "@context": "string.context.jsonld"
+    },
+    "statusReason": {
+      "@id": "fhir:MedicationStatement.statusReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "category": {
+      "@id": "fhir:MedicationStatement.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "medicationCodeableConcept": {
+      "@id": "fhir:MedicationStatement.medicationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "medicationReference": {
+      "@id": "fhir:MedicationStatement.medicationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:MedicationStatement.subject",
+      "@context": "reference.context.jsonld"
+    },
+    "context": {
+      "@id": "fhir:MedicationStatement.context",
+      "@context": "reference.context.jsonld"
+    },
+    "effectiveDateTime": {
+      "@id": "fhir:MedicationStatement.effectiveDateTime",
+      "@context": "datetime.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:MedicationStatement.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "dateAsserted": {
+      "@id": "fhir:MedicationStatement.dateAsserted",
+      "@context": "datetime.context.jsonld"
+    },
+    "informationSource": {
+      "@id": "fhir:MedicationStatement.informationSource",
+      "@context": "reference.context.jsonld"
+    },
+    "derivedFrom": {
+      "@id": "fhir:MedicationStatement.derivedFrom",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:MedicationStatement.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:MedicationStatement.reasonReference",
+      "@context": "reference.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:MedicationStatement.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "dosage": {
+      "@id": "fhir:MedicationStatement.dosage",
+      "@context": "dosage.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

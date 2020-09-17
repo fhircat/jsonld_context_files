@@ -81,9 +81,13 @@
       "@id": "fhir:GuidanceResponse.performer",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:GuidanceResponse.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:GuidanceResponse.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:GuidanceResponse.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:GuidanceResponse.note",

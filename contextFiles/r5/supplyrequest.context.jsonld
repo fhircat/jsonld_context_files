@@ -97,9 +97,13 @@
       "@id": "fhir:SupplyRequest.supplier",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:SupplyRequest.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:SupplyRequest.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:SupplyRequest.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "deliverFrom": {
       "@id": "fhir:SupplyRequest.deliverFrom",

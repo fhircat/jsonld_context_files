@@ -5,6 +5,10 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
       "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
@@ -36,14 +40,6 @@
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
-    },
-    "url": {
-      "@id": "fhir:NamingSystem.url",
-      "@context": "uri.context.jsonld"
-    },
-    "version": {
-      "@id": "fhir:NamingSystem.version",
-      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:NamingSystem.name",

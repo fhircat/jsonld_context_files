@@ -69,10 +69,6 @@
       "@id": "fhir:Extension.valueInteger",
       "@context": "integer.context.jsonld"
     },
-    "valueInteger64": {
-      "@id": "fhir:Extension.valueInteger64",
-      "@context": "integer64.context.jsonld"
-    },
     "valueMarkdown": {
       "@id": "fhir:Extension.valueMarkdown",
       "@context": "markdown.context.jsonld"

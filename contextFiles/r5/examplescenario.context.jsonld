@@ -5,6 +5,10 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
       "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
@@ -81,12 +85,12 @@
       "@id": "fhir:ExampleScenario.jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
-    "purpose": {
-      "@id": "fhir:ExampleScenario.purpose",
-      "@context": "markdown.context.jsonld"
-    },
     "copyright": {
       "@id": "fhir:ExampleScenario.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:ExampleScenario.purpose",
       "@context": "markdown.context.jsonld"
     },
     "actor": {

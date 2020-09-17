@@ -45,21 +45,9 @@
       "@id": "fhir:CatalogEntry.identifier",
       "@context": "identifier.context.jsonld"
     },
-    "name": {
-      "@id": "fhir:CatalogEntry.name",
-      "@context": "string.context.jsonld"
-    },
     "type": {
       "@id": "fhir:CatalogEntry.type",
-      "@context": "string.context.jsonld"
-    },
-    "status": {
-      "@id": "fhir:CatalogEntry.status",
-      "@context": "string.context.jsonld"
-    },
-    "effectivePeriod": {
-      "@id": "fhir:CatalogEntry.effectivePeriod",
-      "@context": "period.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "orderable": {
       "@id": "fhir:CatalogEntry.orderable",
@@ -69,41 +57,41 @@
       "@id": "fhir:CatalogEntry.referencedItem",
       "@context": "reference.context.jsonld"
     },
+    "additionalIdentifier": {
+      "@id": "fhir:CatalogEntry.additionalIdentifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "classification": {
+      "@id": "fhir:CatalogEntry.classification",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:CatalogEntry.status",
+      "@context": "string.context.jsonld"
+    },
+    "validityPeriod": {
+      "@id": "fhir:CatalogEntry.validityPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "validTo": {
+      "@id": "fhir:CatalogEntry.validTo",
+      "@context": "datetime.context.jsonld"
+    },
+    "lastUpdated": {
+      "@id": "fhir:CatalogEntry.lastUpdated",
+      "@context": "datetime.context.jsonld"
+    },
+    "additionalCharacteristic": {
+      "@id": "fhir:CatalogEntry.additionalCharacteristic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "additionalClassification": {
+      "@id": "fhir:CatalogEntry.additionalClassification",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "relatedEntry": {
       "@id": "fhir:CatalogEntry.relatedEntry",
       "@context": "catalogentry.relatedentry.context.jsonld"
-    },
-    "updatedBy": {
-      "@id": "fhir:CatalogEntry.updatedBy",
-      "@context": "reference.context.jsonld"
-    },
-    "note": {
-      "@id": "fhir:CatalogEntry.note",
-      "@context": "annotation.context.jsonld"
-    },
-    "estimatedDuration": {
-      "@id": "fhir:CatalogEntry.estimatedDuration",
-      "@context": "duration.context.jsonld"
-    },
-    "billingCode": {
-      "@id": "fhir:CatalogEntry.billingCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "billingSummary": {
-      "@id": "fhir:CatalogEntry.billingSummary",
-      "@context": "string.context.jsonld"
-    },
-    "scheduleSummary": {
-      "@id": "fhir:CatalogEntry.scheduleSummary",
-      "@context": "string.context.jsonld"
-    },
-    "limitationSummary": {
-      "@id": "fhir:CatalogEntry.limitationSummary",
-      "@context": "string.context.jsonld"
-    },
-    "regulatorySummary": {
-      "@id": "fhir:CatalogEntry.regulatorySummary",
-      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -45,10 +45,6 @@
       "@id": "fhir:AdverseEvent.identifier",
       "@context": "identifier.context.jsonld"
     },
-    "status": {
-      "@id": "fhir:AdverseEvent.status",
-      "@context": "string.context.jsonld"
-    },
     "actuality": {
       "@id": "fhir:AdverseEvent.actuality",
       "@context": "string.context.jsonld"
@@ -57,8 +53,8 @@
       "@id": "fhir:AdverseEvent.category",
       "@context": "codeableconcept.context.jsonld"
     },
-    "code": {
-      "@id": "fhir:AdverseEvent.code",
+    "event": {
+      "@id": "fhir:AdverseEvent.event",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
@@ -69,17 +65,9 @@
       "@id": "fhir:AdverseEvent.encounter",
       "@context": "reference.context.jsonld"
     },
-    "occurrenceDateTime": {
-      "@id": "fhir:AdverseEvent.occurrenceDateTime",
+    "date": {
+      "@id": "fhir:AdverseEvent.date",
       "@context": "datetime.context.jsonld"
-    },
-    "occurrencePeriod": {
-      "@id": "fhir:AdverseEvent.occurrencePeriod",
-      "@context": "period.context.jsonld"
-    },
-    "occurrenceTiming": {
-      "@id": "fhir:AdverseEvent.occurrenceTiming",
-      "@context": "timing.context.jsonld"
     },
     "detected": {
       "@id": "fhir:AdverseEvent.detected",
@@ -101,6 +89,10 @@
       "@id": "fhir:AdverseEvent.seriousness",
       "@context": "codeableconcept.context.jsonld"
     },
+    "severity": {
+      "@id": "fhir:AdverseEvent.severity",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "outcome": {
       "@id": "fhir:AdverseEvent.outcome",
       "@context": "codeableconcept.context.jsonld"
@@ -109,29 +101,21 @@
       "@id": "fhir:AdverseEvent.recorder",
       "@context": "reference.context.jsonld"
     },
-    "participant": {
-      "@id": "fhir:AdverseEvent.participant",
-      "@context": "adverseevent.participant.context.jsonld"
+    "contributor": {
+      "@id": "fhir:AdverseEvent.contributor",
+      "@context": "reference.context.jsonld"
     },
     "suspectEntity": {
       "@id": "fhir:AdverseEvent.suspectEntity",
       "@context": "adverseevent.suspectentity.context.jsonld"
     },
-    "contributingFactor": {
-      "@id": "fhir:AdverseEvent.contributingFactor",
-      "@context": "adverseevent.contributingfactor.context.jsonld"
+    "subjectMedicalHistory": {
+      "@id": "fhir:AdverseEvent.subjectMedicalHistory",
+      "@context": "reference.context.jsonld"
     },
-    "preventiveAction": {
-      "@id": "fhir:AdverseEvent.preventiveAction",
-      "@context": "adverseevent.preventiveaction.context.jsonld"
-    },
-    "mitigatingAction": {
-      "@id": "fhir:AdverseEvent.mitigatingAction",
-      "@context": "adverseevent.mitigatingaction.context.jsonld"
-    },
-    "supportingInfo": {
-      "@id": "fhir:AdverseEvent.supportingInfo",
-      "@context": "adverseevent.supportinginfo.context.jsonld"
+    "referenceDocument": {
+      "@id": "fhir:AdverseEvent.referenceDocument",
+      "@context": "reference.context.jsonld"
     },
     "study": {
       "@id": "fhir:AdverseEvent.study",

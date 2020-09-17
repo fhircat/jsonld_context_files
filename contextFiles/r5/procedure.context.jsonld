@@ -85,44 +85,32 @@
       "@id": "fhir:Procedure.encounter",
       "@context": "reference.context.jsonld"
     },
-    "occurrenceDateTime": {
-      "@id": "fhir:Procedure.occurrenceDateTime",
+    "performedDateTime": {
+      "@id": "fhir:Procedure.performedDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "occurrencePeriod": {
-      "@id": "fhir:Procedure.occurrencePeriod",
+    "performedPeriod": {
+      "@id": "fhir:Procedure.performedPeriod",
       "@context": "period.context.jsonld"
     },
-    "occurrenceString": {
-      "@id": "fhir:Procedure.occurrenceString",
+    "performedString": {
+      "@id": "fhir:Procedure.performedString",
       "@context": "string.context.jsonld"
     },
-    "occurrenceAge": {
-      "@id": "fhir:Procedure.occurrenceAge",
+    "performedAge": {
+      "@id": "fhir:Procedure.performedAge",
       "@context": "age.context.jsonld"
     },
-    "occurrenceRange": {
-      "@id": "fhir:Procedure.occurrenceRange",
+    "performedRange": {
+      "@id": "fhir:Procedure.performedRange",
       "@context": "range.context.jsonld"
-    },
-    "occurrenceTiming": {
-      "@id": "fhir:Procedure.occurrenceTiming",
-      "@context": "timing.context.jsonld"
-    },
-    "recorded": {
-      "@id": "fhir:Procedure.recorded",
-      "@context": "datetime.context.jsonld"
     },
     "recorder": {
       "@id": "fhir:Procedure.recorder",
       "@context": "reference.context.jsonld"
     },
-    "reportedBoolean": {
-      "@id": "fhir:Procedure.reportedBoolean",
-      "@context": "boolean.context.jsonld"
-    },
-    "reportedReference": {
-      "@id": "fhir:Procedure.reportedReference",
+    "asserter": {
+      "@id": "fhir:Procedure.asserter",
       "@context": "reference.context.jsonld"
     },
     "performer": {
@@ -133,9 +121,13 @@
       "@id": "fhir:Procedure.location",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:Procedure.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:Procedure.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Procedure.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:Procedure.bodySite",
@@ -169,9 +161,13 @@
       "@id": "fhir:Procedure.focalDevice",
       "@context": "procedure.focaldevice.context.jsonld"
     },
-    "used": {
-      "@id": "fhir:Procedure.used",
-      "@context": "codeablereference.context.jsonld"
+    "usedReference": {
+      "@id": "fhir:Procedure.usedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "usedCode": {
+      "@id": "fhir:Procedure.usedCode",
+      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

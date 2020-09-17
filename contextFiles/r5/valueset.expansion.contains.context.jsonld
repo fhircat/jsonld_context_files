@@ -41,10 +41,6 @@
       "@id": "fhir:ValueSet.expansion.contains.display",
       "@context": "string.context.jsonld"
     },
-    "property": {
-      "@id": "fhir:ValueSet.expansion.contains.property",
-      "@context": "valueset.expansion.contains.property.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

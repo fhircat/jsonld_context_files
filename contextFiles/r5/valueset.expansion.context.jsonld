@@ -37,10 +37,6 @@
       "@id": "fhir:ValueSet.expansion.parameter",
       "@context": "valueset.expansion.parameter.context.jsonld"
     },
-    "property": {
-      "@id": "fhir:ValueSet.expansion.property",
-      "@context": "valueset.expansion.property.context.jsonld"
-    },
     "contains": {
       "@id": "fhir:ValueSet.expansion.contains",
       "@context": "valueset.expansion.contains.context.jsonld"

@@ -89,17 +89,25 @@
       "@id": "fhir:ImagingStudy.numberOfInstances",
       "@context": "unsignedint.context.jsonld"
     },
-    "procedure": {
-      "@id": "fhir:ImagingStudy.procedure",
-      "@context": "imagingstudy.procedure.context.jsonld"
+    "procedureReference": {
+      "@id": "fhir:ImagingStudy.procedureReference",
+      "@context": "reference.context.jsonld"
+    },
+    "procedureCode": {
+      "@id": "fhir:ImagingStudy.procedureCode",
+      "@context": "codeableconcept.context.jsonld"
     },
     "location": {
       "@id": "fhir:ImagingStudy.location",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:ImagingStudy.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:ImagingStudy.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:ImagingStudy.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:ImagingStudy.note",

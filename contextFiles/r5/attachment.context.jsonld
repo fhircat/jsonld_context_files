@@ -31,7 +31,7 @@
     },
     "size": {
       "@id": "fhir:Attachment.size",
-      "@context": "integer64.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "hash": {
       "@id": "fhir:Attachment.hash",
@@ -44,26 +44,6 @@
     "creation": {
       "@id": "fhir:Attachment.creation",
       "@context": "datetime.context.jsonld"
-    },
-    "height": {
-      "@id": "fhir:Attachment.height",
-      "@context": "positiveint.context.jsonld"
-    },
-    "width": {
-      "@id": "fhir:Attachment.width",
-      "@context": "positiveint.context.jsonld"
-    },
-    "frames": {
-      "@id": "fhir:Attachment.frames",
-      "@context": "positiveint.context.jsonld"
-    },
-    "duration": {
-      "@id": "fhir:Attachment.duration",
-      "@context": "decimal.context.jsonld"
-    },
-    "pages": {
-      "@id": "fhir:Attachment.pages",
-      "@context": "positiveint.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

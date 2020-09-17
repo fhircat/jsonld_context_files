@@ -14,7 +14,7 @@
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneType.modifierExtension",
+      "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "path": {
@@ -124,10 +124,6 @@
     "defaultValueInteger": {
       "@id": "fhir:ElementDefinition.defaultValueInteger",
       "@context": "integer.context.jsonld"
-    },
-    "defaultValueInteger64": {
-      "@id": "fhir:ElementDefinition.defaultValueInteger64",
-      "@context": "integer64.context.jsonld"
     },
     "defaultValueMarkdown": {
       "@id": "fhir:ElementDefinition.defaultValueMarkdown",
@@ -337,10 +333,6 @@
       "@id": "fhir:ElementDefinition.fixedInteger",
       "@context": "integer.context.jsonld"
     },
-    "fixedInteger64": {
-      "@id": "fhir:ElementDefinition.fixedInteger64",
-      "@context": "integer64.context.jsonld"
-    },
     "fixedMarkdown": {
       "@id": "fhir:ElementDefinition.fixedMarkdown",
       "@context": "markdown.context.jsonld"
@@ -541,10 +533,6 @@
       "@id": "fhir:ElementDefinition.patternInteger",
       "@context": "integer.context.jsonld"
     },
-    "patternInteger64": {
-      "@id": "fhir:ElementDefinition.patternInteger64",
-      "@context": "integer64.context.jsonld"
-    },
     "patternMarkdown": {
       "@id": "fhir:ElementDefinition.patternMarkdown",
       "@context": "markdown.context.jsonld"
@@ -733,10 +721,6 @@
       "@id": "fhir:ElementDefinition.minValueInteger",
       "@context": "integer.context.jsonld"
     },
-    "minValueInteger64": {
-      "@id": "fhir:ElementDefinition.minValueInteger64",
-      "@context": "integer64.context.jsonld"
-    },
     "minValuePositiveInt": {
       "@id": "fhir:ElementDefinition.minValuePositiveInt",
       "@context": "positiveint.context.jsonld"
@@ -772,10 +756,6 @@
     "maxValueInteger": {
       "@id": "fhir:ElementDefinition.maxValueInteger",
       "@context": "integer.context.jsonld"
-    },
-    "maxValueInteger64": {
-      "@id": "fhir:ElementDefinition.maxValueInteger64",
-      "@context": "integer64.context.jsonld"
     },
     "maxValuePositiveInt": {
       "@id": "fhir:ElementDefinition.maxValuePositiveInt",

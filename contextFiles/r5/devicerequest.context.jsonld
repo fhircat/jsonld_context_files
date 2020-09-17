@@ -125,9 +125,13 @@
       "@id": "fhir:DeviceRequest.performer",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:DeviceRequest.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:DeviceRequest.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:DeviceRequest.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "insurance": {
       "@id": "fhir:DeviceRequest.insurance",

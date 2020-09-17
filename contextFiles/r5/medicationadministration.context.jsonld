@@ -45,17 +45,9 @@
       "@id": "fhir:MedicationAdministration.identifier",
       "@context": "identifier.context.jsonld"
     },
-    "instantiatesCanonical": {
-      "@id": "fhir:MedicationAdministration.instantiatesCanonical",
-      "@context": "canonical.context.jsonld"
-    },
-    "instantiatesUri": {
-      "@id": "fhir:MedicationAdministration.instantiatesUri",
+    "instantiates": {
+      "@id": "fhir:MedicationAdministration.instantiates",
       "@context": "uri.context.jsonld"
-    },
-    "basedOn": {
-      "@id": "fhir:MedicationAdministration.basedOn",
-      "@context": "reference.context.jsonld"
     },
     "partOf": {
       "@id": "fhir:MedicationAdministration.partOf",
@@ -85,33 +77,33 @@
       "@id": "fhir:MedicationAdministration.subject",
       "@context": "reference.context.jsonld"
     },
-    "encounter": {
-      "@id": "fhir:MedicationAdministration.encounter",
+    "context": {
+      "@id": "fhir:MedicationAdministration.context",
       "@context": "reference.context.jsonld"
     },
     "supportingInformation": {
       "@id": "fhir:MedicationAdministration.supportingInformation",
       "@context": "reference.context.jsonld"
     },
-    "occurenceDateTime": {
-      "@id": "fhir:MedicationAdministration.occurenceDateTime",
+    "effectiveDateTime": {
+      "@id": "fhir:MedicationAdministration.effectiveDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "occurencePeriod": {
-      "@id": "fhir:MedicationAdministration.occurencePeriod",
+    "effectivePeriod": {
+      "@id": "fhir:MedicationAdministration.effectivePeriod",
       "@context": "period.context.jsonld"
-    },
-    "recorded": {
-      "@id": "fhir:MedicationAdministration.recorded",
-      "@context": "datetime.context.jsonld"
     },
     "performer": {
       "@id": "fhir:MedicationAdministration.performer",
       "@context": "medicationadministration.performer.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:MedicationAdministration.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:MedicationAdministration.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:MedicationAdministration.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "request": {
       "@id": "fhir:MedicationAdministration.request",

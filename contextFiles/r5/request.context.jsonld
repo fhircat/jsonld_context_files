@@ -97,9 +97,13 @@
       "@id": "fhir:Request.performer",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:Request.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:Request.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Request.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "insurance": {
       "@id": "fhir:Request.insurance",

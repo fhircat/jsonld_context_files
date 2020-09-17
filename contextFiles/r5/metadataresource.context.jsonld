@@ -5,6 +5,10 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
       "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
@@ -37,17 +41,53 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "approvalDate": {
-      "@id": "fhir:MetadataResource.approvalDate",
-      "@context": "date.context.jsonld"
+    "url": {
+      "@id": "fhir:MetadataResource.url",
+      "@context": "uri.context.jsonld"
     },
-    "lastReviewDate": {
-      "@id": "fhir:MetadataResource.lastReviewDate",
-      "@context": "date.context.jsonld"
+    "version": {
+      "@id": "fhir:MetadataResource.version",
+      "@context": "string.context.jsonld"
     },
-    "effectivePeriod": {
-      "@id": "fhir:MetadataResource.effectivePeriod",
-      "@context": "period.context.jsonld"
+    "name": {
+      "@id": "fhir:MetadataResource.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:MetadataResource.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MetadataResource.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:MetadataResource.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:MetadataResource.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:MetadataResource.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:MetadataResource.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:MetadataResource.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:MetadataResource.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:MetadataResource.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

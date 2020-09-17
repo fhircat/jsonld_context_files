@@ -1,0 +1,189 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:ResearchDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ResearchDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:ResearchDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:ResearchDefinition.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:ResearchDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "shortTitle": {
+      "@id": "fhir:ResearchDefinition.shortTitle",
+      "@context": "string.context.jsonld"
+    },
+    "subtitle": {
+      "@id": "fhir:ResearchDefinition.subtitle",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ResearchDefinition.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:ResearchDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:ResearchDefinition.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:ResearchDefinition.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:ResearchDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:ResearchDefinition.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:ResearchDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:ResearchDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "comment": {
+      "@id": "fhir:ResearchDefinition.comment",
+      "@context": "string.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:ResearchDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:ResearchDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:ResearchDefinition.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "usage": {
+      "@id": "fhir:ResearchDefinition.usage",
+      "@context": "string.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:ResearchDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:ResearchDefinition.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:ResearchDefinition.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:ResearchDefinition.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "topic": {
+      "@id": "fhir:ResearchDefinition.topic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:ResearchDefinition.author",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "editor": {
+      "@id": "fhir:ResearchDefinition.editor",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "reviewer": {
+      "@id": "fhir:ResearchDefinition.reviewer",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "endorser": {
+      "@id": "fhir:ResearchDefinition.endorser",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:ResearchDefinition.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "library": {
+      "@id": "fhir:ResearchDefinition.library",
+      "@context": "canonical.context.jsonld"
+    },
+    "population": {
+      "@id": "fhir:ResearchDefinition.population",
+      "@context": "reference.context.jsonld"
+    },
+    "exposure": {
+      "@id": "fhir:ResearchDefinition.exposure",
+      "@context": "reference.context.jsonld"
+    },
+    "exposureAlternative": {
+      "@id": "fhir:ResearchDefinition.exposureAlternative",
+      "@context": "reference.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:ResearchDefinition.outcome",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

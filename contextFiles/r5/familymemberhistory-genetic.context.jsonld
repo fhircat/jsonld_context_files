@@ -33,16 +33,16 @@
       "@id": "fhir:DomainResource.extension",
       "@context": "extension.context.jsonld"
     },
-    "extension:parent": {
-      "@id": "fhir:DomainResource.extension:parent",
+    "extension:Parent": {
+      "@id": "fhir:DomainResource.extension:Parent",
       "@context": "extension.context.jsonld"
     },
-    "extension:sibling": {
-      "@id": "fhir:DomainResource.extension:sibling",
+    "extension:Sibling": {
+      "@id": "fhir:DomainResource.extension:Sibling",
       "@context": "extension.context.jsonld"
     },
-    "extension:observations": {
-      "@id": "fhir:DomainResource.extension:observations",
+    "extension:Observation": {
+      "@id": "fhir:DomainResource.extension:Observation",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
@@ -81,12 +81,12 @@
       "@id": "fhir:FamilyMemberHistory.name",
       "@context": "string.context.jsonld"
     },
-    "relationship": {
-      "@id": "fhir:FamilyMemberHistory.relationship",
+    "relationship:Relationship": {
+      "@id": "fhir:FamilyMemberHistory.relationship:Relationship",
       "@context": "codeableconcept.context.jsonld"
     },
-    "sex": {
-      "@id": "fhir:FamilyMemberHistory.sex",
+    "sex:Sex": {
+      "@id": "fhir:FamilyMemberHistory.sex:Sex",
       "@context": "codeableconcept.context.jsonld"
     },
     "bornPeriod": {
@@ -137,21 +137,21 @@
       "@id": "fhir:FamilyMemberHistory.deceasedString",
       "@context": "string.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:FamilyMemberHistory.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:FamilyMemberHistory.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:FamilyMemberHistory.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:FamilyMemberHistory.note",
       "@context": "annotation.context.jsonld"
     },
-    "condition": {
-      "@id": "fhir:FamilyMemberHistory.condition",
-      "@context": "familymemberhistory.condition.context.jsonld"
-    },
-    "procedure": {
-      "@id": "fhir:FamilyMemberHistory.procedure",
-      "@context": "familymemberhistory.procedure.context.jsonld"
+    "condition:Condition": {
+      "@id": "fhir:FamilyMemberHistory.condition:Condition",
+      "@context": "familymemberhistory.condition:condition.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -141,10 +141,6 @@
       "@id": "fhir:EvidenceVariable.type",
       "@context": "string.context.jsonld"
     },
-    "actual": {
-      "@id": "fhir:EvidenceVariable.actual",
-      "@context": "boolean.context.jsonld"
-    },
     "characteristic": {
       "@id": "fhir:EvidenceVariable.characteristic",
       "@context": "evidencevariable.characteristic.context.jsonld"

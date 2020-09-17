@@ -41,89 +41,9 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:SpecimenDefinition.url",
-      "@context": "uri.context.jsonld"
-    },
     "identifier": {
       "@id": "fhir:SpecimenDefinition.identifier",
       "@context": "identifier.context.jsonld"
-    },
-    "version": {
-      "@id": "fhir:SpecimenDefinition.version",
-      "@context": "string.context.jsonld"
-    },
-    "title": {
-      "@id": "fhir:SpecimenDefinition.title",
-      "@context": "string.context.jsonld"
-    },
-    "derivedFromCanonical": {
-      "@id": "fhir:SpecimenDefinition.derivedFromCanonical",
-      "@context": "canonical.context.jsonld"
-    },
-    "derivedFromUri": {
-      "@id": "fhir:SpecimenDefinition.derivedFromUri",
-      "@context": "uri.context.jsonld"
-    },
-    "status": {
-      "@id": "fhir:SpecimenDefinition.status",
-      "@context": "string.context.jsonld"
-    },
-    "experimental": {
-      "@id": "fhir:SpecimenDefinition.experimental",
-      "@context": "boolean.context.jsonld"
-    },
-    "subjectCodeableConcept": {
-      "@id": "fhir:SpecimenDefinition.subjectCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "subjectReference": {
-      "@id": "fhir:SpecimenDefinition.subjectReference",
-      "@context": "reference.context.jsonld"
-    },
-    "date": {
-      "@id": "fhir:SpecimenDefinition.date",
-      "@context": "datetime.context.jsonld"
-    },
-    "publisher": {
-      "@id": "fhir:SpecimenDefinition.publisher",
-      "@context": "reference.context.jsonld"
-    },
-    "contact": {
-      "@id": "fhir:SpecimenDefinition.contact",
-      "@context": "contactdetail.context.jsonld"
-    },
-    "description": {
-      "@id": "fhir:SpecimenDefinition.description",
-      "@context": "markdown.context.jsonld"
-    },
-    "useContext": {
-      "@id": "fhir:SpecimenDefinition.useContext",
-      "@context": "usagecontext.context.jsonld"
-    },
-    "jurisdiction": {
-      "@id": "fhir:SpecimenDefinition.jurisdiction",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "purpose": {
-      "@id": "fhir:SpecimenDefinition.purpose",
-      "@context": "markdown.context.jsonld"
-    },
-    "copyright": {
-      "@id": "fhir:SpecimenDefinition.copyright",
-      "@context": "markdown.context.jsonld"
-    },
-    "approvalDate": {
-      "@id": "fhir:SpecimenDefinition.approvalDate",
-      "@context": "date.context.jsonld"
-    },
-    "lastReviewDate": {
-      "@id": "fhir:SpecimenDefinition.lastReviewDate",
-      "@context": "date.context.jsonld"
-    },
-    "effectivePeriod": {
-      "@id": "fhir:SpecimenDefinition.effectivePeriod",
-      "@context": "period.context.jsonld"
     },
     "typeCollected": {
       "@id": "fhir:SpecimenDefinition.typeCollected",

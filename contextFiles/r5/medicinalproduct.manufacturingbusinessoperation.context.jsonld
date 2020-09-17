@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "operationType": {
+      "@id": "fhir:MedicinalProduct.manufacturingBusinessOperation.operationType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "authorisationReferenceNumber": {
+      "@id": "fhir:MedicinalProduct.manufacturingBusinessOperation.authorisationReferenceNumber",
+      "@context": "identifier.context.jsonld"
+    },
+    "effectiveDate": {
+      "@id": "fhir:MedicinalProduct.manufacturingBusinessOperation.effectiveDate",
+      "@context": "datetime.context.jsonld"
+    },
+    "confidentialityIndicator": {
+      "@id": "fhir:MedicinalProduct.manufacturingBusinessOperation.confidentialityIndicator",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "manufacturer": {
+      "@id": "fhir:MedicinalProduct.manufacturingBusinessOperation.manufacturer",
+      "@context": "reference.context.jsonld"
+    },
+    "regulator": {
+      "@id": "fhir:MedicinalProduct.manufacturingBusinessOperation.regulator",
+      "@context": "reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

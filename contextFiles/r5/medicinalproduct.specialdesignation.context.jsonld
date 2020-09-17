@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "intendedUse": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.intendedUse",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "indicationCodeableConcept": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.indicationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "indicationReference": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.indicationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.status",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "species": {
+      "@id": "fhir:MedicinalProduct.specialDesignation.species",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

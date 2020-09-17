@@ -21,14 +21,6 @@
       "@id": "fhir:Consent.verification.verified",
       "@context": "boolean.context.jsonld"
     },
-    "verificationType": {
-      "@id": "fhir:Consent.verification.verificationType",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "verifiedBy": {
-      "@id": "fhir:Consent.verification.verifiedBy",
-      "@context": "reference.context.jsonld"
-    },
     "verifiedWith": {
       "@id": "fhir:Consent.verification.verifiedWith",
       "@context": "reference.context.jsonld"

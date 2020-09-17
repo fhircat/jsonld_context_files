@@ -145,10 +145,6 @@
       "@id": "fhir:Observation.valuePeriod",
       "@context": "period.context.jsonld"
     },
-    "valueAttachment": {
-      "@id": "fhir:Observation.valueAttachment",
-      "@context": "attachment.context.jsonld"
-    },
     "dataAbsentReason": {
       "@id": "fhir:Observation.dataAbsentReason",
       "@context": "codeableconcept.context.jsonld"

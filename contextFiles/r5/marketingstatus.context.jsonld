@@ -14,7 +14,7 @@
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneType.modifierExtension",
+      "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "country": {

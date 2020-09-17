@@ -1,0 +1,173 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:RiskEvidenceSynthesis.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:RiskEvidenceSynthesis.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:RiskEvidenceSynthesis.version",
+      "@context": "string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:RiskEvidenceSynthesis.name",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:RiskEvidenceSynthesis.title",
+      "@context": "string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:RiskEvidenceSynthesis.status",
+      "@context": "string.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:RiskEvidenceSynthesis.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:RiskEvidenceSynthesis.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:RiskEvidenceSynthesis.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:RiskEvidenceSynthesis.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:RiskEvidenceSynthesis.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:RiskEvidenceSynthesis.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:RiskEvidenceSynthesis.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:RiskEvidenceSynthesis.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:RiskEvidenceSynthesis.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:RiskEvidenceSynthesis.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:RiskEvidenceSynthesis.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "topic": {
+      "@id": "fhir:RiskEvidenceSynthesis.topic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:RiskEvidenceSynthesis.author",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "editor": {
+      "@id": "fhir:RiskEvidenceSynthesis.editor",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "reviewer": {
+      "@id": "fhir:RiskEvidenceSynthesis.reviewer",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "endorser": {
+      "@id": "fhir:RiskEvidenceSynthesis.endorser",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "relatedArtifact": {
+      "@id": "fhir:RiskEvidenceSynthesis.relatedArtifact",
+      "@context": "relatedartifact.context.jsonld"
+    },
+    "synthesisType": {
+      "@id": "fhir:RiskEvidenceSynthesis.synthesisType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "studyType": {
+      "@id": "fhir:RiskEvidenceSynthesis.studyType",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "population": {
+      "@id": "fhir:RiskEvidenceSynthesis.population",
+      "@context": "reference.context.jsonld"
+    },
+    "exposure": {
+      "@id": "fhir:RiskEvidenceSynthesis.exposure",
+      "@context": "reference.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:RiskEvidenceSynthesis.outcome",
+      "@context": "reference.context.jsonld"
+    },
+    "sampleSize": {
+      "@id": "fhir:RiskEvidenceSynthesis.sampleSize",
+      "@context": "riskevidencesynthesis.samplesize.context.jsonld"
+    },
+    "riskEstimate": {
+      "@id": "fhir:RiskEvidenceSynthesis.riskEstimate",
+      "@context": "riskevidencesynthesis.riskestimate.context.jsonld"
+    },
+    "certainty": {
+      "@id": "fhir:RiskEvidenceSynthesis.certainty",
+      "@context": "riskevidencesynthesis.certainty.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

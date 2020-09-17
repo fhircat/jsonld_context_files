@@ -19,23 +19,19 @@
     },
     "type": {
       "@id": "fhir:Subscription.channel.type",
-      "@context": "codeableconcept.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "endpoint": {
       "@id": "fhir:Subscription.channel.endpoint",
       "@context": "url.context.jsonld"
     },
+    "payload": {
+      "@id": "fhir:Subscription.channel.payload",
+      "@context": "string.context.jsonld"
+    },
     "header": {
       "@id": "fhir:Subscription.channel.header",
       "@context": "string.context.jsonld"
-    },
-    "heartbeatPeriod": {
-      "@id": "fhir:Subscription.channel.heartbeatPeriod",
-      "@context": "unsignedint.context.jsonld"
-    },
-    "payload": {
-      "@id": "fhir:Subscription.channel.payload",
-      "@context": "subscription.channel.payload.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

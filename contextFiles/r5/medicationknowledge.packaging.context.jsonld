@@ -25,14 +25,6 @@
       "@id": "fhir:MedicationKnowledge.packaging.quantity",
       "@context": "quantity.context.jsonld"
     },
-    "device": {
-      "@id": "fhir:MedicationKnowledge.packaging.device",
-      "@context": "reference.context.jsonld"
-    },
-    "material": {
-      "@id": "fhir:MedicationKnowledge.packaging.material",
-      "@context": "codeableconcept.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

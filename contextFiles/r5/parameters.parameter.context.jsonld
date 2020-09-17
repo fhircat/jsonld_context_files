@@ -61,10 +61,6 @@
       "@id": "fhir:Parameters.parameter.valueInteger",
       "@context": "integer.context.jsonld"
     },
-    "valueInteger64": {
-      "@id": "fhir:Parameters.parameter.valueInteger64",
-      "@context": "integer64.context.jsonld"
-    },
     "valueMarkdown": {
       "@id": "fhir:Parameters.parameter.valueMarkdown",
       "@context": "markdown.context.jsonld"
