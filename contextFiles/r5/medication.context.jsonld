@@ -57,8 +57,8 @@
       "@id": "fhir:Medication.manufacturer",
       "@context": "reference.context.jsonld"
     },
-    "form": {
-      "@id": "fhir:Medication.form",
+    "doseForm": {
+      "@id": "fhir:Medication.doseForm",
       "@context": "codeableconcept.context.jsonld"
     },
     "amount": {
