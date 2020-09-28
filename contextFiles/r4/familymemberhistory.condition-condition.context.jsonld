@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "code": {
+      "@id": "fhir:FamilyMemberHistory.condition.code",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:FamilyMemberHistory.condition.outcome",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "contributedToDeath": {
+      "@id": "fhir:FamilyMemberHistory.condition.contributedToDeath",
+      "@context": "boolean.context.jsonld"
+    },
+    "onsetAge": {
+      "@id": "fhir:FamilyMemberHistory.condition.onsetAge",
+      "@context": "age.context.jsonld"
+    },
+    "onsetRange": {
+      "@id": "fhir:FamilyMemberHistory.condition.onsetRange",
+      "@context": "range.context.jsonld"
+    },
+    "onsetPeriod": {
+      "@id": "fhir:FamilyMemberHistory.condition.onsetPeriod",
+      "@context": "period.context.jsonld"
+    },
+    "onsetString": {
+      "@id": "fhir:FamilyMemberHistory.condition.onsetString",
+      "@context": "string.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:FamilyMemberHistory.condition.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

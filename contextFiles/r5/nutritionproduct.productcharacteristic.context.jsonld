@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.type",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "valueCodeableConcept": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.valueCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "valueString": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.valueString",
+      "@context": "string.context.jsonld"
+    },
+    "valueQuantity": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.valueQuantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "valueBase64Binary": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.valueBase64Binary",
+      "@context": "base64binary.context.jsonld"
+    },
+    "valueAttachment": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.valueAttachment",
+      "@context": "attachment.context.jsonld"
+    },
+    "valueBoolean": {
+      "@id": "fhir:NutritionProduct.productCharacteristic.valueBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

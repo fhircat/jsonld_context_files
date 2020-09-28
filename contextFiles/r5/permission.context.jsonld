@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Permission.status",
+      "@context": "string.context.jsonld"
+    },
+    "intent": {
+      "@id": "fhir:Permission.intent",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "asserter": {
+      "@id": "fhir:Permission.asserter",
+      "@context": "reference.context.jsonld"
+    },
+    "assertionDate": {
+      "@id": "fhir:Permission.assertionDate",
+      "@context": "datetime.context.jsonld"
+    },
+    "validity": {
+      "@id": "fhir:Permission.validity",
+      "@context": "period.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:Permission.purpose",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "dataScope": {
+      "@id": "fhir:Permission.dataScope",
+      "@context": "expression.context.jsonld"
+    },
+    "processingActivity": {
+      "@id": "fhir:Permission.processingActivity",
+      "@context": "permission.processingactivity.context.jsonld"
+    },
+    "justification": {
+      "@id": "fhir:Permission.justification",
+      "@context": "permission.justification.context.jsonld"
+    },
+    "usageLimitations": {
+      "@id": "fhir:Permission.usageLimitations",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

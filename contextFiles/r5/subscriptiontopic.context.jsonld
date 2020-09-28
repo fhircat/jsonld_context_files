@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:SubscriptionTopic.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:SubscriptionTopic.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:SubscriptionTopic.version",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:SubscriptionTopic.title",
+      "@context": "string.context.jsonld"
+    },
+    "derivedFromCanonical": {
+      "@id": "fhir:SubscriptionTopic.derivedFromCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "derivedFromUri": {
+      "@id": "fhir:SubscriptionTopic.derivedFromUri",
+      "@context": "uri.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:SubscriptionTopic.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:SubscriptionTopic.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:SubscriptionTopic.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:SubscriptionTopic.publisher",
+      "@context": "reference.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:SubscriptionTopic.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:SubscriptionTopic.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:SubscriptionTopic.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:SubscriptionTopic.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:SubscriptionTopic.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:SubscriptionTopic.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:SubscriptionTopic.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:SubscriptionTopic.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:SubscriptionTopic.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "resourceTrigger": {
+      "@id": "fhir:SubscriptionTopic.resourceTrigger",
+      "@context": "subscriptiontopic.resourcetrigger.context.jsonld"
+    },
+    "canFilterBy": {
+      "@id": "fhir:SubscriptionTopic.canFilterBy",
+      "@context": "subscriptiontopic.canfilterby.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

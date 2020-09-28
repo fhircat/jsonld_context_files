@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "extension.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:EvidenceVariable.characteristic.timeFromStart.description",
+      "@context": "string.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:EvidenceVariable.characteristic.timeFromStart.quantity",
+      "@context": "quantity.context.jsonld"
+    },
+    "range": {
+      "@id": "fhir:EvidenceVariable.characteristic.timeFromStart.range",
+      "@context": "range.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:EvidenceVariable.characteristic.timeFromStart.note",
+      "@context": "annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
