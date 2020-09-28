@@ -105,6 +105,10 @@
       "@id": "fhir:SubstanceDefinition.name",
       "@context": "substancedefinition.name.context.jsonld"
     },
+    "molecularWeight": {
+      "@id": "fhir:SubstanceDefinition.molecularWeight",
+      "@context": "substancedefinition.structure.isotope.molecularweight.context.jsonld"
+    },
     "relationship": {
       "@id": "fhir:SubstanceDefinition.relationship",
       "@context": "substancedefinition.relationship.context.jsonld"

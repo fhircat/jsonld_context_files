@@ -61,9 +61,9 @@
       "@id": "fhir:ManufacturedItemDefinition.ingredient",
       "@context": "reference.context.jsonld"
     },
-    "characteristic": {
-      "@id": "fhir:ManufacturedItemDefinition.characteristic",
-      "@context": "manufactureditemdefinition.characteristic.context.jsonld"
+    "property": {
+      "@id": "fhir:ManufacturedItemDefinition.property",
+      "@context": "manufactureditemdefinition.property.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

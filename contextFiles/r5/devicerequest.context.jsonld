@@ -77,13 +77,9 @@
       "@id": "fhir:DeviceRequest.priority",
       "@context": "string.context.jsonld"
     },
-    "codeReference": {
-      "@id": "fhir:DeviceRequest.codeReference",
-      "@context": "reference.context.jsonld"
-    },
-    "codeCodeableConcept": {
-      "@id": "fhir:DeviceRequest.codeCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
+    "code": {
+      "@id": "fhir:DeviceRequest.code",
+      "@context": "codeablereference.context.jsonld"
     },
     "parameter": {
       "@id": "fhir:DeviceRequest.parameter",
@@ -125,13 +121,9 @@
       "@id": "fhir:DeviceRequest.performer",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:DeviceRequest.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:DeviceRequest.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:DeviceRequest.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "insurance": {
       "@id": "fhir:DeviceRequest.insurance",

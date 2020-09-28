@@ -41,6 +41,94 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "url": {
+      "@id": "fhir:ObservationDefinition.url",
+      "@context": "uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ObservationDefinition.identifier",
+      "@context": "identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:ObservationDefinition.version",
+      "@context": "string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:ObservationDefinition.title",
+      "@context": "string.context.jsonld"
+    },
+    "derivedFromCanonical": {
+      "@id": "fhir:ObservationDefinition.derivedFromCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "derivedFromUri": {
+      "@id": "fhir:ObservationDefinition.derivedFromUri",
+      "@context": "uri.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ObservationDefinition.status",
+      "@context": "string.context.jsonld"
+    },
+    "experimental": {
+      "@id": "fhir:ObservationDefinition.experimental",
+      "@context": "boolean.context.jsonld"
+    },
+    "subjectCodeableConcept": {
+      "@id": "fhir:ObservationDefinition.subjectCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "subjectReference": {
+      "@id": "fhir:ObservationDefinition.subjectReference",
+      "@context": "reference.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:ObservationDefinition.date",
+      "@context": "datetime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:ObservationDefinition.publisher",
+      "@context": "reference.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:ObservationDefinition.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:ObservationDefinition.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:ObservationDefinition.useContext",
+      "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:ObservationDefinition.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:ObservationDefinition.purpose",
+      "@context": "markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:ObservationDefinition.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "approvalDate": {
+      "@id": "fhir:ObservationDefinition.approvalDate",
+      "@context": "date.context.jsonld"
+    },
+    "lastReviewDate": {
+      "@id": "fhir:ObservationDefinition.lastReviewDate",
+      "@context": "date.context.jsonld"
+    },
+    "effectivePeriod": {
+      "@id": "fhir:ObservationDefinition.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "performerType": {
+      "@id": "fhir:ObservationDefinition.performerType",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "category": {
       "@id": "fhir:ObservationDefinition.category",
       "@context": "codeableconcept.context.jsonld"
@@ -48,10 +136,6 @@
     "code": {
       "@id": "fhir:ObservationDefinition.code",
       "@context": "codeableconcept.context.jsonld"
-    },
-    "identifier": {
-      "@id": "fhir:ObservationDefinition.identifier",
-      "@context": "identifier.context.jsonld"
     },
     "permittedDataType": {
       "@id": "fhir:ObservationDefinition.permittedDataType",
@@ -61,9 +145,21 @@
       "@id": "fhir:ObservationDefinition.multipleResultsAllowed",
       "@context": "boolean.context.jsonld"
     },
+    "bodySite": {
+      "@id": "fhir:ObservationDefinition.bodySite",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "method": {
       "@id": "fhir:ObservationDefinition.method",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "specimen": {
+      "@id": "fhir:ObservationDefinition.specimen",
+      "@context": "reference.context.jsonld"
+    },
+    "device": {
+      "@id": "fhir:ObservationDefinition.device",
+      "@context": "reference.context.jsonld"
     },
     "preferredReportName": {
       "@id": "fhir:ObservationDefinition.preferredReportName",
@@ -92,6 +188,14 @@
     "criticalCodedValueSet": {
       "@id": "fhir:ObservationDefinition.criticalCodedValueSet",
       "@context": "reference.context.jsonld"
+    },
+    "hasMember": {
+      "@id": "fhir:ObservationDefinition.hasMember",
+      "@context": "reference.context.jsonld"
+    },
+    "component": {
+      "@id": "fhir:ObservationDefinition.component",
+      "@context": "observationdefinition.component.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

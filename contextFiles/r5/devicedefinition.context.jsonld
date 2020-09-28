@@ -109,10 +109,6 @@
       "@id": "fhir:DeviceDefinition.contact",
       "@context": "contactpoint.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:DeviceDefinition.url",
-      "@context": "uri.context.jsonld"
-    },
     "onlineInformation": {
       "@id": "fhir:DeviceDefinition.onlineInformation",
       "@context": "uri.context.jsonld"

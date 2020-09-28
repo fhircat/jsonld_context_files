@@ -77,6 +77,10 @@
       "@id": "fhir:Encounter.subject",
       "@context": "reference.context.jsonld"
     },
+    "subjectStatus": {
+      "@id": "fhir:Encounter.subjectStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "episodeOfCare": {
       "@id": "fhir:Encounter.episodeOfCare",
       "@context": "reference.context.jsonld"
@@ -101,13 +105,9 @@
       "@id": "fhir:Encounter.length",
       "@context": "duration.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:Encounter.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:Encounter.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:Encounter.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "diagnosis": {
       "@id": "fhir:Encounter.diagnosis",

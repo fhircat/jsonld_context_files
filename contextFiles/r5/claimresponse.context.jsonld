@@ -109,6 +109,10 @@
       "@id": "fhir:ClaimResponse.addItem",
       "@context": "claimresponse.additem.context.jsonld"
     },
+    "adjudication": {
+      "@id": "fhir:ClaimResponse.adjudication",
+      "@context": "claimresponse.item.adjudication.context.jsonld"
+    },
     "total": {
       "@id": "fhir:ClaimResponse.total",
       "@context": "claimresponse.total.context.jsonld"

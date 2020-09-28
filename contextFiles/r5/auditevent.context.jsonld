@@ -53,6 +53,10 @@
       "@id": "fhir:AuditEvent.action",
       "@context": "string.context.jsonld"
     },
+    "severity": {
+      "@id": "fhir:AuditEvent.severity",
+      "@context": "string.context.jsonld"
+    },
     "period": {
       "@id": "fhir:AuditEvent.period",
       "@context": "period.context.jsonld"
@@ -63,11 +67,7 @@
     },
     "outcome": {
       "@id": "fhir:AuditEvent.outcome",
-      "@context": "string.context.jsonld"
-    },
-    "outcomeDesc": {
-      "@id": "fhir:AuditEvent.outcomeDesc",
-      "@context": "string.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "purposeOfEvent": {
       "@id": "fhir:AuditEvent.purposeOfEvent",

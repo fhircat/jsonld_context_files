@@ -19,7 +19,7 @@
     },
     "name": {
       "@id": "fhir:SubstanceDefinition.name.name",
-      "@context": "string.context.jsonld"
+      "@context": "substancedefinition.name.context.jsonld"
     },
     "type": {
       "@id": "fhir:SubstanceDefinition.name.type",

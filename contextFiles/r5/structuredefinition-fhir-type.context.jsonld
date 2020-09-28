@@ -19,7 +19,7 @@
     },
     "value": {
       "@id": "fhir:Extension.value",
-      "@context": "url.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

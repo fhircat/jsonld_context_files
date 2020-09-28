@@ -45,6 +45,14 @@
       "@id": "fhir:NutritionIntake.identifier",
       "@context": "identifier.context.jsonld"
     },
+    "instantiatesCanonical": {
+      "@id": "fhir:NutritionIntake.instantiatesCanonical",
+      "@context": "canonical.context.jsonld"
+    },
+    "instantiatesUri": {
+      "@id": "fhir:NutritionIntake.instantiatesUri",
+      "@context": "uri.context.jsonld"
+    },
     "basedOn": {
       "@id": "fhir:NutritionIntake.basedOn",
       "@context": "reference.context.jsonld"
@@ -61,17 +69,9 @@
       "@id": "fhir:NutritionIntake.statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
-    "category": {
-      "@id": "fhir:NutritionIntake.category",
+    "code": {
+      "@id": "fhir:NutritionIntake.code",
       "@context": "codeableconcept.context.jsonld"
-    },
-    "consumedItem": {
-      "@id": "fhir:NutritionIntake.consumedItem",
-      "@context": "nutritionintake.consumeditem.context.jsonld"
-    },
-    "ingredientLabel": {
-      "@id": "fhir:NutritionIntake.ingredientLabel",
-      "@context": "nutritionintake.ingredientlabel.context.jsonld"
     },
     "subject": {
       "@id": "fhir:NutritionIntake.subject",
@@ -81,28 +81,48 @@
       "@id": "fhir:NutritionIntake.encounter",
       "@context": "reference.context.jsonld"
     },
-    "effectiveDateTime": {
-      "@id": "fhir:NutritionIntake.effectiveDateTime",
+    "occurrenceDateTime": {
+      "@id": "fhir:NutritionIntake.occurrenceDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "effectivePeriod": {
-      "@id": "fhir:NutritionIntake.effectivePeriod",
+    "occurrencePeriod": {
+      "@id": "fhir:NutritionIntake.occurrencePeriod",
       "@context": "period.context.jsonld"
     },
-    "dateAsserted": {
-      "@id": "fhir:NutritionIntake.dateAsserted",
+    "recorded": {
+      "@id": "fhir:NutritionIntake.recorded",
       "@context": "datetime.context.jsonld"
     },
-    "informationSource": {
-      "@id": "fhir:NutritionIntake.informationSource",
+    "reportedBoolean": {
+      "@id": "fhir:NutritionIntake.reportedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedReference": {
+      "@id": "fhir:NutritionIntake.reportedReference",
+      "@context": "reference.context.jsonld"
+    },
+    "consumedItem": {
+      "@id": "fhir:NutritionIntake.consumedItem",
+      "@context": "nutritionintake.consumeditem.context.jsonld"
+    },
+    "ingredientLabel": {
+      "@id": "fhir:NutritionIntake.ingredientLabel",
+      "@context": "nutritionintake.ingredientlabel.context.jsonld"
+    },
+    "performer": {
+      "@id": "fhir:NutritionIntake.performer",
+      "@context": "nutritionintake.performer.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:NutritionIntake.location",
       "@context": "reference.context.jsonld"
     },
     "derivedFrom": {
       "@id": "fhir:NutritionIntake.derivedFrom",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:NutritionIntake.reasonCode",
+    "reason": {
+      "@id": "fhir:NutritionIntake.reason",
       "@context": "codeablereference.context.jsonld"
     },
     "note": {

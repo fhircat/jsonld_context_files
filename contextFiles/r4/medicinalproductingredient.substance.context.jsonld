@@ -21,6 +21,10 @@
       "@id": "fhir:MedicinalProductIngredient.substance.code",
       "@context": "codeableconcept.context.jsonld"
     },
+    "strength": {
+      "@id": "fhir:MedicinalProductIngredient.substance.strength",
+      "@context": "medicinalproductingredient.specifiedsubstance.strength.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

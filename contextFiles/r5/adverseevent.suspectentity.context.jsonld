@@ -17,8 +17,12 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "instance": {
-      "@id": "fhir:AdverseEvent.suspectEntity.instance",
+    "instanceCodeableConcept": {
+      "@id": "fhir:AdverseEvent.suspectEntity.instanceCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "instanceReference": {
+      "@id": "fhir:AdverseEvent.suspectEntity.instanceReference",
       "@context": "reference.context.jsonld"
     },
     "causality": {

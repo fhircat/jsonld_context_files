@@ -117,13 +117,9 @@
       "@id": "fhir:Communication.sender",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:Communication.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:Communication.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:Communication.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "payload": {
       "@id": "fhir:Communication.payload",

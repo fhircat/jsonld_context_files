@@ -93,6 +93,10 @@
       "@id": "fhir:SubstanceSpecification.name",
       "@context": "substancespecification.name.context.jsonld"
     },
+    "molecularWeight": {
+      "@id": "fhir:SubstanceSpecification.molecularWeight",
+      "@context": "substancespecification.structure.isotope.molecularweight.context.jsonld"
+    },
     "relationship": {
       "@id": "fhir:SubstanceSpecification.relationship",
       "@context": "substancespecification.relationship.context.jsonld"

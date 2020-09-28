@@ -21,13 +21,9 @@
       "@id": "fhir:MedicationKnowledge.administrationGuideline.dosage",
       "@context": "medicationknowledge.administrationguideline.dosage.context.jsonld"
     },
-    "indicationCodeableConcept": {
-      "@id": "fhir:MedicationKnowledge.administrationGuideline.indicationCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "indicationReference": {
-      "@id": "fhir:MedicationKnowledge.administrationGuideline.indicationReference",
-      "@context": "reference.context.jsonld"
+    "indication": {
+      "@id": "fhir:MedicationKnowledge.administrationGuideline.indication",
+      "@context": "codeablereference.context.jsonld"
     },
     "patientCharacteristic": {
       "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic",

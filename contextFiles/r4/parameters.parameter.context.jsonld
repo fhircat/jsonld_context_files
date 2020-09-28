@@ -225,6 +225,10 @@
       "@id": "fhir:Parameters.parameter.resource",
       "@context": "resource.context.jsonld"
     },
+    "parameter": {
+      "@id": "fhir:Parameters.parameter.parameter",
+      "@context": "parameters.parameter.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

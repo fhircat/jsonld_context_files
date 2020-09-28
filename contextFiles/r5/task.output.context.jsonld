@@ -61,6 +61,10 @@
       "@id": "fhir:Task.output.valueInteger",
       "@context": "integer.context.jsonld"
     },
+    "valueInteger64": {
+      "@id": "fhir:Task.output.valueInteger64",
+      "@context": "integer64.context.jsonld"
+    },
     "valueMarkdown": {
       "@id": "fhir:Task.output.valueMarkdown",
       "@context": "markdown.context.jsonld"

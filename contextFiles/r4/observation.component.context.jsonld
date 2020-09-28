@@ -73,6 +73,10 @@
       "@id": "fhir:Observation.component.interpretation",
       "@context": "codeableconcept.context.jsonld"
     },
+    "referenceRange": {
+      "@id": "fhir:Observation.component.referenceRange",
+      "@context": "observation.referencerange.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

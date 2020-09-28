@@ -45,6 +45,10 @@
       "@id": "fhir:DocumentReference.context.related",
       "@context": "reference.context.jsonld"
     },
+    "basedOn": {
+      "@id": "fhir:DocumentReference.context.basedOn",
+      "@context": "reference.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

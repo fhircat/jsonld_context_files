@@ -73,6 +73,18 @@
       "@id": "fhir:RegulatedAuthorization.validityPeriod",
       "@context": "period.context.jsonld"
     },
+    "indicationCodeableConcept": {
+      "@id": "fhir:RegulatedAuthorization.indicationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "indicationReference": {
+      "@id": "fhir:RegulatedAuthorization.indicationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "intendedUse": {
+      "@id": "fhir:RegulatedAuthorization.intendedUse",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "basis": {
       "@id": "fhir:RegulatedAuthorization.basis",
       "@context": "codeableconcept.context.jsonld"

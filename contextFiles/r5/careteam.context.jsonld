@@ -61,10 +61,6 @@
       "@id": "fhir:CareTeam.subject",
       "@context": "reference.context.jsonld"
     },
-    "encounter": {
-      "@id": "fhir:CareTeam.encounter",
-      "@context": "reference.context.jsonld"
-    },
     "period": {
       "@id": "fhir:CareTeam.period",
       "@context": "period.context.jsonld"
@@ -73,13 +69,9 @@
       "@id": "fhir:CareTeam.participant",
       "@context": "careteam.participant.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:CareTeam.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:CareTeam.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:CareTeam.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "managingOrganization": {
       "@id": "fhir:CareTeam.managingOrganization",

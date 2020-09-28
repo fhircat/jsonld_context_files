@@ -51,7 +51,7 @@
     },
     "domain": {
       "@id": "fhir:MedicinalProductDefinition.domain",
-      "@context": "coding.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "version": {
       "@id": "fhir:MedicinalProductDefinition.version",
@@ -59,7 +59,11 @@
     },
     "status": {
       "@id": "fhir:MedicinalProductDefinition.status",
-      "@context": "coding.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "statusDate": {
+      "@id": "fhir:MedicinalProductDefinition.statusDate",
+      "@context": "datetime.context.jsonld"
     },
     "description": {
       "@id": "fhir:MedicinalProductDefinition.description",
@@ -91,6 +95,10 @@
     },
     "productClassification": {
       "@id": "fhir:MedicinalProductDefinition.productClassification",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "characteristic": {
+      "@id": "fhir:MedicinalProductDefinition.characteristic",
       "@context": "codeableconcept.context.jsonld"
     },
     "marketingStatus": {

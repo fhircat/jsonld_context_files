@@ -65,6 +65,10 @@
       "@id": "fhir:Observation.component.valuePeriod",
       "@context": "period.context.jsonld"
     },
+    "valueAttachment": {
+      "@id": "fhir:Observation.component.valueAttachment",
+      "@context": "attachment.context.jsonld"
+    },
     "dataAbsentReason": {
       "@id": "fhir:Observation.component.dataAbsentReason",
       "@context": "codeableconcept.context.jsonld"
@@ -72,6 +76,10 @@
     "interpretation": {
       "@id": "fhir:Observation.component.interpretation",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "referenceRange": {
+      "@id": "fhir:Observation.component.referenceRange",
+      "@context": "observation.referencerange.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

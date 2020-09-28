@@ -81,9 +81,13 @@
       "@id": "fhir:Immunization.primarySource",
       "@context": "boolean.context.jsonld"
     },
-    "reportOrigin": {
-      "@id": "fhir:Immunization.reportOrigin",
+    "informationSourceCodeableConcept": {
+      "@id": "fhir:Immunization.informationSourceCodeableConcept",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "informationSourceReference": {
+      "@id": "fhir:Immunization.informationSourceReference",
+      "@context": "reference.context.jsonld"
     },
     "location": {
       "@id": "fhir:Immunization.location",
@@ -121,13 +125,9 @@
       "@id": "fhir:Immunization.note",
       "@context": "annotation.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:Immunization.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:Immunization.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:Immunization.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "isSubpotent": {
       "@id": "fhir:Immunization.isSubpotent",

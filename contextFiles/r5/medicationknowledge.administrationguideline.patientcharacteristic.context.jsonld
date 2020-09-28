@@ -17,17 +17,17 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "characteristicCodeableConcept": {
-      "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic.characteristicCodeableConcept",
+    "type": {
+      "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic.type",
       "@context": "codeableconcept.context.jsonld"
     },
-    "characteristicQuantity": {
-      "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic.characteristicQuantity",
-      "@context": "quantity.context.jsonld"
+    "valueCodeableConcept": {
+      "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic.valueCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
     },
-    "value": {
-      "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic.value",
-      "@context": "string.context.jsonld"
+    "valueQuantity": {
+      "@id": "fhir:MedicationKnowledge.administrationGuideline.patientCharacteristic.valueQuantity",
+      "@context": "quantity.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -57,6 +57,10 @@
       "@id": "fhir:OperationDefinition.parameter.referencedFrom",
       "@context": "operationdefinition.parameter.referencedfrom.context.jsonld"
     },
+    "parameter": {
+      "@id": "fhir:OperationDefinition.parameter.parameter",
+      "@context": "operationdefinition.parameter.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

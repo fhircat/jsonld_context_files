@@ -37,9 +37,13 @@
       "@id": "fhir:SubstanceDefinition.structure.isotope",
       "@context": "substancedefinition.structure.isotope.context.jsonld"
     },
-    "sourceCoding": {
-      "@id": "fhir:SubstanceDefinition.structure.sourceCoding",
-      "@context": "coding.context.jsonld"
+    "molecularWeight": {
+      "@id": "fhir:SubstanceDefinition.structure.molecularWeight",
+      "@context": "substancedefinition.structure.isotope.molecularweight.context.jsonld"
+    },
+    "technique": {
+      "@id": "fhir:SubstanceDefinition.structure.technique",
+      "@context": "codeableconcept.context.jsonld"
     },
     "sourceDocument": {
       "@id": "fhir:SubstanceDefinition.structure.sourceDocument",

@@ -45,6 +45,10 @@
       "@id": "fhir:Device.identifier",
       "@context": "identifier.context.jsonld"
     },
+    "displayName": {
+      "@id": "fhir:Device.displayName",
+      "@context": "string.context.jsonld"
+    },
     "definition": {
       "@id": "fhir:Device.definition",
       "@context": "reference.context.jsonld"
@@ -116,6 +120,14 @@
     "patient": {
       "@id": "fhir:Device.patient",
       "@context": "reference.context.jsonld"
+    },
+    "operationalStatus": {
+      "@id": "fhir:Device.operationalStatus",
+      "@context": "device.operationalstatus.context.jsonld"
+    },
+    "associationStatus": {
+      "@id": "fhir:Device.associationStatus",
+      "@context": "device.associationstatus.context.jsonld"
     },
     "owner": {
       "@id": "fhir:Device.owner",

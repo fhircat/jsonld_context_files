@@ -29,20 +29,12 @@
       "@id": "fhir:Immunization.protocolApplied.targetDisease",
       "@context": "codeableconcept.context.jsonld"
     },
-    "doseNumberPositiveInt": {
-      "@id": "fhir:Immunization.protocolApplied.doseNumberPositiveInt",
-      "@context": "positiveint.context.jsonld"
-    },
-    "doseNumberString": {
-      "@id": "fhir:Immunization.protocolApplied.doseNumberString",
+    "doseNumber": {
+      "@id": "fhir:Immunization.protocolApplied.doseNumber",
       "@context": "string.context.jsonld"
     },
-    "seriesDosesPositiveInt": {
-      "@id": "fhir:Immunization.protocolApplied.seriesDosesPositiveInt",
-      "@context": "positiveint.context.jsonld"
-    },
-    "seriesDosesString": {
-      "@id": "fhir:Immunization.protocolApplied.seriesDosesString",
+    "seriesDoses": {
+      "@id": "fhir:Immunization.protocolApplied.seriesDoses",
       "@context": "string.context.jsonld"
     },
     "index": {

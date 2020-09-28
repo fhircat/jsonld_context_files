@@ -41,6 +41,10 @@
       "@id": "fhir:ClinicalUseIssue.indication.undesirableEffect",
       "@context": "reference.context.jsonld"
     },
+    "otherTherapy": {
+      "@id": "fhir:ClinicalUseIssue.indication.otherTherapy",
+      "@context": "clinicaluseissue.contraindication.othertherapy.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

@@ -61,6 +61,10 @@
       "@id": "fhir:Parameters.parameter.valueInteger",
       "@context": "integer.context.jsonld"
     },
+    "valueInteger64": {
+      "@id": "fhir:Parameters.parameter.valueInteger64",
+      "@context": "integer64.context.jsonld"
+    },
     "valueMarkdown": {
       "@id": "fhir:Parameters.parameter.valueMarkdown",
       "@context": "markdown.context.jsonld"
@@ -224,6 +228,10 @@
     "resource": {
       "@id": "fhir:Parameters.parameter.resource",
       "@context": "resource.context.jsonld"
+    },
+    "parameter": {
+      "@id": "fhir:Parameters.parameter.parameter",
+      "@context": "parameters.parameter.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

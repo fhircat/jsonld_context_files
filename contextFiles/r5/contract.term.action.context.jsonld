@@ -85,17 +85,9 @@
       "@id": "fhir:Contract.term.action.performerLinkId",
       "@context": "string.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:Contract.term.action.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:Contract.term.action.reasonReference",
-      "@context": "reference.context.jsonld"
-    },
     "reason": {
       "@id": "fhir:Contract.term.action.reason",
-      "@context": "string.context.jsonld"
+      "@context": "codeablereference.context.jsonld"
     },
     "reasonLinkId": {
       "@id": "fhir:Contract.term.action.reasonLinkId",

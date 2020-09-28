@@ -57,8 +57,8 @@
       "@id": "fhir:Consent.category",
       "@context": "codeableconcept.context.jsonld"
     },
-    "patient": {
-      "@id": "fhir:Consent.patient",
+    "subject": {
+      "@id": "fhir:Consent.subject",
       "@context": "reference.context.jsonld"
     },
     "dateTime": {

@@ -17,13 +17,9 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "typeCoding": {
-      "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.typeCoding",
-      "@context": "coding.context.jsonld"
-    },
-    "typeReference": {
-      "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.typeReference",
-      "@context": "reference.context.jsonld"
+    "type": {
+      "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.type",
+      "@context": "codeablereference.context.jsonld"
     },
     "effectiveDate": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.effectiveDate",

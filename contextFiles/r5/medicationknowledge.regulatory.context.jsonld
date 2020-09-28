@@ -27,7 +27,7 @@
     },
     "schedule": {
       "@id": "fhir:MedicationKnowledge.regulatory.schedule",
-      "@context": "medicationknowledge.regulatory.schedule.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "maxDispense": {
       "@id": "fhir:MedicationKnowledge.regulatory.maxDispense",

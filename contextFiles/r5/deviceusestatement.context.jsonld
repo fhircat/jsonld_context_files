@@ -53,12 +53,20 @@
       "@id": "fhir:DeviceUseStatement.status",
       "@context": "string.context.jsonld"
     },
+    "category": {
+      "@id": "fhir:DeviceUseStatement.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "subject": {
       "@id": "fhir:DeviceUseStatement.subject",
       "@context": "reference.context.jsonld"
     },
     "derivedFrom": {
       "@id": "fhir:DeviceUseStatement.derivedFrom",
+      "@context": "reference.context.jsonld"
+    },
+    "context": {
+      "@id": "fhir:DeviceUseStatement.context",
       "@context": "reference.context.jsonld"
     },
     "timingTiming": {
@@ -73,29 +81,33 @@
       "@id": "fhir:DeviceUseStatement.timingDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "recordedOn": {
-      "@id": "fhir:DeviceUseStatement.recordedOn",
+    "dateAsserted": {
+      "@id": "fhir:DeviceUseStatement.dateAsserted",
       "@context": "datetime.context.jsonld"
     },
-    "source": {
-      "@id": "fhir:DeviceUseStatement.source",
+    "usageStatus": {
+      "@id": "fhir:DeviceUseStatement.usageStatus",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "usageReason": {
+      "@id": "fhir:DeviceUseStatement.usageReason",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "informationSource": {
+      "@id": "fhir:DeviceUseStatement.informationSource",
       "@context": "reference.context.jsonld"
     },
     "device": {
       "@id": "fhir:DeviceUseStatement.device",
-      "@context": "reference.context.jsonld"
+      "@context": "codeablereference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:DeviceUseStatement.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:DeviceUseStatement.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:DeviceUseStatement.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:DeviceUseStatement.bodySite",
-      "@context": "codeableconcept.context.jsonld"
+      "@context": "codeablereference.context.jsonld"
     },
     "note": {
       "@id": "fhir:DeviceUseStatement.note",

@@ -109,6 +109,10 @@
       "@id": "fhir:RequestGroup.action.resource",
       "@context": "reference.context.jsonld"
     },
+    "action": {
+      "@id": "fhir:RequestGroup.action.action",
+      "@context": "requestgroup.action.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

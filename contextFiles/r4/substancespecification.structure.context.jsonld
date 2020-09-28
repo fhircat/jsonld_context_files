@@ -37,6 +37,10 @@
       "@id": "fhir:SubstanceSpecification.structure.isotope",
       "@context": "substancespecification.structure.isotope.context.jsonld"
     },
+    "molecularWeight": {
+      "@id": "fhir:SubstanceSpecification.structure.molecularWeight",
+      "@context": "substancespecification.structure.isotope.molecularweight.context.jsonld"
+    },
     "source": {
       "@id": "fhir:SubstanceSpecification.structure.source",
       "@context": "reference.context.jsonld"

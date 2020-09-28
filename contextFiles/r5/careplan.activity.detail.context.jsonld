@@ -33,13 +33,9 @@
       "@id": "fhir:CarePlan.activity.detail.code",
       "@context": "codeableconcept.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:CarePlan.activity.detail.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:CarePlan.activity.detail.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:CarePlan.activity.detail.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "goal": {
       "@id": "fhir:CarePlan.activity.detail.goal",
@@ -71,6 +67,14 @@
     },
     "location": {
       "@id": "fhir:CarePlan.activity.detail.location",
+      "@context": "codeablereference.context.jsonld"
+    },
+    "reportedBoolean": {
+      "@id": "fhir:CarePlan.activity.detail.reportedBoolean",
+      "@context": "boolean.context.jsonld"
+    },
+    "reportedReference": {
+      "@id": "fhir:CarePlan.activity.detail.reportedReference",
       "@context": "reference.context.jsonld"
     },
     "performer": {

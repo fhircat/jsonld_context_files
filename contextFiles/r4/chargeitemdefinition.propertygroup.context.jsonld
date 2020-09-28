@@ -17,6 +17,10 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "applicability": {
+      "@id": "fhir:ChargeItemDefinition.propertyGroup.applicability",
+      "@context": "chargeitemdefinition.applicability.context.jsonld"
+    },
     "priceComponent": {
       "@id": "fhir:ChargeItemDefinition.propertyGroup.priceComponent",
       "@context": "chargeitemdefinition.propertygroup.pricecomponent.context.jsonld"

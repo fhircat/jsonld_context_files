@@ -45,6 +45,10 @@
       "@id": "fhir:ExplanationOfBenefit.addItem.detail.subDetail.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "adjudication": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
+      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

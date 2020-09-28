@@ -89,13 +89,9 @@
       "@id": "fhir:RiskAssessment.performer",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:RiskAssessment.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:RiskAssessment.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:RiskAssessment.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "basis": {
       "@id": "fhir:RiskAssessment.basis",

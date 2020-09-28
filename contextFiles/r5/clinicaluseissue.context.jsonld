@@ -49,6 +49,10 @@
       "@id": "fhir:ClinicalUseIssue.type",
       "@context": "string.context.jsonld"
     },
+    "category": {
+      "@id": "fhir:ClinicalUseIssue.category",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "subject": {
       "@id": "fhir:ClinicalUseIssue.subject",
       "@context": "reference.context.jsonld"

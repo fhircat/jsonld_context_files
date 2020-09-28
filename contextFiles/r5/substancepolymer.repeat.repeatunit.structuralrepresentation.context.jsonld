@@ -25,6 +25,10 @@
       "@id": "fhir:SubstancePolymer.repeat.repeatUnit.structuralRepresentation.representation",
       "@context": "string.context.jsonld"
     },
+    "format": {
+      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.structuralRepresentation.format",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "attachment": {
       "@id": "fhir:SubstancePolymer.repeat.repeatUnit.structuralRepresentation.attachment",
       "@context": "attachment.context.jsonld"

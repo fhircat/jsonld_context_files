@@ -17,6 +17,10 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
+    "process": {
+      "@id": "fhir:ExampleScenario.process.step.process",
+      "@context": "examplescenario.process.context.jsonld"
+    },
     "pause": {
       "@id": "fhir:ExampleScenario.process.step.pause",
       "@context": "boolean.context.jsonld"

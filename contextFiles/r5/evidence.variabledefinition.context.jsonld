@@ -29,12 +29,12 @@
       "@id": "fhir:Evidence.variableDefinition.variableRole",
       "@context": "codeableconcept.context.jsonld"
     },
-    "actualDefinition": {
-      "@id": "fhir:Evidence.variableDefinition.actualDefinition",
+    "observed": {
+      "@id": "fhir:Evidence.variableDefinition.observed",
       "@context": "reference.context.jsonld"
     },
-    "intendedDefinition": {
-      "@id": "fhir:Evidence.variableDefinition.intendedDefinition",
+    "intended": {
+      "@id": "fhir:Evidence.variableDefinition.intended",
       "@context": "reference.context.jsonld"
     },
     "directnessMatch": {

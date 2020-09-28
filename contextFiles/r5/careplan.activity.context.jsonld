@@ -17,13 +17,9 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "outcomeCodeableConcept": {
-      "@id": "fhir:CarePlan.activity.outcomeCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "outcomeReference": {
-      "@id": "fhir:CarePlan.activity.outcomeReference",
-      "@context": "reference.context.jsonld"
+    "outcome": {
+      "@id": "fhir:CarePlan.activity.outcome",
+      "@context": "codeablereference.context.jsonld"
     },
     "progress": {
       "@id": "fhir:CarePlan.activity.progress",

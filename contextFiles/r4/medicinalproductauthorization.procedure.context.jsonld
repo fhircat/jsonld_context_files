@@ -33,6 +33,10 @@
       "@id": "fhir:MedicinalProductAuthorization.procedure.dateDateTime",
       "@context": "datetime.context.jsonld"
     },
+    "procedure": {
+      "@id": "fhir:MedicinalProductAuthorization.procedure.procedure",
+      "@context": "medicinalproductauthorization.procedure.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

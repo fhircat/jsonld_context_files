@@ -17,10 +17,6 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "contentString": {
-      "@id": "fhir:Communication.payload.contentString",
-      "@context": "string.context.jsonld"
-    },
     "contentAttachment": {
       "@id": "fhir:Communication.payload.contentAttachment",
       "@context": "attachment.context.jsonld"
@@ -28,6 +24,10 @@
     "contentReference": {
       "@id": "fhir:Communication.payload.contentReference",
       "@context": "reference.context.jsonld"
+    },
+    "contentCodeableConcept": {
+      "@id": "fhir:Communication.payload.contentCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

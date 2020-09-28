@@ -45,13 +45,25 @@
       "@id": "fhir:PackagedProductDefinition.identifier",
       "@context": "identifier.context.jsonld"
     },
+    "name": {
+      "@id": "fhir:PackagedProductDefinition.name",
+      "@context": "string.context.jsonld"
+    },
     "subject": {
       "@id": "fhir:PackagedProductDefinition.subject",
       "@context": "reference.context.jsonld"
     },
+    "status": {
+      "@id": "fhir:PackagedProductDefinition.status",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "statusDate": {
+      "@id": "fhir:PackagedProductDefinition.statusDate",
+      "@context": "datetime.context.jsonld"
+    },
     "description": {
       "@id": "fhir:PackagedProductDefinition.description",
-      "@context": "string.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "legalStatusOfSupply": {
       "@id": "fhir:PackagedProductDefinition.legalStatusOfSupply",
@@ -60,6 +72,10 @@
     "marketingStatus": {
       "@id": "fhir:PackagedProductDefinition.marketingStatus",
       "@context": "marketingstatus.context.jsonld"
+    },
+    "characteristic": {
+      "@id": "fhir:PackagedProductDefinition.characteristic",
+      "@context": "codeableconcept.context.jsonld"
     },
     "copackagedIndicator": {
       "@id": "fhir:PackagedProductDefinition.copackagedIndicator",

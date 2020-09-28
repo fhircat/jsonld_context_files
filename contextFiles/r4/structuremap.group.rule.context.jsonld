@@ -29,6 +29,10 @@
       "@id": "fhir:StructureMap.group.rule.target",
       "@context": "structuremap.group.rule.target.context.jsonld"
     },
+    "rule": {
+      "@id": "fhir:StructureMap.group.rule.rule",
+      "@context": "structuremap.group.rule.context.jsonld"
+    },
     "dependent": {
       "@id": "fhir:StructureMap.group.rule.dependent",
       "@context": "structuremap.group.rule.dependent.context.jsonld"

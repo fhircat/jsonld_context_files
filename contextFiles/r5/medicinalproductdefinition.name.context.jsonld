@@ -23,7 +23,7 @@
     },
     "type": {
       "@id": "fhir:MedicinalProductDefinition.name.type",
-      "@context": "coding.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "namePart": {
       "@id": "fhir:MedicinalProductDefinition.name.namePart",

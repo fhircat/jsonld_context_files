@@ -65,13 +65,9 @@
       "@id": "fhir:MedicationUsage.category",
       "@context": "codeableconcept.context.jsonld"
     },
-    "medicationCodeableConcept": {
-      "@id": "fhir:MedicationUsage.medicationCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "medicationReference": {
-      "@id": "fhir:MedicationUsage.medicationReference",
-      "@context": "reference.context.jsonld"
+    "medication": {
+      "@id": "fhir:MedicationUsage.medication",
+      "@context": "codeablereference.context.jsonld"
     },
     "subject": {
       "@id": "fhir:MedicationUsage.subject",

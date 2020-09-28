@@ -25,6 +25,10 @@
       "@id": "fhir:Ingredient.specifiedSubstance.strength.presentationHighLimit",
       "@context": "ratio.context.jsonld"
     },
+    "presentationText": {
+      "@id": "fhir:Ingredient.specifiedSubstance.strength.presentationText",
+      "@context": "string.context.jsonld"
+    },
     "concentration": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.concentration",
       "@context": "ratio.context.jsonld"
@@ -32,6 +36,10 @@
     "concentrationHighLimit": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.concentrationHighLimit",
       "@context": "ratio.context.jsonld"
+    },
+    "concentrationText": {
+      "@id": "fhir:Ingredient.specifiedSubstance.strength.concentrationText",
+      "@context": "string.context.jsonld"
     },
     "measurementPoint": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.measurementPoint",

@@ -85,20 +85,12 @@
       "@id": "fhir:ImmunizationEvaluation.series",
       "@context": "string.context.jsonld"
     },
-    "doseNumberPositiveInt": {
-      "@id": "fhir:ImmunizationEvaluation.doseNumberPositiveInt",
-      "@context": "positiveint.context.jsonld"
-    },
-    "doseNumberString": {
-      "@id": "fhir:ImmunizationEvaluation.doseNumberString",
+    "doseNumber": {
+      "@id": "fhir:ImmunizationEvaluation.doseNumber",
       "@context": "string.context.jsonld"
     },
-    "seriesDosesPositiveInt": {
-      "@id": "fhir:ImmunizationEvaluation.seriesDosesPositiveInt",
-      "@context": "positiveint.context.jsonld"
-    },
-    "seriesDosesString": {
-      "@id": "fhir:ImmunizationEvaluation.seriesDosesString",
+    "seriesDoses": {
+      "@id": "fhir:ImmunizationEvaluation.seriesDoses",
       "@context": "string.context.jsonld"
     },
     "index": {

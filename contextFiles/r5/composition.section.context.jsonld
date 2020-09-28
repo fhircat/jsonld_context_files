@@ -53,6 +53,10 @@
       "@id": "fhir:Composition.section.emptyReason",
       "@context": "codeableconcept.context.jsonld"
     },
+    "section": {
+      "@id": "fhir:Composition.section.section",
+      "@context": "composition.section.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

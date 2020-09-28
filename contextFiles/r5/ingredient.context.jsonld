@@ -49,6 +49,14 @@
       "@id": "fhir:Ingredient.role",
       "@context": "codeableconcept.context.jsonld"
     },
+    "function": {
+      "@id": "fhir:Ingredient.function",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Ingredient.description",
+      "@context": "markdown.context.jsonld"
+    },
     "allergenicIndicator": {
       "@id": "fhir:Ingredient.allergenicIndicator",
       "@context": "boolean.context.jsonld"

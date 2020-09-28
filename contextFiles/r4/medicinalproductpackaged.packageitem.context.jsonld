@@ -45,6 +45,10 @@
       "@id": "fhir:MedicinalProductPackaged.packageItem.manufacturedItem",
       "@context": "reference.context.jsonld"
     },
+    "packageItem": {
+      "@id": "fhir:MedicinalProductPackaged.packageItem.packageItem",
+      "@context": "medicinalproductpackaged.packageitem.context.jsonld"
+    },
     "physicalCharacteristics": {
       "@id": "fhir:MedicinalProductPackaged.packageItem.physicalCharacteristics",
       "@context": "prodcharacteristic.context.jsonld"

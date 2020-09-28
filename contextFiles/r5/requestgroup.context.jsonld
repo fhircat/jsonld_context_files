@@ -97,13 +97,9 @@
       "@id": "fhir:RequestGroup.author",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:RequestGroup.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:RequestGroup.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:RequestGroup.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "note": {
       "@id": "fhir:RequestGroup.note",

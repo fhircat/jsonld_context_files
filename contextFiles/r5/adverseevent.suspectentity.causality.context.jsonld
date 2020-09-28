@@ -17,21 +17,17 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "assessment": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.assessment",
+    "assessmentMethod": {
+      "@id": "fhir:AdverseEvent.suspectEntity.causality.assessmentMethod",
       "@context": "codeableconcept.context.jsonld"
     },
-    "productRelatedness": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.productRelatedness",
-      "@context": "string.context.jsonld"
+    "entityRelatedness": {
+      "@id": "fhir:AdverseEvent.suspectEntity.causality.entityRelatedness",
+      "@context": "codeableconcept.context.jsonld"
     },
     "author": {
       "@id": "fhir:AdverseEvent.suspectEntity.causality.author",
       "@context": "reference.context.jsonld"
-    },
-    "method": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.method",
-      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

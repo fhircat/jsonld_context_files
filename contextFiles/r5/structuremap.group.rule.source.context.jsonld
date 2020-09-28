@@ -73,6 +73,10 @@
       "@id": "fhir:StructureMap.group.rule.source.defaultValueInteger",
       "@context": "integer.context.jsonld"
     },
+    "defaultValueInteger64": {
+      "@id": "fhir:StructureMap.group.rule.source.defaultValueInteger64",
+      "@context": "integer64.context.jsonld"
+    },
     "defaultValueMarkdown": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMarkdown",
       "@context": "markdown.context.jsonld"

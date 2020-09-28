@@ -27,7 +27,7 @@
     },
     "quantity": {
       "@id": "fhir:PackagedProductDefinition.package.quantity",
-      "@context": "quantity.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "material": {
       "@id": "fhir:PackagedProductDefinition.package.material",
@@ -45,13 +45,17 @@
       "@id": "fhir:PackagedProductDefinition.package.manufacturer",
       "@context": "reference.context.jsonld"
     },
-    "characteristic": {
-      "@id": "fhir:PackagedProductDefinition.package.characteristic",
-      "@context": "packagedproductdefinition.package.characteristic.context.jsonld"
+    "property": {
+      "@id": "fhir:PackagedProductDefinition.package.property",
+      "@context": "packagedproductdefinition.package.property.context.jsonld"
     },
     "containedItem": {
       "@id": "fhir:PackagedProductDefinition.package.containedItem",
       "@context": "packagedproductdefinition.package.containeditem.context.jsonld"
+    },
+    "package": {
+      "@id": "fhir:PackagedProductDefinition.package.package",
+      "@context": "packagedproductdefinition.package.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

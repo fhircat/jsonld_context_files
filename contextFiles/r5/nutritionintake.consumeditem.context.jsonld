@@ -23,7 +23,7 @@
     },
     "nutritionProduct": {
       "@id": "fhir:NutritionIntake.consumedItem.nutritionProduct",
-      "@context": "codeableconcept.context.jsonld"
+      "@context": "codeablereference.context.jsonld"
     },
     "schedule": {
       "@id": "fhir:NutritionIntake.consumedItem.schedule",

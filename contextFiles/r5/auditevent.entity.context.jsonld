@@ -41,10 +41,6 @@
       "@id": "fhir:AuditEvent.entity.name",
       "@context": "string.context.jsonld"
     },
-    "description": {
-      "@id": "fhir:AuditEvent.entity.description",
-      "@context": "string.context.jsonld"
-    },
     "query": {
       "@id": "fhir:AuditEvent.entity.query",
       "@context": "base64binary.context.jsonld"

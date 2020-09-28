@@ -49,20 +49,12 @@
       "@id": "fhir:ImmunizationRecommendation.recommendation.series",
       "@context": "string.context.jsonld"
     },
-    "doseNumberPositiveInt": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumberPositiveInt",
-      "@context": "positiveint.context.jsonld"
-    },
-    "doseNumberString": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumberString",
+    "doseNumber": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumber",
       "@context": "string.context.jsonld"
     },
-    "seriesDosesPositiveInt": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDosesPositiveInt",
-      "@context": "positiveint.context.jsonld"
-    },
-    "seriesDosesString": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDosesString",
+    "seriesDoses": {
+      "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDoses",
       "@context": "string.context.jsonld"
     },
     "supportingImmunization": {

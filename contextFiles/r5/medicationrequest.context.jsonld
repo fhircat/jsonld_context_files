@@ -69,21 +69,17 @@
       "@id": "fhir:MedicationRequest.doNotPerform",
       "@context": "boolean.context.jsonld"
     },
-    "reportedBoolean": {
-      "@id": "fhir:MedicationRequest.reportedBoolean",
+    "reported": {
+      "@id": "fhir:MedicationRequest.reported",
       "@context": "boolean.context.jsonld"
     },
-    "reportedReference": {
-      "@id": "fhir:MedicationRequest.reportedReference",
+    "informationSource": {
+      "@id": "fhir:MedicationRequest.informationSource",
       "@context": "reference.context.jsonld"
     },
-    "medicationCodeableConcept": {
-      "@id": "fhir:MedicationRequest.medicationCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "medicationReference": {
-      "@id": "fhir:MedicationRequest.medicationReference",
-      "@context": "reference.context.jsonld"
+    "medication": {
+      "@id": "fhir:MedicationRequest.medication",
+      "@context": "codeablereference.context.jsonld"
     },
     "subject": {
       "@id": "fhir:MedicationRequest.subject",
@@ -117,13 +113,9 @@
       "@id": "fhir:MedicationRequest.recorder",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:MedicationRequest.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:MedicationRequest.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:MedicationRequest.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "instantiatesCanonical": {
       "@id": "fhir:MedicationRequest.instantiatesCanonical",
@@ -152,6 +144,10 @@
     "note": {
       "@id": "fhir:MedicationRequest.note",
       "@context": "annotation.context.jsonld"
+    },
+    "renderedDosageInstruction": {
+      "@id": "fhir:MedicationRequest.renderedDosageInstruction",
+      "@context": "string.context.jsonld"
     },
     "dosageInstruction": {
       "@id": "fhir:MedicationRequest.dosageInstruction",

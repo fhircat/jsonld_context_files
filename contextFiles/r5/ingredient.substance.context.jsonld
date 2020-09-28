@@ -25,6 +25,10 @@
       "@id": "fhir:Ingredient.substance.codeReference",
       "@context": "reference.context.jsonld"
     },
+    "strength": {
+      "@id": "fhir:Ingredient.substance.strength",
+      "@context": "ingredient.specifiedsubstance.strength.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

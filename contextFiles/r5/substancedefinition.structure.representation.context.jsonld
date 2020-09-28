@@ -25,6 +25,10 @@
       "@id": "fhir:SubstanceDefinition.structure.representation.representation",
       "@context": "string.context.jsonld"
     },
+    "format": {
+      "@id": "fhir:SubstanceDefinition.structure.representation.format",
+      "@context": "codeableconcept.context.jsonld"
+    },
     "attachment": {
       "@id": "fhir:SubstanceDefinition.structure.representation.attachment",
       "@context": "attachment.context.jsonld"

@@ -57,13 +57,9 @@
       "@id": "fhir:SupplyRequest.priority",
       "@context": "string.context.jsonld"
     },
-    "itemCodeableConcept": {
-      "@id": "fhir:SupplyRequest.itemCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "itemReference": {
-      "@id": "fhir:SupplyRequest.itemReference",
-      "@context": "reference.context.jsonld"
+    "item": {
+      "@id": "fhir:SupplyRequest.item",
+      "@context": "codeablereference.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:SupplyRequest.quantity",
@@ -97,13 +93,9 @@
       "@id": "fhir:SupplyRequest.supplier",
       "@context": "reference.context.jsonld"
     },
-    "reasonCode": {
-      "@id": "fhir:SupplyRequest.reasonCode",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "reasonReference": {
-      "@id": "fhir:SupplyRequest.reasonReference",
-      "@context": "reference.context.jsonld"
+    "reason": {
+      "@id": "fhir:SupplyRequest.reason",
+      "@context": "codeablereference.context.jsonld"
     },
     "deliverFrom": {
       "@id": "fhir:SupplyRequest.deliverFrom",

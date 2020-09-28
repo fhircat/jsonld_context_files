@@ -53,10 +53,6 @@
       "@id": "fhir:ClinicalImpression.statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
-    "code": {
-      "@id": "fhir:ClinicalImpression.code",
-      "@context": "codeableconcept.context.jsonld"
-    },
     "description": {
       "@id": "fhir:ClinicalImpression.description",
       "@context": "string.context.jsonld"
@@ -81,8 +77,8 @@
       "@id": "fhir:ClinicalImpression.date",
       "@context": "datetime.context.jsonld"
     },
-    "assessor": {
-      "@id": "fhir:ClinicalImpression.assessor",
+    "performer": {
+      "@id": "fhir:ClinicalImpression.performer",
       "@context": "reference.context.jsonld"
     },
     "previous": {
@@ -92,10 +88,6 @@
     "problem": {
       "@id": "fhir:ClinicalImpression.problem",
       "@context": "reference.context.jsonld"
-    },
-    "investigation": {
-      "@id": "fhir:ClinicalImpression.investigation",
-      "@context": "clinicalimpression.investigation.context.jsonld"
     },
     "protocol": {
       "@id": "fhir:ClinicalImpression.protocol",

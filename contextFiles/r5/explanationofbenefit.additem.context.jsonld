@@ -93,6 +93,10 @@
       "@id": "fhir:ExplanationOfBenefit.addItem.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
+    "adjudication": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.adjudication",
+      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
+    },
     "detail": {
       "@id": "fhir:ExplanationOfBenefit.addItem.detail",
       "@context": "explanationofbenefit.additem.detail.context.jsonld"

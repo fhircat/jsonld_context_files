@@ -19,7 +19,7 @@
     },
     "nutrient": {
       "@id": "fhir:NutritionIntake.ingredientLabel.nutrient",
-      "@context": "codeableconcept.context.jsonld"
+      "@context": "codeablereference.context.jsonld"
     },
     "amount": {
       "@id": "fhir:NutritionIntake.ingredientLabel.amount",
