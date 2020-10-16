@@ -53,8 +53,8 @@
       "@id": "fhir:Composition.section.emptyReason",
       "@context": "codeableconcept.context.jsonld"
     },
-    "section:procedure": {
-      "@id": "fhir:Composition.section.section:procedure",
+    "section": {
+      "@id": "fhir:Composition.section.section",
       "@context": "composition.section:procedure.context.jsonld"
     },
     "index": {

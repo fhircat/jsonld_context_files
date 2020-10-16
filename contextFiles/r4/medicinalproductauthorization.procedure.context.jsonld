@@ -33,8 +33,8 @@
       "@id": "fhir:MedicinalProductAuthorization.procedure.dateDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "procedure": {
-      "@id": "fhir:MedicinalProductAuthorization.procedure.procedure",
+    "application": {
+      "@id": "fhir:MedicinalProductAuthorization.procedure.application",
       "@context": "medicinalproductauthorization.procedure.context.jsonld"
     },
     "index": {

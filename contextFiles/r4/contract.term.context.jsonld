@@ -65,8 +65,8 @@
       "@id": "fhir:Contract.term.action",
       "@context": "contract.term.action.context.jsonld"
     },
-    "term": {
-      "@id": "fhir:Contract.term.term",
+    "group": {
+      "@id": "fhir:Contract.term.group",
       "@context": "contract.term.context.jsonld"
     },
     "index": {

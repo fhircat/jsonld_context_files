@@ -37,6 +37,10 @@
       "@id": "fhir:ConceptMap.group.element.target.dependsOn",
       "@context": "conceptmap.group.element.target.dependson.context.jsonld"
     },
+    "product": {
+      "@id": "fhir:ConceptMap.group.element.target.product",
+      "@context": "conceptmap.group.element.target.dependson.context.jsonld"
+    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"
