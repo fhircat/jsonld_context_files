@@ -53,9 +53,9 @@
       "@id": "fhir:Composition.section.emptyReason",
       "@context": "codeableconcept.context.jsonld"
     },
-    "section:procedure": {
-      "@id": "fhir:Composition.section.section:procedure",
-      "@context": "composition.section:procedure.context.jsonld"
+    "section": {
+      "@id": "fhir:Composition.section.section",
+      "@context": "http://hl7.org/fhir/structuredefinition/composition#composition.section.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",
