@@ -49,8 +49,12 @@
       "@id": "fhir:ExampleScenario.process.step.operation.receiverActive",
       "@context": "boolean.context.jsonld"
     },
-    "containedInstance": {
-      "@id": "fhir:ExampleScenario.process.step.operation.containedInstance",
+    "request": {
+      "@id": "fhir:ExampleScenario.process.step.operation.request",
+      "@context": "examplescenario.instance.containedinstance.context.jsonld"
+    },
+    "response": {
+      "@id": "fhir:ExampleScenario.process.step.operation.response",
       "@context": "examplescenario.instance.containedinstance.context.jsonld"
     },
     "index": {

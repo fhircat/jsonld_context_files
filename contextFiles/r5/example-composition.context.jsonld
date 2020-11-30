@@ -99,15 +99,15 @@
     },
     "section:procedure": {
       "@id": "fhir:Composition.section:procedure",
-      "@context": "backboneelement.context.jsonld"
+      "@context": "composition.section:procedure.context.jsonld"
     },
     "section:medications": {
       "@id": "fhir:Composition.section:medications",
-      "@context": "backboneelement.context.jsonld"
+      "@context": "composition.section:medications.context.jsonld"
     },
     "section:plan": {
       "@id": "fhir:Composition.section:plan",
-      "@context": "backboneelement.context.jsonld"
+      "@context": "composition.section:plan.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

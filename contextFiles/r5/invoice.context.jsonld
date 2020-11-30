@@ -85,8 +85,8 @@
       "@id": "fhir:Invoice.lineItem",
       "@context": "invoice.lineitem.context.jsonld"
     },
-    "priceComponent": {
-      "@id": "fhir:Invoice.priceComponent",
+    "totalPriceComponent": {
+      "@id": "fhir:Invoice.totalPriceComponent",
       "@context": "invoice.lineitem.pricecomponent.context.jsonld"
     },
     "totalNet": {

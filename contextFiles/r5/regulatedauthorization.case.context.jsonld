@@ -37,8 +37,8 @@
       "@id": "fhir:RegulatedAuthorization.case.dateDateTime",
       "@context": "datetime.context.jsonld"
     },
-    "case": {
-      "@id": "fhir:RegulatedAuthorization.case.case",
+    "application": {
+      "@id": "fhir:RegulatedAuthorization.case.application",
       "@context": "regulatedauthorization.case.context.jsonld"
     },
     "index": {

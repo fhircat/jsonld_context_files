@@ -229,8 +229,8 @@
       "@id": "fhir:Parameters.parameter.resource",
       "@context": "resource.context.jsonld"
     },
-    "parameter": {
-      "@id": "fhir:Parameters.parameter.parameter",
+    "part": {
+      "@id": "fhir:Parameters.parameter.part",
       "@context": "parameters.parameter.context.jsonld"
     },
     "index": {

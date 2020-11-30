@@ -29,6 +29,10 @@
       "@id": "fhir:ValueSet.compose.include",
       "@context": "valueset.compose.include.context.jsonld"
     },
+    "exclude": {
+      "@id": "fhir:ValueSet.compose.exclude",
+      "@context": "valueset.compose.include.context.jsonld"
+    },
     "property": {
       "@id": "fhir:ValueSet.compose.property",
       "@context": "string.context.jsonld"

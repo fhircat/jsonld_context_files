@@ -19,7 +19,7 @@
     },
     "name": {
       "@id": "fhir:SubstanceDefinition.name.name",
-      "@context": "substancedefinition.name.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:SubstanceDefinition.name.type",
@@ -44,6 +44,14 @@
     "jurisdiction": {
       "@id": "fhir:SubstanceDefinition.name.jurisdiction",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "synonym": {
+      "@id": "fhir:SubstanceDefinition.name.synonym",
+      "@context": "substancedefinition.name.context.jsonld"
+    },
+    "translation": {
+      "@id": "fhir:SubstanceDefinition.name.translation",
+      "@context": "substancedefinition.name.context.jsonld"
     },
     "official": {
       "@id": "fhir:SubstanceDefinition.name.official",
