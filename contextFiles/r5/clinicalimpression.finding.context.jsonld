@@ -17,9 +17,13 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "item": {
-      "@id": "fhir:ClinicalImpression.finding.item",
-      "@context": "codeablereference.context.jsonld"
+    "itemCodeableConcept": {
+      "@id": "fhir:ClinicalImpression.finding.itemCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "itemReference": {
+      "@id": "fhir:ClinicalImpression.finding.itemReference",
+      "@context": "reference.context.jsonld"
     },
     "basis": {
       "@id": "fhir:ClinicalImpression.finding.basis",

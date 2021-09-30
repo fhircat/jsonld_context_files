@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "extension:code": {
-      "@id": "fhir:Element.extension:code",
+      "@id": "fhir:extension:code",
       "@context": "extension.context.jsonld"
     },
     "extension:display": {
-      "@id": "fhir:Element.extension:display",
+      "@id": "fhir:extension:display",
       "@context": "extension.context.jsonld"
     },
     "extension:member": {
-      "@id": "fhir:Element.extension:member",
+      "@id": "fhir:extension:member",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:Extension.url",
+      "@id": "fhir:url",
       "@context": "string.context.jsonld"
     },
     "valueBase64Binary": {

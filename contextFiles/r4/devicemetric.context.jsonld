@@ -10,55 +10,55 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:DeviceMetric.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:DeviceMetric.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "unit": {
-      "@id": "fhir:DeviceMetric.unit",
+      "@id": "fhir:unit",
       "@context": "codeableconcept.context.jsonld"
     },
     "source": {
-      "@id": "fhir:DeviceMetric.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "parent": {
-      "@id": "fhir:DeviceMetric.parent",
+      "@id": "fhir:parent",
       "@context": "reference.context.jsonld"
     },
     "operationalStatus": {
@@ -74,7 +74,7 @@
       "@context": "string.context.jsonld"
     },
     "measurementPeriod": {
-      "@id": "fhir:DeviceMetric.measurementPeriod",
+      "@id": "fhir:measurementPeriod",
       "@context": "timing.context.jsonld"
     },
     "calibration": {

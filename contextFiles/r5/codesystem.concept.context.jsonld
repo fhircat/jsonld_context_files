@@ -37,10 +37,6 @@
       "@id": "fhir:CodeSystem.concept.property",
       "@context": "codesystem.concept.property.context.jsonld"
     },
-    "concept": {
-      "@id": "fhir:CodeSystem.concept.concept",
-      "@context": "codesystem.concept.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

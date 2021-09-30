@@ -41,10 +41,6 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "identifier": {
-      "@id": "fhir:MedicationKnowledge.identifier",
-      "@context": "identifier.context.jsonld"
-    },
     "code": {
       "@id": "fhir:MedicationKnowledge.code",
       "@context": "codeableconcept.context.jsonld"
@@ -89,10 +85,6 @@
       "@id": "fhir:MedicationKnowledge.ingredient",
       "@context": "medicationknowledge.ingredient.context.jsonld"
     },
-    "device": {
-      "@id": "fhir:MedicationKnowledge.device",
-      "@context": "reference.context.jsonld"
-    },
     "preparationInstruction": {
       "@id": "fhir:MedicationKnowledge.preparationInstruction",
       "@context": "markdown.context.jsonld"
@@ -109,9 +101,9 @@
       "@id": "fhir:MedicationKnowledge.monitoringProgram",
       "@context": "medicationknowledge.monitoringprogram.context.jsonld"
     },
-    "administrationGuideline": {
-      "@id": "fhir:MedicationKnowledge.administrationGuideline",
-      "@context": "medicationknowledge.administrationguideline.context.jsonld"
+    "administrationGuidelines": {
+      "@id": "fhir:MedicationKnowledge.administrationGuidelines",
+      "@context": "medicationknowledge.administrationguidelines.context.jsonld"
     },
     "medicineClassification": {
       "@id": "fhir:MedicationKnowledge.medicineClassification",
@@ -125,17 +117,17 @@
       "@id": "fhir:MedicationKnowledge.drugCharacteristic",
       "@context": "medicationknowledge.drugcharacteristic.context.jsonld"
     },
-    "clinicalUseIssue": {
-      "@id": "fhir:MedicationKnowledge.clinicalUseIssue",
+    "contraindication": {
+      "@id": "fhir:MedicationKnowledge.contraindication",
       "@context": "reference.context.jsonld"
     },
     "regulatory": {
       "@id": "fhir:MedicationKnowledge.regulatory",
       "@context": "medicationknowledge.regulatory.context.jsonld"
     },
-    "kineticCharacteristic": {
-      "@id": "fhir:MedicationKnowledge.kineticCharacteristic",
-      "@context": "medicationknowledge.kineticcharacteristic.context.jsonld"
+    "kinetics": {
+      "@id": "fhir:MedicationKnowledge.kinetics",
+      "@context": "medicationknowledge.kinetics.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

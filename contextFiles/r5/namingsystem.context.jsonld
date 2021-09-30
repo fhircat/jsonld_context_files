@@ -41,14 +41,6 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "url": {
-      "@id": "fhir:NamingSystem.url",
-      "@context": "uri.context.jsonld"
-    },
-    "version": {
-      "@id": "fhir:NamingSystem.version",
-      "@context": "string.context.jsonld"
-    },
     "name": {
       "@id": "fhir:NamingSystem.name",
       "@context": "string.context.jsonld"

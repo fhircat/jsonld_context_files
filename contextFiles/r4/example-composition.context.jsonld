@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Composition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -46,31 +46,31 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Composition.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Composition.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Composition.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Composition.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:Composition.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "author": {
-      "@id": "fhir:Composition.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "title": {
-      "@id": "fhir:Composition.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "confidentiality": {
@@ -82,7 +82,7 @@
       "@context": "composition.attester.context.jsonld"
     },
     "custodian": {
-      "@id": "fhir:Composition.custodian",
+      "@id": "fhir:custodian",
       "@context": "reference.context.jsonld"
     },
     "relatesTo": {

@@ -65,10 +65,6 @@
       "@id": "fhir:Contract.term.asset.linkId",
       "@context": "string.context.jsonld"
     },
-    "answer": {
-      "@id": "fhir:Contract.term.asset.answer",
-      "@context": "contract.term.offer.answer.context.jsonld"
-    },
     "securityLabelNumber": {
       "@id": "fhir:Contract.term.asset.securityLabelNumber",
       "@context": "unsignedint.context.jsonld"

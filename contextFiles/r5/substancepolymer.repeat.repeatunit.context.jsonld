@@ -17,13 +17,13 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "unit": {
-      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.unit",
-      "@context": "string.context.jsonld"
-    },
-    "orientation": {
-      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.orientation",
+    "orientationOfPolymerisation": {
+      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.orientationOfPolymerisation",
       "@context": "codeableconcept.context.jsonld"
+    },
+    "repeatUnit": {
+      "@id": "fhir:SubstancePolymer.repeat.repeatUnit.repeatUnit",
+      "@context": "string.context.jsonld"
     },
     "amount": {
       "@id": "fhir:SubstancePolymer.repeat.repeatUnit.amount",

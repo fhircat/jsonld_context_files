@@ -6,47 +6,47 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "supportingInfoSequence": {
-      "@id": "fhir:CoverageEligibilityRequest.item.supportingInfoSequence",
+      "@id": "fhir:supportingInfoSequence",
       "@context": "positiveint.context.jsonld"
     },
     "category": {
-      "@id": "fhir:CoverageEligibilityRequest.item.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
-      "@id": "fhir:CoverageEligibilityRequest.item.productOrService",
+      "@id": "fhir:productOrService",
       "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
-      "@id": "fhir:CoverageEligibilityRequest.item.modifier",
+      "@id": "fhir:modifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "provider": {
-      "@id": "fhir:CoverageEligibilityRequest.item.provider",
+      "@id": "fhir:provider",
       "@context": "reference.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:CoverageEligibilityRequest.item.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "unitPrice": {
-      "@id": "fhir:CoverageEligibilityRequest.item.unitPrice",
+      "@id": "fhir:unitPrice",
       "@context": "money.context.jsonld"
     },
     "facility": {
-      "@id": "fhir:CoverageEligibilityRequest.item.facility",
+      "@id": "fhir:facility",
       "@context": "reference.context.jsonld"
     },
     "diagnosis": {
@@ -54,7 +54,7 @@
       "@context": "coverageeligibilityrequest.item.diagnosis.context.jsonld"
     },
     "detail": {
-      "@id": "fhir:CoverageEligibilityRequest.item.detail",
+      "@id": "fhir:detail",
       "@context": "reference.context.jsonld"
     },
     "index": {

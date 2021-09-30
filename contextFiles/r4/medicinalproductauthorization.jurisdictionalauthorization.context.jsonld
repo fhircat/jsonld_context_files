@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProductAuthorization.jurisdictionalAuthorization.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "country": {
-      "@id": "fhir:MedicinalProductAuthorization.jurisdictionalAuthorization.country",
+      "@id": "fhir:country",
       "@context": "codeableconcept.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:MedicinalProductAuthorization.jurisdictionalAuthorization.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "legalStatusOfSupply": {
-      "@id": "fhir:MedicinalProductAuthorization.jurisdictionalAuthorization.legalStatusOfSupply",
+      "@id": "fhir:legalStatusOfSupply",
       "@context": "codeableconcept.context.jsonld"
     },
     "validityPeriod": {
-      "@id": "fhir:MedicinalProductAuthorization.jurisdictionalAuthorization.validityPeriod",
+      "@id": "fhir:validityPeriod",
       "@context": "period.context.jsonld"
     },
     "index": {

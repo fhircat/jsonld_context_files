@@ -10,51 +10,51 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ResearchStudy.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "title": {
-      "@id": "fhir:ResearchStudy.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "protocol": {
-      "@id": "fhir:ResearchStudy.protocol",
+      "@id": "fhir:protocol",
       "@context": "reference.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:ResearchStudy.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -62,71 +62,71 @@
       "@context": "string.context.jsonld"
     },
     "primaryPurposeType": {
-      "@id": "fhir:ResearchStudy.primaryPurposeType",
+      "@id": "fhir:primaryPurposeType",
       "@context": "codeableconcept.context.jsonld"
     },
     "phase": {
-      "@id": "fhir:ResearchStudy.phase",
+      "@id": "fhir:phase",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:ResearchStudy.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "focus": {
-      "@id": "fhir:ResearchStudy.focus",
+      "@id": "fhir:focus",
       "@context": "codeableconcept.context.jsonld"
     },
     "condition": {
-      "@id": "fhir:ResearchStudy.condition",
+      "@id": "fhir:condition",
       "@context": "codeableconcept.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:ResearchStudy.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
-      "@id": "fhir:ResearchStudy.relatedArtifact",
+      "@id": "fhir:relatedArtifact",
       "@context": "relatedartifact.context.jsonld"
     },
     "keyword": {
-      "@id": "fhir:ResearchStudy.keyword",
+      "@id": "fhir:keyword",
       "@context": "codeableconcept.context.jsonld"
     },
     "location": {
-      "@id": "fhir:ResearchStudy.location",
+      "@id": "fhir:location",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ResearchStudy.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "enrollment": {
-      "@id": "fhir:ResearchStudy.enrollment",
+      "@id": "fhir:enrollment",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:ResearchStudy.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "sponsor": {
-      "@id": "fhir:ResearchStudy.sponsor",
+      "@id": "fhir:sponsor",
       "@context": "reference.context.jsonld"
     },
     "principalInvestigator": {
-      "@id": "fhir:ResearchStudy.principalInvestigator",
+      "@id": "fhir:principalInvestigator",
       "@context": "reference.context.jsonld"
     },
     "site": {
-      "@id": "fhir:ResearchStudy.site",
+      "@id": "fhir:site",
       "@context": "reference.context.jsonld"
     },
     "reasonStopped": {
-      "@id": "fhir:ResearchStudy.reasonStopped",
+      "@id": "fhir:reasonStopped",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:ResearchStudy.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "arm": {

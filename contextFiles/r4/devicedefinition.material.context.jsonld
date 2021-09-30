@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "substance": {
-      "@id": "fhir:DeviceDefinition.material.substance",
+      "@id": "fhir:substance",
       "@context": "codeableconcept.context.jsonld"
     },
     "alternate": {
-      "@id": "fhir:DeviceDefinition.material.alternate",
+      "@id": "fhir:alternate",
       "@context": "boolean.context.jsonld"
     },
     "allergenicIndicator": {
-      "@id": "fhir:DeviceDefinition.material.allergenicIndicator",
+      "@id": "fhir:allergenicIndicator",
       "@context": "boolean.context.jsonld"
     },
     "index": {

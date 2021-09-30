@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:TestScript.setup.action.operation.type",
+      "@id": "fhir:type",
       "@context": "coding.context.jsonld"
     },
     "resource": {
@@ -26,11 +26,11 @@
       "@context": "string.context.jsonld"
     },
     "label": {
-      "@id": "fhir:TestScript.setup.action.operation.label",
+      "@id": "fhir:label",
       "@context": "string.context.jsonld"
     },
     "description": {
-      "@id": "fhir:TestScript.setup.action.operation.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "accept": {
@@ -42,11 +42,11 @@
       "@context": "string.context.jsonld"
     },
     "destination": {
-      "@id": "fhir:TestScript.setup.action.operation.destination",
+      "@id": "fhir:destination",
       "@context": "integer.context.jsonld"
     },
     "encodeRequestUrl": {
-      "@id": "fhir:TestScript.setup.action.operation.encodeRequestUrl",
+      "@id": "fhir:encodeRequestUrl",
       "@context": "boolean.context.jsonld"
     },
     "method": {
@@ -54,11 +54,11 @@
       "@context": "string.context.jsonld"
     },
     "origin": {
-      "@id": "fhir:TestScript.setup.action.operation.origin",
+      "@id": "fhir:origin",
       "@context": "integer.context.jsonld"
     },
     "params": {
-      "@id": "fhir:TestScript.setup.action.operation.params",
+      "@id": "fhir:params",
       "@context": "string.context.jsonld"
     },
     "requestHeader": {
@@ -66,23 +66,23 @@
       "@context": "testscript.setup.action.operation.requestheader.context.jsonld"
     },
     "requestId": {
-      "@id": "fhir:TestScript.setup.action.operation.requestId",
+      "@id": "fhir:requestId",
       "@context": "id.context.jsonld"
     },
     "responseId": {
-      "@id": "fhir:TestScript.setup.action.operation.responseId",
+      "@id": "fhir:responseId",
       "@context": "id.context.jsonld"
     },
     "sourceId": {
-      "@id": "fhir:TestScript.setup.action.operation.sourceId",
+      "@id": "fhir:sourceId",
       "@context": "id.context.jsonld"
     },
     "targetId": {
-      "@id": "fhir:TestScript.setup.action.operation.targetId",
+      "@id": "fhir:targetId",
       "@context": "id.context.jsonld"
     },
     "url": {
-      "@id": "fhir:TestScript.setup.action.operation.url",
+      "@id": "fhir:url",
       "@context": "string.context.jsonld"
     },
     "index": {

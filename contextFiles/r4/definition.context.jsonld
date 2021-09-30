@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "url": {
-      "@id": "fhir:Definition.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Definition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:Definition.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:Definition.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "derivedFromCanonical": {
-      "@id": "fhir:Definition.derivedFromCanonical",
+      "@id": "fhir:derivedFromCanonical",
       "@context": "canonical.context.jsonld"
     },
     "derivedFromUri": {
-      "@id": "fhir:Definition.derivedFromUri",
+      "@id": "fhir:derivedFromUri",
       "@context": "uri.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:Definition.partOf",
+      "@id": "fhir:partOf",
       "@context": "canonical.context.jsonld"
     },
     "replaces": {
-      "@id": "fhir:Definition.replaces",
+      "@id": "fhir:replaces",
       "@context": "canonical.context.jsonld"
     },
     "status": {
@@ -42,7 +42,7 @@
       "@context": "string.context.jsonld"
     },
     "experimental": {
-      "@id": "fhir:Definition.experimental",
+      "@id": "fhir:experimental",
       "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
@@ -54,51 +54,51 @@
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:Definition.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:Definition.publisher",
+      "@id": "fhir:publisher",
       "@context": "reference.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:Definition.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:Definition.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:Definition.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:Definition.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:Definition.purpose",
+      "@id": "fhir:purpose",
       "@context": "markdown.context.jsonld"
     },
     "copyright": {
-      "@id": "fhir:Definition.copyright",
+      "@id": "fhir:copyright",
       "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
-      "@id": "fhir:Definition.approvalDate",
+      "@id": "fhir:approvalDate",
       "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
-      "@id": "fhir:Definition.lastReviewDate",
+      "@id": "fhir:lastReviewDate",
       "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
-      "@id": "fhir:Definition.effectivePeriod",
+      "@id": "fhir:effectivePeriod",
       "@context": "period.context.jsonld"
     },
     "performerType": {
-      "@id": "fhir:Definition.performerType",
+      "@id": "fhir:performerType",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

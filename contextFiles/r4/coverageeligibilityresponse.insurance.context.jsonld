@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "coverage": {
-      "@id": "fhir:CoverageEligibilityResponse.insurance.coverage",
+      "@id": "fhir:coverage",
       "@context": "reference.context.jsonld"
     },
     "inforce": {
-      "@id": "fhir:CoverageEligibilityResponse.insurance.inforce",
+      "@id": "fhir:inforce",
       "@context": "boolean.context.jsonld"
     },
     "benefitPeriod": {
-      "@id": "fhir:CoverageEligibilityResponse.insurance.benefitPeriod",
+      "@id": "fhir:benefitPeriod",
       "@context": "period.context.jsonld"
     },
     "item": {

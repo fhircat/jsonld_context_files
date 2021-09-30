@@ -10,51 +10,51 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "class": {
-      "@id": "fhir:SubstancePolymer.class",
+      "@id": "fhir:class",
       "@context": "codeableconcept.context.jsonld"
     },
     "geometry": {
-      "@id": "fhir:SubstancePolymer.geometry",
+      "@id": "fhir:geometry",
       "@context": "codeableconcept.context.jsonld"
     },
     "copolymerConnectivity": {
-      "@id": "fhir:SubstancePolymer.copolymerConnectivity",
+      "@id": "fhir:copolymerConnectivity",
       "@context": "codeableconcept.context.jsonld"
     },
     "modification": {
-      "@id": "fhir:SubstancePolymer.modification",
+      "@id": "fhir:modification",
       "@context": "string.context.jsonld"
     },
     "monomerSet": {

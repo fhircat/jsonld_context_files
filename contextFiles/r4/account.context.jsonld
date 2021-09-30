@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Account.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,19 +50,19 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Account.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "name": {
-      "@id": "fhir:Account.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Account.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "servicePeriod": {
-      "@id": "fhir:Account.servicePeriod",
+      "@id": "fhir:servicePeriod",
       "@context": "period.context.jsonld"
     },
     "coverage": {
@@ -70,11 +70,11 @@
       "@context": "account.coverage.context.jsonld"
     },
     "owner": {
-      "@id": "fhir:Account.owner",
+      "@id": "fhir:owner",
       "@context": "reference.context.jsonld"
     },
     "description": {
-      "@id": "fhir:Account.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "guarantor": {
@@ -82,7 +82,7 @@
       "@context": "account.guarantor.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:Account.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "index": {

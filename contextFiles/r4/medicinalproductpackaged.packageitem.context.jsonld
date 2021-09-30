@@ -6,63 +6,59 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "material": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.material",
+      "@id": "fhir:material",
       "@context": "codeableconcept.context.jsonld"
     },
     "alternateMaterial": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.alternateMaterial",
+      "@id": "fhir:alternateMaterial",
       "@context": "codeableconcept.context.jsonld"
     },
     "device": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.device",
+      "@id": "fhir:device",
       "@context": "reference.context.jsonld"
     },
     "manufacturedItem": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.manufacturedItem",
+      "@id": "fhir:manufacturedItem",
       "@context": "reference.context.jsonld"
     },
-    "packageItem": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.packageItem",
-      "@context": "medicinalproductpackaged.packageitem.context.jsonld"
-    },
     "physicalCharacteristics": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.physicalCharacteristics",
+      "@id": "fhir:physicalCharacteristics",
       "@context": "prodcharacteristic.context.jsonld"
     },
     "otherCharacteristics": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.otherCharacteristics",
+      "@id": "fhir:otherCharacteristics",
       "@context": "codeableconcept.context.jsonld"
     },
     "shelfLifeStorage": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.shelfLifeStorage",
+      "@id": "fhir:shelfLifeStorage",
       "@context": "productshelflife.context.jsonld"
     },
     "manufacturer": {
-      "@id": "fhir:MedicinalProductPackaged.packageItem.manufacturer",
+      "@id": "fhir:manufacturer",
       "@context": "reference.context.jsonld"
     },
     "index": {

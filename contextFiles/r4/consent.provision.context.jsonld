@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
@@ -22,7 +22,7 @@
       "@context": "string.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Consent.provision.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "actor": {
@@ -30,36 +30,32 @@
       "@context": "consent.provision.actor.context.jsonld"
     },
     "action": {
-      "@id": "fhir:Consent.provision.action",
+      "@id": "fhir:action",
       "@context": "codeableconcept.context.jsonld"
     },
     "securityLabel": {
-      "@id": "fhir:Consent.provision.securityLabel",
+      "@id": "fhir:securityLabel",
       "@context": "coding.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:Consent.provision.purpose",
+      "@id": "fhir:purpose",
       "@context": "coding.context.jsonld"
     },
     "class": {
-      "@id": "fhir:Consent.provision.class",
+      "@id": "fhir:class",
       "@context": "coding.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Consent.provision.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "dataPeriod": {
-      "@id": "fhir:Consent.provision.dataPeriod",
+      "@id": "fhir:dataPeriod",
       "@context": "period.context.jsonld"
     },
     "data": {
       "@id": "fhir:Consent.provision.data",
       "@context": "consent.provision.data.context.jsonld"
-    },
-    "provision": {
-      "@id": "fhir:Consent.provision.provision",
-      "@context": "consent.provision.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

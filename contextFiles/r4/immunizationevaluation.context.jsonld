@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ImmunizationEvaluation.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,39 +50,39 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:ImmunizationEvaluation.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:ImmunizationEvaluation.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "authority": {
-      "@id": "fhir:ImmunizationEvaluation.authority",
+      "@id": "fhir:authority",
       "@context": "reference.context.jsonld"
     },
     "targetDisease": {
-      "@id": "fhir:ImmunizationEvaluation.targetDisease",
+      "@id": "fhir:targetDisease",
       "@context": "codeableconcept.context.jsonld"
     },
     "immunizationEvent": {
-      "@id": "fhir:ImmunizationEvaluation.immunizationEvent",
+      "@id": "fhir:immunizationEvent",
       "@context": "reference.context.jsonld"
     },
     "doseStatus": {
-      "@id": "fhir:ImmunizationEvaluation.doseStatus",
+      "@id": "fhir:doseStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "doseStatusReason": {
-      "@id": "fhir:ImmunizationEvaluation.doseStatusReason",
+      "@id": "fhir:doseStatusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ImmunizationEvaluation.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "series": {
-      "@id": "fhir:ImmunizationEvaluation.series",
+      "@id": "fhir:series",
       "@context": "string.context.jsonld"
     },
     "doseNumberPositiveInt": {

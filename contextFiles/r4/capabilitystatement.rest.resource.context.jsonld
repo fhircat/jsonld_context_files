@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
@@ -22,15 +22,15 @@
       "@context": "string.context.jsonld"
     },
     "profile": {
-      "@id": "fhir:CapabilityStatement.rest.resource.profile",
+      "@id": "fhir:profile",
       "@context": "canonical.context.jsonld"
     },
     "supportedProfile": {
-      "@id": "fhir:CapabilityStatement.rest.resource.supportedProfile",
+      "@id": "fhir:supportedProfile",
       "@context": "canonical.context.jsonld"
     },
     "documentation": {
-      "@id": "fhir:CapabilityStatement.rest.resource.documentation",
+      "@id": "fhir:documentation",
       "@context": "markdown.context.jsonld"
     },
     "interaction": {
@@ -42,15 +42,15 @@
       "@context": "string.context.jsonld"
     },
     "readHistory": {
-      "@id": "fhir:CapabilityStatement.rest.resource.readHistory",
+      "@id": "fhir:readHistory",
       "@context": "boolean.context.jsonld"
     },
     "updateCreate": {
-      "@id": "fhir:CapabilityStatement.rest.resource.updateCreate",
+      "@id": "fhir:updateCreate",
       "@context": "boolean.context.jsonld"
     },
     "conditionalCreate": {
-      "@id": "fhir:CapabilityStatement.rest.resource.conditionalCreate",
+      "@id": "fhir:conditionalCreate",
       "@context": "boolean.context.jsonld"
     },
     "conditionalRead": {
@@ -58,7 +58,7 @@
       "@context": "string.context.jsonld"
     },
     "conditionalUpdate": {
-      "@id": "fhir:CapabilityStatement.rest.resource.conditionalUpdate",
+      "@id": "fhir:conditionalUpdate",
       "@context": "boolean.context.jsonld"
     },
     "conditionalDelete": {
@@ -70,11 +70,11 @@
       "@context": "string.context.jsonld"
     },
     "searchInclude": {
-      "@id": "fhir:CapabilityStatement.rest.resource.searchInclude",
+      "@id": "fhir:searchInclude",
       "@context": "string.context.jsonld"
     },
     "searchRevInclude": {
-      "@id": "fhir:CapabilityStatement.rest.resource.searchRevInclude",
+      "@id": "fhir:searchRevInclude",
       "@context": "string.context.jsonld"
     },
     "searchParam": {

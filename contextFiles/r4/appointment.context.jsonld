@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Appointment.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,75 +50,75 @@
       "@context": "string.context.jsonld"
     },
     "cancelationReason": {
-      "@id": "fhir:Appointment.cancelationReason",
+      "@id": "fhir:cancelationReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "serviceCategory": {
-      "@id": "fhir:Appointment.serviceCategory",
+      "@id": "fhir:serviceCategory",
       "@context": "codeableconcept.context.jsonld"
     },
     "serviceType": {
-      "@id": "fhir:Appointment.serviceType",
+      "@id": "fhir:serviceType",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialty": {
-      "@id": "fhir:Appointment.specialty",
+      "@id": "fhir:specialty",
       "@context": "codeableconcept.context.jsonld"
     },
     "appointmentType": {
-      "@id": "fhir:Appointment.appointmentType",
+      "@id": "fhir:appointmentType",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:Appointment.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:Appointment.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:Appointment.priority",
+      "@id": "fhir:priority",
       "@context": "unsignedint.context.jsonld"
     },
     "description": {
-      "@id": "fhir:Appointment.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "supportingInformation": {
-      "@id": "fhir:Appointment.supportingInformation",
+      "@id": "fhir:supportingInformation",
       "@context": "reference.context.jsonld"
     },
     "start": {
-      "@id": "fhir:Appointment.start",
+      "@id": "fhir:start",
       "@context": "instant.context.jsonld"
     },
     "end": {
-      "@id": "fhir:Appointment.end",
+      "@id": "fhir:end",
       "@context": "instant.context.jsonld"
     },
     "minutesDuration": {
-      "@id": "fhir:Appointment.minutesDuration",
+      "@id": "fhir:minutesDuration",
       "@context": "positiveint.context.jsonld"
     },
     "slot": {
-      "@id": "fhir:Appointment.slot",
+      "@id": "fhir:slot",
       "@context": "reference.context.jsonld"
     },
     "created": {
-      "@id": "fhir:Appointment.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "comment": {
-      "@id": "fhir:Appointment.comment",
+      "@id": "fhir:comment",
       "@context": "string.context.jsonld"
     },
     "patientInstruction": {
-      "@id": "fhir:Appointment.patientInstruction",
+      "@id": "fhir:patientInstruction",
       "@context": "string.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:Appointment.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "participant": {
@@ -126,7 +126,7 @@
       "@context": "appointment.participant.context.jsonld"
     },
     "requestedPeriod": {
-      "@id": "fhir:Appointment.requestedPeriod",
+      "@id": "fhir:requestedPeriod",
       "@context": "period.context.jsonld"
     },
     "index": {

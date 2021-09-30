@@ -149,13 +149,21 @@
       "@id": "fhir:ServiceRequest.performer",
       "@context": "reference.context.jsonld"
     },
-    "location": {
-      "@id": "fhir:ServiceRequest.location",
-      "@context": "codeablereference.context.jsonld"
+    "locationCode": {
+      "@id": "fhir:ServiceRequest.locationCode",
+      "@context": "codeableconcept.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:ServiceRequest.reason",
-      "@context": "codeablereference.context.jsonld"
+    "locationReference": {
+      "@id": "fhir:ServiceRequest.locationReference",
+      "@context": "reference.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:ServiceRequest.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:ServiceRequest.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "insurance": {
       "@id": "fhir:ServiceRequest.insurance",

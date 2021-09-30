@@ -10,55 +10,55 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:MedicinalProductContraindication.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "disease": {
-      "@id": "fhir:MedicinalProductContraindication.disease",
+      "@id": "fhir:disease",
       "@context": "codeableconcept.context.jsonld"
     },
     "diseaseStatus": {
-      "@id": "fhir:MedicinalProductContraindication.diseaseStatus",
+      "@id": "fhir:diseaseStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "comorbidity": {
-      "@id": "fhir:MedicinalProductContraindication.comorbidity",
+      "@id": "fhir:comorbidity",
       "@context": "codeableconcept.context.jsonld"
     },
     "therapeuticIndication": {
-      "@id": "fhir:MedicinalProductContraindication.therapeuticIndication",
+      "@id": "fhir:therapeuticIndication",
       "@context": "reference.context.jsonld"
     },
     "otherTherapy": {
@@ -66,7 +66,7 @@
       "@context": "medicinalproductcontraindication.othertherapy.context.jsonld"
     },
     "population": {
-      "@id": "fhir:MedicinalProductContraindication.population",
+      "@id": "fhir:population",
       "@context": "population.context.jsonld"
     },
     "index": {

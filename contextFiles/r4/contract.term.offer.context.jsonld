@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Contract.term.offer.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "party": {
@@ -26,19 +26,19 @@
       "@context": "contract.term.offer.party.context.jsonld"
     },
     "topic": {
-      "@id": "fhir:Contract.term.offer.topic",
+      "@id": "fhir:topic",
       "@context": "reference.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Contract.term.offer.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "decision": {
-      "@id": "fhir:Contract.term.offer.decision",
+      "@id": "fhir:decision",
       "@context": "codeableconcept.context.jsonld"
     },
     "decisionMode": {
-      "@id": "fhir:Contract.term.offer.decisionMode",
+      "@id": "fhir:decisionMode",
       "@context": "codeableconcept.context.jsonld"
     },
     "answer": {
@@ -46,15 +46,15 @@
       "@context": "contract.term.offer.answer.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Contract.term.offer.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "linkId": {
-      "@id": "fhir:Contract.term.offer.linkId",
+      "@id": "fhir:linkId",
       "@context": "string.context.jsonld"
     },
     "securityLabelNumber": {
-      "@id": "fhir:Contract.term.offer.securityLabelNumber",
+      "@id": "fhir:securityLabelNumber",
       "@context": "unsignedint.context.jsonld"
     },
     "index": {

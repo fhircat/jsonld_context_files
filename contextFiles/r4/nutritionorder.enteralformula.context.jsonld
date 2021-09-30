@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "baseFormulaType": {
-      "@id": "fhir:NutritionOrder.enteralFormula.baseFormulaType",
+      "@id": "fhir:baseFormulaType",
       "@context": "codeableconcept.context.jsonld"
     },
     "baseFormulaProductName": {
-      "@id": "fhir:NutritionOrder.enteralFormula.baseFormulaProductName",
+      "@id": "fhir:baseFormulaProductName",
       "@context": "string.context.jsonld"
     },
     "additiveType": {
-      "@id": "fhir:NutritionOrder.enteralFormula.additiveType",
+      "@id": "fhir:additiveType",
       "@context": "codeableconcept.context.jsonld"
     },
     "additiveProductName": {
-      "@id": "fhir:NutritionOrder.enteralFormula.additiveProductName",
+      "@id": "fhir:additiveProductName",
       "@context": "string.context.jsonld"
     },
     "caloricDensity": {
-      "@id": "fhir:NutritionOrder.enteralFormula.caloricDensity",
+      "@id": "fhir:caloricDensity",
       "@context": "quantity.context.jsonld"
     },
     "routeofAdministration": {
-      "@id": "fhir:NutritionOrder.enteralFormula.routeofAdministration",
+      "@id": "fhir:routeofAdministration",
       "@context": "codeableconcept.context.jsonld"
     },
     "administration": {
@@ -46,11 +46,11 @@
       "@context": "nutritionorder.enteralformula.administration.context.jsonld"
     },
     "maxVolumeToDeliver": {
-      "@id": "fhir:NutritionOrder.enteralFormula.maxVolumeToDeliver",
+      "@id": "fhir:maxVolumeToDeliver",
       "@context": "quantity.context.jsonld"
     },
     "administrationInstruction": {
-      "@id": "fhir:NutritionOrder.enteralFormula.administrationInstruction",
+      "@id": "fhir:administrationInstruction",
       "@context": "string.context.jsonld"
     },
     "index": {

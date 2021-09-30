@@ -6,43 +6,43 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "itemSequence": {
-      "@id": "fhir:ClaimResponse.addItem.itemSequence",
+      "@id": "fhir:itemSequence",
       "@context": "positiveint.context.jsonld"
     },
     "detailSequence": {
-      "@id": "fhir:ClaimResponse.addItem.detailSequence",
+      "@id": "fhir:detailSequence",
       "@context": "positiveint.context.jsonld"
     },
     "subdetailSequence": {
-      "@id": "fhir:ClaimResponse.addItem.subdetailSequence",
+      "@id": "fhir:subdetailSequence",
       "@context": "positiveint.context.jsonld"
     },
     "provider": {
-      "@id": "fhir:ClaimResponse.addItem.provider",
+      "@id": "fhir:provider",
       "@context": "reference.context.jsonld"
     },
     "productOrService": {
-      "@id": "fhir:ClaimResponse.addItem.productOrService",
+      "@id": "fhir:productOrService",
       "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
-      "@id": "fhir:ClaimResponse.addItem.modifier",
+      "@id": "fhir:modifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "programCode": {
-      "@id": "fhir:ClaimResponse.addItem.programCode",
+      "@id": "fhir:programCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "servicedDate": {
@@ -66,36 +66,32 @@
       "@context": "reference.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:ClaimResponse.addItem.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "unitPrice": {
-      "@id": "fhir:ClaimResponse.addItem.unitPrice",
+      "@id": "fhir:unitPrice",
       "@context": "money.context.jsonld"
     },
     "factor": {
-      "@id": "fhir:ClaimResponse.addItem.factor",
+      "@id": "fhir:factor",
       "@context": "decimal.context.jsonld"
     },
     "net": {
-      "@id": "fhir:ClaimResponse.addItem.net",
+      "@id": "fhir:net",
       "@context": "money.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:ClaimResponse.addItem.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "subSite": {
-      "@id": "fhir:ClaimResponse.addItem.subSite",
+      "@id": "fhir:subSite",
       "@context": "codeableconcept.context.jsonld"
     },
     "noteNumber": {
-      "@id": "fhir:ClaimResponse.addItem.noteNumber",
+      "@id": "fhir:noteNumber",
       "@context": "positiveint.context.jsonld"
-    },
-    "adjudication": {
-      "@id": "fhir:ClaimResponse.addItem.adjudication",
-      "@context": "claimresponse.item.adjudication.context.jsonld"
     },
     "detail": {
       "@id": "fhir:ClaimResponse.addItem.detail",

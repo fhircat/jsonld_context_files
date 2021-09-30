@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "sequence": {
-      "@id": "fhir:Dosage.sequence",
+      "@id": "fhir:sequence",
       "@context": "integer.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Dosage.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "additionalInstruction": {
-      "@id": "fhir:Dosage.additionalInstruction",
+      "@id": "fhir:additionalInstruction",
       "@context": "codeableconcept.context.jsonld"
     },
     "patientInstruction": {
-      "@id": "fhir:Dosage.patientInstruction",
+      "@id": "fhir:patientInstruction",
       "@context": "string.context.jsonld"
     },
     "timing": {
-      "@id": "fhir:Dosage.timing",
+      "@id": "fhir:timing",
       "@context": "timing.context.jsonld"
     },
     "asNeededBoolean": {
@@ -46,15 +46,15 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "site": {
-      "@id": "fhir:Dosage.site",
+      "@id": "fhir:site",
       "@context": "codeableconcept.context.jsonld"
     },
     "route": {
-      "@id": "fhir:Dosage.route",
+      "@id": "fhir:route",
       "@context": "codeableconcept.context.jsonld"
     },
     "method": {
-      "@id": "fhir:Dosage.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "doseAndRate": {
@@ -62,15 +62,15 @@
       "@context": "dosage.doseandrate.context.jsonld"
     },
     "maxDosePerPeriod": {
-      "@id": "fhir:Dosage.maxDosePerPeriod",
+      "@id": "fhir:maxDosePerPeriod",
       "@context": "ratio.context.jsonld"
     },
     "maxDosePerAdministration": {
-      "@id": "fhir:Dosage.maxDosePerAdministration",
+      "@id": "fhir:maxDosePerAdministration",
       "@context": "quantity.context.jsonld"
     },
     "maxDosePerLifetime": {
-      "@id": "fhir:Dosage.maxDosePerLifetime",
+      "@id": "fhir:maxDosePerLifetime",
       "@context": "quantity.context.jsonld"
     },
     "index": {

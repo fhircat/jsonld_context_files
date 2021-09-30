@@ -6,43 +6,43 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "required": {
-      "@id": "fhir:TestScript.metadata.capability.required",
+      "@id": "fhir:required",
       "@context": "boolean.context.jsonld"
     },
     "validated": {
-      "@id": "fhir:TestScript.metadata.capability.validated",
+      "@id": "fhir:validated",
       "@context": "boolean.context.jsonld"
     },
     "description": {
-      "@id": "fhir:TestScript.metadata.capability.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "origin": {
-      "@id": "fhir:TestScript.metadata.capability.origin",
+      "@id": "fhir:origin",
       "@context": "integer.context.jsonld"
     },
     "destination": {
-      "@id": "fhir:TestScript.metadata.capability.destination",
+      "@id": "fhir:destination",
       "@context": "integer.context.jsonld"
     },
     "link": {
-      "@id": "fhir:TestScript.metadata.capability.link",
+      "@id": "fhir:link",
       "@context": "uri.context.jsonld"
     },
     "capabilities": {
-      "@id": "fhir:TestScript.metadata.capability.capabilities",
+      "@id": "fhir:capabilities",
       "@context": "canonical.context.jsonld"
     },
     "index": {

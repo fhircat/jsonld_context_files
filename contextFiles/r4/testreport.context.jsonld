@@ -10,43 +10,43 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:TestReport.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "name": {
-      "@id": "fhir:TestReport.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -54,7 +54,7 @@
       "@context": "string.context.jsonld"
     },
     "testScript": {
-      "@id": "fhir:TestReport.testScript",
+      "@id": "fhir:testScript",
       "@context": "reference.context.jsonld"
     },
     "result": {
@@ -62,15 +62,15 @@
       "@context": "string.context.jsonld"
     },
     "score": {
-      "@id": "fhir:TestReport.score",
+      "@id": "fhir:score",
       "@context": "decimal.context.jsonld"
     },
     "tester": {
-      "@id": "fhir:TestReport.tester",
+      "@id": "fhir:tester",
       "@context": "string.context.jsonld"
     },
     "issued": {
-      "@id": "fhir:TestReport.issued",
+      "@id": "fhir:issued",
       "@context": "datetime.context.jsonld"
     },
     "participant": {

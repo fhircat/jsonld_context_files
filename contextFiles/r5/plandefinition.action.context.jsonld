@@ -149,10 +149,6 @@
       "@id": "fhir:PlanDefinition.action.dynamicValue",
       "@context": "plandefinition.action.dynamicvalue.context.jsonld"
     },
-    "action": {
-      "@id": "fhir:PlanDefinition.action.action",
-      "@context": "plandefinition.action.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

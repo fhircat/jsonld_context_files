@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ExplanationOfBenefit.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,11 +50,11 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ExplanationOfBenefit.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "subType": {
-      "@id": "fhir:ExplanationOfBenefit.subType",
+      "@id": "fhir:subType",
       "@context": "codeableconcept.context.jsonld"
     },
     "use": {
@@ -62,39 +62,39 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:ExplanationOfBenefit.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "billablePeriod": {
-      "@id": "fhir:ExplanationOfBenefit.billablePeriod",
+      "@id": "fhir:billablePeriod",
       "@context": "period.context.jsonld"
     },
     "created": {
-      "@id": "fhir:ExplanationOfBenefit.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "enterer": {
-      "@id": "fhir:ExplanationOfBenefit.enterer",
+      "@id": "fhir:enterer",
       "@context": "reference.context.jsonld"
     },
     "insurer": {
-      "@id": "fhir:ExplanationOfBenefit.insurer",
+      "@id": "fhir:insurer",
       "@context": "reference.context.jsonld"
     },
     "provider": {
-      "@id": "fhir:ExplanationOfBenefit.provider",
+      "@id": "fhir:provider",
       "@context": "reference.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:ExplanationOfBenefit.priority",
+      "@id": "fhir:priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "fundsReserveRequested": {
-      "@id": "fhir:ExplanationOfBenefit.fundsReserveRequested",
+      "@id": "fhir:fundsReserveRequested",
       "@context": "codeableconcept.context.jsonld"
     },
     "fundsReserve": {
-      "@id": "fhir:ExplanationOfBenefit.fundsReserve",
+      "@id": "fhir:fundsReserve",
       "@context": "codeableconcept.context.jsonld"
     },
     "related": {
@@ -102,11 +102,11 @@
       "@context": "explanationofbenefit.related.context.jsonld"
     },
     "prescription": {
-      "@id": "fhir:ExplanationOfBenefit.prescription",
+      "@id": "fhir:prescription",
       "@context": "reference.context.jsonld"
     },
     "originalPrescription": {
-      "@id": "fhir:ExplanationOfBenefit.originalPrescription",
+      "@id": "fhir:originalPrescription",
       "@context": "reference.context.jsonld"
     },
     "payee": {
@@ -114,19 +114,19 @@
       "@context": "explanationofbenefit.payee.context.jsonld"
     },
     "referral": {
-      "@id": "fhir:ExplanationOfBenefit.referral",
+      "@id": "fhir:referral",
       "@context": "reference.context.jsonld"
     },
     "facility": {
-      "@id": "fhir:ExplanationOfBenefit.facility",
+      "@id": "fhir:facility",
       "@context": "reference.context.jsonld"
     },
     "claim": {
-      "@id": "fhir:ExplanationOfBenefit.claim",
+      "@id": "fhir:claim",
       "@context": "reference.context.jsonld"
     },
     "claimResponse": {
-      "@id": "fhir:ExplanationOfBenefit.claimResponse",
+      "@id": "fhir:claimResponse",
       "@context": "reference.context.jsonld"
     },
     "outcome": {
@@ -134,15 +134,15 @@
       "@context": "string.context.jsonld"
     },
     "disposition": {
-      "@id": "fhir:ExplanationOfBenefit.disposition",
+      "@id": "fhir:disposition",
       "@context": "string.context.jsonld"
     },
     "preAuthRef": {
-      "@id": "fhir:ExplanationOfBenefit.preAuthRef",
+      "@id": "fhir:preAuthRef",
       "@context": "string.context.jsonld"
     },
     "preAuthRefPeriod": {
-      "@id": "fhir:ExplanationOfBenefit.preAuthRefPeriod",
+      "@id": "fhir:preAuthRefPeriod",
       "@context": "period.context.jsonld"
     },
     "careTeam": {
@@ -162,7 +162,7 @@
       "@context": "explanationofbenefit.procedure.context.jsonld"
     },
     "precedence": {
-      "@id": "fhir:ExplanationOfBenefit.precedence",
+      "@id": "fhir:precedence",
       "@context": "positiveint.context.jsonld"
     },
     "insurance": {
@@ -181,10 +181,6 @@
       "@id": "fhir:ExplanationOfBenefit.addItem",
       "@context": "explanationofbenefit.additem.context.jsonld"
     },
-    "adjudication": {
-      "@id": "fhir:ExplanationOfBenefit.adjudication",
-      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
-    },
     "total": {
       "@id": "fhir:ExplanationOfBenefit.total",
       "@context": "explanationofbenefit.total.context.jsonld"
@@ -194,11 +190,11 @@
       "@context": "explanationofbenefit.payment.context.jsonld"
     },
     "formCode": {
-      "@id": "fhir:ExplanationOfBenefit.formCode",
+      "@id": "fhir:formCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "form": {
-      "@id": "fhir:ExplanationOfBenefit.form",
+      "@id": "fhir:form",
       "@context": "attachment.context.jsonld"
     },
     "processNote": {
@@ -206,7 +202,7 @@
       "@context": "explanationofbenefit.processnote.context.jsonld"
     },
     "benefitPeriod": {
-      "@id": "fhir:ExplanationOfBenefit.benefitPeriod",
+      "@id": "fhir:benefitPeriod",
       "@context": "period.context.jsonld"
     },
     "benefitBalance": {

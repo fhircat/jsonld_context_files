@@ -6,47 +6,47 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "who": {
-      "@id": "fhir:VerificationResult.attestation.who",
+      "@id": "fhir:who",
       "@context": "reference.context.jsonld"
     },
     "onBehalfOf": {
-      "@id": "fhir:VerificationResult.attestation.onBehalfOf",
+      "@id": "fhir:onBehalfOf",
       "@context": "reference.context.jsonld"
     },
     "communicationMethod": {
-      "@id": "fhir:VerificationResult.attestation.communicationMethod",
+      "@id": "fhir:communicationMethod",
       "@context": "codeableconcept.context.jsonld"
     },
     "date": {
-      "@id": "fhir:VerificationResult.attestation.date",
+      "@id": "fhir:date",
       "@context": "date.context.jsonld"
     },
     "sourceIdentityCertificate": {
-      "@id": "fhir:VerificationResult.attestation.sourceIdentityCertificate",
+      "@id": "fhir:sourceIdentityCertificate",
       "@context": "string.context.jsonld"
     },
     "proxyIdentityCertificate": {
-      "@id": "fhir:VerificationResult.attestation.proxyIdentityCertificate",
+      "@id": "fhir:proxyIdentityCertificate",
       "@context": "string.context.jsonld"
     },
     "proxySignature": {
-      "@id": "fhir:VerificationResult.attestation.proxySignature",
+      "@id": "fhir:proxySignature",
       "@context": "signature.context.jsonld"
     },
     "sourceSignature": {
-      "@id": "fhir:VerificationResult.attestation.sourceSignature",
+      "@id": "fhir:sourceSignature",
       "@context": "signature.context.jsonld"
     },
     "index": {

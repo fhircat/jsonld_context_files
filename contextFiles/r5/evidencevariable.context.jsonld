@@ -5,6 +5,10 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
       "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
@@ -139,14 +143,6 @@
     },
     "type": {
       "@id": "fhir:EvidenceVariable.type",
-      "@context": "string.context.jsonld"
-    },
-    "actual": {
-      "@id": "fhir:EvidenceVariable.actual",
-      "@context": "boolean.context.jsonld"
-    },
-    "characteristicCombination": {
-      "@id": "fhir:EvidenceVariable.characteristicCombination",
       "@context": "string.context.jsonld"
     },
     "characteristic": {

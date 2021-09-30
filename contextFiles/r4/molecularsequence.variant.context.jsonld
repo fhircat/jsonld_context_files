@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "start": {
-      "@id": "fhir:MolecularSequence.variant.start",
+      "@id": "fhir:start",
       "@context": "integer.context.jsonld"
     },
     "end": {
-      "@id": "fhir:MolecularSequence.variant.end",
+      "@id": "fhir:end",
       "@context": "integer.context.jsonld"
     },
     "observedAllele": {
-      "@id": "fhir:MolecularSequence.variant.observedAllele",
+      "@id": "fhir:observedAllele",
       "@context": "string.context.jsonld"
     },
     "referenceAllele": {
-      "@id": "fhir:MolecularSequence.variant.referenceAllele",
+      "@id": "fhir:referenceAllele",
       "@context": "string.context.jsonld"
     },
     "cigar": {
-      "@id": "fhir:MolecularSequence.variant.cigar",
+      "@id": "fhir:cigar",
       "@context": "string.context.jsonld"
     },
     "variantPointer": {
-      "@id": "fhir:MolecularSequence.variant.variantPointer",
+      "@id": "fhir:variantPointer",
       "@context": "reference.context.jsonld"
     },
     "index": {

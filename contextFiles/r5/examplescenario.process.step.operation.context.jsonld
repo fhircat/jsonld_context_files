@@ -49,14 +49,6 @@
       "@id": "fhir:ExampleScenario.process.step.operation.receiverActive",
       "@context": "boolean.context.jsonld"
     },
-    "request": {
-      "@id": "fhir:ExampleScenario.process.step.operation.request",
-      "@context": "examplescenario.instance.containedinstance.context.jsonld"
-    },
-    "response": {
-      "@id": "fhir:ExampleScenario.process.step.operation.response",
-      "@context": "examplescenario.instance.containedinstance.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

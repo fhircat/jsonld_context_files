@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Goal.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "lifecycleStatus": {
@@ -50,23 +50,23 @@
       "@context": "string.context.jsonld"
     },
     "achievementStatus": {
-      "@id": "fhir:Goal.achievementStatus",
+      "@id": "fhir:achievementStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Goal.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:Goal.priority",
+      "@id": "fhir:priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:Goal.description",
+      "@id": "fhir:description",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Goal.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "startDate": {
@@ -82,31 +82,31 @@
       "@context": "goal.target.context.jsonld"
     },
     "statusDate": {
-      "@id": "fhir:Goal.statusDate",
+      "@id": "fhir:statusDate",
       "@context": "date.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:Goal.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "string.context.jsonld"
     },
     "expressedBy": {
-      "@id": "fhir:Goal.expressedBy",
+      "@id": "fhir:expressedBy",
       "@context": "reference.context.jsonld"
     },
     "addresses": {
-      "@id": "fhir:Goal.addresses",
+      "@id": "fhir:addresses",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Goal.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "outcomeCode": {
-      "@id": "fhir:Goal.outcomeCode",
+      "@id": "fhir:outcomeCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "outcomeReference": {
-      "@id": "fhir:Goal.outcomeReference",
+      "@id": "fhir:outcomeReference",
       "@context": "reference.context.jsonld"
     },
     "index": {

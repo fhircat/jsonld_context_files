@@ -117,13 +117,17 @@
       "@id": "fhir:CommunicationRequest.recipient",
       "@context": "reference.context.jsonld"
     },
-    "informationProvider": {
-      "@id": "fhir:CommunicationRequest.informationProvider",
+    "sender": {
+      "@id": "fhir:CommunicationRequest.sender",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:CommunicationRequest.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:CommunicationRequest.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:CommunicationRequest.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:CommunicationRequest.note",

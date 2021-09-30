@@ -5,28 +5,24 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "resourceType": {
-      "@id": "rdf:type",
-      "@type": "@id"
-    },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Bundle.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
@@ -34,11 +30,11 @@
       "@context": "string.context.jsonld"
     },
     "timestamp": {
-      "@id": "fhir:Bundle.timestamp",
+      "@id": "fhir:timestamp",
       "@context": "instant.context.jsonld"
     },
     "total": {
-      "@id": "fhir:Bundle.total",
+      "@id": "fhir:total",
       "@context": "unsignedint.context.jsonld"
     },
     "link": {
@@ -50,7 +46,7 @@
       "@context": "bundle.entry.context.jsonld"
     },
     "signature": {
-      "@id": "fhir:Bundle.signature",
+      "@id": "fhir:signature",
       "@context": "signature.context.jsonld"
     },
     "index": {

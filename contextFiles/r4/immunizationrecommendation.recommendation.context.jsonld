@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "vaccineCode": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.vaccineCode",
+      "@id": "fhir:vaccineCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "targetDisease": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.targetDisease",
+      "@id": "fhir:targetDisease",
       "@context": "codeableconcept.context.jsonld"
     },
     "contraindicatedVaccineCode": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.contraindicatedVaccineCode",
+      "@id": "fhir:contraindicatedVaccineCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "forecastStatus": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.forecastStatus",
+      "@id": "fhir:forecastStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "forecastReason": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.forecastReason",
+      "@id": "fhir:forecastReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "dateCriterion": {
@@ -42,11 +42,11 @@
       "@context": "immunizationrecommendation.recommendation.datecriterion.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "series": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.series",
+      "@id": "fhir:series",
       "@context": "string.context.jsonld"
     },
     "doseNumberPositiveInt": {
@@ -66,11 +66,11 @@
       "@context": "string.context.jsonld"
     },
     "supportingImmunization": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.supportingImmunization",
+      "@id": "fhir:supportingImmunization",
       "@context": "reference.context.jsonld"
     },
     "supportingPatientInformation": {
-      "@id": "fhir:ImmunizationRecommendation.recommendation.supportingPatientInformation",
+      "@id": "fhir:supportingPatientInformation",
       "@context": "reference.context.jsonld"
     },
     "index": {

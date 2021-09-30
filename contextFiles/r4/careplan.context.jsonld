@@ -10,59 +10,59 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:CarePlan.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:CarePlan.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:CarePlan.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:CarePlan.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "replaces": {
-      "@id": "fhir:CarePlan.replaces",
+      "@id": "fhir:replaces",
       "@context": "reference.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:CarePlan.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -74,55 +74,55 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:CarePlan.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "title": {
-      "@id": "fhir:CarePlan.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "description": {
-      "@id": "fhir:CarePlan.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:CarePlan.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:CarePlan.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:CarePlan.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "created": {
-      "@id": "fhir:CarePlan.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "author": {
-      "@id": "fhir:CarePlan.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "contributor": {
-      "@id": "fhir:CarePlan.contributor",
+      "@id": "fhir:contributor",
       "@context": "reference.context.jsonld"
     },
     "careTeam": {
-      "@id": "fhir:CarePlan.careTeam",
+      "@id": "fhir:careTeam",
       "@context": "reference.context.jsonld"
     },
     "addresses": {
-      "@id": "fhir:CarePlan.addresses",
+      "@id": "fhir:addresses",
       "@context": "reference.context.jsonld"
     },
     "supportingInfo": {
-      "@id": "fhir:CarePlan.supportingInfo",
+      "@id": "fhir:supportingInfo",
       "@context": "reference.context.jsonld"
     },
     "goal": {
-      "@id": "fhir:CarePlan.goal",
+      "@id": "fhir:goal",
       "@context": "reference.context.jsonld"
     },
     "activity": {
@@ -130,7 +130,7 @@
       "@context": "careplan.activity.context.jsonld"
     },
     "note": {
-      "@id": "fhir:CarePlan.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

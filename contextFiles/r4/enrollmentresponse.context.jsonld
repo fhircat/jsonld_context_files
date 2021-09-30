@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:EnrollmentResponse.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,7 +50,7 @@
       "@context": "string.context.jsonld"
     },
     "request": {
-      "@id": "fhir:EnrollmentResponse.request",
+      "@id": "fhir:request",
       "@context": "reference.context.jsonld"
     },
     "outcome": {
@@ -58,19 +58,19 @@
       "@context": "string.context.jsonld"
     },
     "disposition": {
-      "@id": "fhir:EnrollmentResponse.disposition",
+      "@id": "fhir:disposition",
       "@context": "string.context.jsonld"
     },
     "created": {
-      "@id": "fhir:EnrollmentResponse.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "organization": {
-      "@id": "fhir:EnrollmentResponse.organization",
+      "@id": "fhir:organization",
       "@context": "reference.context.jsonld"
     },
     "requestProvider": {
-      "@id": "fhir:EnrollmentResponse.requestProvider",
+      "@id": "fhir:requestProvider",
       "@context": "reference.context.jsonld"
     },
     "index": {

@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "key": {
-      "@id": "fhir:ElementDefinition.constraint.key",
+      "@id": "fhir:key",
       "@context": "id.context.jsonld"
     },
     "requirements": {
-      "@id": "fhir:ElementDefinition.constraint.requirements",
+      "@id": "fhir:requirements",
       "@context": "string.context.jsonld"
     },
     "severity": {
@@ -26,19 +26,19 @@
       "@context": "string.context.jsonld"
     },
     "human": {
-      "@id": "fhir:ElementDefinition.constraint.human",
+      "@id": "fhir:human",
       "@context": "string.context.jsonld"
     },
     "expression": {
-      "@id": "fhir:ElementDefinition.constraint.expression",
+      "@id": "fhir:expression",
       "@context": "string.context.jsonld"
     },
     "xpath": {
-      "@id": "fhir:ElementDefinition.constraint.xpath",
+      "@id": "fhir:xpath",
       "@context": "string.context.jsonld"
     },
     "source": {
-      "@id": "fhir:ElementDefinition.constraint.source",
+      "@id": "fhir:source",
       "@context": "canonical.context.jsonld"
     },
     "index": {

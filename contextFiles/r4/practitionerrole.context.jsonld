@@ -10,75 +10,75 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:PractitionerRole.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "active": {
-      "@id": "fhir:PractitionerRole.active",
+      "@id": "fhir:active",
       "@context": "boolean.context.jsonld"
     },
     "period": {
-      "@id": "fhir:PractitionerRole.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "practitioner": {
-      "@id": "fhir:PractitionerRole.practitioner",
+      "@id": "fhir:practitioner",
       "@context": "reference.context.jsonld"
     },
     "organization": {
-      "@id": "fhir:PractitionerRole.organization",
+      "@id": "fhir:organization",
       "@context": "reference.context.jsonld"
     },
     "code": {
-      "@id": "fhir:PractitionerRole.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialty": {
-      "@id": "fhir:PractitionerRole.specialty",
+      "@id": "fhir:specialty",
       "@context": "codeableconcept.context.jsonld"
     },
     "location": {
-      "@id": "fhir:PractitionerRole.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "healthcareService": {
-      "@id": "fhir:PractitionerRole.healthcareService",
+      "@id": "fhir:healthcareService",
       "@context": "reference.context.jsonld"
     },
     "telecom": {
-      "@id": "fhir:PractitionerRole.telecom",
+      "@id": "fhir:telecom",
       "@context": "contactpoint.context.jsonld"
     },
     "availableTime": {
@@ -90,11 +90,11 @@
       "@context": "practitionerrole.notavailable.context.jsonld"
     },
     "availabilityExceptions": {
-      "@id": "fhir:PractitionerRole.availabilityExceptions",
+      "@id": "fhir:availabilityExceptions",
       "@context": "string.context.jsonld"
     },
     "endpoint": {
-      "@id": "fhir:PractitionerRole.endpoint",
+      "@id": "fhir:endpoint",
       "@context": "reference.context.jsonld"
     },
     "index": {

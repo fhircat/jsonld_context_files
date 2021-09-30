@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Immunization.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,19 +50,19 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:Immunization.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "vaccineCode": {
-      "@id": "fhir:Immunization.vaccineCode",
+      "@id": "fhir:vaccineCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:Immunization.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Immunization.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "occurrenceDateTime": {
@@ -74,43 +74,43 @@
       "@context": "string.context.jsonld"
     },
     "recorded": {
-      "@id": "fhir:Immunization.recorded",
+      "@id": "fhir:recorded",
       "@context": "datetime.context.jsonld"
     },
     "primarySource": {
-      "@id": "fhir:Immunization.primarySource",
+      "@id": "fhir:primarySource",
       "@context": "boolean.context.jsonld"
     },
     "reportOrigin": {
-      "@id": "fhir:Immunization.reportOrigin",
+      "@id": "fhir:reportOrigin",
       "@context": "codeableconcept.context.jsonld"
     },
     "location": {
-      "@id": "fhir:Immunization.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "manufacturer": {
-      "@id": "fhir:Immunization.manufacturer",
+      "@id": "fhir:manufacturer",
       "@context": "reference.context.jsonld"
     },
     "lotNumber": {
-      "@id": "fhir:Immunization.lotNumber",
+      "@id": "fhir:lotNumber",
       "@context": "string.context.jsonld"
     },
     "expirationDate": {
-      "@id": "fhir:Immunization.expirationDate",
+      "@id": "fhir:expirationDate",
       "@context": "date.context.jsonld"
     },
     "site": {
-      "@id": "fhir:Immunization.site",
+      "@id": "fhir:site",
       "@context": "codeableconcept.context.jsonld"
     },
     "route": {
-      "@id": "fhir:Immunization.route",
+      "@id": "fhir:route",
       "@context": "codeableconcept.context.jsonld"
     },
     "doseQuantity": {
-      "@id": "fhir:Immunization.doseQuantity",
+      "@id": "fhir:doseQuantity",
       "@context": "quantity.context.jsonld"
     },
     "performer": {
@@ -118,23 +118,23 @@
       "@context": "immunization.performer.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Immunization.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:Immunization.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:Immunization.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "isSubpotent": {
-      "@id": "fhir:Immunization.isSubpotent",
+      "@id": "fhir:isSubpotent",
       "@context": "boolean.context.jsonld"
     },
     "subpotentReason": {
-      "@id": "fhir:Immunization.subpotentReason",
+      "@id": "fhir:subpotentReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "education": {
@@ -142,11 +142,11 @@
       "@context": "immunization.education.context.jsonld"
     },
     "programEligibility": {
-      "@id": "fhir:Immunization.programEligibility",
+      "@id": "fhir:programEligibility",
       "@context": "codeableconcept.context.jsonld"
     },
     "fundingSource": {
-      "@id": "fhir:Immunization.fundingSource",
+      "@id": "fhir:fundingSource",
       "@context": "codeableconcept.context.jsonld"
     },
     "reaction": {

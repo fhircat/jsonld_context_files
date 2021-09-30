@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "low": {
-      "@id": "fhir:Observation.referenceRange.low",
+      "@id": "fhir:low",
       "@context": "quantity.context.jsonld"
     },
     "high": {
-      "@id": "fhir:Observation.referenceRange.high",
+      "@id": "fhir:high",
       "@context": "quantity.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Observation.referenceRange.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "appliesTo": {
-      "@id": "fhir:Observation.referenceRange.appliesTo",
+      "@id": "fhir:appliesTo",
       "@context": "codeableconcept.context.jsonld"
     },
     "age": {
-      "@id": "fhir:Observation.referenceRange.age",
+      "@id": "fhir:age",
       "@context": "range.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Observation.referenceRange.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "index": {

@@ -10,43 +10,43 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Specimen.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "accessionIdentifier": {
-      "@id": "fhir:Specimen.accessionIdentifier",
+      "@id": "fhir:accessionIdentifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -54,23 +54,23 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Specimen.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Specimen.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "receivedTime": {
-      "@id": "fhir:Specimen.receivedTime",
+      "@id": "fhir:receivedTime",
       "@context": "datetime.context.jsonld"
     },
     "parent": {
-      "@id": "fhir:Specimen.parent",
+      "@id": "fhir:parent",
       "@context": "reference.context.jsonld"
     },
     "request": {
-      "@id": "fhir:Specimen.request",
+      "@id": "fhir:request",
       "@context": "reference.context.jsonld"
     },
     "collection": {
@@ -86,11 +86,11 @@
       "@context": "specimen.container.context.jsonld"
     },
     "condition": {
-      "@id": "fhir:Specimen.condition",
+      "@id": "fhir:condition",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Specimen.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

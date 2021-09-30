@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "initialFill": {
@@ -22,27 +22,27 @@
       "@context": "medicationrequest.dispenserequest.initialfill.context.jsonld"
     },
     "dispenseInterval": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.dispenseInterval",
+      "@id": "fhir:dispenseInterval",
       "@context": "duration.context.jsonld"
     },
     "validityPeriod": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.validityPeriod",
+      "@id": "fhir:validityPeriod",
       "@context": "period.context.jsonld"
     },
     "numberOfRepeatsAllowed": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
+      "@id": "fhir:numberOfRepeatsAllowed",
       "@context": "unsignedint.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "expectedSupplyDuration": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.expectedSupplyDuration",
+      "@id": "fhir:expectedSupplyDuration",
       "@context": "duration.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "index": {

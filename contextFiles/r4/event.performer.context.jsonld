@@ -6,11 +6,11 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "function": {
-      "@id": "fhir:Event.performer.function",
+      "@id": "fhir:function",
       "@context": "codeableconcept.context.jsonld"
     },
     "actor": {
-      "@id": "fhir:Event.performer.actor",
+      "@id": "fhir:actor",
       "@context": "reference.context.jsonld"
     },
     "index": {

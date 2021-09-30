@@ -41,10 +41,6 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "identifier": {
-      "@id": "fhir:SubstancePolymer.identifier",
-      "@context": "identifier.context.jsonld"
-    },
     "class": {
       "@id": "fhir:SubstancePolymer.class",
       "@context": "codeableconcept.context.jsonld"

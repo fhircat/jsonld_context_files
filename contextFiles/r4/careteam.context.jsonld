@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:CareTeam.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,23 +50,23 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:CareTeam.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "name": {
-      "@id": "fhir:CareTeam.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:CareTeam.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:CareTeam.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:CareTeam.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "participant": {
@@ -74,23 +74,23 @@
       "@context": "careteam.participant.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:CareTeam.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:CareTeam.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "managingOrganization": {
-      "@id": "fhir:CareTeam.managingOrganization",
+      "@id": "fhir:managingOrganization",
       "@context": "reference.context.jsonld"
     },
     "telecom": {
-      "@id": "fhir:CareTeam.telecom",
+      "@id": "fhir:telecom",
       "@context": "contactpoint.context.jsonld"
     },
     "note": {
-      "@id": "fhir:CareTeam.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

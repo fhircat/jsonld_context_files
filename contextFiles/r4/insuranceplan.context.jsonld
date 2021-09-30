@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:InsurancePlan.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,31 +50,31 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:InsurancePlan.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "name": {
-      "@id": "fhir:InsurancePlan.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "alias": {
-      "@id": "fhir:InsurancePlan.alias",
+      "@id": "fhir:alias",
       "@context": "string.context.jsonld"
     },
     "period": {
-      "@id": "fhir:InsurancePlan.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "ownedBy": {
-      "@id": "fhir:InsurancePlan.ownedBy",
+      "@id": "fhir:ownedBy",
       "@context": "reference.context.jsonld"
     },
     "administeredBy": {
-      "@id": "fhir:InsurancePlan.administeredBy",
+      "@id": "fhir:administeredBy",
       "@context": "reference.context.jsonld"
     },
     "coverageArea": {
-      "@id": "fhir:InsurancePlan.coverageArea",
+      "@id": "fhir:coverageArea",
       "@context": "reference.context.jsonld"
     },
     "contact": {
@@ -82,11 +82,11 @@
       "@context": "insuranceplan.contact.context.jsonld"
     },
     "endpoint": {
-      "@id": "fhir:InsurancePlan.endpoint",
+      "@id": "fhir:endpoint",
       "@context": "reference.context.jsonld"
     },
     "network": {
-      "@id": "fhir:InsurancePlan.network",
+      "@id": "fhir:network",
       "@context": "reference.context.jsonld"
     },
     "coverage": {

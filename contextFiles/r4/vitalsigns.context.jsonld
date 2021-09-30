@@ -6,47 +6,47 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Observation.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:Observation.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:Observation.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -54,27 +54,27 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Observation.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "category:VSCat": {
-      "@id": "fhir:Observation.category:VSCat",
+      "@id": "fhir:category:VSCat",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Observation.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Observation.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "focus": {
-      "@id": "fhir:Observation.focus",
+      "@id": "fhir:focus",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Observation.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "effectiveDateTime": {
@@ -86,11 +86,11 @@
       "@context": "period.context.jsonld"
     },
     "issued": {
-      "@id": "fhir:Observation.issued",
+      "@id": "fhir:issued",
       "@context": "instant.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:Observation.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "valueQuantity": {
@@ -138,31 +138,31 @@
       "@context": "period.context.jsonld"
     },
     "dataAbsentReason": {
-      "@id": "fhir:Observation.dataAbsentReason",
+      "@id": "fhir:dataAbsentReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "interpretation": {
-      "@id": "fhir:Observation.interpretation",
+      "@id": "fhir:interpretation",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Observation.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:Observation.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "method": {
-      "@id": "fhir:Observation.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "specimen": {
-      "@id": "fhir:Observation.specimen",
+      "@id": "fhir:specimen",
       "@context": "reference.context.jsonld"
     },
     "device": {
-      "@id": "fhir:Observation.device",
+      "@id": "fhir:device",
       "@context": "reference.context.jsonld"
     },
     "referenceRange": {
@@ -170,11 +170,11 @@
       "@context": "observation.referencerange.context.jsonld"
     },
     "hasMember": {
-      "@id": "fhir:Observation.hasMember",
+      "@id": "fhir:hasMember",
       "@context": "reference.context.jsonld"
     },
     "derivedFrom": {
-      "@id": "fhir:Observation.derivedFrom",
+      "@id": "fhir:derivedFrom",
       "@context": "reference.context.jsonld"
     },
     "component": {

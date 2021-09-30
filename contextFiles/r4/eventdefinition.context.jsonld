@@ -10,59 +10,59 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:EventDefinition.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:EventDefinition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:EventDefinition.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:EventDefinition.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:EventDefinition.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "subtitle": {
-      "@id": "fhir:EventDefinition.subtitle",
+      "@id": "fhir:subtitle",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -70,7 +70,7 @@
       "@context": "string.context.jsonld"
     },
     "experimental": {
-      "@id": "fhir:EventDefinition.experimental",
+      "@id": "fhir:experimental",
       "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
@@ -82,79 +82,79 @@
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:EventDefinition.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:EventDefinition.publisher",
+      "@id": "fhir:publisher",
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:EventDefinition.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:EventDefinition.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:EventDefinition.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:EventDefinition.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:EventDefinition.purpose",
+      "@id": "fhir:purpose",
       "@context": "markdown.context.jsonld"
     },
     "usage": {
-      "@id": "fhir:EventDefinition.usage",
+      "@id": "fhir:usage",
       "@context": "string.context.jsonld"
     },
     "copyright": {
-      "@id": "fhir:EventDefinition.copyright",
+      "@id": "fhir:copyright",
       "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
-      "@id": "fhir:EventDefinition.approvalDate",
+      "@id": "fhir:approvalDate",
       "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
-      "@id": "fhir:EventDefinition.lastReviewDate",
+      "@id": "fhir:lastReviewDate",
       "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
-      "@id": "fhir:EventDefinition.effectivePeriod",
+      "@id": "fhir:effectivePeriod",
       "@context": "period.context.jsonld"
     },
     "topic": {
-      "@id": "fhir:EventDefinition.topic",
+      "@id": "fhir:topic",
       "@context": "codeableconcept.context.jsonld"
     },
     "author": {
-      "@id": "fhir:EventDefinition.author",
+      "@id": "fhir:author",
       "@context": "contactdetail.context.jsonld"
     },
     "editor": {
-      "@id": "fhir:EventDefinition.editor",
+      "@id": "fhir:editor",
       "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
-      "@id": "fhir:EventDefinition.reviewer",
+      "@id": "fhir:reviewer",
       "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
-      "@id": "fhir:EventDefinition.endorser",
+      "@id": "fhir:endorser",
       "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
-      "@id": "fhir:EventDefinition.relatedArtifact",
+      "@id": "fhir:relatedArtifact",
       "@context": "relatedartifact.context.jsonld"
     },
     "trigger": {
-      "@id": "fhir:EventDefinition.trigger",
+      "@id": "fhir:trigger",
       "@context": "triggerdefinition.context.jsonld"
     },
     "index": {

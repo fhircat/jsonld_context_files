@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "prefix": {
-      "@id": "fhir:PlanDefinition.action.prefix",
+      "@id": "fhir:prefix",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:PlanDefinition.action.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "description": {
-      "@id": "fhir:PlanDefinition.action.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "textEquivalent": {
-      "@id": "fhir:PlanDefinition.action.textEquivalent",
+      "@id": "fhir:textEquivalent",
       "@context": "string.context.jsonld"
     },
     "priority": {
@@ -38,19 +38,19 @@
       "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:PlanDefinition.action.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "reason": {
-      "@id": "fhir:PlanDefinition.action.reason",
+      "@id": "fhir:reason",
       "@context": "codeableconcept.context.jsonld"
     },
     "documentation": {
-      "@id": "fhir:PlanDefinition.action.documentation",
+      "@id": "fhir:documentation",
       "@context": "relatedartifact.context.jsonld"
     },
     "goalId": {
-      "@id": "fhir:PlanDefinition.action.goalId",
+      "@id": "fhir:goalId",
       "@context": "id.context.jsonld"
     },
     "subjectCodeableConcept": {
@@ -62,7 +62,7 @@
       "@context": "reference.context.jsonld"
     },
     "trigger": {
-      "@id": "fhir:PlanDefinition.action.trigger",
+      "@id": "fhir:trigger",
       "@context": "triggerdefinition.context.jsonld"
     },
     "condition": {
@@ -70,11 +70,11 @@
       "@context": "plandefinition.action.condition.context.jsonld"
     },
     "input": {
-      "@id": "fhir:PlanDefinition.action.input",
+      "@id": "fhir:input",
       "@context": "datarequirement.context.jsonld"
     },
     "output": {
-      "@id": "fhir:PlanDefinition.action.output",
+      "@id": "fhir:output",
       "@context": "datarequirement.context.jsonld"
     },
     "relatedAction": {
@@ -110,7 +110,7 @@
       "@context": "plandefinition.action.participant.context.jsonld"
     },
     "type": {
-      "@id": "fhir:PlanDefinition.action.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "groupingBehavior": {
@@ -142,16 +142,12 @@
       "@context": "uri.context.jsonld"
     },
     "transform": {
-      "@id": "fhir:PlanDefinition.action.transform",
+      "@id": "fhir:transform",
       "@context": "canonical.context.jsonld"
     },
     "dynamicValue": {
       "@id": "fhir:PlanDefinition.action.dynamicValue",
       "@context": "plandefinition.action.dynamicvalue.context.jsonld"
-    },
-    "action": {
-      "@id": "fhir:PlanDefinition.action.action",
-      "@context": "plandefinition.action.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

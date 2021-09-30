@@ -6,23 +6,23 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProductAuthorization.procedure.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MedicinalProductAuthorization.procedure.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "datePeriod": {
@@ -32,10 +32,6 @@
     "dateDateTime": {
       "@id": "fhir:MedicinalProductAuthorization.procedure.dateDateTime",
       "@context": "datetime.context.jsonld"
-    },
-    "application": {
-      "@id": "fhir:MedicinalProductAuthorization.procedure.application",
-      "@context": "medicinalproductauthorization.procedure.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

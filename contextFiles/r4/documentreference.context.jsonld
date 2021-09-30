@@ -10,43 +10,43 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "masterIdentifier": {
-      "@id": "fhir:DocumentReference.masterIdentifier",
+      "@id": "fhir:masterIdentifier",
       "@context": "identifier.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:DocumentReference.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -58,31 +58,31 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:DocumentReference.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:DocumentReference.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:DocumentReference.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:DocumentReference.date",
+      "@id": "fhir:date",
       "@context": "instant.context.jsonld"
     },
     "author": {
-      "@id": "fhir:DocumentReference.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "authenticator": {
-      "@id": "fhir:DocumentReference.authenticator",
+      "@id": "fhir:authenticator",
       "@context": "reference.context.jsonld"
     },
     "custodian": {
-      "@id": "fhir:DocumentReference.custodian",
+      "@id": "fhir:custodian",
       "@context": "reference.context.jsonld"
     },
     "relatesTo": {
@@ -90,11 +90,11 @@
       "@context": "documentreference.relatesto.context.jsonld"
     },
     "description": {
-      "@id": "fhir:DocumentReference.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "securityLabel": {
-      "@id": "fhir:DocumentReference.securityLabel",
+      "@id": "fhir:securityLabel",
       "@context": "codeableconcept.context.jsonld"
     },
     "content": {

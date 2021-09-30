@@ -6,59 +6,59 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "extension:Parent": {
-      "@id": "fhir:DomainResource.extension:Parent",
+      "@id": "fhir:extension:Parent",
       "@context": "extension.context.jsonld"
     },
     "extension:Sibling": {
-      "@id": "fhir:DomainResource.extension:Sibling",
+      "@id": "fhir:extension:Sibling",
       "@context": "extension.context.jsonld"
     },
     "extension:Observation": {
-      "@id": "fhir:DomainResource.extension:Observation",
+      "@id": "fhir:extension:Observation",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:FamilyMemberHistory.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:FamilyMemberHistory.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:FamilyMemberHistory.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "status": {
@@ -66,27 +66,27 @@
       "@context": "string.context.jsonld"
     },
     "dataAbsentReason": {
-      "@id": "fhir:FamilyMemberHistory.dataAbsentReason",
+      "@id": "fhir:dataAbsentReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:FamilyMemberHistory.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:FamilyMemberHistory.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "name": {
-      "@id": "fhir:FamilyMemberHistory.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "relationship:Relationship": {
-      "@id": "fhir:FamilyMemberHistory.relationship:Relationship",
+      "@id": "fhir:relationship:Relationship",
       "@context": "codeableconcept.context.jsonld"
     },
     "sex:Sex": {
-      "@id": "fhir:FamilyMemberHistory.sex:Sex",
+      "@id": "fhir:sex:Sex",
       "@context": "codeableconcept.context.jsonld"
     },
     "bornPeriod": {
@@ -114,7 +114,7 @@
       "@context": "string.context.jsonld"
     },
     "estimatedAge": {
-      "@id": "fhir:FamilyMemberHistory.estimatedAge",
+      "@id": "fhir:estimatedAge",
       "@context": "boolean.context.jsonld"
     },
     "deceasedBoolean": {
@@ -138,15 +138,15 @@
       "@context": "string.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:FamilyMemberHistory.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:FamilyMemberHistory.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:FamilyMemberHistory.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "condition:Condition": {

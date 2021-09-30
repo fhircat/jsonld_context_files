@@ -45,10 +45,6 @@
       "@id": "fhir:TerminologyCapabilities.url",
       "@context": "uri.context.jsonld"
     },
-    "identifier": {
-      "@id": "fhir:TerminologyCapabilities.identifier",
-      "@context": "identifier.context.jsonld"
-    },
     "version": {
       "@id": "fhir:TerminologyCapabilities.version",
       "@context": "string.context.jsonld"

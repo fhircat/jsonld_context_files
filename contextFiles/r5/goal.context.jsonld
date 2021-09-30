@@ -57,10 +57,6 @@
       "@id": "fhir:Goal.category",
       "@context": "codeableconcept.context.jsonld"
     },
-    "continuous": {
-      "@id": "fhir:Goal.continuous",
-      "@context": "boolean.context.jsonld"
-    },
     "priority": {
       "@id": "fhir:Goal.priority",
       "@context": "codeableconcept.context.jsonld"
@@ -105,9 +101,13 @@
       "@id": "fhir:Goal.note",
       "@context": "annotation.context.jsonld"
     },
-    "outcome": {
-      "@id": "fhir:Goal.outcome",
-      "@context": "codeablereference.context.jsonld"
+    "outcomeCode": {
+      "@id": "fhir:Goal.outcomeCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "outcomeReference": {
+      "@id": "fhir:Goal.outcomeReference",
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

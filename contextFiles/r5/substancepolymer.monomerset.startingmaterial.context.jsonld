@@ -17,12 +17,12 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "code": {
-      "@id": "fhir:SubstancePolymer.monomerSet.startingMaterial.code",
+    "material": {
+      "@id": "fhir:SubstancePolymer.monomerSet.startingMaterial.material",
       "@context": "codeableconcept.context.jsonld"
     },
-    "category": {
-      "@id": "fhir:SubstancePolymer.monomerSet.startingMaterial.category",
+    "type": {
+      "@id": "fhir:SubstancePolymer.monomerSet.startingMaterial.type",
       "@context": "codeableconcept.context.jsonld"
     },
     "isDefining": {

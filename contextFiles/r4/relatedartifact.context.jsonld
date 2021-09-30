@@ -6,11 +6,11 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "type": {
@@ -18,27 +18,27 @@
       "@context": "string.context.jsonld"
     },
     "label": {
-      "@id": "fhir:RelatedArtifact.label",
+      "@id": "fhir:label",
       "@context": "string.context.jsonld"
     },
     "display": {
-      "@id": "fhir:RelatedArtifact.display",
+      "@id": "fhir:display",
       "@context": "string.context.jsonld"
     },
     "citation": {
-      "@id": "fhir:RelatedArtifact.citation",
+      "@id": "fhir:citation",
       "@context": "markdown.context.jsonld"
     },
     "url": {
-      "@id": "fhir:RelatedArtifact.url",
+      "@id": "fhir:url",
       "@context": "url.context.jsonld"
     },
     "document": {
-      "@id": "fhir:RelatedArtifact.document",
+      "@id": "fhir:document",
       "@context": "attachment.context.jsonld"
     },
     "resource": {
-      "@id": "fhir:RelatedArtifact.resource",
+      "@id": "fhir:resource",
       "@context": "canonical.context.jsonld"
     },
     "index": {

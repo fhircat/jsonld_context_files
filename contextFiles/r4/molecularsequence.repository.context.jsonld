@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
@@ -22,23 +22,23 @@
       "@context": "string.context.jsonld"
     },
     "url": {
-      "@id": "fhir:MolecularSequence.repository.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "name": {
-      "@id": "fhir:MolecularSequence.repository.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "datasetId": {
-      "@id": "fhir:MolecularSequence.repository.datasetId",
+      "@id": "fhir:datasetId",
       "@context": "string.context.jsonld"
     },
     "variantsetId": {
-      "@id": "fhir:MolecularSequence.repository.variantsetId",
+      "@id": "fhir:variantsetId",
       "@context": "string.context.jsonld"
     },
     "readsetId": {
-      "@id": "fhir:MolecularSequence.repository.readsetId",
+      "@id": "fhir:readsetId",
       "@context": "string.context.jsonld"
     },
     "index": {

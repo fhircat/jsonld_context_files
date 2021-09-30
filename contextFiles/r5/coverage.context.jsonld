@@ -63,7 +63,7 @@
     },
     "subscriberId": {
       "@id": "fhir:Coverage.subscriberId",
-      "@context": "identifier.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "beneficiary": {
       "@id": "fhir:Coverage.beneficiary",

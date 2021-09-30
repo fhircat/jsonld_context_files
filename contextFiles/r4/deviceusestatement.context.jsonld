@@ -10,43 +10,43 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:DeviceUseStatement.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:DeviceUseStatement.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -54,11 +54,11 @@
       "@context": "string.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:DeviceUseStatement.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "derivedFrom": {
-      "@id": "fhir:DeviceUseStatement.derivedFrom",
+      "@id": "fhir:derivedFrom",
       "@context": "reference.context.jsonld"
     },
     "timingTiming": {
@@ -74,31 +74,31 @@
       "@context": "datetime.context.jsonld"
     },
     "recordedOn": {
-      "@id": "fhir:DeviceUseStatement.recordedOn",
+      "@id": "fhir:recordedOn",
       "@context": "datetime.context.jsonld"
     },
     "source": {
-      "@id": "fhir:DeviceUseStatement.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "device": {
-      "@id": "fhir:DeviceUseStatement.device",
+      "@id": "fhir:device",
       "@context": "reference.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:DeviceUseStatement.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:DeviceUseStatement.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:DeviceUseStatement.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:DeviceUseStatement.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

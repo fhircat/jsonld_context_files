@@ -129,9 +129,13 @@
       "@id": "fhir:FamilyMemberHistory.deceasedString",
       "@context": "string.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:FamilyMemberHistory.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:FamilyMemberHistory.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:FamilyMemberHistory.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:FamilyMemberHistory.note",
@@ -140,10 +144,6 @@
     "condition": {
       "@id": "fhir:FamilyMemberHistory.condition",
       "@context": "familymemberhistory.condition.context.jsonld"
-    },
-    "procedure": {
-      "@id": "fhir:FamilyMemberHistory.procedure",
-      "@context": "familymemberhistory.procedure.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

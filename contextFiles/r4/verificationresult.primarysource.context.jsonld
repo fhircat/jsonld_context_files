@@ -6,43 +6,43 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "who": {
-      "@id": "fhir:VerificationResult.primarySource.who",
+      "@id": "fhir:who",
       "@context": "reference.context.jsonld"
     },
     "type": {
-      "@id": "fhir:VerificationResult.primarySource.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "communicationMethod": {
-      "@id": "fhir:VerificationResult.primarySource.communicationMethod",
+      "@id": "fhir:communicationMethod",
       "@context": "codeableconcept.context.jsonld"
     },
     "validationStatus": {
-      "@id": "fhir:VerificationResult.primarySource.validationStatus",
+      "@id": "fhir:validationStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "validationDate": {
-      "@id": "fhir:VerificationResult.primarySource.validationDate",
+      "@id": "fhir:validationDate",
       "@context": "datetime.context.jsonld"
     },
     "canPushUpdates": {
-      "@id": "fhir:VerificationResult.primarySource.canPushUpdates",
+      "@id": "fhir:canPushUpdates",
       "@context": "codeableconcept.context.jsonld"
     },
     "pushTypeAvailable": {
-      "@id": "fhir:VerificationResult.primarySource.pushTypeAvailable",
+      "@id": "fhir:pushTypeAvailable",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

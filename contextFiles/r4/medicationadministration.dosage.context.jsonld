@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "text": {
-      "@id": "fhir:MedicationAdministration.dosage.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "site": {
-      "@id": "fhir:MedicationAdministration.dosage.site",
+      "@id": "fhir:site",
       "@context": "codeableconcept.context.jsonld"
     },
     "route": {
-      "@id": "fhir:MedicationAdministration.dosage.route",
+      "@id": "fhir:route",
       "@context": "codeableconcept.context.jsonld"
     },
     "method": {
-      "@id": "fhir:MedicationAdministration.dosage.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "dose": {
-      "@id": "fhir:MedicationAdministration.dosage.dose",
+      "@id": "fhir:dose",
       "@context": "quantity.context.jsonld"
     },
     "rateRatio": {

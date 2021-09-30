@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "firstDose": {
-      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.firstDose",
+      "@id": "fhir:firstDose",
       "@context": "quantity.context.jsonld"
     },
     "maxSingleDose": {
-      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.maxSingleDose",
+      "@id": "fhir:maxSingleDose",
       "@context": "quantity.context.jsonld"
     },
     "maxDosePerDay": {
-      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.maxDosePerDay",
+      "@id": "fhir:maxDosePerDay",
       "@context": "quantity.context.jsonld"
     },
     "maxDosePerTreatmentPeriod": {
-      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.maxDosePerTreatmentPeriod",
+      "@id": "fhir:maxDosePerTreatmentPeriod",
       "@context": "ratio.context.jsonld"
     },
     "maxTreatmentPeriod": {
-      "@id": "fhir:MedicinalProductPharmaceutical.routeOfAdministration.maxTreatmentPeriod",
+      "@id": "fhir:maxTreatmentPeriod",
       "@context": "duration.context.jsonld"
     },
     "targetSpecies": {

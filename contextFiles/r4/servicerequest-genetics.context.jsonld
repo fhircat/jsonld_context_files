@@ -6,63 +6,63 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "extension:Item": {
-      "@id": "fhir:DomainResource.extension:Item",
+      "@id": "fhir:extension:Item",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ServiceRequest.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:ServiceRequest.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:ServiceRequest.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:ServiceRequest.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "replaces": {
-      "@id": "fhir:ServiceRequest.replaces",
+      "@id": "fhir:replaces",
       "@context": "reference.context.jsonld"
     },
     "requisition": {
-      "@id": "fhir:ServiceRequest.requisition",
+      "@id": "fhir:requisition",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -74,7 +74,7 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:ServiceRequest.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
@@ -82,15 +82,15 @@
       "@context": "string.context.jsonld"
     },
     "doNotPerform": {
-      "@id": "fhir:ServiceRequest.doNotPerform",
+      "@id": "fhir:doNotPerform",
       "@context": "boolean.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ServiceRequest.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "orderDetail": {
-      "@id": "fhir:ServiceRequest.orderDetail",
+      "@id": "fhir:orderDetail",
       "@context": "codeableconcept.context.jsonld"
     },
     "quantityQuantity": {
@@ -106,11 +106,11 @@
       "@context": "range.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:ServiceRequest.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:ServiceRequest.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "occurrenceDateTime": {
@@ -134,63 +134,63 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "authoredOn": {
-      "@id": "fhir:ServiceRequest.authoredOn",
+      "@id": "fhir:authoredOn",
       "@context": "datetime.context.jsonld"
     },
     "requester": {
-      "@id": "fhir:ServiceRequest.requester",
+      "@id": "fhir:requester",
       "@context": "reference.context.jsonld"
     },
     "performerType": {
-      "@id": "fhir:ServiceRequest.performerType",
+      "@id": "fhir:performerType",
       "@context": "codeableconcept.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:ServiceRequest.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "locationCode": {
-      "@id": "fhir:ServiceRequest.locationCode",
+      "@id": "fhir:locationCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "locationReference": {
-      "@id": "fhir:ServiceRequest.locationReference",
+      "@id": "fhir:locationReference",
       "@context": "reference.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:ServiceRequest.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:ServiceRequest.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "insurance": {
-      "@id": "fhir:ServiceRequest.insurance",
+      "@id": "fhir:insurance",
       "@context": "reference.context.jsonld"
     },
     "supportingInfo": {
-      "@id": "fhir:ServiceRequest.supportingInfo",
+      "@id": "fhir:supportingInfo",
       "@context": "reference.context.jsonld"
     },
     "specimen": {
-      "@id": "fhir:ServiceRequest.specimen",
+      "@id": "fhir:specimen",
       "@context": "reference.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:ServiceRequest.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:ServiceRequest.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "patientInstruction": {
-      "@id": "fhir:ServiceRequest.patientInstruction",
+      "@id": "fhir:patientInstruction",
       "@context": "string.context.jsonld"
     },
     "relevantHistory": {
-      "@id": "fhir:ServiceRequest.relevantHistory",
+      "@id": "fhir:relevantHistory",
       "@context": "reference.context.jsonld"
     },
     "index": {

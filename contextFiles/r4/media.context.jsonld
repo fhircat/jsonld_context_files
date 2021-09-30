@@ -10,47 +10,47 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Media.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:Media.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:Media.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -58,23 +58,23 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Media.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "modality": {
-      "@id": "fhir:Media.modality",
+      "@id": "fhir:modality",
       "@context": "codeableconcept.context.jsonld"
     },
     "view": {
-      "@id": "fhir:Media.view",
+      "@id": "fhir:view",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Media.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Media.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "createdDateTime": {
@@ -86,51 +86,51 @@
       "@context": "period.context.jsonld"
     },
     "issued": {
-      "@id": "fhir:Media.issued",
+      "@id": "fhir:issued",
       "@context": "instant.context.jsonld"
     },
     "operator": {
-      "@id": "fhir:Media.operator",
+      "@id": "fhir:operator",
       "@context": "reference.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:Media.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:Media.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "deviceName": {
-      "@id": "fhir:Media.deviceName",
+      "@id": "fhir:deviceName",
       "@context": "string.context.jsonld"
     },
     "device": {
-      "@id": "fhir:Media.device",
+      "@id": "fhir:device",
       "@context": "reference.context.jsonld"
     },
     "height": {
-      "@id": "fhir:Media.height",
+      "@id": "fhir:height",
       "@context": "positiveint.context.jsonld"
     },
     "width": {
-      "@id": "fhir:Media.width",
+      "@id": "fhir:width",
       "@context": "positiveint.context.jsonld"
     },
     "frames": {
-      "@id": "fhir:Media.frames",
+      "@id": "fhir:frames",
       "@context": "positiveint.context.jsonld"
     },
     "duration": {
-      "@id": "fhir:Media.duration",
+      "@id": "fhir:duration",
       "@context": "decimal.context.jsonld"
     },
     "content": {
-      "@id": "fhir:Media.content",
+      "@id": "fhir:content",
       "@context": "attachment.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Media.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

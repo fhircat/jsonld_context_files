@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "longitude": {
-      "@id": "fhir:Location.position.longitude",
+      "@id": "fhir:longitude",
       "@context": "decimal.context.jsonld"
     },
     "latitude": {
-      "@id": "fhir:Location.position.latitude",
+      "@id": "fhir:latitude",
       "@context": "decimal.context.jsonld"
     },
     "altitude": {
-      "@id": "fhir:Location.position.altitude",
+      "@id": "fhir:altitude",
       "@context": "decimal.context.jsonld"
     },
     "index": {

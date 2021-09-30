@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "material": {
-      "@id": "fhir:SpecimenDefinition.typeTested.container.material",
+      "@id": "fhir:material",
       "@context": "codeableconcept.context.jsonld"
     },
     "type": {
-      "@id": "fhir:SpecimenDefinition.typeTested.container.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "cap": {
-      "@id": "fhir:SpecimenDefinition.typeTested.container.cap",
+      "@id": "fhir:cap",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:SpecimenDefinition.typeTested.container.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "capacity": {
-      "@id": "fhir:SpecimenDefinition.typeTested.container.capacity",
+      "@id": "fhir:capacity",
       "@context": "quantity.context.jsonld"
     },
     "minimumVolumeQuantity": {
@@ -50,7 +50,7 @@
       "@context": "specimendefinition.typetested.container.additive.context.jsonld"
     },
     "preparation": {
-      "@id": "fhir:SpecimenDefinition.typeTested.container.preparation",
+      "@id": "fhir:preparation",
       "@context": "string.context.jsonld"
     },
     "index": {

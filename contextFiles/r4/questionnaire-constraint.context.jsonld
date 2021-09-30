@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "extension:key": {
-      "@id": "fhir:Element.extension:key",
+      "@id": "fhir:extension:key",
       "@context": "extension.context.jsonld"
     },
     "extension:requirements": {
-      "@id": "fhir:Element.extension:requirements",
+      "@id": "fhir:extension:requirements",
       "@context": "extension.context.jsonld"
     },
     "extension:severity": {
-      "@id": "fhir:Element.extension:severity",
+      "@id": "fhir:extension:severity",
       "@context": "extension.context.jsonld"
     },
     "extension:expression": {
-      "@id": "fhir:Element.extension:expression",
+      "@id": "fhir:extension:expression",
       "@context": "extension.context.jsonld"
     },
     "extension:human": {
-      "@id": "fhir:Element.extension:human",
+      "@id": "fhir:extension:human",
       "@context": "extension.context.jsonld"
     },
     "extension:location": {
-      "@id": "fhir:Element.extension:location",
+      "@id": "fhir:extension:location",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:Extension.url",
+      "@id": "fhir:url",
       "@context": "string.context.jsonld"
     },
     "valueBase64Binary": {

@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:CoverageEligibilityRequest.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,7 +50,7 @@
       "@context": "string.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:CoverageEligibilityRequest.priority",
+      "@id": "fhir:priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
@@ -58,7 +58,7 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:CoverageEligibilityRequest.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "servicedDate": {
@@ -70,23 +70,23 @@
       "@context": "period.context.jsonld"
     },
     "created": {
-      "@id": "fhir:CoverageEligibilityRequest.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "enterer": {
-      "@id": "fhir:CoverageEligibilityRequest.enterer",
+      "@id": "fhir:enterer",
       "@context": "reference.context.jsonld"
     },
     "provider": {
-      "@id": "fhir:CoverageEligibilityRequest.provider",
+      "@id": "fhir:provider",
       "@context": "reference.context.jsonld"
     },
     "insurer": {
-      "@id": "fhir:CoverageEligibilityRequest.insurer",
+      "@id": "fhir:insurer",
       "@context": "reference.context.jsonld"
     },
     "facility": {
-      "@id": "fhir:CoverageEligibilityRequest.facility",
+      "@id": "fhir:facility",
       "@context": "reference.context.jsonld"
     },
     "supportingInfo": {

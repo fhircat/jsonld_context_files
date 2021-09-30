@@ -25,10 +25,6 @@
       "@id": "fhir:Provenance.entity.what",
       "@context": "reference.context.jsonld"
     },
-    "agent": {
-      "@id": "fhir:Provenance.entity.agent",
-      "@context": "provenance.agent.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

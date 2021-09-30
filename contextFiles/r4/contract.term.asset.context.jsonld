@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "scope": {
-      "@id": "fhir:Contract.term.asset.scope",
+      "@id": "fhir:scope",
       "@context": "codeableconcept.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Contract.term.asset.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "typeReference": {
-      "@id": "fhir:Contract.term.asset.typeReference",
+      "@id": "fhir:typeReference",
       "@context": "reference.context.jsonld"
     },
     "subtype": {
-      "@id": "fhir:Contract.term.asset.subtype",
+      "@id": "fhir:subtype",
       "@context": "codeableconcept.context.jsonld"
     },
     "relationship": {
-      "@id": "fhir:Contract.term.asset.relationship",
+      "@id": "fhir:relationship",
       "@context": "coding.context.jsonld"
     },
     "context": {
@@ -42,35 +42,31 @@
       "@context": "contract.term.asset.context.context.jsonld"
     },
     "condition": {
-      "@id": "fhir:Contract.term.asset.condition",
+      "@id": "fhir:condition",
       "@context": "string.context.jsonld"
     },
     "periodType": {
-      "@id": "fhir:Contract.term.asset.periodType",
+      "@id": "fhir:periodType",
       "@context": "codeableconcept.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Contract.term.asset.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "usePeriod": {
-      "@id": "fhir:Contract.term.asset.usePeriod",
+      "@id": "fhir:usePeriod",
       "@context": "period.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Contract.term.asset.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "linkId": {
-      "@id": "fhir:Contract.term.asset.linkId",
+      "@id": "fhir:linkId",
       "@context": "string.context.jsonld"
     },
-    "answer": {
-      "@id": "fhir:Contract.term.asset.answer",
-      "@context": "contract.term.offer.answer.context.jsonld"
-    },
     "securityLabelNumber": {
-      "@id": "fhir:Contract.term.asset.securityLabelNumber",
+      "@id": "fhir:securityLabelNumber",
       "@context": "unsignedint.context.jsonld"
     },
     "valuedItem": {

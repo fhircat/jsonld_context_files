@@ -10,35 +10,35 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "status": {
@@ -46,23 +46,23 @@
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:Subscription.contact",
+      "@id": "fhir:contact",
       "@context": "contactpoint.context.jsonld"
     },
     "end": {
-      "@id": "fhir:Subscription.end",
+      "@id": "fhir:end",
       "@context": "instant.context.jsonld"
     },
     "reason": {
-      "@id": "fhir:Subscription.reason",
+      "@id": "fhir:reason",
       "@context": "string.context.jsonld"
     },
     "criteria": {
-      "@id": "fhir:Subscription.criteria",
+      "@id": "fhir:criteria",
       "@context": "string.context.jsonld"
     },
     "error": {
-      "@id": "fhir:Subscription.error",
+      "@id": "fhir:error",
       "@context": "string.context.jsonld"
     },
     "channel": {

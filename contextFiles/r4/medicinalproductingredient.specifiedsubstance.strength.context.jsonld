@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "presentation": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.presentation",
+      "@id": "fhir:presentation",
       "@context": "ratio.context.jsonld"
     },
     "presentationLowLimit": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.presentationLowLimit",
+      "@id": "fhir:presentationLowLimit",
       "@context": "ratio.context.jsonld"
     },
     "concentration": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.concentration",
+      "@id": "fhir:concentration",
       "@context": "ratio.context.jsonld"
     },
     "concentrationLowLimit": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.concentrationLowLimit",
+      "@id": "fhir:concentrationLowLimit",
       "@context": "ratio.context.jsonld"
     },
     "measurementPoint": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.measurementPoint",
+      "@id": "fhir:measurementPoint",
       "@context": "string.context.jsonld"
     },
     "country": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.strength.country",
+      "@id": "fhir:country",
       "@context": "codeableconcept.context.jsonld"
     },
     "referenceStrength": {

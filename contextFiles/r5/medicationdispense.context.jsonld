@@ -45,10 +45,6 @@
       "@id": "fhir:MedicationDispense.identifier",
       "@context": "identifier.context.jsonld"
     },
-    "basedOn": {
-      "@id": "fhir:MedicationDispense.basedOn",
-      "@context": "reference.context.jsonld"
-    },
     "partOf": {
       "@id": "fhir:MedicationDispense.partOf",
       "@context": "reference.context.jsonld"
@@ -57,24 +53,32 @@
       "@id": "fhir:MedicationDispense.status",
       "@context": "string.context.jsonld"
     },
-    "statusReason": {
-      "@id": "fhir:MedicationDispense.statusReason",
-      "@context": "codeablereference.context.jsonld"
+    "statusReasonCodeableConcept": {
+      "@id": "fhir:MedicationDispense.statusReasonCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "statusReasonReference": {
+      "@id": "fhir:MedicationDispense.statusReasonReference",
+      "@context": "reference.context.jsonld"
     },
     "category": {
       "@id": "fhir:MedicationDispense.category",
       "@context": "codeableconcept.context.jsonld"
     },
-    "medication": {
-      "@id": "fhir:MedicationDispense.medication",
-      "@context": "codeablereference.context.jsonld"
+    "medicationCodeableConcept": {
+      "@id": "fhir:MedicationDispense.medicationCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "medicationReference": {
+      "@id": "fhir:MedicationDispense.medicationReference",
+      "@context": "reference.context.jsonld"
     },
     "subject": {
       "@id": "fhir:MedicationDispense.subject",
       "@context": "reference.context.jsonld"
     },
-    "encounter": {
-      "@id": "fhir:MedicationDispense.encounter",
+    "context": {
+      "@id": "fhir:MedicationDispense.context",
       "@context": "reference.context.jsonld"
     },
     "supportingInformation": {
@@ -124,10 +128,6 @@
     "note": {
       "@id": "fhir:MedicationDispense.note",
       "@context": "annotation.context.jsonld"
-    },
-    "renderedDosageInstruction": {
-      "@id": "fhir:MedicationDispense.renderedDosageInstruction",
-      "@context": "string.context.jsonld"
     },
     "dosageInstruction": {
       "@id": "fhir:MedicationDispense.dosageInstruction",

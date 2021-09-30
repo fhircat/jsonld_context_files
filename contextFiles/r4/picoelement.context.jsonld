@@ -6,63 +6,63 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:EvidenceVariable.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:EvidenceVariable.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:EvidenceVariable.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:EvidenceVariable.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:EvidenceVariable.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "shortTitle": {
-      "@id": "fhir:EvidenceVariable.shortTitle",
+      "@id": "fhir:shortTitle",
       "@context": "string.context.jsonld"
     },
     "subtitle": {
-      "@id": "fhir:EvidenceVariable.subtitle",
+      "@id": "fhir:subtitle",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -70,71 +70,71 @@
       "@context": "string.context.jsonld"
     },
     "date": {
-      "@id": "fhir:EvidenceVariable.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:EvidenceVariable.publisher",
+      "@id": "fhir:publisher",
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:EvidenceVariable.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:EvidenceVariable.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "note": {
-      "@id": "fhir:EvidenceVariable.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:EvidenceVariable.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:EvidenceVariable.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "copyright": {
-      "@id": "fhir:EvidenceVariable.copyright",
+      "@id": "fhir:copyright",
       "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
-      "@id": "fhir:EvidenceVariable.approvalDate",
+      "@id": "fhir:approvalDate",
       "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
-      "@id": "fhir:EvidenceVariable.lastReviewDate",
+      "@id": "fhir:lastReviewDate",
       "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
-      "@id": "fhir:EvidenceVariable.effectivePeriod",
+      "@id": "fhir:effectivePeriod",
       "@context": "period.context.jsonld"
     },
     "topic": {
-      "@id": "fhir:EvidenceVariable.topic",
+      "@id": "fhir:topic",
       "@context": "codeableconcept.context.jsonld"
     },
     "author": {
-      "@id": "fhir:EvidenceVariable.author",
+      "@id": "fhir:author",
       "@context": "contactdetail.context.jsonld"
     },
     "editor": {
-      "@id": "fhir:EvidenceVariable.editor",
+      "@id": "fhir:editor",
       "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
-      "@id": "fhir:EvidenceVariable.reviewer",
+      "@id": "fhir:reviewer",
       "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
-      "@id": "fhir:EvidenceVariable.endorser",
+      "@id": "fhir:endorser",
       "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
-      "@id": "fhir:EvidenceVariable.relatedArtifact",
+      "@id": "fhir:relatedArtifact",
       "@context": "relatedartifact.context.jsonld"
     },
     "type": {

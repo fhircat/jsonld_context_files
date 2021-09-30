@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "group": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.group",
+      "@id": "fhir:group",
       "@context": "codeableconcept.context.jsonld"
     },
     "confidentiality": {
-      "@id": "fhir:MedicinalProductIngredient.specifiedSubstance.confidentiality",
+      "@id": "fhir:confidentiality",
       "@context": "codeableconcept.context.jsonld"
     },
     "strength": {

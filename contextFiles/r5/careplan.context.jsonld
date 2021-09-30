@@ -115,7 +115,7 @@
     },
     "addresses": {
       "@id": "fhir:CarePlan.addresses",
-      "@context": "codeablereference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "supportingInfo": {
       "@id": "fhir:CarePlan.supportingInfo",

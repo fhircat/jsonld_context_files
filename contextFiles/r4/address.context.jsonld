@@ -6,11 +6,11 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "use": {
@@ -22,35 +22,35 @@
       "@context": "string.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Address.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "line": {
-      "@id": "fhir:Address.line",
+      "@id": "fhir:line",
       "@context": "string.context.jsonld"
     },
     "city": {
-      "@id": "fhir:Address.city",
+      "@id": "fhir:city",
       "@context": "string.context.jsonld"
     },
     "district": {
-      "@id": "fhir:Address.district",
+      "@id": "fhir:district",
       "@context": "string.context.jsonld"
     },
     "state": {
-      "@id": "fhir:Address.state",
+      "@id": "fhir:state",
       "@context": "string.context.jsonld"
     },
     "postalCode": {
-      "@id": "fhir:Address.postalCode",
+      "@id": "fhir:postalCode",
       "@context": "string.context.jsonld"
     },
     "country": {
-      "@id": "fhir:Address.country",
+      "@id": "fhir:country",
       "@context": "string.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Address.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "index": {

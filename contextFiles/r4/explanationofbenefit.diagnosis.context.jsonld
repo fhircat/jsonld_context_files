@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "sequence": {
-      "@id": "fhir:ExplanationOfBenefit.diagnosis.sequence",
+      "@id": "fhir:sequence",
       "@context": "positiveint.context.jsonld"
     },
     "diagnosisCodeableConcept": {
@@ -30,15 +30,15 @@
       "@context": "reference.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ExplanationOfBenefit.diagnosis.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "onAdmission": {
-      "@id": "fhir:ExplanationOfBenefit.diagnosis.onAdmission",
+      "@id": "fhir:onAdmission",
       "@context": "codeableconcept.context.jsonld"
     },
     "packageCode": {
-      "@id": "fhir:ExplanationOfBenefit.diagnosis.packageCode",
+      "@id": "fhir:packageCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

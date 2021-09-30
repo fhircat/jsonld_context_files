@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Flag.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,27 +50,27 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Flag.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Flag.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Flag.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Flag.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Flag.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "author": {
-      "@id": "fhir:Flag.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "index": {

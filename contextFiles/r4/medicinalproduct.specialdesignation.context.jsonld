@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProduct.specialDesignation.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MedicinalProduct.specialDesignation.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "intendedUse": {
-      "@id": "fhir:MedicinalProduct.specialDesignation.intendedUse",
+      "@id": "fhir:intendedUse",
       "@context": "codeableconcept.context.jsonld"
     },
     "indicationCodeableConcept": {
@@ -38,15 +38,15 @@
       "@context": "reference.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MedicinalProduct.specialDesignation.status",
+      "@id": "fhir:status",
       "@context": "codeableconcept.context.jsonld"
     },
     "date": {
-      "@id": "fhir:MedicinalProduct.specialDesignation.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "species": {
-      "@id": "fhir:MedicinalProduct.specialDesignation.species",
+      "@id": "fhir:species",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

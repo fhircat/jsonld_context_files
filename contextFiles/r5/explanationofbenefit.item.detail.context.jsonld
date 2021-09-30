@@ -65,10 +65,6 @@
       "@id": "fhir:ExplanationOfBenefit.item.detail.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
-    "adjudication": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.adjudication",
-      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
-    },
     "subDetail": {
       "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail",
       "@context": "explanationofbenefit.item.detail.subdetail.context.jsonld"

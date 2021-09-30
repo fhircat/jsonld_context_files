@@ -6,59 +6,51 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "name": {
-      "@id": "fhir:SubstanceSpecification.name.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:SubstanceSpecification.name.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:SubstanceSpecification.name.status",
+      "@id": "fhir:status",
       "@context": "codeableconcept.context.jsonld"
     },
     "preferred": {
-      "@id": "fhir:SubstanceSpecification.name.preferred",
+      "@id": "fhir:preferred",
       "@context": "boolean.context.jsonld"
     },
     "language": {
-      "@id": "fhir:SubstanceSpecification.name.language",
+      "@id": "fhir:language",
       "@context": "codeableconcept.context.jsonld"
     },
     "domain": {
-      "@id": "fhir:SubstanceSpecification.name.domain",
+      "@id": "fhir:domain",
       "@context": "codeableconcept.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:SubstanceSpecification.name.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
-    },
-    "synonym": {
-      "@id": "fhir:SubstanceSpecification.name.synonym",
-      "@context": "substancespecification.name.context.jsonld"
-    },
-    "translation": {
-      "@id": "fhir:SubstanceSpecification.name.translation",
-      "@context": "substancespecification.name.context.jsonld"
     },
     "official": {
       "@id": "fhir:SubstanceSpecification.name.official",
       "@context": "substancespecification.name.official.context.jsonld"
     },
     "source": {
-      "@id": "fhir:SubstanceSpecification.name.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "index": {

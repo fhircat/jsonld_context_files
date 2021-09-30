@@ -10,55 +10,55 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:MedicinalProductUndesirableEffect.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "symptomConditionEffect": {
-      "@id": "fhir:MedicinalProductUndesirableEffect.symptomConditionEffect",
+      "@id": "fhir:symptomConditionEffect",
       "@context": "codeableconcept.context.jsonld"
     },
     "classification": {
-      "@id": "fhir:MedicinalProductUndesirableEffect.classification",
+      "@id": "fhir:classification",
       "@context": "codeableconcept.context.jsonld"
     },
     "frequencyOfOccurrence": {
-      "@id": "fhir:MedicinalProductUndesirableEffect.frequencyOfOccurrence",
+      "@id": "fhir:frequencyOfOccurrence",
       "@context": "codeableconcept.context.jsonld"
     },
     "population": {
-      "@id": "fhir:MedicinalProductUndesirableEffect.population",
+      "@id": "fhir:population",
       "@context": "population.context.jsonld"
     },
     "index": {

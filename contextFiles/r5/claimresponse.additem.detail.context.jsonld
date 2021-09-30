@@ -45,10 +45,6 @@
       "@id": "fhir:ClaimResponse.addItem.detail.noteNumber",
       "@context": "positiveint.context.jsonld"
     },
-    "adjudication": {
-      "@id": "fhir:ClaimResponse.addItem.detail.adjudication",
-      "@context": "claimresponse.item.adjudication.context.jsonld"
-    },
     "subDetail": {
       "@id": "fhir:ClaimResponse.addItem.detail.subDetail",
       "@context": "claimresponse.additem.detail.subdetail.context.jsonld"

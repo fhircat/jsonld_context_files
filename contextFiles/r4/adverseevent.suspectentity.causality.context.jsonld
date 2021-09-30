@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "assessment": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.assessment",
+      "@id": "fhir:assessment",
       "@context": "codeableconcept.context.jsonld"
     },
     "productRelatedness": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.productRelatedness",
+      "@id": "fhir:productRelatedness",
       "@context": "string.context.jsonld"
     },
     "author": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "method": {
-      "@id": "fhir:AdverseEvent.suspectEntity.causality.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

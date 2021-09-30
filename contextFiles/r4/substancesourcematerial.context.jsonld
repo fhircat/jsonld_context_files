@@ -10,75 +10,75 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "sourceMaterialClass": {
-      "@id": "fhir:SubstanceSourceMaterial.sourceMaterialClass",
+      "@id": "fhir:sourceMaterialClass",
       "@context": "codeableconcept.context.jsonld"
     },
     "sourceMaterialType": {
-      "@id": "fhir:SubstanceSourceMaterial.sourceMaterialType",
+      "@id": "fhir:sourceMaterialType",
       "@context": "codeableconcept.context.jsonld"
     },
     "sourceMaterialState": {
-      "@id": "fhir:SubstanceSourceMaterial.sourceMaterialState",
+      "@id": "fhir:sourceMaterialState",
       "@context": "codeableconcept.context.jsonld"
     },
     "organismId": {
-      "@id": "fhir:SubstanceSourceMaterial.organismId",
+      "@id": "fhir:organismId",
       "@context": "identifier.context.jsonld"
     },
     "organismName": {
-      "@id": "fhir:SubstanceSourceMaterial.organismName",
+      "@id": "fhir:organismName",
       "@context": "string.context.jsonld"
     },
     "parentSubstanceId": {
-      "@id": "fhir:SubstanceSourceMaterial.parentSubstanceId",
+      "@id": "fhir:parentSubstanceId",
       "@context": "identifier.context.jsonld"
     },
     "parentSubstanceName": {
-      "@id": "fhir:SubstanceSourceMaterial.parentSubstanceName",
+      "@id": "fhir:parentSubstanceName",
       "@context": "string.context.jsonld"
     },
     "countryOfOrigin": {
-      "@id": "fhir:SubstanceSourceMaterial.countryOfOrigin",
+      "@id": "fhir:countryOfOrigin",
       "@context": "codeableconcept.context.jsonld"
     },
     "geographicalLocation": {
-      "@id": "fhir:SubstanceSourceMaterial.geographicalLocation",
+      "@id": "fhir:geographicalLocation",
       "@context": "string.context.jsonld"
     },
     "developmentStage": {
-      "@id": "fhir:SubstanceSourceMaterial.developmentStage",
+      "@id": "fhir:developmentStage",
       "@context": "codeableconcept.context.jsonld"
     },
     "fractionDescription": {

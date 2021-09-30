@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:MedicationKnowledge.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
@@ -50,19 +50,19 @@
       "@context": "string.context.jsonld"
     },
     "manufacturer": {
-      "@id": "fhir:MedicationKnowledge.manufacturer",
+      "@id": "fhir:manufacturer",
       "@context": "reference.context.jsonld"
     },
     "doseForm": {
-      "@id": "fhir:MedicationKnowledge.doseForm",
+      "@id": "fhir:doseForm",
       "@context": "codeableconcept.context.jsonld"
     },
     "amount": {
-      "@id": "fhir:MedicationKnowledge.amount",
+      "@id": "fhir:amount",
       "@context": "quantity.context.jsonld"
     },
     "synonym": {
-      "@id": "fhir:MedicationKnowledge.synonym",
+      "@id": "fhir:synonym",
       "@context": "string.context.jsonld"
     },
     "relatedMedicationKnowledge": {
@@ -70,11 +70,11 @@
       "@context": "medicationknowledge.relatedmedicationknowledge.context.jsonld"
     },
     "associatedMedication": {
-      "@id": "fhir:MedicationKnowledge.associatedMedication",
+      "@id": "fhir:associatedMedication",
       "@context": "reference.context.jsonld"
     },
     "productType": {
-      "@id": "fhir:MedicationKnowledge.productType",
+      "@id": "fhir:productType",
       "@context": "codeableconcept.context.jsonld"
     },
     "monograph": {
@@ -86,11 +86,11 @@
       "@context": "medicationknowledge.ingredient.context.jsonld"
     },
     "preparationInstruction": {
-      "@id": "fhir:MedicationKnowledge.preparationInstruction",
+      "@id": "fhir:preparationInstruction",
       "@context": "markdown.context.jsonld"
     },
     "intendedRoute": {
-      "@id": "fhir:MedicationKnowledge.intendedRoute",
+      "@id": "fhir:intendedRoute",
       "@context": "codeableconcept.context.jsonld"
     },
     "cost": {
@@ -118,7 +118,7 @@
       "@context": "medicationknowledge.drugcharacteristic.context.jsonld"
     },
     "contraindication": {
-      "@id": "fhir:MedicationKnowledge.contraindication",
+      "@id": "fhir:contraindication",
       "@context": "reference.context.jsonld"
     },
     "regulatory": {

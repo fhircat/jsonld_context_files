@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MeasureReport.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -54,27 +54,27 @@
       "@context": "string.context.jsonld"
     },
     "measure": {
-      "@id": "fhir:MeasureReport.measure",
+      "@id": "fhir:measure",
       "@context": "canonical.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:MeasureReport.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:MeasureReport.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "reporter": {
-      "@id": "fhir:MeasureReport.reporter",
+      "@id": "fhir:reporter",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:MeasureReport.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "improvementNotation": {
-      "@id": "fhir:MeasureReport.improvementNotation",
+      "@id": "fhir:improvementNotation",
       "@context": "codeableconcept.context.jsonld"
     },
     "group": {
@@ -82,7 +82,7 @@
       "@context": "measurereport.group.context.jsonld"
     },
     "evaluatedResource": {
-      "@id": "fhir:MeasureReport.evaluatedResource",
+      "@id": "fhir:evaluatedResource",
       "@context": "reference.context.jsonld"
     },
     "index": {

@@ -6,59 +6,59 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "sequence": {
-      "@id": "fhir:Claim.item.detail.sequence",
+      "@id": "fhir:sequence",
       "@context": "positiveint.context.jsonld"
     },
     "revenue": {
-      "@id": "fhir:Claim.item.detail.revenue",
+      "@id": "fhir:revenue",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Claim.item.detail.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
-      "@id": "fhir:Claim.item.detail.productOrService",
+      "@id": "fhir:productOrService",
       "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
-      "@id": "fhir:Claim.item.detail.modifier",
+      "@id": "fhir:modifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "programCode": {
-      "@id": "fhir:Claim.item.detail.programCode",
+      "@id": "fhir:programCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:Claim.item.detail.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "unitPrice": {
-      "@id": "fhir:Claim.item.detail.unitPrice",
+      "@id": "fhir:unitPrice",
       "@context": "money.context.jsonld"
     },
     "factor": {
-      "@id": "fhir:Claim.item.detail.factor",
+      "@id": "fhir:factor",
       "@context": "decimal.context.jsonld"
     },
     "net": {
-      "@id": "fhir:Claim.item.detail.net",
+      "@id": "fhir:net",
       "@context": "money.context.jsonld"
     },
     "udi": {
-      "@id": "fhir:Claim.item.detail.udi",
+      "@id": "fhir:udi",
       "@context": "reference.context.jsonld"
     },
     "subDetail": {

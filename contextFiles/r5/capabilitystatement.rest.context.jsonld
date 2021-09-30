@@ -37,14 +37,6 @@
       "@id": "fhir:CapabilityStatement.rest.interaction",
       "@context": "capabilitystatement.rest.interaction.context.jsonld"
     },
-    "searchParam": {
-      "@id": "fhir:CapabilityStatement.rest.searchParam",
-      "@context": "capabilitystatement.rest.resource.searchparam.context.jsonld"
-    },
-    "operation": {
-      "@id": "fhir:CapabilityStatement.rest.operation",
-      "@context": "capabilitystatement.rest.resource.operation.context.jsonld"
-    },
     "compartment": {
       "@id": "fhir:CapabilityStatement.rest.compartment",
       "@context": "canonical.context.jsonld"

@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:EpisodeOfCare.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -54,7 +54,7 @@
       "@context": "episodeofcare.statushistory.context.jsonld"
     },
     "type": {
-      "@id": "fhir:EpisodeOfCare.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "diagnosis": {
@@ -62,31 +62,31 @@
       "@context": "episodeofcare.diagnosis.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:EpisodeOfCare.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "managingOrganization": {
-      "@id": "fhir:EpisodeOfCare.managingOrganization",
+      "@id": "fhir:managingOrganization",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:EpisodeOfCare.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "referralRequest": {
-      "@id": "fhir:EpisodeOfCare.referralRequest",
+      "@id": "fhir:referralRequest",
       "@context": "reference.context.jsonld"
     },
     "careManager": {
-      "@id": "fhir:EpisodeOfCare.careManager",
+      "@id": "fhir:careManager",
       "@context": "reference.context.jsonld"
     },
     "team": {
-      "@id": "fhir:EpisodeOfCare.team",
+      "@id": "fhir:team",
       "@context": "reference.context.jsonld"
     },
     "account": {
-      "@id": "fhir:EpisodeOfCare.account",
+      "@id": "fhir:account",
       "@context": "reference.context.jsonld"
     },
     "index": {

@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "substance": {
-      "@id": "fhir:AllergyIntolerance.reaction.substance",
+      "@id": "fhir:substance",
       "@context": "codeableconcept.context.jsonld"
     },
     "manifestation": {
-      "@id": "fhir:AllergyIntolerance.reaction.manifestation",
+      "@id": "fhir:manifestation",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:AllergyIntolerance.reaction.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "onset": {
-      "@id": "fhir:AllergyIntolerance.reaction.onset",
+      "@id": "fhir:onset",
       "@context": "datetime.context.jsonld"
     },
     "severity": {
@@ -38,11 +38,11 @@
       "@context": "string.context.jsonld"
     },
     "exposureRoute": {
-      "@id": "fhir:AllergyIntolerance.reaction.exposureRoute",
+      "@id": "fhir:exposureRoute",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:AllergyIntolerance.reaction.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

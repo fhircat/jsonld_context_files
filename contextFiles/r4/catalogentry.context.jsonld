@@ -10,59 +10,59 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:CatalogEntry.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:CatalogEntry.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "orderable": {
-      "@id": "fhir:CatalogEntry.orderable",
+      "@id": "fhir:orderable",
       "@context": "boolean.context.jsonld"
     },
     "referencedItem": {
-      "@id": "fhir:CatalogEntry.referencedItem",
+      "@id": "fhir:referencedItem",
       "@context": "reference.context.jsonld"
     },
     "additionalIdentifier": {
-      "@id": "fhir:CatalogEntry.additionalIdentifier",
+      "@id": "fhir:additionalIdentifier",
       "@context": "identifier.context.jsonld"
     },
     "classification": {
-      "@id": "fhir:CatalogEntry.classification",
+      "@id": "fhir:classification",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
@@ -70,23 +70,23 @@
       "@context": "string.context.jsonld"
     },
     "validityPeriod": {
-      "@id": "fhir:CatalogEntry.validityPeriod",
+      "@id": "fhir:validityPeriod",
       "@context": "period.context.jsonld"
     },
     "validTo": {
-      "@id": "fhir:CatalogEntry.validTo",
+      "@id": "fhir:validTo",
       "@context": "datetime.context.jsonld"
     },
     "lastUpdated": {
-      "@id": "fhir:CatalogEntry.lastUpdated",
+      "@id": "fhir:lastUpdated",
       "@context": "datetime.context.jsonld"
     },
     "additionalCharacteristic": {
-      "@id": "fhir:CatalogEntry.additionalCharacteristic",
+      "@id": "fhir:additionalCharacteristic",
       "@context": "codeableconcept.context.jsonld"
     },
     "additionalClassification": {
-      "@id": "fhir:CatalogEntry.additionalClassification",
+      "@id": "fhir:additionalClassification",
       "@context": "codeableconcept.context.jsonld"
     },
     "relatedEntry": {

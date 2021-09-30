@@ -81,9 +81,13 @@
       "@id": "fhir:Event.location",
       "@context": "reference.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:Event.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:Event.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Event.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:Event.note",

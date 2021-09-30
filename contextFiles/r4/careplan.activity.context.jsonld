@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "outcomeCodeableConcept": {
-      "@id": "fhir:CarePlan.activity.outcomeCodeableConcept",
+      "@id": "fhir:outcomeCodeableConcept",
       "@context": "codeableconcept.context.jsonld"
     },
     "outcomeReference": {
-      "@id": "fhir:CarePlan.activity.outcomeReference",
+      "@id": "fhir:outcomeReference",
       "@context": "reference.context.jsonld"
     },
     "progress": {
-      "@id": "fhir:CarePlan.activity.progress",
+      "@id": "fhir:progress",
       "@context": "annotation.context.jsonld"
     },
     "reference": {
-      "@id": "fhir:CarePlan.activity.reference",
+      "@id": "fhir:reference",
       "@context": "reference.context.jsonld"
     },
     "detail": {

@@ -6,68 +6,64 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "sequence": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.sequence",
+      "@id": "fhir:sequence",
       "@context": "positiveint.context.jsonld"
     },
     "revenue": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.revenue",
+      "@id": "fhir:revenue",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.productOrService",
+      "@id": "fhir:productOrService",
       "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.modifier",
+      "@id": "fhir:modifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "programCode": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.programCode",
+      "@id": "fhir:programCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "unitPrice": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.unitPrice",
+      "@id": "fhir:unitPrice",
       "@context": "money.context.jsonld"
     },
     "factor": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.factor",
+      "@id": "fhir:factor",
       "@context": "decimal.context.jsonld"
     },
     "net": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.net",
+      "@id": "fhir:net",
       "@context": "money.context.jsonld"
     },
     "udi": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.udi",
+      "@id": "fhir:udi",
       "@context": "reference.context.jsonld"
     },
     "noteNumber": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.noteNumber",
+      "@id": "fhir:noteNumber",
       "@context": "positiveint.context.jsonld"
-    },
-    "adjudication": {
-      "@id": "fhir:ExplanationOfBenefit.item.detail.subDetail.adjudication",
-      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

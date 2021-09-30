@@ -17,10 +17,6 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "link": {
-      "@id": "fhir:Bundle.entry.link",
-      "@context": "bundle.link.context.jsonld"
-    },
     "fullUrl": {
       "@id": "fhir:Bundle.entry.fullUrl",
       "@context": "uri.context.jsonld"

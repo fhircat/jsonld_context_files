@@ -5,6 +5,10 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
     "id": {
       "@id": "fhir:Resource.id",
       "@context": "string.context.jsonld"
@@ -49,8 +53,20 @@
       "@id": "fhir:Evidence.version",
       "@context": "string.context.jsonld"
     },
+    "name": {
+      "@id": "fhir:Evidence.name",
+      "@context": "string.context.jsonld"
+    },
     "title": {
       "@id": "fhir:Evidence.title",
+      "@context": "string.context.jsonld"
+    },
+    "shortTitle": {
+      "@id": "fhir:Evidence.shortTitle",
+      "@context": "string.context.jsonld"
+    },
+    "subtitle": {
+      "@id": "fhir:Evidence.subtitle",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -61,9 +77,33 @@
       "@id": "fhir:Evidence.date",
       "@context": "datetime.context.jsonld"
     },
+    "publisher": {
+      "@id": "fhir:Evidence.publisher",
+      "@context": "string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:Evidence.contact",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Evidence.description",
+      "@context": "markdown.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Evidence.note",
+      "@context": "annotation.context.jsonld"
+    },
     "useContext": {
       "@id": "fhir:Evidence.useContext",
       "@context": "usagecontext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:Evidence.jurisdiction",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:Evidence.copyright",
+      "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
       "@id": "fhir:Evidence.approvalDate",
@@ -73,49 +113,45 @@
       "@id": "fhir:Evidence.lastReviewDate",
       "@context": "date.context.jsonld"
     },
-    "contributor": {
-      "@id": "fhir:Evidence.contributor",
-      "@context": "contributor.context.jsonld"
+    "effectivePeriod": {
+      "@id": "fhir:Evidence.effectivePeriod",
+      "@context": "period.context.jsonld"
+    },
+    "topic": {
+      "@id": "fhir:Evidence.topic",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "author": {
+      "@id": "fhir:Evidence.author",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "editor": {
+      "@id": "fhir:Evidence.editor",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "reviewer": {
+      "@id": "fhir:Evidence.reviewer",
+      "@context": "contactdetail.context.jsonld"
+    },
+    "endorser": {
+      "@id": "fhir:Evidence.endorser",
+      "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
       "@id": "fhir:Evidence.relatedArtifact",
       "@context": "relatedartifact.context.jsonld"
     },
-    "description": {
-      "@id": "fhir:Evidence.description",
-      "@context": "markdown.context.jsonld"
+    "exposureBackground": {
+      "@id": "fhir:Evidence.exposureBackground",
+      "@context": "reference.context.jsonld"
     },
-    "assertion": {
-      "@id": "fhir:Evidence.assertion",
-      "@context": "markdown.context.jsonld"
+    "exposureVariant": {
+      "@id": "fhir:Evidence.exposureVariant",
+      "@context": "reference.context.jsonld"
     },
-    "note": {
-      "@id": "fhir:Evidence.note",
-      "@context": "annotation.context.jsonld"
-    },
-    "variableDefinition": {
-      "@id": "fhir:Evidence.variableDefinition",
-      "@context": "evidence.variabledefinition.context.jsonld"
-    },
-    "synthesisType": {
-      "@id": "fhir:Evidence.synthesisType",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "studyType": {
-      "@id": "fhir:Evidence.studyType",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "statistic": {
-      "@id": "fhir:Evidence.statistic",
-      "@context": "statistic.context.jsonld"
-    },
-    "distribution": {
-      "@id": "fhir:Evidence.distribution",
-      "@context": "ordereddistribution.context.jsonld"
-    },
-    "certainty": {
-      "@id": "fhir:Evidence.certainty",
-      "@context": "evidence.certainty.context.jsonld"
+    "outcome": {
+      "@id": "fhir:Evidence.outcome",
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

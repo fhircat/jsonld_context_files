@@ -6,11 +6,11 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "system": {
@@ -18,7 +18,7 @@
       "@context": "string.context.jsonld"
     },
     "value": {
-      "@id": "fhir:ContactPoint.value",
+      "@id": "fhir:value",
       "@context": "string.context.jsonld"
     },
     "use": {
@@ -26,11 +26,11 @@
       "@context": "string.context.jsonld"
     },
     "rank": {
-      "@id": "fhir:ContactPoint.rank",
+      "@id": "fhir:rank",
       "@context": "positiveint.context.jsonld"
     },
     "period": {
-      "@id": "fhir:ContactPoint.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "index": {

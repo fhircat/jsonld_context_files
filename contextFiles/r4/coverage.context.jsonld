@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Coverage.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,39 +50,39 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Coverage.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "policyHolder": {
-      "@id": "fhir:Coverage.policyHolder",
+      "@id": "fhir:policyHolder",
       "@context": "reference.context.jsonld"
     },
     "subscriber": {
-      "@id": "fhir:Coverage.subscriber",
+      "@id": "fhir:subscriber",
       "@context": "reference.context.jsonld"
     },
     "subscriberId": {
-      "@id": "fhir:Coverage.subscriberId",
+      "@id": "fhir:subscriberId",
       "@context": "string.context.jsonld"
     },
     "beneficiary": {
-      "@id": "fhir:Coverage.beneficiary",
+      "@id": "fhir:beneficiary",
       "@context": "reference.context.jsonld"
     },
     "dependent": {
-      "@id": "fhir:Coverage.dependent",
+      "@id": "fhir:dependent",
       "@context": "string.context.jsonld"
     },
     "relationship": {
-      "@id": "fhir:Coverage.relationship",
+      "@id": "fhir:relationship",
       "@context": "codeableconcept.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Coverage.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "payor": {
-      "@id": "fhir:Coverage.payor",
+      "@id": "fhir:payor",
       "@context": "reference.context.jsonld"
     },
     "class": {
@@ -90,11 +90,11 @@
       "@context": "coverage.class.context.jsonld"
     },
     "order": {
-      "@id": "fhir:Coverage.order",
+      "@id": "fhir:order",
       "@context": "positiveint.context.jsonld"
     },
     "network": {
-      "@id": "fhir:Coverage.network",
+      "@id": "fhir:network",
       "@context": "string.context.jsonld"
     },
     "costToBeneficiary": {
@@ -102,11 +102,11 @@
       "@context": "coverage.costtobeneficiary.context.jsonld"
     },
     "subrogation": {
-      "@id": "fhir:Coverage.subrogation",
+      "@id": "fhir:subrogation",
       "@context": "boolean.context.jsonld"
     },
     "contract": {
-      "@id": "fhir:Coverage.contract",
+      "@id": "fhir:contract",
       "@context": "reference.context.jsonld"
     },
     "index": {

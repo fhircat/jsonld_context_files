@@ -41,10 +41,6 @@
       "@id": "fhir:SpecimenDefinition.typeTested.retentionTime",
       "@context": "duration.context.jsonld"
     },
-    "singleUse": {
-      "@id": "fhir:SpecimenDefinition.typeTested.singleUse",
-      "@context": "boolean.context.jsonld"
-    },
     "rejectionCriterion": {
       "@id": "fhir:SpecimenDefinition.typeTested.rejectionCriterion",
       "@context": "codeableconcept.context.jsonld"
@@ -52,10 +48,6 @@
     "handling": {
       "@id": "fhir:SpecimenDefinition.typeTested.handling",
       "@context": "specimendefinition.typetested.handling.context.jsonld"
-    },
-    "testingDestination": {
-      "@id": "fhir:SpecimenDefinition.typeTested.testingDestination",
-      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

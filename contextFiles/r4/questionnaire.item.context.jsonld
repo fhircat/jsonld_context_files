@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "linkId": {
-      "@id": "fhir:Questionnaire.item.linkId",
+      "@id": "fhir:linkId",
       "@context": "string.context.jsonld"
     },
     "definition": {
-      "@id": "fhir:Questionnaire.item.definition",
+      "@id": "fhir:definition",
       "@context": "uri.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Questionnaire.item.code",
+      "@id": "fhir:code",
       "@context": "coding.context.jsonld"
     },
     "prefix": {
-      "@id": "fhir:Questionnaire.item.prefix",
+      "@id": "fhir:prefix",
       "@context": "string.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Questionnaire.item.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "type": {
@@ -50,23 +50,23 @@
       "@context": "string.context.jsonld"
     },
     "required": {
-      "@id": "fhir:Questionnaire.item.required",
+      "@id": "fhir:required",
       "@context": "boolean.context.jsonld"
     },
     "repeats": {
-      "@id": "fhir:Questionnaire.item.repeats",
+      "@id": "fhir:repeats",
       "@context": "boolean.context.jsonld"
     },
     "readOnly": {
-      "@id": "fhir:Questionnaire.item.readOnly",
+      "@id": "fhir:readOnly",
       "@context": "boolean.context.jsonld"
     },
     "maxLength": {
-      "@id": "fhir:Questionnaire.item.maxLength",
+      "@id": "fhir:maxLength",
       "@context": "integer.context.jsonld"
     },
     "answerValueSet": {
-      "@id": "fhir:Questionnaire.item.answerValueSet",
+      "@id": "fhir:answerValueSet",
       "@context": "canonical.context.jsonld"
     },
     "answerOption": {
@@ -76,10 +76,6 @@
     "initial": {
       "@id": "fhir:Questionnaire.item.initial",
       "@context": "questionnaire.item.initial.context.jsonld"
-    },
-    "item": {
-      "@id": "fhir:Questionnaire.item.item",
-      "@context": "questionnaire.item.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

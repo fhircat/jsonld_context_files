@@ -10,47 +10,47 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ChargeItem.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "definitionUri": {
-      "@id": "fhir:ChargeItem.definitionUri",
+      "@id": "fhir:definitionUri",
       "@context": "uri.context.jsonld"
     },
     "definitionCanonical": {
-      "@id": "fhir:ChargeItem.definitionCanonical",
+      "@id": "fhir:definitionCanonical",
       "@context": "canonical.context.jsonld"
     },
     "status": {
@@ -58,19 +58,19 @@
       "@context": "string.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:ChargeItem.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ChargeItem.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:ChargeItem.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "context": {
-      "@id": "fhir:ChargeItem.context",
+      "@id": "fhir:context",
       "@context": "reference.context.jsonld"
     },
     "occurrenceDateTime": {
@@ -90,51 +90,51 @@
       "@context": "chargeitem.performer.context.jsonld"
     },
     "performingOrganization": {
-      "@id": "fhir:ChargeItem.performingOrganization",
+      "@id": "fhir:performingOrganization",
       "@context": "reference.context.jsonld"
     },
     "requestingOrganization": {
-      "@id": "fhir:ChargeItem.requestingOrganization",
+      "@id": "fhir:requestingOrganization",
       "@context": "reference.context.jsonld"
     },
     "costCenter": {
-      "@id": "fhir:ChargeItem.costCenter",
+      "@id": "fhir:costCenter",
       "@context": "reference.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:ChargeItem.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "bodysite": {
-      "@id": "fhir:ChargeItem.bodysite",
+      "@id": "fhir:bodysite",
       "@context": "codeableconcept.context.jsonld"
     },
     "factorOverride": {
-      "@id": "fhir:ChargeItem.factorOverride",
+      "@id": "fhir:factorOverride",
       "@context": "decimal.context.jsonld"
     },
     "priceOverride": {
-      "@id": "fhir:ChargeItem.priceOverride",
+      "@id": "fhir:priceOverride",
       "@context": "money.context.jsonld"
     },
     "overrideReason": {
-      "@id": "fhir:ChargeItem.overrideReason",
+      "@id": "fhir:overrideReason",
       "@context": "string.context.jsonld"
     },
     "enterer": {
-      "@id": "fhir:ChargeItem.enterer",
+      "@id": "fhir:enterer",
       "@context": "reference.context.jsonld"
     },
     "enteredDate": {
-      "@id": "fhir:ChargeItem.enteredDate",
+      "@id": "fhir:enteredDate",
       "@context": "datetime.context.jsonld"
     },
     "reason": {
-      "@id": "fhir:ChargeItem.reason",
+      "@id": "fhir:reason",
       "@context": "codeableconcept.context.jsonld"
     },
     "service": {
-      "@id": "fhir:ChargeItem.service",
+      "@id": "fhir:service",
       "@context": "reference.context.jsonld"
     },
     "productReference": {
@@ -146,15 +146,15 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "account": {
-      "@id": "fhir:ChargeItem.account",
+      "@id": "fhir:account",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:ChargeItem.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "supportingInformation": {
-      "@id": "fhir:ChargeItem.supportingInformation",
+      "@id": "fhir:supportingInformation",
       "@context": "reference.context.jsonld"
     },
     "index": {

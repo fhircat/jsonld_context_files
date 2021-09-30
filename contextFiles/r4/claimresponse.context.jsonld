@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ClaimResponse.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,11 +50,11 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ClaimResponse.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "subType": {
-      "@id": "fhir:ClaimResponse.subType",
+      "@id": "fhir:subType",
       "@context": "codeableconcept.context.jsonld"
     },
     "use": {
@@ -62,23 +62,23 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:ClaimResponse.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "created": {
-      "@id": "fhir:ClaimResponse.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "insurer": {
-      "@id": "fhir:ClaimResponse.insurer",
+      "@id": "fhir:insurer",
       "@context": "reference.context.jsonld"
     },
     "requestor": {
-      "@id": "fhir:ClaimResponse.requestor",
+      "@id": "fhir:requestor",
       "@context": "reference.context.jsonld"
     },
     "request": {
-      "@id": "fhir:ClaimResponse.request",
+      "@id": "fhir:request",
       "@context": "reference.context.jsonld"
     },
     "outcome": {
@@ -86,19 +86,19 @@
       "@context": "string.context.jsonld"
     },
     "disposition": {
-      "@id": "fhir:ClaimResponse.disposition",
+      "@id": "fhir:disposition",
       "@context": "string.context.jsonld"
     },
     "preAuthRef": {
-      "@id": "fhir:ClaimResponse.preAuthRef",
+      "@id": "fhir:preAuthRef",
       "@context": "string.context.jsonld"
     },
     "preAuthPeriod": {
-      "@id": "fhir:ClaimResponse.preAuthPeriod",
+      "@id": "fhir:preAuthPeriod",
       "@context": "period.context.jsonld"
     },
     "payeeType": {
-      "@id": "fhir:ClaimResponse.payeeType",
+      "@id": "fhir:payeeType",
       "@context": "codeableconcept.context.jsonld"
     },
     "item": {
@@ -109,10 +109,6 @@
       "@id": "fhir:ClaimResponse.addItem",
       "@context": "claimresponse.additem.context.jsonld"
     },
-    "adjudication": {
-      "@id": "fhir:ClaimResponse.adjudication",
-      "@context": "claimresponse.item.adjudication.context.jsonld"
-    },
     "total": {
       "@id": "fhir:ClaimResponse.total",
       "@context": "claimresponse.total.context.jsonld"
@@ -122,15 +118,15 @@
       "@context": "claimresponse.payment.context.jsonld"
     },
     "fundsReserve": {
-      "@id": "fhir:ClaimResponse.fundsReserve",
+      "@id": "fhir:fundsReserve",
       "@context": "codeableconcept.context.jsonld"
     },
     "formCode": {
-      "@id": "fhir:ClaimResponse.formCode",
+      "@id": "fhir:formCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "form": {
-      "@id": "fhir:ClaimResponse.form",
+      "@id": "fhir:form",
       "@context": "attachment.context.jsonld"
     },
     "processNote": {
@@ -138,7 +134,7 @@
       "@context": "claimresponse.processnote.context.jsonld"
     },
     "communicationRequest": {
-      "@id": "fhir:ClaimResponse.communicationRequest",
+      "@id": "fhir:communicationRequest",
       "@context": "reference.context.jsonld"
     },
     "insurance": {

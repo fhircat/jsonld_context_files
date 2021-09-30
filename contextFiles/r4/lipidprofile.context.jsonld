@@ -6,43 +6,43 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:DiagnosticReport.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:DiagnosticReport.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -50,19 +50,19 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:DiagnosticReport.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:DiagnosticReport.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:DiagnosticReport.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:DiagnosticReport.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "effectiveDateTime": {
@@ -74,43 +74,43 @@
       "@context": "period.context.jsonld"
     },
     "issued": {
-      "@id": "fhir:DiagnosticReport.issued",
+      "@id": "fhir:issued",
       "@context": "instant.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:DiagnosticReport.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "resultsInterpreter": {
-      "@id": "fhir:DiagnosticReport.resultsInterpreter",
+      "@id": "fhir:resultsInterpreter",
       "@context": "reference.context.jsonld"
     },
     "specimen": {
-      "@id": "fhir:DiagnosticReport.specimen",
+      "@id": "fhir:specimen",
       "@context": "reference.context.jsonld"
     },
     "result": {
-      "@id": "fhir:DiagnosticReport.result",
+      "@id": "fhir:result",
       "@context": "reference.context.jsonld"
     },
     "result:Cholesterol": {
-      "@id": "fhir:DiagnosticReport.result:Cholesterol",
+      "@id": "fhir:result:Cholesterol",
       "@context": "reference.context.jsonld"
     },
     "result:Triglyceride": {
-      "@id": "fhir:DiagnosticReport.result:Triglyceride",
+      "@id": "fhir:result:Triglyceride",
       "@context": "reference.context.jsonld"
     },
     "result:HDLCholesterol": {
-      "@id": "fhir:DiagnosticReport.result:HDLCholesterol",
+      "@id": "fhir:result:HDLCholesterol",
       "@context": "reference.context.jsonld"
     },
     "result:LDLCholesterol": {
-      "@id": "fhir:DiagnosticReport.result:LDLCholesterol",
+      "@id": "fhir:result:LDLCholesterol",
       "@context": "reference.context.jsonld"
     },
     "imagingStudy": {
-      "@id": "fhir:DiagnosticReport.imagingStudy",
+      "@id": "fhir:imagingStudy",
       "@context": "reference.context.jsonld"
     },
     "media": {
@@ -118,15 +118,15 @@
       "@context": "diagnosticreport.media.context.jsonld"
     },
     "conclusion": {
-      "@id": "fhir:DiagnosticReport.conclusion",
+      "@id": "fhir:conclusion",
       "@context": "string.context.jsonld"
     },
     "conclusionCode": {
-      "@id": "fhir:DiagnosticReport.conclusionCode",
+      "@id": "fhir:conclusionCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "presentedForm": {
-      "@id": "fhir:DiagnosticReport.presentedForm",
+      "@id": "fhir:presentedForm",
       "@context": "attachment.context.jsonld"
     },
     "index": {

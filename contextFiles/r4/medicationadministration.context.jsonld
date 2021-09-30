@@ -10,47 +10,47 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicationAdministration.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiates": {
-      "@id": "fhir:MedicationAdministration.instantiates",
+      "@id": "fhir:instantiates",
       "@context": "uri.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:MedicationAdministration.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -58,11 +58,11 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:MedicationAdministration.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:MedicationAdministration.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "medicationCodeableConcept": {
@@ -74,15 +74,15 @@
       "@context": "reference.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:MedicationAdministration.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "context": {
-      "@id": "fhir:MedicationAdministration.context",
+      "@id": "fhir:context",
       "@context": "reference.context.jsonld"
     },
     "supportingInformation": {
-      "@id": "fhir:MedicationAdministration.supportingInformation",
+      "@id": "fhir:supportingInformation",
       "@context": "reference.context.jsonld"
     },
     "effectiveDateTime": {
@@ -98,23 +98,23 @@
       "@context": "medicationadministration.performer.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:MedicationAdministration.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:MedicationAdministration.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "request": {
-      "@id": "fhir:MedicationAdministration.request",
+      "@id": "fhir:request",
       "@context": "reference.context.jsonld"
     },
     "device": {
-      "@id": "fhir:MedicationAdministration.device",
+      "@id": "fhir:device",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:MedicationAdministration.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "dosage": {
@@ -122,7 +122,7 @@
       "@context": "medicationadministration.dosage.context.jsonld"
     },
     "eventHistory": {
-      "@id": "fhir:MedicationAdministration.eventHistory",
+      "@id": "fhir:eventHistory",
       "@context": "reference.context.jsonld"
     },
     "index": {

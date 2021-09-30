@@ -6,11 +6,11 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "identifier": {
-      "@id": "fhir:FiveWs.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:FiveWs.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -18,11 +18,11 @@
       "@context": "string.context.jsonld"
     },
     "class": {
-      "@id": "fhir:FiveWs.class",
+      "@id": "fhir:class",
       "@context": "codeableconcept.context.jsonld"
     },
     "grade": {
-      "@id": "fhir:FiveWs.grade",
+      "@id": "fhir:grade",
       "@context": "codeableconcept.context.jsonld"
     },
     "whatCodeableConcept": {
@@ -34,19 +34,19 @@
       "@context": "reference.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:FiveWs.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "context": {
-      "@id": "fhir:FiveWs.context",
+      "@id": "fhir:context",
       "@context": "reference.context.jsonld"
     },
     "init": {
-      "@id": "fhir:FiveWs.init",
+      "@id": "fhir:init",
       "@context": "datetime.context.jsonld"
     },
     "planned": {
-      "@id": "fhir:FiveWs.planned",
+      "@id": "fhir:planned",
       "@context": "timing.context.jsonld"
     },
     "doneDateTime": {
@@ -58,31 +58,31 @@
       "@context": "period.context.jsonld"
     },
     "recorded": {
-      "@id": "fhir:FiveWs.recorded",
+      "@id": "fhir:recorded",
       "@context": "instant.context.jsonld"
     },
     "author": {
-      "@id": "fhir:FiveWs.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "source": {
-      "@id": "fhir:FiveWs.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "actor": {
-      "@id": "fhir:FiveWs.actor",
+      "@id": "fhir:actor",
       "@context": "reference.context.jsonld"
     },
     "cause": {
-      "@id": "fhir:FiveWs.cause",
+      "@id": "fhir:cause",
       "@context": "reference.context.jsonld"
     },
     "witness": {
-      "@id": "fhir:FiveWs.witness",
+      "@id": "fhir:witness",
       "@context": "reference.context.jsonld"
     },
     "who": {
-      "@id": "fhir:FiveWs.who",
+      "@id": "fhir:who",
       "@context": "reference.context.jsonld"
     },
     "whereCodeableConcept": {

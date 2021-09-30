@@ -10,63 +10,63 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "manufacturedDoseForm": {
-      "@id": "fhir:MedicinalProductManufactured.manufacturedDoseForm",
+      "@id": "fhir:manufacturedDoseForm",
       "@context": "codeableconcept.context.jsonld"
     },
     "unitOfPresentation": {
-      "@id": "fhir:MedicinalProductManufactured.unitOfPresentation",
+      "@id": "fhir:unitOfPresentation",
       "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:MedicinalProductManufactured.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "manufacturer": {
-      "@id": "fhir:MedicinalProductManufactured.manufacturer",
+      "@id": "fhir:manufacturer",
       "@context": "reference.context.jsonld"
     },
     "ingredient": {
-      "@id": "fhir:MedicinalProductManufactured.ingredient",
+      "@id": "fhir:ingredient",
       "@context": "reference.context.jsonld"
     },
     "physicalCharacteristics": {
-      "@id": "fhir:MedicinalProductManufactured.physicalCharacteristics",
+      "@id": "fhir:physicalCharacteristics",
       "@context": "prodcharacteristic.context.jsonld"
     },
     "otherCharacteristics": {
-      "@id": "fhir:MedicinalProductManufactured.otherCharacteristics",
+      "@id": "fhir:otherCharacteristics",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

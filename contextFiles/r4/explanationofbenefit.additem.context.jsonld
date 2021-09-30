@@ -6,43 +6,43 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "itemSequence": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.itemSequence",
+      "@id": "fhir:itemSequence",
       "@context": "positiveint.context.jsonld"
     },
     "detailSequence": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.detailSequence",
+      "@id": "fhir:detailSequence",
       "@context": "positiveint.context.jsonld"
     },
     "subDetailSequence": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.subDetailSequence",
+      "@id": "fhir:subDetailSequence",
       "@context": "positiveint.context.jsonld"
     },
     "provider": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.provider",
+      "@id": "fhir:provider",
       "@context": "reference.context.jsonld"
     },
     "productOrService": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.productOrService",
+      "@id": "fhir:productOrService",
       "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.modifier",
+      "@id": "fhir:modifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "programCode": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.programCode",
+      "@id": "fhir:programCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "servicedDate": {
@@ -66,36 +66,32 @@
       "@context": "reference.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "unitPrice": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.unitPrice",
+      "@id": "fhir:unitPrice",
       "@context": "money.context.jsonld"
     },
     "factor": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.factor",
+      "@id": "fhir:factor",
       "@context": "decimal.context.jsonld"
     },
     "net": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.net",
+      "@id": "fhir:net",
       "@context": "money.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "subSite": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.subSite",
+      "@id": "fhir:subSite",
       "@context": "codeableconcept.context.jsonld"
     },
     "noteNumber": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.noteNumber",
+      "@id": "fhir:noteNumber",
       "@context": "positiveint.context.jsonld"
-    },
-    "adjudication": {
-      "@id": "fhir:ExplanationOfBenefit.addItem.adjudication",
-      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
     },
     "detail": {
       "@id": "fhir:ExplanationOfBenefit.addItem.detail",

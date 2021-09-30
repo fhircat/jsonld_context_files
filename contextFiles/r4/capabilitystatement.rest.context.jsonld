@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "mode": {
@@ -22,7 +22,7 @@
       "@context": "string.context.jsonld"
     },
     "documentation": {
-      "@id": "fhir:CapabilityStatement.rest.documentation",
+      "@id": "fhir:documentation",
       "@context": "markdown.context.jsonld"
     },
     "security": {
@@ -37,16 +37,8 @@
       "@id": "fhir:CapabilityStatement.rest.interaction",
       "@context": "capabilitystatement.rest.interaction.context.jsonld"
     },
-    "searchParam": {
-      "@id": "fhir:CapabilityStatement.rest.searchParam",
-      "@context": "capabilitystatement.rest.resource.searchparam.context.jsonld"
-    },
-    "operation": {
-      "@id": "fhir:CapabilityStatement.rest.operation",
-      "@context": "capabilitystatement.rest.resource.operation.context.jsonld"
-    },
     "compartment": {
-      "@id": "fhir:CapabilityStatement.rest.compartment",
+      "@id": "fhir:compartment",
       "@context": "canonical.context.jsonld"
     },
     "index": {

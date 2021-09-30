@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "definitionCodeableConcept": {
@@ -34,19 +34,19 @@
       "@context": "datarequirement.context.jsonld"
     },
     "usageContext": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.usageContext",
+      "@id": "fhir:usageContext",
       "@context": "usagecontext.context.jsonld"
     },
     "exclude": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.exclude",
+      "@id": "fhir:exclude",
       "@context": "boolean.context.jsonld"
     },
     "unitOfMeasure": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.unitOfMeasure",
+      "@id": "fhir:unitOfMeasure",
       "@context": "codeableconcept.context.jsonld"
     },
     "studyEffectiveDescription": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDescription",
+      "@id": "fhir:studyEffectiveDescription",
       "@context": "string.context.jsonld"
     },
     "studyEffectiveDateTime": {
@@ -66,7 +66,7 @@
       "@context": "timing.context.jsonld"
     },
     "studyEffectiveTimeFromStart": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTimeFromStart",
+      "@id": "fhir:studyEffectiveTimeFromStart",
       "@context": "duration.context.jsonld"
     },
     "studyEffectiveGroupMeasure": {
@@ -74,7 +74,7 @@
       "@context": "string.context.jsonld"
     },
     "participantEffectiveDescription": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDescription",
+      "@id": "fhir:participantEffectiveDescription",
       "@context": "string.context.jsonld"
     },
     "participantEffectiveDateTime": {
@@ -94,7 +94,7 @@
       "@context": "timing.context.jsonld"
     },
     "participantEffectiveTimeFromStart": {
-      "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTimeFromStart",
+      "@id": "fhir:participantEffectiveTimeFromStart",
       "@context": "duration.context.jsonld"
     },
     "participantEffectiveGroupMeasure": {

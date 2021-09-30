@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "context": {
-      "@id": "fhir:StructureMap.group.rule.source.context",
+      "@id": "fhir:context",
       "@context": "id.context.jsonld"
     },
     "min": {
-      "@id": "fhir:StructureMap.group.rule.source.min",
+      "@id": "fhir:min",
       "@context": "integer.context.jsonld"
     },
     "max": {
-      "@id": "fhir:StructureMap.group.rule.source.max",
+      "@id": "fhir:max",
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:StructureMap.group.rule.source.type",
+      "@id": "fhir:type",
       "@context": "string.context.jsonld"
     },
     "defaultValueBase64Binary": {
@@ -234,7 +234,7 @@
       "@context": "meta.context.jsonld"
     },
     "element": {
-      "@id": "fhir:StructureMap.group.rule.source.element",
+      "@id": "fhir:element",
       "@context": "string.context.jsonld"
     },
     "listMode": {
@@ -242,19 +242,19 @@
       "@context": "string.context.jsonld"
     },
     "variable": {
-      "@id": "fhir:StructureMap.group.rule.source.variable",
+      "@id": "fhir:variable",
       "@context": "id.context.jsonld"
     },
     "condition": {
-      "@id": "fhir:StructureMap.group.rule.source.condition",
+      "@id": "fhir:condition",
       "@context": "string.context.jsonld"
     },
     "check": {
-      "@id": "fhir:StructureMap.group.rule.source.check",
+      "@id": "fhir:check",
       "@context": "string.context.jsonld"
     },
     "logMessage": {
-      "@id": "fhir:StructureMap.group.rule.source.logMessage",
+      "@id": "fhir:logMessage",
       "@context": "string.context.jsonld"
     },
     "index": {

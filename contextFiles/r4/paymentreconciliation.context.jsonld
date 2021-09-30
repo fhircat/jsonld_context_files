@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:PaymentReconciliation.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,23 +50,23 @@
       "@context": "string.context.jsonld"
     },
     "period": {
-      "@id": "fhir:PaymentReconciliation.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "created": {
-      "@id": "fhir:PaymentReconciliation.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "paymentIssuer": {
-      "@id": "fhir:PaymentReconciliation.paymentIssuer",
+      "@id": "fhir:paymentIssuer",
       "@context": "reference.context.jsonld"
     },
     "request": {
-      "@id": "fhir:PaymentReconciliation.request",
+      "@id": "fhir:request",
       "@context": "reference.context.jsonld"
     },
     "requestor": {
-      "@id": "fhir:PaymentReconciliation.requestor",
+      "@id": "fhir:requestor",
       "@context": "reference.context.jsonld"
     },
     "outcome": {
@@ -74,19 +74,19 @@
       "@context": "string.context.jsonld"
     },
     "disposition": {
-      "@id": "fhir:PaymentReconciliation.disposition",
+      "@id": "fhir:disposition",
       "@context": "string.context.jsonld"
     },
     "paymentDate": {
-      "@id": "fhir:PaymentReconciliation.paymentDate",
+      "@id": "fhir:paymentDate",
       "@context": "date.context.jsonld"
     },
     "paymentAmount": {
-      "@id": "fhir:PaymentReconciliation.paymentAmount",
+      "@id": "fhir:paymentAmount",
       "@context": "money.context.jsonld"
     },
     "paymentIdentifier": {
-      "@id": "fhir:PaymentReconciliation.paymentIdentifier",
+      "@id": "fhir:paymentIdentifier",
       "@context": "identifier.context.jsonld"
     },
     "detail": {
@@ -94,7 +94,7 @@
       "@context": "paymentreconciliation.detail.context.jsonld"
     },
     "formCode": {
-      "@id": "fhir:PaymentReconciliation.formCode",
+      "@id": "fhir:formCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "processNote": {

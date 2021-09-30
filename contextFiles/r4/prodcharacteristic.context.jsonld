@@ -6,59 +6,59 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "height": {
-      "@id": "fhir:ProdCharacteristic.height",
+      "@id": "fhir:height",
       "@context": "quantity.context.jsonld"
     },
     "width": {
-      "@id": "fhir:ProdCharacteristic.width",
+      "@id": "fhir:width",
       "@context": "quantity.context.jsonld"
     },
     "depth": {
-      "@id": "fhir:ProdCharacteristic.depth",
+      "@id": "fhir:depth",
       "@context": "quantity.context.jsonld"
     },
     "weight": {
-      "@id": "fhir:ProdCharacteristic.weight",
+      "@id": "fhir:weight",
       "@context": "quantity.context.jsonld"
     },
     "nominalVolume": {
-      "@id": "fhir:ProdCharacteristic.nominalVolume",
+      "@id": "fhir:nominalVolume",
       "@context": "quantity.context.jsonld"
     },
     "externalDiameter": {
-      "@id": "fhir:ProdCharacteristic.externalDiameter",
+      "@id": "fhir:externalDiameter",
       "@context": "quantity.context.jsonld"
     },
     "shape": {
-      "@id": "fhir:ProdCharacteristic.shape",
+      "@id": "fhir:shape",
       "@context": "string.context.jsonld"
     },
     "color": {
-      "@id": "fhir:ProdCharacteristic.color",
+      "@id": "fhir:color",
       "@context": "string.context.jsonld"
     },
     "imprint": {
-      "@id": "fhir:ProdCharacteristic.imprint",
+      "@id": "fhir:imprint",
       "@context": "string.context.jsonld"
     },
     "image": {
-      "@id": "fhir:ProdCharacteristic.image",
+      "@id": "fhir:image",
       "@context": "attachment.context.jsonld"
     },
     "scoring": {
-      "@id": "fhir:ProdCharacteristic.scoring",
+      "@id": "fhir:scoring",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

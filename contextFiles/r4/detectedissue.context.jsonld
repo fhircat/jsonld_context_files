@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:DetectedIssue.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,7 +50,7 @@
       "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:DetectedIssue.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "severity": {
@@ -58,7 +58,7 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:DetectedIssue.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "identifiedDateTime": {
@@ -70,11 +70,11 @@
       "@context": "period.context.jsonld"
     },
     "author": {
-      "@id": "fhir:DetectedIssue.author",
+      "@id": "fhir:author",
       "@context": "reference.context.jsonld"
     },
     "implicated": {
-      "@id": "fhir:DetectedIssue.implicated",
+      "@id": "fhir:implicated",
       "@context": "reference.context.jsonld"
     },
     "evidence": {
@@ -82,11 +82,11 @@
       "@context": "detectedissue.evidence.context.jsonld"
     },
     "detail": {
-      "@id": "fhir:DetectedIssue.detail",
+      "@id": "fhir:detail",
       "@context": "string.context.jsonld"
     },
     "reference": {
-      "@id": "fhir:DetectedIssue.reference",
+      "@id": "fhir:reference",
       "@context": "uri.context.jsonld"
     },
     "mitigation": {

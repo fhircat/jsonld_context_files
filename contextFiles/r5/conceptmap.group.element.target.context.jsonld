@@ -25,8 +25,8 @@
       "@id": "fhir:ConceptMap.group.element.target.display",
       "@context": "string.context.jsonld"
     },
-    "relationship": {
-      "@id": "fhir:ConceptMap.group.element.target.relationship",
+    "equivalence": {
+      "@id": "fhir:ConceptMap.group.element.target.equivalence",
       "@context": "string.context.jsonld"
     },
     "comment": {
@@ -35,10 +35,6 @@
     },
     "dependsOn": {
       "@id": "fhir:ConceptMap.group.element.target.dependsOn",
-      "@context": "conceptmap.group.element.target.dependson.context.jsonld"
-    },
-    "product": {
-      "@id": "fhir:ConceptMap.group.element.target.product",
       "@context": "conceptmap.group.element.target.dependson.context.jsonld"
     },
     "index": {

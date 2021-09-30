@@ -10,59 +10,59 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Slot.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "serviceCategory": {
-      "@id": "fhir:Slot.serviceCategory",
+      "@id": "fhir:serviceCategory",
       "@context": "codeableconcept.context.jsonld"
     },
     "serviceType": {
-      "@id": "fhir:Slot.serviceType",
+      "@id": "fhir:serviceType",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialty": {
-      "@id": "fhir:Slot.specialty",
+      "@id": "fhir:specialty",
       "@context": "codeableconcept.context.jsonld"
     },
     "appointmentType": {
-      "@id": "fhir:Slot.appointmentType",
+      "@id": "fhir:appointmentType",
       "@context": "codeableconcept.context.jsonld"
     },
     "schedule": {
-      "@id": "fhir:Slot.schedule",
+      "@id": "fhir:schedule",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -70,19 +70,19 @@
       "@context": "string.context.jsonld"
     },
     "start": {
-      "@id": "fhir:Slot.start",
+      "@id": "fhir:start",
       "@context": "instant.context.jsonld"
     },
     "end": {
-      "@id": "fhir:Slot.end",
+      "@id": "fhir:end",
       "@context": "instant.context.jsonld"
     },
     "overbooked": {
-      "@id": "fhir:Slot.overbooked",
+      "@id": "fhir:overbooked",
       "@context": "boolean.context.jsonld"
     },
     "comment": {
-      "@id": "fhir:Slot.comment",
+      "@id": "fhir:comment",
       "@context": "string.context.jsonld"
     },
     "index": {

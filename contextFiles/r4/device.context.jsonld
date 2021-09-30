@@ -10,43 +10,43 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Device.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "definition": {
-      "@id": "fhir:Device.definition",
+      "@id": "fhir:definition",
       "@context": "reference.context.jsonld"
     },
     "udiCarrier": {
@@ -58,31 +58,31 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:Device.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "distinctIdentifier": {
-      "@id": "fhir:Device.distinctIdentifier",
+      "@id": "fhir:distinctIdentifier",
       "@context": "string.context.jsonld"
     },
     "manufacturer": {
-      "@id": "fhir:Device.manufacturer",
+      "@id": "fhir:manufacturer",
       "@context": "string.context.jsonld"
     },
     "manufactureDate": {
-      "@id": "fhir:Device.manufactureDate",
+      "@id": "fhir:manufactureDate",
       "@context": "datetime.context.jsonld"
     },
     "expirationDate": {
-      "@id": "fhir:Device.expirationDate",
+      "@id": "fhir:expirationDate",
       "@context": "datetime.context.jsonld"
     },
     "lotNumber": {
-      "@id": "fhir:Device.lotNumber",
+      "@id": "fhir:lotNumber",
       "@context": "string.context.jsonld"
     },
     "serialNumber": {
-      "@id": "fhir:Device.serialNumber",
+      "@id": "fhir:serialNumber",
       "@context": "string.context.jsonld"
     },
     "deviceName": {
@@ -90,15 +90,15 @@
       "@context": "device.devicename.context.jsonld"
     },
     "modelNumber": {
-      "@id": "fhir:Device.modelNumber",
+      "@id": "fhir:modelNumber",
       "@context": "string.context.jsonld"
     },
     "partNumber": {
-      "@id": "fhir:Device.partNumber",
+      "@id": "fhir:partNumber",
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Device.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialization": {
@@ -114,35 +114,35 @@
       "@context": "device.property.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:Device.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "owner": {
-      "@id": "fhir:Device.owner",
+      "@id": "fhir:owner",
       "@context": "reference.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:Device.contact",
+      "@id": "fhir:contact",
       "@context": "contactpoint.context.jsonld"
     },
     "location": {
-      "@id": "fhir:Device.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "url": {
-      "@id": "fhir:Device.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Device.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "safety": {
-      "@id": "fhir:Device.safety",
+      "@id": "fhir:safety",
       "@context": "codeableconcept.context.jsonld"
     },
     "parent": {
-      "@id": "fhir:Device.parent",
+      "@id": "fhir:parent",
       "@context": "reference.context.jsonld"
     },
     "index": {

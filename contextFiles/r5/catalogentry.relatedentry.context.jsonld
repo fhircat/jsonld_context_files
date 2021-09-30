@@ -17,12 +17,12 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "relationship": {
-      "@id": "fhir:CatalogEntry.relatedEntry.relationship",
+    "relationtype": {
+      "@id": "fhir:CatalogEntry.relatedEntry.relationtype",
       "@context": "string.context.jsonld"
     },
-    "target": {
-      "@id": "fhir:CatalogEntry.relatedEntry.target",
+    "item": {
+      "@id": "fhir:CatalogEntry.relatedEntry.item",
       "@context": "reference.context.jsonld"
     },
     "index": {

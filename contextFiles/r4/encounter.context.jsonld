@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Encounter.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -54,7 +54,7 @@
       "@context": "encounter.statushistory.context.jsonld"
     },
     "class": {
-      "@id": "fhir:Encounter.class",
+      "@id": "fhir:class",
       "@context": "coding.context.jsonld"
     },
     "classHistory": {
@@ -62,27 +62,27 @@
       "@context": "encounter.classhistory.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Encounter.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "serviceType": {
-      "@id": "fhir:Encounter.serviceType",
+      "@id": "fhir:serviceType",
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:Encounter.priority",
+      "@id": "fhir:priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Encounter.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "episodeOfCare": {
-      "@id": "fhir:Encounter.episodeOfCare",
+      "@id": "fhir:episodeOfCare",
       "@context": "reference.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:Encounter.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "participant": {
@@ -90,23 +90,23 @@
       "@context": "encounter.participant.context.jsonld"
     },
     "appointment": {
-      "@id": "fhir:Encounter.appointment",
+      "@id": "fhir:appointment",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Encounter.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "length": {
-      "@id": "fhir:Encounter.length",
+      "@id": "fhir:length",
       "@context": "duration.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:Encounter.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:Encounter.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "diagnosis": {
@@ -114,7 +114,7 @@
       "@context": "encounter.diagnosis.context.jsonld"
     },
     "account": {
-      "@id": "fhir:Encounter.account",
+      "@id": "fhir:account",
       "@context": "reference.context.jsonld"
     },
     "hospitalization": {
@@ -126,11 +126,11 @@
       "@context": "encounter.location.context.jsonld"
     },
     "serviceProvider": {
-      "@id": "fhir:Encounter.serviceProvider",
+      "@id": "fhir:serviceProvider",
       "@context": "reference.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:Encounter.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "index": {

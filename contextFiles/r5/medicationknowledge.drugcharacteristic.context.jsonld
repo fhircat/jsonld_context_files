@@ -37,10 +37,6 @@
       "@id": "fhir:MedicationKnowledge.drugCharacteristic.valueBase64Binary",
       "@context": "base64binary.context.jsonld"
     },
-    "valueAttachment": {
-      "@id": "fhir:MedicationKnowledge.drugCharacteristic.valueAttachment",
-      "@context": "attachment.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

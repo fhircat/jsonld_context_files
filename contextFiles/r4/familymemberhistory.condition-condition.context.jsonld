@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "code": {
-      "@id": "fhir:FamilyMemberHistory.condition.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:FamilyMemberHistory.condition.outcome",
+      "@id": "fhir:outcome",
       "@context": "codeableconcept.context.jsonld"
     },
     "contributedToDeath": {
-      "@id": "fhir:FamilyMemberHistory.condition.contributedToDeath",
+      "@id": "fhir:contributedToDeath",
       "@context": "boolean.context.jsonld"
     },
     "onsetAge": {
@@ -46,7 +46,7 @@
       "@context": "string.context.jsonld"
     },
     "note": {
-      "@id": "fhir:FamilyMemberHistory.condition.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

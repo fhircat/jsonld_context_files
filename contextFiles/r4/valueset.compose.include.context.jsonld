@@ -6,23 +6,23 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "system": {
-      "@id": "fhir:ValueSet.compose.include.system",
+      "@id": "fhir:system",
       "@context": "uri.context.jsonld"
     },
     "version": {
-      "@id": "fhir:ValueSet.compose.include.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "concept": {
@@ -34,7 +34,7 @@
       "@context": "valueset.compose.include.filter.context.jsonld"
     },
     "valueSet": {
-      "@id": "fhir:ValueSet.compose.include.valueSet",
+      "@id": "fhir:valueSet",
       "@context": "canonical.context.jsonld"
     },
     "index": {

@@ -10,47 +10,47 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "category": {
-      "@id": "fhir:ObservationDefinition.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ObservationDefinition.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ObservationDefinition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "permittedDataType": {
@@ -58,15 +58,15 @@
       "@context": "string.context.jsonld"
     },
     "multipleResultsAllowed": {
-      "@id": "fhir:ObservationDefinition.multipleResultsAllowed",
+      "@id": "fhir:multipleResultsAllowed",
       "@context": "boolean.context.jsonld"
     },
     "method": {
-      "@id": "fhir:ObservationDefinition.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "preferredReportName": {
-      "@id": "fhir:ObservationDefinition.preferredReportName",
+      "@id": "fhir:preferredReportName",
       "@context": "string.context.jsonld"
     },
     "quantitativeDetails": {
@@ -78,19 +78,19 @@
       "@context": "observationdefinition.qualifiedinterval.context.jsonld"
     },
     "validCodedValueSet": {
-      "@id": "fhir:ObservationDefinition.validCodedValueSet",
+      "@id": "fhir:validCodedValueSet",
       "@context": "reference.context.jsonld"
     },
     "normalCodedValueSet": {
-      "@id": "fhir:ObservationDefinition.normalCodedValueSet",
+      "@id": "fhir:normalCodedValueSet",
       "@context": "reference.context.jsonld"
     },
     "abnormalCodedValueSet": {
-      "@id": "fhir:ObservationDefinition.abnormalCodedValueSet",
+      "@id": "fhir:abnormalCodedValueSet",
       "@context": "reference.context.jsonld"
     },
     "criticalCodedValueSet": {
-      "@id": "fhir:ObservationDefinition.criticalCodedValueSet",
+      "@id": "fhir:criticalCodedValueSet",
       "@context": "reference.context.jsonld"
     },
     "index": {

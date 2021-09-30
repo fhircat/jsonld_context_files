@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
@@ -22,55 +22,55 @@
       "@context": "string.context.jsonld"
     },
     "standardSequence": {
-      "@id": "fhir:MolecularSequence.quality.standardSequence",
+      "@id": "fhir:standardSequence",
       "@context": "codeableconcept.context.jsonld"
     },
     "start": {
-      "@id": "fhir:MolecularSequence.quality.start",
+      "@id": "fhir:start",
       "@context": "integer.context.jsonld"
     },
     "end": {
-      "@id": "fhir:MolecularSequence.quality.end",
+      "@id": "fhir:end",
       "@context": "integer.context.jsonld"
     },
     "score": {
-      "@id": "fhir:MolecularSequence.quality.score",
+      "@id": "fhir:score",
       "@context": "quantity.context.jsonld"
     },
     "method": {
-      "@id": "fhir:MolecularSequence.quality.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "truthTP": {
-      "@id": "fhir:MolecularSequence.quality.truthTP",
+      "@id": "fhir:truthTP",
       "@context": "decimal.context.jsonld"
     },
     "queryTP": {
-      "@id": "fhir:MolecularSequence.quality.queryTP",
+      "@id": "fhir:queryTP",
       "@context": "decimal.context.jsonld"
     },
     "truthFN": {
-      "@id": "fhir:MolecularSequence.quality.truthFN",
+      "@id": "fhir:truthFN",
       "@context": "decimal.context.jsonld"
     },
     "queryFP": {
-      "@id": "fhir:MolecularSequence.quality.queryFP",
+      "@id": "fhir:queryFP",
       "@context": "decimal.context.jsonld"
     },
     "gtFP": {
-      "@id": "fhir:MolecularSequence.quality.gtFP",
+      "@id": "fhir:gtFP",
       "@context": "decimal.context.jsonld"
     },
     "precision": {
-      "@id": "fhir:MolecularSequence.quality.precision",
+      "@id": "fhir:precision",
       "@context": "decimal.context.jsonld"
     },
     "recall": {
-      "@id": "fhir:MolecularSequence.quality.recall",
+      "@id": "fhir:recall",
       "@context": "decimal.context.jsonld"
     },
     "fScore": {
-      "@id": "fhir:MolecularSequence.quality.fScore",
+      "@id": "fhir:fScore",
       "@context": "decimal.context.jsonld"
     },
     "roc": {

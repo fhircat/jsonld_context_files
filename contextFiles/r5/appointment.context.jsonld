@@ -69,9 +69,13 @@
       "@id": "fhir:Appointment.appointmentType",
       "@context": "codeableconcept.context.jsonld"
     },
-    "reason": {
-      "@id": "fhir:Appointment.reason",
-      "@context": "codeablereference.context.jsonld"
+    "reasonCode": {
+      "@id": "fhir:Appointment.reasonCode",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Appointment.reasonReference",
+      "@context": "reference.context.jsonld"
     },
     "priority": {
       "@id": "fhir:Appointment.priority",

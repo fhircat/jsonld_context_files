@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "identifier": {
-      "@id": "fhir:Request.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:Request.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:Request.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:Request.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "replaces": {
-      "@id": "fhir:Request.replaces",
+      "@id": "fhir:replaces",
       "@context": "reference.context.jsonld"
     },
     "groupIdentifier": {
-      "@id": "fhir:Request.groupIdentifier",
+      "@id": "fhir:groupIdentifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -34,7 +34,7 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:Request.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
@@ -46,19 +46,19 @@
       "@context": "string.context.jsonld"
     },
     "doNotPerform": {
-      "@id": "fhir:Request.doNotPerform",
+      "@id": "fhir:doNotPerform",
       "@context": "boolean.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Request.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Request.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Request.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "occurrenceDateTime": {
@@ -74,11 +74,11 @@
       "@context": "timing.context.jsonld"
     },
     "authoredOn": {
-      "@id": "fhir:Request.authoredOn",
+      "@id": "fhir:authoredOn",
       "@context": "datetime.context.jsonld"
     },
     "requester": {
-      "@id": "fhir:Request.requester",
+      "@id": "fhir:requester",
       "@context": "reference.context.jsonld"
     },
     "reportedBoolean": {
@@ -90,35 +90,35 @@
       "@context": "reference.context.jsonld"
     },
     "performerType": {
-      "@id": "fhir:Request.performerType",
+      "@id": "fhir:performerType",
       "@context": "codeableconcept.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:Request.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:Request.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:Request.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "insurance": {
-      "@id": "fhir:Request.insurance",
+      "@id": "fhir:insurance",
       "@context": "reference.context.jsonld"
     },
     "supportingInfo": {
-      "@id": "fhir:Request.supportingInfo",
+      "@id": "fhir:supportingInfo",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Request.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "relevantHistory": {
-      "@id": "fhir:Request.relevantHistory",
+      "@id": "fhir:relevantHistory",
       "@context": "reference.context.jsonld"
     },
     "index": {

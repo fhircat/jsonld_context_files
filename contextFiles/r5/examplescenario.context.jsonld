@@ -85,12 +85,12 @@
       "@id": "fhir:ExampleScenario.jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
-    "purpose": {
-      "@id": "fhir:ExampleScenario.purpose",
-      "@context": "markdown.context.jsonld"
-    },
     "copyright": {
       "@id": "fhir:ExampleScenario.copyright",
+      "@context": "markdown.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:ExampleScenario.purpose",
       "@context": "markdown.context.jsonld"
     },
     "actor": {

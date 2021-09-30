@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "origin": {
-      "@id": "fhir:SampledData.origin",
+      "@id": "fhir:origin",
       "@context": "quantity.context.jsonld"
     },
     "period": {
-      "@id": "fhir:SampledData.period",
+      "@id": "fhir:period",
       "@context": "decimal.context.jsonld"
     },
     "factor": {
-      "@id": "fhir:SampledData.factor",
+      "@id": "fhir:factor",
       "@context": "decimal.context.jsonld"
     },
     "lowerLimit": {
-      "@id": "fhir:SampledData.lowerLimit",
+      "@id": "fhir:lowerLimit",
       "@context": "decimal.context.jsonld"
     },
     "upperLimit": {
-      "@id": "fhir:SampledData.upperLimit",
+      "@id": "fhir:upperLimit",
       "@context": "decimal.context.jsonld"
     },
     "dimensions": {
-      "@id": "fhir:SampledData.dimensions",
+      "@id": "fhir:dimensions",
       "@context": "positiveint.context.jsonld"
     },
     "data": {
-      "@id": "fhir:SampledData.data",
+      "@id": "fhir:data",
       "@context": "string.context.jsonld"
     },
     "index": {

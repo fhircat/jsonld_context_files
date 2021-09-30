@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "itemCodeableConcept": {
@@ -26,11 +26,11 @@
       "@context": "reference.context.jsonld"
     },
     "isActive": {
-      "@id": "fhir:Medication.ingredient.isActive",
+      "@id": "fhir:isActive",
       "@context": "boolean.context.jsonld"
     },
     "strength": {
-      "@id": "fhir:Medication.ingredient.strength",
+      "@id": "fhir:strength",
       "@context": "ratio.context.jsonld"
     },
     "index": {

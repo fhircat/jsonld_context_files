@@ -33,10 +33,6 @@
       "@id": "fhir:ImplementationGuide.definition.page.generation",
       "@context": "string.context.jsonld"
     },
-    "page": {
-      "@id": "fhir:ImplementationGuide.definition.page.page",
-      "@context": "implementationguide.definition.page.context.jsonld"
-    },
     "index": {
       "@id": "fhir:index",
       "@type": "http://www.w3.org/2001/XMLSchema#integer"

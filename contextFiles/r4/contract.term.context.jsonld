@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Contract.term.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "issued": {
-      "@id": "fhir:Contract.term.issued",
+      "@id": "fhir:issued",
       "@context": "datetime.context.jsonld"
     },
     "applies": {
-      "@id": "fhir:Contract.term.applies",
+      "@id": "fhir:applies",
       "@context": "period.context.jsonld"
     },
     "topicCodeableConcept": {
@@ -38,15 +38,15 @@
       "@context": "reference.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Contract.term.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "subType": {
-      "@id": "fhir:Contract.term.subType",
+      "@id": "fhir:subType",
       "@context": "codeableconcept.context.jsonld"
     },
     "text": {
-      "@id": "fhir:Contract.term.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "securityLabel": {
@@ -64,10 +64,6 @@
     "action": {
       "@id": "fhir:Contract.term.action",
       "@context": "contract.term.action.context.jsonld"
-    },
-    "group": {
-      "@id": "fhir:Contract.term.group",
-      "@context": "contract.term.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -6,27 +6,27 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "identifier": {
-      "@id": "fhir:Event.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:Event.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:Event.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "basedOn": {
-      "@id": "fhir:Event.basedOn",
+      "@id": "fhir:basedOn",
       "@context": "reference.context.jsonld"
     },
     "partOf": {
-      "@id": "fhir:Event.partOf",
+      "@id": "fhir:partOf",
       "@context": "reference.context.jsonld"
     },
     "researchStudy": {
-      "@id": "fhir:Event.researchStudy",
+      "@id": "fhir:researchStudy",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -34,19 +34,19 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:Event.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Event.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Event.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Event.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "occurrenceDateTime": {
@@ -62,7 +62,7 @@
       "@context": "timing.context.jsonld"
     },
     "recorded": {
-      "@id": "fhir:Event.recorded",
+      "@id": "fhir:recorded",
       "@context": "datetime.context.jsonld"
     },
     "reportedBoolean": {
@@ -78,19 +78,19 @@
       "@context": "event.performer.context.jsonld"
     },
     "location": {
-      "@id": "fhir:Event.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:Event.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:Event.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Event.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

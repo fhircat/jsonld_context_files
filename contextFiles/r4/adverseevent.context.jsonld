@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:AdverseEvent.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "actuality": {
@@ -50,59 +50,59 @@
       "@context": "string.context.jsonld"
     },
     "category": {
-      "@id": "fhir:AdverseEvent.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "event": {
-      "@id": "fhir:AdverseEvent.event",
+      "@id": "fhir:event",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:AdverseEvent.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:AdverseEvent.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:AdverseEvent.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "detected": {
-      "@id": "fhir:AdverseEvent.detected",
+      "@id": "fhir:detected",
       "@context": "datetime.context.jsonld"
     },
     "recordedDate": {
-      "@id": "fhir:AdverseEvent.recordedDate",
+      "@id": "fhir:recordedDate",
       "@context": "datetime.context.jsonld"
     },
     "resultingCondition": {
-      "@id": "fhir:AdverseEvent.resultingCondition",
+      "@id": "fhir:resultingCondition",
       "@context": "reference.context.jsonld"
     },
     "location": {
-      "@id": "fhir:AdverseEvent.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "seriousness": {
-      "@id": "fhir:AdverseEvent.seriousness",
+      "@id": "fhir:seriousness",
       "@context": "codeableconcept.context.jsonld"
     },
     "severity": {
-      "@id": "fhir:AdverseEvent.severity",
+      "@id": "fhir:severity",
       "@context": "codeableconcept.context.jsonld"
     },
     "outcome": {
-      "@id": "fhir:AdverseEvent.outcome",
+      "@id": "fhir:outcome",
       "@context": "codeableconcept.context.jsonld"
     },
     "recorder": {
-      "@id": "fhir:AdverseEvent.recorder",
+      "@id": "fhir:recorder",
       "@context": "reference.context.jsonld"
     },
     "contributor": {
-      "@id": "fhir:AdverseEvent.contributor",
+      "@id": "fhir:contributor",
       "@context": "reference.context.jsonld"
     },
     "suspectEntity": {
@@ -110,15 +110,15 @@
       "@context": "adverseevent.suspectentity.context.jsonld"
     },
     "subjectMedicalHistory": {
-      "@id": "fhir:AdverseEvent.subjectMedicalHistory",
+      "@id": "fhir:subjectMedicalHistory",
       "@context": "reference.context.jsonld"
     },
     "referenceDocument": {
-      "@id": "fhir:AdverseEvent.referenceDocument",
+      "@id": "fhir:referenceDocument",
       "@context": "reference.context.jsonld"
     },
     "study": {
-      "@id": "fhir:AdverseEvent.study",
+      "@id": "fhir:study",
       "@context": "reference.context.jsonld"
     },
     "index": {

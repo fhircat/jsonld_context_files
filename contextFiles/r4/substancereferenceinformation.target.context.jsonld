@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "target": {
-      "@id": "fhir:SubstanceReferenceInformation.target.target",
+      "@id": "fhir:target",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:SubstanceReferenceInformation.target.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "interaction": {
-      "@id": "fhir:SubstanceReferenceInformation.target.interaction",
+      "@id": "fhir:interaction",
       "@context": "codeableconcept.context.jsonld"
     },
     "organism": {
-      "@id": "fhir:SubstanceReferenceInformation.target.organism",
+      "@id": "fhir:organism",
       "@context": "codeableconcept.context.jsonld"
     },
     "organismType": {
-      "@id": "fhir:SubstanceReferenceInformation.target.organismType",
+      "@id": "fhir:organismType",
       "@context": "codeableconcept.context.jsonld"
     },
     "amountQuantity": {
@@ -50,11 +50,11 @@
       "@context": "string.context.jsonld"
     },
     "amountType": {
-      "@id": "fhir:SubstanceReferenceInformation.target.amountType",
+      "@id": "fhir:amountType",
       "@context": "codeableconcept.context.jsonld"
     },
     "source": {
-      "@id": "fhir:SubstanceReferenceInformation.target.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "index": {

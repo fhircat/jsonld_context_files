@@ -29,13 +29,9 @@
       "@id": "fhir:CareTeam.participant.onBehalfOf",
       "@context": "reference.context.jsonld"
     },
-    "coveragePeriod": {
-      "@id": "fhir:CareTeam.participant.coveragePeriod",
+    "period": {
+      "@id": "fhir:CareTeam.participant.period",
       "@context": "period.context.jsonld"
-    },
-    "coverageTiming": {
-      "@id": "fhir:CareTeam.participant.coverageTiming",
-      "@context": "timing.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

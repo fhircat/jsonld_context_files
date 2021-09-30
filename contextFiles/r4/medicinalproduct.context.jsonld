@@ -10,99 +10,99 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProduct.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "type": {
-      "@id": "fhir:MedicinalProduct.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "domain": {
-      "@id": "fhir:MedicinalProduct.domain",
+      "@id": "fhir:domain",
       "@context": "coding.context.jsonld"
     },
     "combinedPharmaceuticalDoseForm": {
-      "@id": "fhir:MedicinalProduct.combinedPharmaceuticalDoseForm",
+      "@id": "fhir:combinedPharmaceuticalDoseForm",
       "@context": "codeableconcept.context.jsonld"
     },
     "legalStatusOfSupply": {
-      "@id": "fhir:MedicinalProduct.legalStatusOfSupply",
+      "@id": "fhir:legalStatusOfSupply",
       "@context": "codeableconcept.context.jsonld"
     },
     "additionalMonitoringIndicator": {
-      "@id": "fhir:MedicinalProduct.additionalMonitoringIndicator",
+      "@id": "fhir:additionalMonitoringIndicator",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialMeasures": {
-      "@id": "fhir:MedicinalProduct.specialMeasures",
+      "@id": "fhir:specialMeasures",
       "@context": "string.context.jsonld"
     },
     "paediatricUseIndicator": {
-      "@id": "fhir:MedicinalProduct.paediatricUseIndicator",
+      "@id": "fhir:paediatricUseIndicator",
       "@context": "codeableconcept.context.jsonld"
     },
     "productClassification": {
-      "@id": "fhir:MedicinalProduct.productClassification",
+      "@id": "fhir:productClassification",
       "@context": "codeableconcept.context.jsonld"
     },
     "marketingStatus": {
-      "@id": "fhir:MedicinalProduct.marketingStatus",
+      "@id": "fhir:marketingStatus",
       "@context": "marketingstatus.context.jsonld"
     },
     "pharmaceuticalProduct": {
-      "@id": "fhir:MedicinalProduct.pharmaceuticalProduct",
+      "@id": "fhir:pharmaceuticalProduct",
       "@context": "reference.context.jsonld"
     },
     "packagedMedicinalProduct": {
-      "@id": "fhir:MedicinalProduct.packagedMedicinalProduct",
+      "@id": "fhir:packagedMedicinalProduct",
       "@context": "reference.context.jsonld"
     },
     "attachedDocument": {
-      "@id": "fhir:MedicinalProduct.attachedDocument",
+      "@id": "fhir:attachedDocument",
       "@context": "reference.context.jsonld"
     },
     "masterFile": {
-      "@id": "fhir:MedicinalProduct.masterFile",
+      "@id": "fhir:masterFile",
       "@context": "reference.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:MedicinalProduct.contact",
+      "@id": "fhir:contact",
       "@context": "reference.context.jsonld"
     },
     "clinicalTrial": {
-      "@id": "fhir:MedicinalProduct.clinicalTrial",
+      "@id": "fhir:clinicalTrial",
       "@context": "reference.context.jsonld"
     },
     "name": {
@@ -110,7 +110,7 @@
       "@context": "medicinalproduct.name.context.jsonld"
     },
     "crossReference": {
-      "@id": "fhir:MedicinalProduct.crossReference",
+      "@id": "fhir:crossReference",
       "@context": "identifier.context.jsonld"
     },
     "manufacturingBusinessOperation": {

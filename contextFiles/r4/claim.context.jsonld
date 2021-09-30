@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Claim.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,11 +50,11 @@
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Claim.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "subType": {
-      "@id": "fhir:Claim.subType",
+      "@id": "fhir:subType",
       "@context": "codeableconcept.context.jsonld"
     },
     "use": {
@@ -62,35 +62,35 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:Claim.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "billablePeriod": {
-      "@id": "fhir:Claim.billablePeriod",
+      "@id": "fhir:billablePeriod",
       "@context": "period.context.jsonld"
     },
     "created": {
-      "@id": "fhir:Claim.created",
+      "@id": "fhir:created",
       "@context": "datetime.context.jsonld"
     },
     "enterer": {
-      "@id": "fhir:Claim.enterer",
+      "@id": "fhir:enterer",
       "@context": "reference.context.jsonld"
     },
     "insurer": {
-      "@id": "fhir:Claim.insurer",
+      "@id": "fhir:insurer",
       "@context": "reference.context.jsonld"
     },
     "provider": {
-      "@id": "fhir:Claim.provider",
+      "@id": "fhir:provider",
       "@context": "reference.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:Claim.priority",
+      "@id": "fhir:priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "fundsReserve": {
-      "@id": "fhir:Claim.fundsReserve",
+      "@id": "fhir:fundsReserve",
       "@context": "codeableconcept.context.jsonld"
     },
     "related": {
@@ -98,11 +98,11 @@
       "@context": "claim.related.context.jsonld"
     },
     "prescription": {
-      "@id": "fhir:Claim.prescription",
+      "@id": "fhir:prescription",
       "@context": "reference.context.jsonld"
     },
     "originalPrescription": {
-      "@id": "fhir:Claim.originalPrescription",
+      "@id": "fhir:originalPrescription",
       "@context": "reference.context.jsonld"
     },
     "payee": {
@@ -110,11 +110,11 @@
       "@context": "claim.payee.context.jsonld"
     },
     "referral": {
-      "@id": "fhir:Claim.referral",
+      "@id": "fhir:referral",
       "@context": "reference.context.jsonld"
     },
     "facility": {
-      "@id": "fhir:Claim.facility",
+      "@id": "fhir:facility",
       "@context": "reference.context.jsonld"
     },
     "careTeam": {
@@ -146,7 +146,7 @@
       "@context": "claim.item.context.jsonld"
     },
     "total": {
-      "@id": "fhir:Claim.total",
+      "@id": "fhir:total",
       "@context": "money.context.jsonld"
     },
     "index": {

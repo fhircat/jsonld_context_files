@@ -10,51 +10,51 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProductIngredient.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "role": {
-      "@id": "fhir:MedicinalProductIngredient.role",
+      "@id": "fhir:role",
       "@context": "codeableconcept.context.jsonld"
     },
     "allergenicIndicator": {
-      "@id": "fhir:MedicinalProductIngredient.allergenicIndicator",
+      "@id": "fhir:allergenicIndicator",
       "@context": "boolean.context.jsonld"
     },
     "manufacturer": {
-      "@id": "fhir:MedicinalProductIngredient.manufacturer",
+      "@id": "fhir:manufacturer",
       "@context": "reference.context.jsonld"
     },
     "specifiedSubstance": {

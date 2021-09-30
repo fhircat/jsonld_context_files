@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "path": {
-      "@id": "fhir:ElementDefinition.path",
+      "@id": "fhir:path",
       "@context": "string.context.jsonld"
     },
     "representation": {
@@ -26,19 +26,19 @@
       "@context": "string.context.jsonld"
     },
     "sliceName": {
-      "@id": "fhir:ElementDefinition.sliceName",
+      "@id": "fhir:sliceName",
       "@context": "string.context.jsonld"
     },
     "sliceIsConstraining": {
-      "@id": "fhir:ElementDefinition.sliceIsConstraining",
+      "@id": "fhir:sliceIsConstraining",
       "@context": "boolean.context.jsonld"
     },
     "label": {
-      "@id": "fhir:ElementDefinition.label",
+      "@id": "fhir:label",
       "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ElementDefinition.code",
+      "@id": "fhir:code",
       "@context": "coding.context.jsonld"
     },
     "slicing": {
@@ -46,31 +46,31 @@
       "@context": "elementdefinition.slicing.context.jsonld"
     },
     "short": {
-      "@id": "fhir:ElementDefinition.short",
+      "@id": "fhir:short",
       "@context": "string.context.jsonld"
     },
     "definition": {
-      "@id": "fhir:ElementDefinition.definition",
+      "@id": "fhir:definition",
       "@context": "markdown.context.jsonld"
     },
     "comment": {
-      "@id": "fhir:ElementDefinition.comment",
+      "@id": "fhir:comment",
       "@context": "markdown.context.jsonld"
     },
     "requirements": {
-      "@id": "fhir:ElementDefinition.requirements",
+      "@id": "fhir:requirements",
       "@context": "markdown.context.jsonld"
     },
     "alias": {
-      "@id": "fhir:ElementDefinition.alias",
+      "@id": "fhir:alias",
       "@context": "string.context.jsonld"
     },
     "min": {
-      "@id": "fhir:ElementDefinition.min",
+      "@id": "fhir:min",
       "@context": "unsignedint.context.jsonld"
     },
     "max": {
-      "@id": "fhir:ElementDefinition.max",
+      "@id": "fhir:max",
       "@context": "string.context.jsonld"
     },
     "base": {
@@ -78,7 +78,7 @@
       "@context": "elementdefinition.base.context.jsonld"
     },
     "contentReference": {
-      "@id": "fhir:ElementDefinition.contentReference",
+      "@id": "fhir:contentReference",
       "@context": "uri.context.jsonld"
     },
     "type": {
@@ -286,11 +286,11 @@
       "@context": "meta.context.jsonld"
     },
     "meaningWhenMissing": {
-      "@id": "fhir:ElementDefinition.meaningWhenMissing",
+      "@id": "fhir:meaningWhenMissing",
       "@context": "markdown.context.jsonld"
     },
     "orderMeaning": {
-      "@id": "fhir:ElementDefinition.orderMeaning",
+      "@id": "fhir:orderMeaning",
       "@context": "string.context.jsonld"
     },
     "fixedBase64Binary": {
@@ -770,11 +770,11 @@
       "@context": "quantity.context.jsonld"
     },
     "maxLength": {
-      "@id": "fhir:ElementDefinition.maxLength",
+      "@id": "fhir:maxLength",
       "@context": "integer.context.jsonld"
     },
     "condition": {
-      "@id": "fhir:ElementDefinition.condition",
+      "@id": "fhir:condition",
       "@context": "id.context.jsonld"
     },
     "constraint": {
@@ -782,19 +782,19 @@
       "@context": "elementdefinition.constraint.context.jsonld"
     },
     "mustSupport": {
-      "@id": "fhir:ElementDefinition.mustSupport",
+      "@id": "fhir:mustSupport",
       "@context": "boolean.context.jsonld"
     },
     "isModifier": {
-      "@id": "fhir:ElementDefinition.isModifier",
+      "@id": "fhir:isModifier",
       "@context": "boolean.context.jsonld"
     },
     "isModifierReason": {
-      "@id": "fhir:ElementDefinition.isModifierReason",
+      "@id": "fhir:isModifierReason",
       "@context": "string.context.jsonld"
     },
     "isSummary": {
-      "@id": "fhir:ElementDefinition.isSummary",
+      "@id": "fhir:isSummary",
       "@context": "boolean.context.jsonld"
     },
     "binding": {

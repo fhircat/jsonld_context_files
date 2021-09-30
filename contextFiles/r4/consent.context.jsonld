@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Consent.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,27 +50,27 @@
       "@context": "string.context.jsonld"
     },
     "scope": {
-      "@id": "fhir:Consent.scope",
+      "@id": "fhir:scope",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Consent.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:Consent.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "dateTime": {
-      "@id": "fhir:Consent.dateTime",
+      "@id": "fhir:dateTime",
       "@context": "datetime.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:Consent.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "organization": {
-      "@id": "fhir:Consent.organization",
+      "@id": "fhir:organization",
       "@context": "reference.context.jsonld"
     },
     "sourceAttachment": {
@@ -86,7 +86,7 @@
       "@context": "consent.policy.context.jsonld"
     },
     "policyRule": {
-      "@id": "fhir:Consent.policyRule",
+      "@id": "fhir:policyRule",
       "@context": "codeableconcept.context.jsonld"
     },
     "verification": {

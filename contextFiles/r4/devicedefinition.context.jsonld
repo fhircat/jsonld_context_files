@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:DeviceDefinition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "udiDeviceIdentifier": {
@@ -62,11 +62,11 @@
       "@context": "devicedefinition.devicename.context.jsonld"
     },
     "modelNumber": {
-      "@id": "fhir:DeviceDefinition.modelNumber",
+      "@id": "fhir:modelNumber",
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:DeviceDefinition.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialization": {
@@ -74,23 +74,23 @@
       "@context": "devicedefinition.specialization.context.jsonld"
     },
     "version": {
-      "@id": "fhir:DeviceDefinition.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "safety": {
-      "@id": "fhir:DeviceDefinition.safety",
+      "@id": "fhir:safety",
       "@context": "codeableconcept.context.jsonld"
     },
     "shelfLifeStorage": {
-      "@id": "fhir:DeviceDefinition.shelfLifeStorage",
+      "@id": "fhir:shelfLifeStorage",
       "@context": "productshelflife.context.jsonld"
     },
     "physicalCharacteristics": {
-      "@id": "fhir:DeviceDefinition.physicalCharacteristics",
+      "@id": "fhir:physicalCharacteristics",
       "@context": "prodcharacteristic.context.jsonld"
     },
     "languageCode": {
-      "@id": "fhir:DeviceDefinition.languageCode",
+      "@id": "fhir:languageCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "capability": {
@@ -102,31 +102,31 @@
       "@context": "devicedefinition.property.context.jsonld"
     },
     "owner": {
-      "@id": "fhir:DeviceDefinition.owner",
+      "@id": "fhir:owner",
       "@context": "reference.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:DeviceDefinition.contact",
+      "@id": "fhir:contact",
       "@context": "contactpoint.context.jsonld"
     },
     "url": {
-      "@id": "fhir:DeviceDefinition.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "onlineInformation": {
-      "@id": "fhir:DeviceDefinition.onlineInformation",
+      "@id": "fhir:onlineInformation",
       "@context": "uri.context.jsonld"
     },
     "note": {
-      "@id": "fhir:DeviceDefinition.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:DeviceDefinition.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "parentDevice": {
-      "@id": "fhir:DeviceDefinition.parentDevice",
+      "@id": "fhir:parentDevice",
       "@context": "reference.context.jsonld"
     },
     "material": {

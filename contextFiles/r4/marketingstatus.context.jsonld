@@ -6,35 +6,35 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "country": {
-      "@id": "fhir:MarketingStatus.country",
+      "@id": "fhir:country",
       "@context": "codeableconcept.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:MarketingStatus.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MarketingStatus.status",
+      "@id": "fhir:status",
       "@context": "codeableconcept.context.jsonld"
     },
     "dateRange": {
-      "@id": "fhir:MarketingStatus.dateRange",
+      "@id": "fhir:dateRange",
       "@context": "period.context.jsonld"
     },
     "restoreDate": {
-      "@id": "fhir:MarketingStatus.restoreDate",
+      "@id": "fhir:restoreDate",
       "@context": "datetime.context.jsonld"
     },
     "index": {

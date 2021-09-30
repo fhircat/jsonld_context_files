@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "context": {
-      "@id": "fhir:StructureMap.group.rule.target.context",
+      "@id": "fhir:context",
       "@context": "id.context.jsonld"
     },
     "contextType": {
@@ -26,11 +26,11 @@
       "@context": "string.context.jsonld"
     },
     "element": {
-      "@id": "fhir:StructureMap.group.rule.target.element",
+      "@id": "fhir:element",
       "@context": "string.context.jsonld"
     },
     "variable": {
-      "@id": "fhir:StructureMap.group.rule.target.variable",
+      "@id": "fhir:variable",
       "@context": "id.context.jsonld"
     },
     "listMode": {
@@ -38,7 +38,7 @@
       "@context": "string.context.jsonld"
     },
     "listRuleId": {
-      "@id": "fhir:StructureMap.group.rule.target.listRuleId",
+      "@id": "fhir:listRuleId",
       "@context": "id.context.jsonld"
     },
     "transform": {

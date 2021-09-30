@@ -57,10 +57,6 @@
       "@id": "fhir:ElementDefinition.example.valueInteger",
       "@context": "integer.context.jsonld"
     },
-    "valueInteger64": {
-      "@id": "fhir:ElementDefinition.example.valueInteger64",
-      "@context": "integer64.context.jsonld"
-    },
     "valueMarkdown": {
       "@id": "fhir:ElementDefinition.example.valueMarkdown",
       "@context": "markdown.context.jsonld"

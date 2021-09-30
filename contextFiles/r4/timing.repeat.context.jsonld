@@ -6,11 +6,11 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "boundsDuration": {
@@ -26,19 +26,19 @@
       "@context": "period.context.jsonld"
     },
     "count": {
-      "@id": "fhir:Timing.repeat.count",
+      "@id": "fhir:count",
       "@context": "positiveint.context.jsonld"
     },
     "countMax": {
-      "@id": "fhir:Timing.repeat.countMax",
+      "@id": "fhir:countMax",
       "@context": "positiveint.context.jsonld"
     },
     "duration": {
-      "@id": "fhir:Timing.repeat.duration",
+      "@id": "fhir:duration",
       "@context": "decimal.context.jsonld"
     },
     "durationMax": {
-      "@id": "fhir:Timing.repeat.durationMax",
+      "@id": "fhir:durationMax",
       "@context": "decimal.context.jsonld"
     },
     "durationUnit": {
@@ -46,19 +46,19 @@
       "@context": "string.context.jsonld"
     },
     "frequency": {
-      "@id": "fhir:Timing.repeat.frequency",
+      "@id": "fhir:frequency",
       "@context": "positiveint.context.jsonld"
     },
     "frequencyMax": {
-      "@id": "fhir:Timing.repeat.frequencyMax",
+      "@id": "fhir:frequencyMax",
       "@context": "positiveint.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Timing.repeat.period",
+      "@id": "fhir:period",
       "@context": "decimal.context.jsonld"
     },
     "periodMax": {
-      "@id": "fhir:Timing.repeat.periodMax",
+      "@id": "fhir:periodMax",
       "@context": "decimal.context.jsonld"
     },
     "periodUnit": {
@@ -70,7 +70,7 @@
       "@context": "string.context.jsonld"
     },
     "timeOfDay": {
-      "@id": "fhir:Timing.repeat.timeOfDay",
+      "@id": "fhir:timeOfDay",
       "@context": "time.context.jsonld"
     },
     "when": {
@@ -78,7 +78,7 @@
       "@context": "string.context.jsonld"
     },
     "offset": {
-      "@id": "fhir:Timing.repeat.offset",
+      "@id": "fhir:offset",
       "@context": "unsignedint.context.jsonld"
     },
     "index": {

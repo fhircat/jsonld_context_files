@@ -6,51 +6,51 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:AuditEvent.agent.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "role": {
-      "@id": "fhir:AuditEvent.agent.role",
+      "@id": "fhir:role",
       "@context": "codeableconcept.context.jsonld"
     },
     "who": {
-      "@id": "fhir:AuditEvent.agent.who",
+      "@id": "fhir:who",
       "@context": "reference.context.jsonld"
     },
     "altId": {
-      "@id": "fhir:AuditEvent.agent.altId",
+      "@id": "fhir:altId",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:AuditEvent.agent.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "requestor": {
-      "@id": "fhir:AuditEvent.agent.requestor",
+      "@id": "fhir:requestor",
       "@context": "boolean.context.jsonld"
     },
     "location": {
-      "@id": "fhir:AuditEvent.agent.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "policy": {
-      "@id": "fhir:AuditEvent.agent.policy",
+      "@id": "fhir:policy",
       "@context": "uri.context.jsonld"
     },
     "media": {
-      "@id": "fhir:AuditEvent.agent.media",
+      "@id": "fhir:media",
       "@context": "coding.context.jsonld"
     },
     "network": {
@@ -58,7 +58,7 @@
       "@context": "auditevent.agent.network.context.jsonld"
     },
     "purposeOfUse": {
-      "@id": "fhir:AuditEvent.agent.purposeOfUse",
+      "@id": "fhir:purposeOfUse",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

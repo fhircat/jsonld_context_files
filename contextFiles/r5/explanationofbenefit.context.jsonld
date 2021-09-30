@@ -181,10 +181,6 @@
       "@id": "fhir:ExplanationOfBenefit.addItem",
       "@context": "explanationofbenefit.additem.context.jsonld"
     },
-    "adjudication": {
-      "@id": "fhir:ExplanationOfBenefit.adjudication",
-      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
-    },
     "total": {
       "@id": "fhir:ExplanationOfBenefit.total",
       "@context": "explanationofbenefit.total.context.jsonld"

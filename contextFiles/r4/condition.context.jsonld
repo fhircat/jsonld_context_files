@@ -10,71 +10,71 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Condition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "clinicalStatus": {
-      "@id": "fhir:Condition.clinicalStatus",
+      "@id": "fhir:clinicalStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "verificationStatus": {
-      "@id": "fhir:Condition.verificationStatus",
+      "@id": "fhir:verificationStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "category": {
-      "@id": "fhir:Condition.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "severity": {
-      "@id": "fhir:Condition.severity",
+      "@id": "fhir:severity",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Condition.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:Condition.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:Condition.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:Condition.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "onsetDateTime": {
@@ -118,15 +118,15 @@
       "@context": "string.context.jsonld"
     },
     "recordedDate": {
-      "@id": "fhir:Condition.recordedDate",
+      "@id": "fhir:recordedDate",
       "@context": "datetime.context.jsonld"
     },
     "recorder": {
-      "@id": "fhir:Condition.recorder",
+      "@id": "fhir:recorder",
       "@context": "reference.context.jsonld"
     },
     "asserter": {
-      "@id": "fhir:Condition.asserter",
+      "@id": "fhir:asserter",
       "@context": "reference.context.jsonld"
     },
     "stage": {
@@ -138,7 +138,7 @@
       "@context": "condition.evidence.context.jsonld"
     },
     "note": {
-      "@id": "fhir:Condition.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

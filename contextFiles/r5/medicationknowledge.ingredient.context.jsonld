@@ -17,25 +17,21 @@
       "@id": "fhir:BackboneElement.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "item": {
-      "@id": "fhir:MedicationKnowledge.ingredient.item",
-      "@context": "codeablereference.context.jsonld"
+    "itemCodeableConcept": {
+      "@id": "fhir:MedicationKnowledge.ingredient.itemCodeableConcept",
+      "@context": "codeableconcept.context.jsonld"
+    },
+    "itemReference": {
+      "@id": "fhir:MedicationKnowledge.ingredient.itemReference",
+      "@context": "reference.context.jsonld"
     },
     "isActive": {
       "@id": "fhir:MedicationKnowledge.ingredient.isActive",
       "@context": "boolean.context.jsonld"
     },
-    "strengthRatio": {
-      "@id": "fhir:MedicationKnowledge.ingredient.strengthRatio",
+    "strength": {
+      "@id": "fhir:MedicationKnowledge.ingredient.strength",
       "@context": "ratio.context.jsonld"
-    },
-    "strengthCodeableConcept": {
-      "@id": "fhir:MedicationKnowledge.ingredient.strengthCodeableConcept",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "strengthQuantity": {
-      "@id": "fhir:MedicationKnowledge.ingredient.strengthQuantity",
-      "@context": "quantity.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "reference": {
-      "@id": "fhir:ImplementationGuide.definition.resource.reference",
+      "@id": "fhir:reference",
       "@context": "reference.context.jsonld"
     },
     "fhirVersion": {
@@ -26,11 +26,11 @@
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:ImplementationGuide.definition.resource.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ImplementationGuide.definition.resource.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "exampleBoolean": {
@@ -42,7 +42,7 @@
       "@context": "canonical.context.jsonld"
     },
     "groupingId": {
-      "@id": "fhir:ImplementationGuide.definition.resource.groupingId",
+      "@id": "fhir:groupingId",
       "@context": "id.context.jsonld"
     },
     "index": {

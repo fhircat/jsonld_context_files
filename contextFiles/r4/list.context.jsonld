@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:List.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -54,35 +54,35 @@
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:List.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "code": {
-      "@id": "fhir:List.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:List.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:List.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:List.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "source": {
-      "@id": "fhir:List.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "orderedBy": {
-      "@id": "fhir:List.orderedBy",
+      "@id": "fhir:orderedBy",
       "@context": "codeableconcept.context.jsonld"
     },
     "note": {
-      "@id": "fhir:List.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "entry": {
@@ -90,7 +90,7 @@
       "@context": "list.entry.context.jsonld"
     },
     "emptyReason": {
-      "@id": "fhir:List.emptyReason",
+      "@id": "fhir:emptyReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "category": {
@@ -22,15 +22,15 @@
       "@context": "string.context.jsonld"
     },
     "range": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.range",
+      "@id": "fhir:range",
       "@context": "range.context.jsonld"
     },
     "context": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.context",
+      "@id": "fhir:context",
       "@context": "codeableconcept.context.jsonld"
     },
     "appliesTo": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.appliesTo",
+      "@id": "fhir:appliesTo",
       "@context": "codeableconcept.context.jsonld"
     },
     "gender": {
@@ -38,15 +38,15 @@
       "@context": "string.context.jsonld"
     },
     "age": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.age",
+      "@id": "fhir:age",
       "@context": "range.context.jsonld"
     },
     "gestationalAge": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.gestationalAge",
+      "@id": "fhir:gestationalAge",
       "@context": "range.context.jsonld"
     },
     "condition": {
-      "@id": "fhir:ObservationDefinition.qualifiedInterval.condition",
+      "@id": "fhir:condition",
       "@context": "string.context.jsonld"
     },
     "index": {

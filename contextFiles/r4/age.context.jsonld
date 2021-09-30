@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "value": {
-      "@id": "fhir:Quantity.value",
+      "@id": "fhir:value",
       "@context": "decimal.context.jsonld"
     },
     "comparator": {
-      "@id": "fhir:Quantity.comparator",
+      "@id": "fhir:comparator",
       "@context": "code.context.jsonld"
     },
     "unit": {
-      "@id": "fhir:Quantity.unit",
+      "@id": "fhir:unit",
       "@context": "string.context.jsonld"
     },
     "system": {
-      "@id": "fhir:Quantity.system",
+      "@id": "fhir:system",
       "@context": "uri.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Quantity.code",
+      "@id": "fhir:code",
       "@context": "code.context.jsonld"
     },
     "index": {

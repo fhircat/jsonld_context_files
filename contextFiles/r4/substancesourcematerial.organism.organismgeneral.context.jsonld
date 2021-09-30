@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "kingdom": {
-      "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral.kingdom",
+      "@id": "fhir:kingdom",
       "@context": "codeableconcept.context.jsonld"
     },
     "phylum": {
-      "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral.phylum",
+      "@id": "fhir:phylum",
       "@context": "codeableconcept.context.jsonld"
     },
     "class": {
-      "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral.class",
+      "@id": "fhir:class",
       "@context": "codeableconcept.context.jsonld"
     },
     "order": {
-      "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral.order",
+      "@id": "fhir:order",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

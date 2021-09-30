@@ -6,55 +6,55 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:ValueSet.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ValueSet.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:ValueSet.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:ValueSet.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:ValueSet.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -62,43 +62,43 @@
       "@context": "string.context.jsonld"
     },
     "experimental": {
-      "@id": "fhir:ValueSet.experimental",
+      "@id": "fhir:experimental",
       "@context": "boolean.context.jsonld"
     },
     "date": {
-      "@id": "fhir:ValueSet.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:ValueSet.publisher",
+      "@id": "fhir:publisher",
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:ValueSet.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ValueSet.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:ValueSet.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:ValueSet.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "immutable": {
-      "@id": "fhir:ValueSet.immutable",
+      "@id": "fhir:immutable",
       "@context": "boolean.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:ValueSet.purpose",
+      "@id": "fhir:purpose",
       "@context": "markdown.context.jsonld"
     },
     "copyright": {
-      "@id": "fhir:ValueSet.copyright",
+      "@id": "fhir:copyright",
       "@context": "markdown.context.jsonld"
     },
     "compose": {

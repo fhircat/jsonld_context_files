@@ -41,8 +41,8 @@
       "@id": "fhir:MedicationRequest.dispenseRequest.expectedSupplyDuration",
       "@context": "duration.context.jsonld"
     },
-    "dispenser": {
-      "@id": "fhir:MedicationRequest.dispenseRequest.dispenser",
+    "performer": {
+      "@id": "fhir:MedicationRequest.dispenseRequest.performer",
       "@context": "reference.context.jsonld"
     },
     "index": {

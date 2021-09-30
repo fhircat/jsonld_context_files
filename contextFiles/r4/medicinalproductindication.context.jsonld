@@ -10,59 +10,59 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:MedicinalProductIndication.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "diseaseSymptomProcedure": {
-      "@id": "fhir:MedicinalProductIndication.diseaseSymptomProcedure",
+      "@id": "fhir:diseaseSymptomProcedure",
       "@context": "codeableconcept.context.jsonld"
     },
     "diseaseStatus": {
-      "@id": "fhir:MedicinalProductIndication.diseaseStatus",
+      "@id": "fhir:diseaseStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "comorbidity": {
-      "@id": "fhir:MedicinalProductIndication.comorbidity",
+      "@id": "fhir:comorbidity",
       "@context": "codeableconcept.context.jsonld"
     },
     "intendedEffect": {
-      "@id": "fhir:MedicinalProductIndication.intendedEffect",
+      "@id": "fhir:intendedEffect",
       "@context": "codeableconcept.context.jsonld"
     },
     "duration": {
-      "@id": "fhir:MedicinalProductIndication.duration",
+      "@id": "fhir:duration",
       "@context": "quantity.context.jsonld"
     },
     "otherTherapy": {
@@ -70,11 +70,11 @@
       "@context": "medicinalproductindication.othertherapy.context.jsonld"
     },
     "undesirableEffect": {
-      "@id": "fhir:MedicinalProductIndication.undesirableEffect",
+      "@id": "fhir:undesirableEffect",
       "@context": "reference.context.jsonld"
     },
     "population": {
-      "@id": "fhir:MedicinalProductIndication.population",
+      "@id": "fhir:population",
       "@context": "population.context.jsonld"
     },
     "index": {

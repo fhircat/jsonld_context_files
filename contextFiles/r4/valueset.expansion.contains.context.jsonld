@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "system": {
-      "@id": "fhir:ValueSet.expansion.contains.system",
+      "@id": "fhir:system",
       "@context": "uri.context.jsonld"
     },
     "abstract": {
-      "@id": "fhir:ValueSet.expansion.contains.abstract",
+      "@id": "fhir:abstract",
       "@context": "boolean.context.jsonld"
     },
     "inactive": {
-      "@id": "fhir:ValueSet.expansion.contains.inactive",
+      "@id": "fhir:inactive",
       "@context": "boolean.context.jsonld"
     },
     "version": {
-      "@id": "fhir:ValueSet.expansion.contains.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "code": {
@@ -38,16 +38,8 @@
       "@context": "string.context.jsonld"
     },
     "display": {
-      "@id": "fhir:ValueSet.expansion.contains.display",
+      "@id": "fhir:display",
       "@context": "string.context.jsonld"
-    },
-    "designation": {
-      "@id": "fhir:ValueSet.expansion.contains.designation",
-      "@context": "valueset.compose.include.concept.designation.context.jsonld"
-    },
-    "contains": {
-      "@id": "fhir:ValueSet.expansion.contains.contains",
-      "@context": "valueset.expansion.contains.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

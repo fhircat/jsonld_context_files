@@ -10,51 +10,51 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:MetadataResource.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "version": {
-      "@id": "fhir:MetadataResource.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:MetadataResource.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:MetadataResource.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -62,31 +62,31 @@
       "@context": "string.context.jsonld"
     },
     "experimental": {
-      "@id": "fhir:MetadataResource.experimental",
+      "@id": "fhir:experimental",
       "@context": "boolean.context.jsonld"
     },
     "date": {
-      "@id": "fhir:MetadataResource.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:MetadataResource.publisher",
+      "@id": "fhir:publisher",
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:MetadataResource.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:MetadataResource.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:MetadataResource.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:MetadataResource.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "index": {

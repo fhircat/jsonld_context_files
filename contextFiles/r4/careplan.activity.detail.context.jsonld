@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "kind": {
@@ -22,27 +22,27 @@
       "@context": "string.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:CarePlan.activity.detail.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:CarePlan.activity.detail.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "code": {
-      "@id": "fhir:CarePlan.activity.detail.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonCode": {
-      "@id": "fhir:CarePlan.activity.detail.reasonCode",
+      "@id": "fhir:reasonCode",
       "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
-      "@id": "fhir:CarePlan.activity.detail.reasonReference",
+      "@id": "fhir:reasonReference",
       "@context": "reference.context.jsonld"
     },
     "goal": {
-      "@id": "fhir:CarePlan.activity.detail.goal",
+      "@id": "fhir:goal",
       "@context": "reference.context.jsonld"
     },
     "status": {
@@ -50,11 +50,11 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:CarePlan.activity.detail.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "doNotPerform": {
-      "@id": "fhir:CarePlan.activity.detail.doNotPerform",
+      "@id": "fhir:doNotPerform",
       "@context": "boolean.context.jsonld"
     },
     "scheduledTiming": {
@@ -70,11 +70,11 @@
       "@context": "string.context.jsonld"
     },
     "location": {
-      "@id": "fhir:CarePlan.activity.detail.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "performer": {
-      "@id": "fhir:CarePlan.activity.detail.performer",
+      "@id": "fhir:performer",
       "@context": "reference.context.jsonld"
     },
     "productCodeableConcept": {
@@ -86,15 +86,15 @@
       "@context": "reference.context.jsonld"
     },
     "dailyAmount": {
-      "@id": "fhir:CarePlan.activity.detail.dailyAmount",
+      "@id": "fhir:dailyAmount",
       "@context": "quantity.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:CarePlan.activity.detail.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "description": {
-      "@id": "fhir:CarePlan.activity.detail.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "index": {

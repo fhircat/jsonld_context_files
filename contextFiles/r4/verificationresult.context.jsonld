@@ -10,47 +10,47 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "target": {
-      "@id": "fhir:VerificationResult.target",
+      "@id": "fhir:target",
       "@context": "reference.context.jsonld"
     },
     "targetLocation": {
-      "@id": "fhir:VerificationResult.targetLocation",
+      "@id": "fhir:targetLocation",
       "@context": "string.context.jsonld"
     },
     "need": {
-      "@id": "fhir:VerificationResult.need",
+      "@id": "fhir:need",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
@@ -58,31 +58,31 @@
       "@context": "string.context.jsonld"
     },
     "statusDate": {
-      "@id": "fhir:VerificationResult.statusDate",
+      "@id": "fhir:statusDate",
       "@context": "datetime.context.jsonld"
     },
     "validationType": {
-      "@id": "fhir:VerificationResult.validationType",
+      "@id": "fhir:validationType",
       "@context": "codeableconcept.context.jsonld"
     },
     "validationProcess": {
-      "@id": "fhir:VerificationResult.validationProcess",
+      "@id": "fhir:validationProcess",
       "@context": "codeableconcept.context.jsonld"
     },
     "frequency": {
-      "@id": "fhir:VerificationResult.frequency",
+      "@id": "fhir:frequency",
       "@context": "timing.context.jsonld"
     },
     "lastPerformed": {
-      "@id": "fhir:VerificationResult.lastPerformed",
+      "@id": "fhir:lastPerformed",
       "@context": "datetime.context.jsonld"
     },
     "nextScheduled": {
-      "@id": "fhir:VerificationResult.nextScheduled",
+      "@id": "fhir:nextScheduled",
       "@context": "date.context.jsonld"
     },
     "failureAction": {
-      "@id": "fhir:VerificationResult.failureAction",
+      "@id": "fhir:failureAction",
       "@context": "codeableconcept.context.jsonld"
     },
     "primarySource": {

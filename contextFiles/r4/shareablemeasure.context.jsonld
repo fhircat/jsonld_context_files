@@ -6,59 +6,59 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:Measure.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Measure.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:Measure.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:Measure.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:Measure.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "subtitle": {
-      "@id": "fhir:Measure.subtitle",
+      "@id": "fhir:subtitle",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -66,7 +66,7 @@
       "@context": "string.context.jsonld"
     },
     "experimental": {
-      "@id": "fhir:Measure.experimental",
+      "@id": "fhir:experimental",
       "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
@@ -78,123 +78,123 @@
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:Measure.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:Measure.publisher",
+      "@id": "fhir:publisher",
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:Measure.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:Measure.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:Measure.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:Measure.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:Measure.purpose",
+      "@id": "fhir:purpose",
       "@context": "markdown.context.jsonld"
     },
     "usage": {
-      "@id": "fhir:Measure.usage",
+      "@id": "fhir:usage",
       "@context": "string.context.jsonld"
     },
     "copyright": {
-      "@id": "fhir:Measure.copyright",
+      "@id": "fhir:copyright",
       "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
-      "@id": "fhir:Measure.approvalDate",
+      "@id": "fhir:approvalDate",
       "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
-      "@id": "fhir:Measure.lastReviewDate",
+      "@id": "fhir:lastReviewDate",
       "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
-      "@id": "fhir:Measure.effectivePeriod",
+      "@id": "fhir:effectivePeriod",
       "@context": "period.context.jsonld"
     },
     "topic": {
-      "@id": "fhir:Measure.topic",
+      "@id": "fhir:topic",
       "@context": "codeableconcept.context.jsonld"
     },
     "author": {
-      "@id": "fhir:Measure.author",
+      "@id": "fhir:author",
       "@context": "contactdetail.context.jsonld"
     },
     "editor": {
-      "@id": "fhir:Measure.editor",
+      "@id": "fhir:editor",
       "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
-      "@id": "fhir:Measure.reviewer",
+      "@id": "fhir:reviewer",
       "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
-      "@id": "fhir:Measure.endorser",
+      "@id": "fhir:endorser",
       "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
-      "@id": "fhir:Measure.relatedArtifact",
+      "@id": "fhir:relatedArtifact",
       "@context": "relatedartifact.context.jsonld"
     },
     "library": {
-      "@id": "fhir:Measure.library",
+      "@id": "fhir:library",
       "@context": "canonical.context.jsonld"
     },
     "disclaimer": {
-      "@id": "fhir:Measure.disclaimer",
+      "@id": "fhir:disclaimer",
       "@context": "markdown.context.jsonld"
     },
     "scoring": {
-      "@id": "fhir:Measure.scoring",
+      "@id": "fhir:scoring",
       "@context": "codeableconcept.context.jsonld"
     },
     "compositeScoring": {
-      "@id": "fhir:Measure.compositeScoring",
+      "@id": "fhir:compositeScoring",
       "@context": "codeableconcept.context.jsonld"
     },
     "type": {
-      "@id": "fhir:Measure.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "riskAdjustment": {
-      "@id": "fhir:Measure.riskAdjustment",
+      "@id": "fhir:riskAdjustment",
       "@context": "string.context.jsonld"
     },
     "rateAggregation": {
-      "@id": "fhir:Measure.rateAggregation",
+      "@id": "fhir:rateAggregation",
       "@context": "string.context.jsonld"
     },
     "rationale": {
-      "@id": "fhir:Measure.rationale",
+      "@id": "fhir:rationale",
       "@context": "markdown.context.jsonld"
     },
     "clinicalRecommendationStatement": {
-      "@id": "fhir:Measure.clinicalRecommendationStatement",
+      "@id": "fhir:clinicalRecommendationStatement",
       "@context": "markdown.context.jsonld"
     },
     "improvementNotation": {
-      "@id": "fhir:Measure.improvementNotation",
+      "@id": "fhir:improvementNotation",
       "@context": "codeableconcept.context.jsonld"
     },
     "definition": {
-      "@id": "fhir:Measure.definition",
+      "@id": "fhir:definition",
       "@context": "markdown.context.jsonld"
     },
     "guidance": {
-      "@id": "fhir:Measure.guidance",
+      "@id": "fhir:guidance",
       "@context": "markdown.context.jsonld"
     },
     "group": {

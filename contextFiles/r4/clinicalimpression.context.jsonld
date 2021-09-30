@@ -10,39 +10,39 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ClinicalImpression.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "status": {
@@ -50,23 +50,23 @@
       "@context": "string.context.jsonld"
     },
     "statusReason": {
-      "@id": "fhir:ClinicalImpression.statusReason",
+      "@id": "fhir:statusReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ClinicalImpression.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ClinicalImpression.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:ClinicalImpression.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:ClinicalImpression.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "effectiveDateTime": {
@@ -78,19 +78,19 @@
       "@context": "period.context.jsonld"
     },
     "date": {
-      "@id": "fhir:ClinicalImpression.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "assessor": {
-      "@id": "fhir:ClinicalImpression.assessor",
+      "@id": "fhir:assessor",
       "@context": "reference.context.jsonld"
     },
     "previous": {
-      "@id": "fhir:ClinicalImpression.previous",
+      "@id": "fhir:previous",
       "@context": "reference.context.jsonld"
     },
     "problem": {
-      "@id": "fhir:ClinicalImpression.problem",
+      "@id": "fhir:problem",
       "@context": "reference.context.jsonld"
     },
     "investigation": {
@@ -98,11 +98,11 @@
       "@context": "clinicalimpression.investigation.context.jsonld"
     },
     "protocol": {
-      "@id": "fhir:ClinicalImpression.protocol",
+      "@id": "fhir:protocol",
       "@context": "uri.context.jsonld"
     },
     "summary": {
-      "@id": "fhir:ClinicalImpression.summary",
+      "@id": "fhir:summary",
       "@context": "string.context.jsonld"
     },
     "finding": {
@@ -110,19 +110,19 @@
       "@context": "clinicalimpression.finding.context.jsonld"
     },
     "prognosisCodeableConcept": {
-      "@id": "fhir:ClinicalImpression.prognosisCodeableConcept",
+      "@id": "fhir:prognosisCodeableConcept",
       "@context": "codeableconcept.context.jsonld"
     },
     "prognosisReference": {
-      "@id": "fhir:ClinicalImpression.prognosisReference",
+      "@id": "fhir:prognosisReference",
       "@context": "reference.context.jsonld"
     },
     "supportingInfo": {
-      "@id": "fhir:ClinicalImpression.supportingInfo",
+      "@id": "fhir:supportingInfo",
       "@context": "reference.context.jsonld"
     },
     "note": {
-      "@id": "fhir:ClinicalImpression.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

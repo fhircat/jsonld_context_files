@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "coding": {
-      "@id": "fhir:CodeableConcept.coding",
+      "@id": "fhir:coding",
       "@context": "coding.context.jsonld"
     },
     "text": {
-      "@id": "fhir:CodeableConcept.text",
+      "@id": "fhir:text",
       "@context": "string.context.jsonld"
     },
     "index": {

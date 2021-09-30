@@ -10,51 +10,51 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:NutritionOrder.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
-      "@id": "fhir:NutritionOrder.instantiatesCanonical",
+      "@id": "fhir:instantiatesCanonical",
       "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
-      "@id": "fhir:NutritionOrder.instantiatesUri",
+      "@id": "fhir:instantiatesUri",
       "@context": "uri.context.jsonld"
     },
     "instantiates": {
-      "@id": "fhir:NutritionOrder.instantiates",
+      "@id": "fhir:instantiates",
       "@context": "uri.context.jsonld"
     },
     "status": {
@@ -66,31 +66,31 @@
       "@context": "string.context.jsonld"
     },
     "patient": {
-      "@id": "fhir:NutritionOrder.patient",
+      "@id": "fhir:patient",
       "@context": "reference.context.jsonld"
     },
     "encounter": {
-      "@id": "fhir:NutritionOrder.encounter",
+      "@id": "fhir:encounter",
       "@context": "reference.context.jsonld"
     },
     "dateTime": {
-      "@id": "fhir:NutritionOrder.dateTime",
+      "@id": "fhir:dateTime",
       "@context": "datetime.context.jsonld"
     },
     "orderer": {
-      "@id": "fhir:NutritionOrder.orderer",
+      "@id": "fhir:orderer",
       "@context": "reference.context.jsonld"
     },
     "allergyIntolerance": {
-      "@id": "fhir:NutritionOrder.allergyIntolerance",
+      "@id": "fhir:allergyIntolerance",
       "@context": "reference.context.jsonld"
     },
     "foodPreferenceModifier": {
-      "@id": "fhir:NutritionOrder.foodPreferenceModifier",
+      "@id": "fhir:foodPreferenceModifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "excludeFoodModifier": {
-      "@id": "fhir:NutritionOrder.excludeFoodModifier",
+      "@id": "fhir:excludeFoodModifier",
       "@context": "codeableconcept.context.jsonld"
     },
     "oralDiet": {
@@ -106,7 +106,7 @@
       "@context": "nutritionorder.enteralformula.context.jsonld"
     },
     "note": {
-      "@id": "fhir:NutritionOrder.note",
+      "@id": "fhir:note",
       "@context": "annotation.context.jsonld"
     },
     "index": {

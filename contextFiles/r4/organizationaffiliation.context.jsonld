@@ -10,83 +10,83 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:OrganizationAffiliation.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "active": {
-      "@id": "fhir:OrganizationAffiliation.active",
+      "@id": "fhir:active",
       "@context": "boolean.context.jsonld"
     },
     "period": {
-      "@id": "fhir:OrganizationAffiliation.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "organization": {
-      "@id": "fhir:OrganizationAffiliation.organization",
+      "@id": "fhir:organization",
       "@context": "reference.context.jsonld"
     },
     "participatingOrganization": {
-      "@id": "fhir:OrganizationAffiliation.participatingOrganization",
+      "@id": "fhir:participatingOrganization",
       "@context": "reference.context.jsonld"
     },
     "network": {
-      "@id": "fhir:OrganizationAffiliation.network",
+      "@id": "fhir:network",
       "@context": "reference.context.jsonld"
     },
     "code": {
-      "@id": "fhir:OrganizationAffiliation.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "specialty": {
-      "@id": "fhir:OrganizationAffiliation.specialty",
+      "@id": "fhir:specialty",
       "@context": "codeableconcept.context.jsonld"
     },
     "location": {
-      "@id": "fhir:OrganizationAffiliation.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "healthcareService": {
-      "@id": "fhir:OrganizationAffiliation.healthcareService",
+      "@id": "fhir:healthcareService",
       "@context": "reference.context.jsonld"
     },
     "telecom": {
-      "@id": "fhir:OrganizationAffiliation.telecom",
+      "@id": "fhir:telecom",
       "@context": "contactpoint.context.jsonld"
     },
     "endpoint": {
-      "@id": "fhir:OrganizationAffiliation.endpoint",
+      "@id": "fhir:endpoint",
       "@context": "reference.context.jsonld"
     },
     "index": {

@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "collector": {
-      "@id": "fhir:Specimen.collection.collector",
+      "@id": "fhir:collector",
       "@context": "reference.context.jsonld"
     },
     "collectedDateTime": {
@@ -30,19 +30,19 @@
       "@context": "period.context.jsonld"
     },
     "duration": {
-      "@id": "fhir:Specimen.collection.duration",
+      "@id": "fhir:duration",
       "@context": "duration.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:Specimen.collection.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "method": {
-      "@id": "fhir:Specimen.collection.method",
+      "@id": "fhir:method",
       "@context": "codeableconcept.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:Specimen.collection.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "fastingStatusCodeableConcept": {

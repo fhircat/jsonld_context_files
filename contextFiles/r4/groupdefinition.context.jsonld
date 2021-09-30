@@ -6,43 +6,43 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Group.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "active": {
-      "@id": "fhir:Group.active",
+      "@id": "fhir:active",
       "@context": "boolean.context.jsonld"
     },
     "type": {
@@ -50,23 +50,23 @@
       "@context": "string.context.jsonld"
     },
     "actual": {
-      "@id": "fhir:Group.actual",
+      "@id": "fhir:actual",
       "@context": "boolean.context.jsonld"
     },
     "code": {
-      "@id": "fhir:Group.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "name": {
-      "@id": "fhir:Group.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:Group.quantity",
+      "@id": "fhir:quantity",
       "@context": "unsignedint.context.jsonld"
     },
     "managingEntity": {
-      "@id": "fhir:Group.managingEntity",
+      "@id": "fhir:managingEntity",
       "@context": "reference.context.jsonld"
     },
     "characteristic": {

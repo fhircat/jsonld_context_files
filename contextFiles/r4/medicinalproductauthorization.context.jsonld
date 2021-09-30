@@ -10,83 +10,83 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:MedicinalProductAuthorization.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "subject": {
-      "@id": "fhir:MedicinalProductAuthorization.subject",
+      "@id": "fhir:subject",
       "@context": "reference.context.jsonld"
     },
     "country": {
-      "@id": "fhir:MedicinalProductAuthorization.country",
+      "@id": "fhir:country",
       "@context": "codeableconcept.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:MedicinalProductAuthorization.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "status": {
-      "@id": "fhir:MedicinalProductAuthorization.status",
+      "@id": "fhir:status",
       "@context": "codeableconcept.context.jsonld"
     },
     "statusDate": {
-      "@id": "fhir:MedicinalProductAuthorization.statusDate",
+      "@id": "fhir:statusDate",
       "@context": "datetime.context.jsonld"
     },
     "restoreDate": {
-      "@id": "fhir:MedicinalProductAuthorization.restoreDate",
+      "@id": "fhir:restoreDate",
       "@context": "datetime.context.jsonld"
     },
     "validityPeriod": {
-      "@id": "fhir:MedicinalProductAuthorization.validityPeriod",
+      "@id": "fhir:validityPeriod",
       "@context": "period.context.jsonld"
     },
     "dataExclusivityPeriod": {
-      "@id": "fhir:MedicinalProductAuthorization.dataExclusivityPeriod",
+      "@id": "fhir:dataExclusivityPeriod",
       "@context": "period.context.jsonld"
     },
     "dateOfFirstAuthorization": {
-      "@id": "fhir:MedicinalProductAuthorization.dateOfFirstAuthorization",
+      "@id": "fhir:dateOfFirstAuthorization",
       "@context": "datetime.context.jsonld"
     },
     "internationalBirthDate": {
-      "@id": "fhir:MedicinalProductAuthorization.internationalBirthDate",
+      "@id": "fhir:internationalBirthDate",
       "@context": "datetime.context.jsonld"
     },
     "legalBasis": {
-      "@id": "fhir:MedicinalProductAuthorization.legalBasis",
+      "@id": "fhir:legalBasis",
       "@context": "codeableconcept.context.jsonld"
     },
     "jurisdictionalAuthorization": {
@@ -94,11 +94,11 @@
       "@context": "medicinalproductauthorization.jurisdictionalauthorization.context.jsonld"
     },
     "holder": {
-      "@id": "fhir:MedicinalProductAuthorization.holder",
+      "@id": "fhir:holder",
       "@context": "reference.context.jsonld"
     },
     "regulator": {
-      "@id": "fhir:MedicinalProductAuthorization.regulator",
+      "@id": "fhir:regulator",
       "@context": "reference.context.jsonld"
     },
     "procedure": {

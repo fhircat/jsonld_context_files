@@ -6,31 +6,31 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "relationship": {
-      "@id": "fhir:Patient.contact.relationship",
+      "@id": "fhir:relationship",
       "@context": "codeableconcept.context.jsonld"
     },
     "name": {
-      "@id": "fhir:Patient.contact.name",
+      "@id": "fhir:name",
       "@context": "humanname.context.jsonld"
     },
     "telecom": {
-      "@id": "fhir:Patient.contact.telecom",
+      "@id": "fhir:telecom",
       "@context": "contactpoint.context.jsonld"
     },
     "address": {
-      "@id": "fhir:Patient.contact.address",
+      "@id": "fhir:address",
       "@context": "address.context.jsonld"
     },
     "gender": {
@@ -38,11 +38,11 @@
       "@context": "string.context.jsonld"
     },
     "organization": {
-      "@id": "fhir:Patient.contact.organization",
+      "@id": "fhir:organization",
       "@context": "reference.context.jsonld"
     },
     "period": {
-      "@id": "fhir:Patient.contact.period",
+      "@id": "fhir:period",
       "@context": "period.context.jsonld"
     },
     "index": {

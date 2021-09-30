@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "subunit": {
-      "@id": "fhir:SubstanceNucleicAcid.subunit.subunit",
+      "@id": "fhir:subunit",
       "@context": "integer.context.jsonld"
     },
     "sequence": {
-      "@id": "fhir:SubstanceNucleicAcid.subunit.sequence",
+      "@id": "fhir:sequence",
       "@context": "string.context.jsonld"
     },
     "length": {
-      "@id": "fhir:SubstanceNucleicAcid.subunit.length",
+      "@id": "fhir:length",
       "@context": "integer.context.jsonld"
     },
     "sequenceAttachment": {
-      "@id": "fhir:SubstanceNucleicAcid.subunit.sequenceAttachment",
+      "@id": "fhir:sequenceAttachment",
       "@context": "attachment.context.jsonld"
     },
     "fivePrime": {
-      "@id": "fhir:SubstanceNucleicAcid.subunit.fivePrime",
+      "@id": "fhir:fivePrime",
       "@context": "codeableconcept.context.jsonld"
     },
     "threePrime": {
-      "@id": "fhir:SubstanceNucleicAcid.subunit.threePrime",
+      "@id": "fhir:threePrime",
       "@context": "codeableconcept.context.jsonld"
     },
     "linkage": {

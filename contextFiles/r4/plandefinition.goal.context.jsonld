@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "category": {
-      "@id": "fhir:PlanDefinition.goal.category",
+      "@id": "fhir:category",
       "@context": "codeableconcept.context.jsonld"
     },
     "description": {
-      "@id": "fhir:PlanDefinition.goal.description",
+      "@id": "fhir:description",
       "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
-      "@id": "fhir:PlanDefinition.goal.priority",
+      "@id": "fhir:priority",
       "@context": "codeableconcept.context.jsonld"
     },
     "start": {
-      "@id": "fhir:PlanDefinition.goal.start",
+      "@id": "fhir:start",
       "@context": "codeableconcept.context.jsonld"
     },
     "addresses": {
-      "@id": "fhir:PlanDefinition.goal.addresses",
+      "@id": "fhir:addresses",
       "@context": "codeableconcept.context.jsonld"
     },
     "documentation": {
-      "@id": "fhir:PlanDefinition.goal.documentation",
+      "@id": "fhir:documentation",
       "@context": "relatedartifact.context.jsonld"
     },
     "target": {

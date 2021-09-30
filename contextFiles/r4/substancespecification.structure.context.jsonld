@@ -6,43 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "stereochemistry": {
-      "@id": "fhir:SubstanceSpecification.structure.stereochemistry",
+      "@id": "fhir:stereochemistry",
       "@context": "codeableconcept.context.jsonld"
     },
     "opticalActivity": {
-      "@id": "fhir:SubstanceSpecification.structure.opticalActivity",
+      "@id": "fhir:opticalActivity",
       "@context": "codeableconcept.context.jsonld"
     },
     "molecularFormula": {
-      "@id": "fhir:SubstanceSpecification.structure.molecularFormula",
+      "@id": "fhir:molecularFormula",
       "@context": "string.context.jsonld"
     },
     "molecularFormulaByMoiety": {
-      "@id": "fhir:SubstanceSpecification.structure.molecularFormulaByMoiety",
+      "@id": "fhir:molecularFormulaByMoiety",
       "@context": "string.context.jsonld"
     },
     "isotope": {
       "@id": "fhir:SubstanceSpecification.structure.isotope",
       "@context": "substancespecification.structure.isotope.context.jsonld"
     },
-    "molecularWeight": {
-      "@id": "fhir:SubstanceSpecification.structure.molecularWeight",
-      "@context": "substancespecification.structure.isotope.molecularweight.context.jsonld"
-    },
     "source": {
-      "@id": "fhir:SubstanceSpecification.structure.source",
+      "@id": "fhir:source",
       "@context": "reference.context.jsonld"
     },
     "representation": {

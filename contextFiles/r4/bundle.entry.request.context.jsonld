@@ -6,15 +6,15 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "method": {
@@ -22,23 +22,23 @@
       "@context": "string.context.jsonld"
     },
     "url": {
-      "@id": "fhir:Bundle.entry.request.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "ifNoneMatch": {
-      "@id": "fhir:Bundle.entry.request.ifNoneMatch",
+      "@id": "fhir:ifNoneMatch",
       "@context": "string.context.jsonld"
     },
     "ifModifiedSince": {
-      "@id": "fhir:Bundle.entry.request.ifModifiedSince",
+      "@id": "fhir:ifModifiedSince",
       "@context": "instant.context.jsonld"
     },
     "ifMatch": {
-      "@id": "fhir:Bundle.entry.request.ifMatch",
+      "@id": "fhir:ifMatch",
       "@context": "string.context.jsonld"
     },
     "ifNoneExist": {
-      "@id": "fhir:Bundle.entry.request.ifNoneExist",
+      "@id": "fhir:ifNoneExist",
       "@context": "string.context.jsonld"
     },
     "index": {

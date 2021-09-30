@@ -6,56 +6,48 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "number": {
-      "@id": "fhir:ExampleScenario.process.step.operation.number",
+      "@id": "fhir:number",
       "@context": "string.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ExampleScenario.process.step.operation.type",
+      "@id": "fhir:type",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:ExampleScenario.process.step.operation.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "initiator": {
-      "@id": "fhir:ExampleScenario.process.step.operation.initiator",
+      "@id": "fhir:initiator",
       "@context": "string.context.jsonld"
     },
     "receiver": {
-      "@id": "fhir:ExampleScenario.process.step.operation.receiver",
+      "@id": "fhir:receiver",
       "@context": "string.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ExampleScenario.process.step.operation.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "initiatorActive": {
-      "@id": "fhir:ExampleScenario.process.step.operation.initiatorActive",
+      "@id": "fhir:initiatorActive",
       "@context": "boolean.context.jsonld"
     },
     "receiverActive": {
-      "@id": "fhir:ExampleScenario.process.step.operation.receiverActive",
+      "@id": "fhir:receiverActive",
       "@context": "boolean.context.jsonld"
-    },
-    "request": {
-      "@id": "fhir:ExampleScenario.process.step.operation.request",
-      "@context": "examplescenario.instance.containedinstance.context.jsonld"
-    },
-    "response": {
-      "@id": "fhir:ExampleScenario.process.step.operation.response",
-      "@context": "examplescenario.instance.containedinstance.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

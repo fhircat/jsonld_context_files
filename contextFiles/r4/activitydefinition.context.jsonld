@@ -10,59 +10,59 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "url": {
-      "@id": "fhir:ActivityDefinition.url",
+      "@id": "fhir:url",
       "@context": "uri.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ActivityDefinition.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "version": {
-      "@id": "fhir:ActivityDefinition.version",
+      "@id": "fhir:version",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:ActivityDefinition.name",
+      "@id": "fhir:name",
       "@context": "string.context.jsonld"
     },
     "title": {
-      "@id": "fhir:ActivityDefinition.title",
+      "@id": "fhir:title",
       "@context": "string.context.jsonld"
     },
     "subtitle": {
-      "@id": "fhir:ActivityDefinition.subtitle",
+      "@id": "fhir:subtitle",
       "@context": "string.context.jsonld"
     },
     "status": {
@@ -70,7 +70,7 @@
       "@context": "string.context.jsonld"
     },
     "experimental": {
-      "@id": "fhir:ActivityDefinition.experimental",
+      "@id": "fhir:experimental",
       "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
@@ -82,79 +82,79 @@
       "@context": "reference.context.jsonld"
     },
     "date": {
-      "@id": "fhir:ActivityDefinition.date",
+      "@id": "fhir:date",
       "@context": "datetime.context.jsonld"
     },
     "publisher": {
-      "@id": "fhir:ActivityDefinition.publisher",
+      "@id": "fhir:publisher",
       "@context": "string.context.jsonld"
     },
     "contact": {
-      "@id": "fhir:ActivityDefinition.contact",
+      "@id": "fhir:contact",
       "@context": "contactdetail.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ActivityDefinition.description",
+      "@id": "fhir:description",
       "@context": "markdown.context.jsonld"
     },
     "useContext": {
-      "@id": "fhir:ActivityDefinition.useContext",
+      "@id": "fhir:useContext",
       "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
-      "@id": "fhir:ActivityDefinition.jurisdiction",
+      "@id": "fhir:jurisdiction",
       "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
-      "@id": "fhir:ActivityDefinition.purpose",
+      "@id": "fhir:purpose",
       "@context": "markdown.context.jsonld"
     },
     "usage": {
-      "@id": "fhir:ActivityDefinition.usage",
+      "@id": "fhir:usage",
       "@context": "string.context.jsonld"
     },
     "copyright": {
-      "@id": "fhir:ActivityDefinition.copyright",
+      "@id": "fhir:copyright",
       "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
-      "@id": "fhir:ActivityDefinition.approvalDate",
+      "@id": "fhir:approvalDate",
       "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
-      "@id": "fhir:ActivityDefinition.lastReviewDate",
+      "@id": "fhir:lastReviewDate",
       "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
-      "@id": "fhir:ActivityDefinition.effectivePeriod",
+      "@id": "fhir:effectivePeriod",
       "@context": "period.context.jsonld"
     },
     "topic": {
-      "@id": "fhir:ActivityDefinition.topic",
+      "@id": "fhir:topic",
       "@context": "codeableconcept.context.jsonld"
     },
     "author": {
-      "@id": "fhir:ActivityDefinition.author",
+      "@id": "fhir:author",
       "@context": "contactdetail.context.jsonld"
     },
     "editor": {
-      "@id": "fhir:ActivityDefinition.editor",
+      "@id": "fhir:editor",
       "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
-      "@id": "fhir:ActivityDefinition.reviewer",
+      "@id": "fhir:reviewer",
       "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
-      "@id": "fhir:ActivityDefinition.endorser",
+      "@id": "fhir:endorser",
       "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
-      "@id": "fhir:ActivityDefinition.relatedArtifact",
+      "@id": "fhir:relatedArtifact",
       "@context": "relatedartifact.context.jsonld"
     },
     "library": {
-      "@id": "fhir:ActivityDefinition.library",
+      "@id": "fhir:library",
       "@context": "canonical.context.jsonld"
     },
     "kind": {
@@ -162,11 +162,11 @@
       "@context": "string.context.jsonld"
     },
     "profile": {
-      "@id": "fhir:ActivityDefinition.profile",
+      "@id": "fhir:profile",
       "@context": "canonical.context.jsonld"
     },
     "code": {
-      "@id": "fhir:ActivityDefinition.code",
+      "@id": "fhir:code",
       "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
@@ -178,7 +178,7 @@
       "@context": "string.context.jsonld"
     },
     "doNotPerform": {
-      "@id": "fhir:ActivityDefinition.doNotPerform",
+      "@id": "fhir:doNotPerform",
       "@context": "boolean.context.jsonld"
     },
     "timingTiming": {
@@ -206,7 +206,7 @@
       "@context": "duration.context.jsonld"
     },
     "location": {
-      "@id": "fhir:ActivityDefinition.location",
+      "@id": "fhir:location",
       "@context": "reference.context.jsonld"
     },
     "participant": {
@@ -222,31 +222,31 @@
       "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
-      "@id": "fhir:ActivityDefinition.quantity",
+      "@id": "fhir:quantity",
       "@context": "quantity.context.jsonld"
     },
     "dosage": {
-      "@id": "fhir:ActivityDefinition.dosage",
+      "@id": "fhir:dosage",
       "@context": "dosage.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:ActivityDefinition.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "codeableconcept.context.jsonld"
     },
     "specimenRequirement": {
-      "@id": "fhir:ActivityDefinition.specimenRequirement",
+      "@id": "fhir:specimenRequirement",
       "@context": "reference.context.jsonld"
     },
     "observationRequirement": {
-      "@id": "fhir:ActivityDefinition.observationRequirement",
+      "@id": "fhir:observationRequirement",
       "@context": "reference.context.jsonld"
     },
     "observationResultRequirement": {
-      "@id": "fhir:ActivityDefinition.observationResultRequirement",
+      "@id": "fhir:observationResultRequirement",
       "@context": "reference.context.jsonld"
     },
     "transform": {
-      "@id": "fhir:ActivityDefinition.transform",
+      "@id": "fhir:transform",
       "@context": "canonical.context.jsonld"
     },
     "dynamicValue": {

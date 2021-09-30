@@ -6,19 +6,19 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "description": {
-      "@id": "fhir:Expression.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "name": {
-      "@id": "fhir:Expression.name",
+      "@id": "fhir:name",
       "@context": "id.context.jsonld"
     },
     "language": {
@@ -26,11 +26,11 @@
       "@context": "string.context.jsonld"
     },
     "expression": {
-      "@id": "fhir:Expression.expression",
+      "@id": "fhir:expression",
       "@context": "string.context.jsonld"
     },
     "reference": {
-      "@id": "fhir:Expression.reference",
+      "@id": "fhir:reference",
       "@context": "uri.context.jsonld"
     },
     "index": {

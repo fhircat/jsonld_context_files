@@ -6,55 +6,55 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "uid": {
-      "@id": "fhir:ImagingStudy.series.uid",
+      "@id": "fhir:uid",
       "@context": "id.context.jsonld"
     },
     "number": {
-      "@id": "fhir:ImagingStudy.series.number",
+      "@id": "fhir:number",
       "@context": "unsignedint.context.jsonld"
     },
     "modality": {
-      "@id": "fhir:ImagingStudy.series.modality",
+      "@id": "fhir:modality",
       "@context": "coding.context.jsonld"
     },
     "description": {
-      "@id": "fhir:ImagingStudy.series.description",
+      "@id": "fhir:description",
       "@context": "string.context.jsonld"
     },
     "numberOfInstances": {
-      "@id": "fhir:ImagingStudy.series.numberOfInstances",
+      "@id": "fhir:numberOfInstances",
       "@context": "unsignedint.context.jsonld"
     },
     "endpoint": {
-      "@id": "fhir:ImagingStudy.series.endpoint",
+      "@id": "fhir:endpoint",
       "@context": "reference.context.jsonld"
     },
     "bodySite": {
-      "@id": "fhir:ImagingStudy.series.bodySite",
+      "@id": "fhir:bodySite",
       "@context": "coding.context.jsonld"
     },
     "laterality": {
-      "@id": "fhir:ImagingStudy.series.laterality",
+      "@id": "fhir:laterality",
       "@context": "coding.context.jsonld"
     },
     "specimen": {
-      "@id": "fhir:ImagingStudy.series.specimen",
+      "@id": "fhir:specimen",
       "@context": "reference.context.jsonld"
     },
     "started": {
-      "@id": "fhir:ImagingStudy.series.started",
+      "@id": "fhir:started",
       "@context": "datetime.context.jsonld"
     },
     "performer": {

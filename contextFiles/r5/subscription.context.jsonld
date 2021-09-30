@@ -41,21 +41,9 @@
       "@id": "fhir:DomainResource.modifierExtension",
       "@context": "extension.context.jsonld"
     },
-    "identifier": {
-      "@id": "fhir:Subscription.identifier",
-      "@context": "identifier.context.jsonld"
-    },
-    "name": {
-      "@id": "fhir:Subscription.name",
-      "@context": "string.context.jsonld"
-    },
     "status": {
       "@id": "fhir:Subscription.status",
       "@context": "string.context.jsonld"
-    },
-    "topic": {
-      "@id": "fhir:Subscription.topic",
-      "@context": "reference.context.jsonld"
     },
     "contact": {
       "@id": "fhir:Subscription.contact",
@@ -69,41 +57,17 @@
       "@id": "fhir:Subscription.reason",
       "@context": "string.context.jsonld"
     },
-    "filterBy": {
-      "@id": "fhir:Subscription.filterBy",
-      "@context": "subscription.filterby.context.jsonld"
+    "criteria": {
+      "@id": "fhir:Subscription.criteria",
+      "@context": "string.context.jsonld"
     },
     "error": {
       "@id": "fhir:Subscription.error",
-      "@context": "codeableconcept.context.jsonld"
-    },
-    "channelType": {
-      "@id": "fhir:Subscription.channelType",
-      "@context": "coding.context.jsonld"
-    },
-    "endpoint": {
-      "@id": "fhir:Subscription.endpoint",
-      "@context": "url.context.jsonld"
-    },
-    "header": {
-      "@id": "fhir:Subscription.header",
       "@context": "string.context.jsonld"
     },
-    "heartbeatPeriod": {
-      "@id": "fhir:Subscription.heartbeatPeriod",
-      "@context": "unsignedint.context.jsonld"
-    },
-    "timeout": {
-      "@id": "fhir:Subscription.timeout",
-      "@context": "unsignedint.context.jsonld"
-    },
-    "contentType": {
-      "@id": "fhir:Subscription.contentType",
-      "@context": "string.context.jsonld"
-    },
-    "content": {
-      "@id": "fhir:Subscription.content",
-      "@context": "string.context.jsonld"
+    "channel": {
+      "@id": "fhir:Subscription.channel",
+      "@context": "subscription.channel.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -6,39 +6,39 @@
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
-      "@id": "fhir:Element.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:Element.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:BackboneElement.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "type": {
-      "@id": "fhir:ExplanationOfBenefit.payment.type",
+      "@id": "fhir:type",
       "@context": "codeableconcept.context.jsonld"
     },
     "adjustment": {
-      "@id": "fhir:ExplanationOfBenefit.payment.adjustment",
+      "@id": "fhir:adjustment",
       "@context": "money.context.jsonld"
     },
     "adjustmentReason": {
-      "@id": "fhir:ExplanationOfBenefit.payment.adjustmentReason",
+      "@id": "fhir:adjustmentReason",
       "@context": "codeableconcept.context.jsonld"
     },
     "date": {
-      "@id": "fhir:ExplanationOfBenefit.payment.date",
+      "@id": "fhir:date",
       "@context": "date.context.jsonld"
     },
     "amount": {
-      "@id": "fhir:ExplanationOfBenefit.payment.amount",
+      "@id": "fhir:amount",
       "@context": "money.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:ExplanationOfBenefit.payment.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "index": {

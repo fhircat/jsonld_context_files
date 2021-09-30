@@ -10,51 +10,51 @@
       "@type": "@id"
     },
     "id": {
-      "@id": "fhir:Resource.id",
+      "@id": "fhir:id",
       "@context": "string.context.jsonld"
     },
     "meta": {
-      "@id": "fhir:Resource.meta",
+      "@id": "fhir:meta",
       "@context": "meta.context.jsonld"
     },
     "implicitRules": {
-      "@id": "fhir:Resource.implicitRules",
+      "@id": "fhir:implicitRules",
       "@context": "uri.context.jsonld"
     },
     "language": {
-      "@id": "fhir:Resource.language",
+      "@id": "fhir:language",
       "@context": "code.context.jsonld"
     },
     "text": {
-      "@id": "fhir:DomainResource.text",
+      "@id": "fhir:text",
       "@context": "narrative.context.jsonld"
     },
     "contained": {
-      "@id": "fhir:DomainResource.contained",
+      "@id": "fhir:contained",
       "@context": "resource.context.jsonld"
     },
     "extension": {
-      "@id": "fhir:DomainResource.extension",
+      "@id": "fhir:extension",
       "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
-      "@id": "fhir:DomainResource.modifierExtension",
+      "@id": "fhir:modifierExtension",
       "@context": "extension.context.jsonld"
     },
     "identifier": {
-      "@id": "fhir:Patient.identifier",
+      "@id": "fhir:identifier",
       "@context": "identifier.context.jsonld"
     },
     "active": {
-      "@id": "fhir:Patient.active",
+      "@id": "fhir:active",
       "@context": "boolean.context.jsonld"
     },
     "name": {
-      "@id": "fhir:Patient.name",
+      "@id": "fhir:name",
       "@context": "humanname.context.jsonld"
     },
     "telecom": {
-      "@id": "fhir:Patient.telecom",
+      "@id": "fhir:telecom",
       "@context": "contactpoint.context.jsonld"
     },
     "gender": {
@@ -62,7 +62,7 @@
       "@context": "string.context.jsonld"
     },
     "birthDate": {
-      "@id": "fhir:Patient.birthDate",
+      "@id": "fhir:birthDate",
       "@context": "date.context.jsonld"
     },
     "deceasedBoolean": {
@@ -74,11 +74,11 @@
       "@context": "datetime.context.jsonld"
     },
     "address": {
-      "@id": "fhir:Patient.address",
+      "@id": "fhir:address",
       "@context": "address.context.jsonld"
     },
     "maritalStatus": {
-      "@id": "fhir:Patient.maritalStatus",
+      "@id": "fhir:maritalStatus",
       "@context": "codeableconcept.context.jsonld"
     },
     "multipleBirthBoolean": {
@@ -90,7 +90,7 @@
       "@context": "integer.context.jsonld"
     },
     "photo": {
-      "@id": "fhir:Patient.photo",
+      "@id": "fhir:photo",
       "@context": "attachment.context.jsonld"
     },
     "contact": {
@@ -102,11 +102,11 @@
       "@context": "patient.communication.context.jsonld"
     },
     "generalPractitioner": {
-      "@id": "fhir:Patient.generalPractitioner",
+      "@id": "fhir:generalPractitioner",
       "@context": "reference.context.jsonld"
     },
     "managingOrganization": {
-      "@id": "fhir:Patient.managingOrganization",
+      "@id": "fhir:managingOrganization",
       "@context": "reference.context.jsonld"
     },
     "link": {
